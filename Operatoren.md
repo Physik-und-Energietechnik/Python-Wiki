@@ -10,10 +10,47 @@ Diese Operatoren werden verwendet, um mathematische Berechnungen durchzuführen,
     a = 10
     b = 5
     c = a + b
-    print(c)
+    print(c) # Ausgabe: 15
 
 
 **Explizites Code-Beispiel**:
+
+    # Addition
+    a = 10
+    b = 5
+    c = a + b
+    print(c)  # Ausgabe: 15
+
+    # Subtraktion
+    a = 10
+    b = 5
+    c = a - b
+    print(c)  # Ausgabe: 5
+
+    # Multiplikation
+    a = 10
+    b = 5
+    c = a * b
+    print(c)  # Ausgabe: 50
+
+    # Division
+    a = 10
+    b = 5
+    c = a / b
+    print(c)  # Ausgabe: 2.0
+
+    # Modulo
+    a = 10
+    b = 3
+    c = a % b
+    print(c)  # Ausgabe: 1
+
+    # Exponentiation
+    a = 2
+    b = 3
+    c = a ** b
+    print(c)  # Ausgabe: 8
+
 
 
 
