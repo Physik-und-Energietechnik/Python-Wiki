@@ -25,7 +25,6 @@ print(a * b) #Multiplikation
 
 print(a / b) #Division
 
-
 * ### **Vergleichsoperatoren**
 
 Vergleichsoperatoren dienen zur Überprüfung von Bedingungen. Dabei wird das Ergebnis eines Vergleichs als Wahrheitswert (True oder False) zurückgegeben.
@@ -33,12 +32,16 @@ Vergleichsoperatoren dienen zur Überprüfung von Bedingungen. Dabei wird das Er
 Code-Beispiel:
 
 a = 10
+
 b = 5
 
-print(a > b) # Größer als
-print(a < b) # Kleiner als
-print(a == b) # Gleich
-print(a != b) # Ungleich
+print(a > b) #Größer als
+
+print(a < b) #Kleiner als
+
+print(a == b) #Gleich
+
+print(a != b) #Ungleich
 
 * ### **Logische Operatoren**
 
@@ -47,12 +50,16 @@ Logische Operatoren werden verwendet, um komplexe Bedingungen zu erstellen, inde
 Code-Beispiel:
 
 a = 10
+
 b = 5
+
 c = 20
 
-print(a > b and a < c) # Und
-print(a > b or a > c) # Oder
-print(not a > b) # Nicht
+print(a > b **and** a < c) #Und
+
+print(a > b **or** a > c) #Oder
+
+print(**not** a > b) #Nicht
 
 * ### **Zuweisungsoperatoren**
 
@@ -61,18 +68,23 @@ Zuweisungsoperatoren dienen zur Zuweisung von Werten zu Variablen.
 Code-Beispiel:
 
 a = 10
+
 b = 5
 
-a += b # a = a + b
+a += b #a = a + b
+
 print(a)
 
-a -= b # a = a - b
+a -= b #a = a - b
+
 print(a)
 
-a *= b # a = a * b
+a *= b #a = a * b
+
 print(a)
 
 a /= b # a = a / b
+
 print(a)
 
 ## **Praxis**
@@ -88,8 +100,11 @@ Ergebnis:
 age = int(input("Wie alt bist du? "))
 
 if age >= 18:
+
     print("Du bist volljährig!")
+
 else:
+
     print("Du bist minderjährig!")
 
 ### **Aufgabe 2**
@@ -101,7 +116,9 @@ Ergebnis:
 i = 1
 
 while i <= 10:
+
     print(i)
+
     i += 1
 
 
