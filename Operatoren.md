@@ -1,4 +1,4 @@
-## ** Einführung**
+## **Einführung**
 
 Willkommen zu unserem Python Tutorial für Anfänger! In diesem Abschnitt werden wir uns mit Operatoren in Python beschäftigen. Dabei lernst du, wie du mit Variablen und Werten rechnen und vergleichen kannst.
 Das Wissen über Operatoren ist ein wichtiger Bestandteil für viele Programmieraufgaben, z.B. für die Erstellung von mathematischen Formeln, Bedingungen und Schleifen.
