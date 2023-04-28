@@ -7,76 +7,14 @@ Operatoren sind Symbole oder Schlüsselwörter in Python, die verwendet werden, 
 * ### **Arithmetische Operatoren** 
 Diese Operatoren werden verwendet, um mathematische Berechnungen durchzuführen, wie Addition(+), Subtraktion(-), Multiplikation(*), Division(/), Modulo(%) und Potenz (**). Hier ist **ein allgemeines Code-Beispiel**:
 
-a = 10
+    a = 10
+    b = 5
+    c = a + b
+    print(c)
 
-b = 5
-
-c = a == b
-
-print(c)
-
--> Ausgabe : False
 
 **Explizites Code-Beispiel**:
 
-#Addition
 
-a = 10
-
-b = 5
-
-c = a + b
-
-print(c)  #Ausgabe: 15
-
-# Subtraktion
-
-a = 10
-
-b = 5
-
-c = a - b
-
-print(c)  #Ausgabe: 5
-
-# Multiplikation
-
-a = 10
-
-b = 5
-
-c = a * b
-
-print(c)  #Ausgabe: 50
-
-# Division
-
-a = 10
-
-b = 5
-
-c = a / b
-
-print(c)  #Ausgabe: 2.0
-
-# Modulo
-
-a = 10
-
-b = 3
-
-c = a % b
-
-print(c)  #Ausgabe: 1
-
-# Exponentiation
-
-a = 2
-
-b = 3
-
-c = a ** b
-
-print(c)  #Ausgabe: 8
 
 
