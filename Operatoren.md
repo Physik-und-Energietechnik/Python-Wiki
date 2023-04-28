@@ -14,12 +14,17 @@ Arithmetische Operatoren dienen zur Durchführung von mathematischen Berechnunge
 Code-Beispiel:
 
 a = 10
+
 b = 5
 
-print(a + b) # Addition
-print(a - b) # Subtraktion
-print(a * b) # Multiplikation
-print(a / b) # Division
+print(a + b) #Addition
+
+print(a - b) #Subtraktion
+
+print(a * b) #Multiplikation
+
+print(a / b) #Division
+
 
 * ### **Vergleichsoperatoren**
 
