@@ -1,13 +1,13 @@
-**## Einführung**
+## ** Einführung**
 
 Willkommen zu unserem Python Tutorial für Anfänger! In diesem Abschnitt werden wir uns mit Operatoren in Python beschäftigen. Dabei lernst du, wie du mit Variablen und Werten rechnen und vergleichen kannst.
 Das Wissen über Operatoren ist ein wichtiger Bestandteil für viele Programmieraufgaben, z.B. für die Erstellung von mathematischen Formeln, Bedingungen und Schleifen.
 
-**## Theorie**
+## **Theorie**
 
 Es gibt verschiedene Arten von Operatoren in Python, die wir in diesem Abschnitt näher betrachten werden. Dazu gehören:
 
-* **###Arithmetische Operatoren**
+* ### **Arithmetische Operatoren**
 
 Arithmetische Operatoren dienen zur Durchführung von mathematischen Berechnungen wie Addition, Subtraktion, Multiplikation und Division.
 
@@ -21,7 +21,7 @@ print(a - b) # Subtraktion
 print(a * b) # Multiplikation
 print(a / b) # Division
 
-* **### Vergleichsoperatoren**
+* ### **Vergleichsoperatoren**
 
 Vergleichsoperatoren dienen zur Überprüfung von Bedingungen. Dabei wird das Ergebnis eines Vergleichs als Wahrheitswert (True oder False) zurückgegeben.
 
@@ -35,7 +35,7 @@ print(a < b) # Kleiner als
 print(a == b) # Gleich
 print(a != b) # Ungleich
 
-* **### Logische Operatoren**
+* ### **Logische Operatoren**
 
 Logische Operatoren werden verwendet, um komplexe Bedingungen zu erstellen, indem man mehrere Vergleichsoperatoren miteinander kombiniert.
 
@@ -70,11 +70,11 @@ print(a)
 a /= b # a = a / b
 print(a)
 
-**## Praxis**
+## **Praxis**
 
 Lass uns nun das erlernte Wissen in der Praxis anwenden. Hier sind zwei Aufgaben für dich:
 
-**### Aufgabe 1**
+### **Aufgabe 1**
 
 Schreibe ein kleines Programm, das den Benutzer nach seinem Alter fragt und überprüft, ob er volljährig ist. Wenn ja, soll das Programm "Du bist volljährig!" ausgeben, andernfalls "Du bist minderjährig!".
 
