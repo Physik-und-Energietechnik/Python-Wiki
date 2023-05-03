@@ -196,7 +196,7 @@ print(len(my_dict))   # Output: 3
 ```
 
 ## Praxis
-Aufgabe 1: Einfache Python Dictionary-Aufgabe
+### Aufgabe 1:
 
 Erstelle ein Python-Dictionary mit dem Namen "person". Fülle es mit den Schlüssel-Wert-Paaren "name" (string), "alter" (integer) und "wohnort" (string). Gib dann den Namen und das Alter der Person aus.
 
@@ -209,3 +209,5 @@ print("Alter:", person["alter"])
 ```
 
 Erklärung: Zunächst wird ein leeres Dictionary mit dem Namen "person" erstellt. Dann wird das Dictionary mit den Schlüssel-Wert-Paaren "name", "alter" und "wohnort" gefüllt. Mit den Schlüsseln kann man auf die entsprechenden Werte zugreifen und sie ausgeben.
+
+Herzlichen Glückwunsch, du hast das Python Tutorial zu Dictionaries erfolgreich abgeschlossen! Du hast gelernt, wie du Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Dictionaries können besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bieten. Am Ende dieses Tutorials bist du nun in der Lage, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr. Mit diesem Wissen kannst du jetzt komplexere Python-Anwendungen schreiben und effektiver arbeiten. Viel Spaß beim Entwickeln!
