@@ -8,11 +8,12 @@ Operatoren sind Symbole oder Schlüsselwörter in Python, die verwendet werden, 
 Diese Operatoren werden verwendet, um mathematische Berechnungen durchzuführen, wie **Addition(+), Subtraktion(-), Multiplikation(*), Division(/), Potenz(**) und Modulo(%)**.
 Hier ist **ein allgemeines Code-Beispiel**:
 
-    a = 10
-    b = 5
-    c = a + b
-    print(c) # Ausgabe: 15
-
+```python
+a = 10
+b = 5
+c = a + b
+print(c) # Ausgabe: 15
+```
 
 **Explizites Code-Beispiel**:
 
