@@ -82,7 +82,6 @@ Schreibe eine Funktion `zufallsliste(n)`, die eine Liste mit `n` Zufallszahlen z
 Musterlösung:
 
 ```python
-import random
 
 import random
 
