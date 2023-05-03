@@ -6,6 +6,9 @@
 In diesem Abschnitt lernst du, wie du in Python Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Mit Dictionaries kannst du Daten in Form von Schlüssel-Wert-Paaren speichern. Diese Art der Datenstruktur kann besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bietet. Am Ende dieses Tutorials wirst du in der Lage sein, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr!
 ## Theorie
 
+### Was sind Dictionaries?
+Ein Dictionary ist eine Datenstruktur, die Schlüssel-Wert-Paare speichert. Der Schlüssel ist dabei ein einzigartiger Bezeichner, der auf den Wert verweist. Im Gegensatz zu Listen, bei denen man Elemente über ihre Position in der Liste anspricht, kann man bei Dictionaries auf die Werte über den Schlüssel zugreifen.
+
 ### Sortiert/Unsortiert
 Im Gegensatz zu Listen, die eine geordnete Struktur haben, sind Dictionaries unsortiert. Das bedeutet, dass es keine feste Reihenfolge gibt, in der die Einträge gespeichert werden. Die Einträge werden stattdessen durch ihre Schlüssel referenziert.
 
@@ -192,4 +195,17 @@ my_dict = {'Name': 'Max', 'Alter': 30, 'Stadt': 'Berlin'}
 print(len(my_dict))   # Output: 3
 ```
 
-## Zusammenfassung
+## Praxis
+Aufgabe 1: Einfache Python Dictionary-Aufgabe
+
+Erstelle ein Python-Dictionary mit dem Namen "person". Fülle es mit den Schlüssel-Wert-Paaren "name" (string), "alter" (integer) und "wohnort" (string). Gib dann den Namen und das Alter der Person aus.
+
+Musterlösung:
+
+```python
+person = {"name": "Max Mustermann", "alter": 30, "wohnort": "Berlin"}
+print("Name:", person["name"])
+print("Alter:", person["alter"])
+```
+
+Erklärung: Zunächst wird ein leeres Dictionary mit dem Namen "person" erstellt. Dann wird das Dictionary mit den Schlüssel-Wert-Paaren "name", "alter" und "wohnort" gefüllt. Mit den Schlüsseln kann man auf die entsprechenden Werte zugreifen und sie ausgeben.
