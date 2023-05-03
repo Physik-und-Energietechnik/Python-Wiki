@@ -1,7 +1,5 @@
-# Python Tutorial: Variablen, Datentypen und Casting
-
 ## Einführung
-Hey du, willkommen zum Python-Tutorial für Anfänger! In diesem Abschnitt geht es darum, wie man Variablen in Python benutzt und wie man die verschiedenen Datentypen verwendet. Das Ziel dieses Tutorials ist es, dass du die Grundlagen von Variablen und Datentypen in Python verstehst und lernst, wie man zwischen verschiedenen Datentypen umwandelt. Mit diesem Wissen wirst du in der Lage sein, komplexe Probleme zu lösen und deine eigenen Programme zu schreiben!
+In diesem Abschnitt geht es darum, wie man Variablen in Python benutzt und wie man die verschiedenen Datentypen verwendet. Das Ziel dieses Tutorials ist es, dass du die Grundlagen von Variablen und Datentypen in Python verstehst und lernst, wie man zwischen verschiedenen Datentypen umwandelt.
 
 ## Theorie
 
@@ -92,3 +90,10 @@ text_int = int(text)
 result = number_float * text_int
 print(result) # Output: 50.0
 ```
+
+## Fazit
+Abschlussgedöns... (per ChatGPT)
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
