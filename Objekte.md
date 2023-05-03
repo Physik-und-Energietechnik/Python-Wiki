@@ -125,3 +125,6 @@ elektroauto = Elektroauto("Tesla", "Model S", 2022, "Rot", 500)
 elektroauto.laden(100)
 print(elektroauto.reichweite)  # Ausgabe: 600
 ``` 
+Herzlichen Glückwunsch, du hast erfolgreich das Tutorial zum Thema "Python - Objekte" durchgearbeitet! Du solltest nun ein grundlegendes Verständnis für Klassen, Objekte und Vererbung in Python haben. Mit diesem Wissen bist du in der Lage, komplexe Datenstrukturen und -typen zu erstellen und in deinem Code zu verwenden.
+
+Es gibt jedoch noch viel mehr zu entdecken, wenn es um Python geht, also bleibe neugierig und experimentiere weiter!
