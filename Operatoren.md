@@ -93,58 +93,62 @@ Vergleichsoperatoren werden verwendet, um den Vergleich von Variablen oder Ausdr
 
 **Allgemeines Code-Beispiel**:
 
-    a = 10
-    b = 5
-    c = (a == b)
-    print(c) #Ausgabe: False
-
+```python
+a = 10
+b = 5
+c = (a == b)
+print(c) #Ausgabe: False
+```
 **Explizites Code-Beispiel:**
 
-    a = 10
-    b = 5
+```python
+a = 10
+b = 5
 
-    print(a == b)  # Ausgabe: False
-    print(a != b)  # Ausgabe: True
-    print(a > b)   # Ausgabe: True
-    print(a < b)   # Ausgabe: False
-    print(a >= b)  # Ausgabe: True
-    print(a <= b)  # Ausgabe: False
-
+print(a == b)  # Ausgabe: False
+print(a != b)  # Ausgabe: True
+print(a > b)   # Ausgabe: True
+print(a < b)   # Ausgabe: False
+print(a >= b)  # Ausgabe: True
+print(a <= b)  # Ausgabe: False
+```
 * ### **Zuweisungs-Operatoren:**
 Zuweisungs-Operatoren werden verwendet, um Werte einer Variablen zuzuweisen.
 
 **Allgemeines Code-Beispiel:**
 
-    a = b   # Wert von b an a zuweisen
-    a += b  # Äquivalent zu a = a + b
-    a -= b  # Äquivalent zu a = a - b
-    a *= b  # Äquivalent zu a = a * b
-    a /= b  # Äquivalent zu a = a / b
-    a %= b  # Äquivalent zu a = a % b
-
+```python
+a = b   # Wert von b an a zuweisen
+a += b  # Äquivalent zu a = a + b
+a -= b  # Äquivalent zu a = a - b
+a *= b  # Äquivalent zu a = a * b
+a /= b  # Äquivalent zu a = a / b
+a %= b  # Äquivalent zu a = a % b
+```
 **Explizites Code-Beispiel:**
 
-    a = 10
-    b = 5
+```python
+a = 10
+b = 5
 
-    a = b      
-    print(a)   # Ausgabe: 5
+a = b      
+print(a)   # Ausgabe: 5
 
-    a += b
-    print(a)   # Ausgabe: 15
+a += b
+print(a)   # Ausgabe: 15
 
-    a -= b  
-    print(a)   # Ausgabe: 5
+a -= b  
+print(a)   # Ausgabe: 5
 
-    a *= b  
-    print(a)   # Ausgabe: 50
+a *= b  
+print(a)   # Ausgabe: 50
 
-    a /= b  
-    print(a)   # Ausgabe: 2.0
+a /= b  
+print(a)   # Ausgabe: 2.0
 
-    a %= b  
-    print(a)   # Ausgabe: 0
-
+a %= b  
+print(a)   # Ausgabe: 0
+```
 
 ## **Praxis**
 
@@ -154,14 +158,16 @@ Um das erlangte Wissen über Python-Operatoren zu festigen, soll im Folgenden ei
 Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann überprüft, ob diese Zahl gerade oder ungerade ist. Gib entsprechend aus, ob es sich um eine gerade oder ungerade Zahl handelt.
 
 * **Musterlösung:**
+```python
+# Eingabeaufforderung für eine Zahl
+zahl = int(input("Bitte geben Sie eine Zahl ein: "))
 
-#  Eingabeaufforderung für eine Zahl
-    zahl = int(input("Bitte geben Sie eine Zahl ein: "))   
-    #  Überprüfung ob die Zahl gerade oder ungerade ist
-    if zahl % 2 == 0:   
+# Überprüfung ob die Zahl gerade oder ungerade ist
+if zahl % 2 == 0:
     print(zahl, "ist eine gerade Zahl")
-    else:
+else:
     print(zahl, "ist eine ungerade Zahl")
+```
 
 * **Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable **'zahl'** gespeichert. Anschließend wird mit Hilfe des Modulo-Operators **'%'** geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
 
