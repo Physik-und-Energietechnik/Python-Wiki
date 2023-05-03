@@ -147,7 +147,7 @@ Um das erlangte Wissen über Python-Operatoren zu festigen, soll im Folgenden ei
 ### **Aufgabe:** 
 Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann überprüft, ob diese Zahl gerade oder ungerade ist. Gib entsprechend aus, ob es sich um eine gerade oder ungerade Zahl handelt.
 
-**Musterlösung:**
+* **Musterlösung:**
 
     # Eingabeaufforderung für eine Zahl
     zahl = int(input("Bitte geben Sie eine Zahl ein: "))
@@ -158,7 +158,7 @@ Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann ü
     else:
         print(zahl, "ist eine ungerade Zahl")
 
-**Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable **'zahl'** gespeichert. Anschließend wird mit Hilfe des Modulo-Operators **'%'** geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
+* **Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable **'zahl'** gespeichert. Anschließend wird mit Hilfe des Modulo-Operators **'%'** geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
 
 
 
