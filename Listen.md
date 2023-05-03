@@ -51,7 +51,7 @@ print(meine_liste)  # gibt [1, 2, 6, 4, 5] aus
 ```
 
 ### Listenverarbeitung
-Wir können auch verschiedene Operationen auf Listen anwenden, wie zum Beispiel das Sortieren oder Zählen von Elementen. Hier sind einige Beispiele:
+Wir können auch verschiedene Operationen auf Listen anwenden, wie zum Beispiel das Sortieren oder Zählen von Elementen. Hier ist ein Beispiel:
 
 #### Sortieren
 ```python
