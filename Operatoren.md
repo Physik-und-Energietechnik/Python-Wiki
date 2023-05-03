@@ -149,9 +149,8 @@ Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann ü
 
 * **Musterlösung:**
 
-    #  Eingabeaufforderung für eine Zahl
+    # Eingabeaufforderung für eine Zahl
     zahl = int(input("Bitte geben Sie eine Zahl ein: "))
-
     #  Überprüfung ob die Zahl gerade oder ungerade ist
     if zahl % 2 == 0:
         print(zahl, "ist eine gerade Zahl")
