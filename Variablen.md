@@ -23,14 +23,39 @@ Es gibt verschiedene Datentypen in Python. Hier sind einige der häufigsten:
 * Gleitkommazahlen: z.B. `3.14`
 * Boolesche Werte: `True` oder `False`
 
-Python erkennt den Datentyp automatisch, wenn du eine Variable erstellst.
+Python erkennt den Datentyp automatisch, wenn du eine Variable erstellst. Du kannst den Datentyp einer Variable auch explizit überprüfen, indem du die `type()`-Funktion verwendest:
 
 ```python
-name = "Max"  # String
-age = 30      # Ganzzahl
-height = 1.80 # Gleitkommazahl
-is_student = True # Boolescher Wert
+
+name = "Max"            # String
+print(type(name))       # Output: <class 'str'>
+
+age = 30                # Ganzzahl
+print(type(age))        # Output: <class 'int'>
+
+height = 1.80           # Gleitkommazahl
+print(type(height))     # Output: <class 'float'>
+
+is_student = True       # Boolescher Wert
+print(type(is_student)) # Output: <class 'bool'>
+
 ```
+
+Die type()-Funktion ist in Python eine integrierte Funktion, die den Datentyp einer Variable zurückgibt. Sie kann auf alle Variablen angewendet werden, um ihren Datentyp zu überprüfen.
+
+Hier ist ein Beispiel:
+
+python
+
+name = "Max"
+age = 30
+
+print(type(name)) # Output: <class 'str'>
+print(type(age))  # Output: <class 'int'>
+
+In diesem Beispiel gibt die type()-Funktion den Datentyp des Strings "Max" und der Ganzzahl 30 zurück. Der Datentyp eines Strings ist in Python str und der Datentyp einer Ganzzahl ist int.
+
+Die type()-Funktion kann auch nützlich sein, wenn du den Datentyp einer Variable nicht kennst und ihn überprüfen möchtest.
 
 ### Casting
 Manchmal musst du den Datentyp einer Variablen ändern. Das nennt man Casting. Hier sind ein paar Beispiele:
