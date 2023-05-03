@@ -60,30 +60,33 @@ Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und au
 
 **Allgemeines Code-Beispiel:**
 
-    a = True
-    b = False
-    c = a and b
-    print(c) # Ausgabe: False
-
+```python
+a = True
+b = False
+c = a and b
+print(c) # Ausgabe: False
+```
 **Explizites Code-Beispiel:**
 
-    # AND
-    a = True
-    b = False
-    c = a and b
-    print(c)  # Ausgabe: False
+```python
+# AND
+a = True
+b = False
+c = a and b
+print(c)  # Ausgabe: False
 
-    # OR
-    a = True
-    b = False
-    c = a or b
-    print(c)  # Ausgabe: True
+# OR
+a = True
+b = False
+c = a or b
+print(c)  # Ausgabe: True
 
-    # NOT
-    a = True
-    b = False
-    c = not a
-    print(c)  # Ausgabe: False
+# NOT
+a = True
+b = False
+c = not a
+print(c)  # Ausgabe: False
+```
 
 * ### **Vergleichsoperatoren**
 Vergleichsoperatoren werden verwendet, um den Vergleich von Variablen oder Ausdrücken durchzuführen. Dazu gehören **!= (ungleich), == (gleich), > (größer als), < (kleiner als), >= (größer oder gleich) und <= (kleiner oder gleich)**.
