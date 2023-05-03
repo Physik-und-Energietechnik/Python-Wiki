@@ -75,13 +75,11 @@ height = 1.65
 ```
 
 ### Aufgabe 2
-Erstelle eine Variable `number` und weise ihr den Wert `5` als Ganzzahl zu. Natürlich, hier ist der Text als normaler Text und der Python-Code als Codeblock:
+Erstelle eine Variable `number` und weise ihr den Wert `5` als Ganzzahl zu. Erstelle dann eine Variable `text` und weise ihr den Wert `10` als String zu. Führe dann die folgenden Schritte aus:
 
-Erstelle eine Variable number und weise ihr den Wert 5 als Ganzzahl zu. Erstelle dann eine Variable text und weise ihr den Wert "10" als String zu. Führe dann die folgenden Schritte aus:
-
-1. Wandle die Variable number in eine Gleitkommazahl um und weise sie der Variable number_float zu.
-2. Wandle die Variable text in eine Ganzzahl um und weise sie der Variable text_int zu.
-3. Multipliziere die Variable number_float mit der Variable text_int und weise das Ergebnis der Variable result zu.
+1. Wandle die Variable `number` in eine Gleitkommazahl um und weise sie der Variable `number_float` zu.
+2. Wandle die Variable `text` in eine Ganzzahl um und weise sie der Variable `text_int` zu.
+3. Multipliziere die Variable `number_float` mit der Variable `text_int` und weise das Ergebnis der Variable `result` zu.
 4. Gib das Ergebnis aus.
 
 ```python
