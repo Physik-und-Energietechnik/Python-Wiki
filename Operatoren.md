@@ -89,8 +89,59 @@ Vergleichsoperatoren werden verwendet, um den Vergleich von Variablen oder Ausdr
 
     a = 10
     b = 5
-    c = a == b
-    print(c)
+    c = (a == b)
+    print(c) #Ausgabe: False
+
+**Explizites Code-Beispiel:**
+
+    a = 10
+    b = 5
+
+    print(a == b)  # Ausgabe: False
+    print(a != b)  # Ausgabe: True
+    print(a > b)   # Ausgabe: True
+    print(a < b)   # Ausgabe: False
+    print(a >= b)  # Ausgabe: True
+    print(a <= b)  # Ausgabe: False
+
+* ### **Zuweisungs-Operatoren:**
+Zuweisungs-Operatoren werden verwendet, um Werte einer Variablen zuzuweisen.
+
+**Allgemeines Code-Beispiel:**
+
+    a = b   # Wert von b an a zuweisen
+    a += b  # Äquivalent zu a = a + b
+    a -= b  # Äquivalent zu a = a - b
+    a *= b  # Äquivalent zu a = a * b
+    a /= b  # Äquivalent zu a = a / b
+    a %= b  # Äquivalent zu a = a % b
+
+**Explizites Code-Beispiel:**
+
+    a = 10
+    b = 5
+
+    a = b      
+    print(a)   # Ausgabe: 5
+
+    a += b
+    print(a)   # Ausgabe: 15
+
+    a -= b  
+    print(a)   # Ausgabe: 5
+
+    a *= b  
+    print(a)   # Ausgabe: 50
+
+    a /= b  
+    print(a)   # Ausgabe: 2.0
+
+    a %= b  
+    print(a)   # Ausgabe: 0
+
+
+
+
 
 
 
