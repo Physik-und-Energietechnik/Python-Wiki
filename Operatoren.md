@@ -17,41 +17,43 @@ print(c) # Ausgabe: 15
 
 **Explizites Code-Beispiel**:
 
-    # Addition
-    a = 10
-    b = 5
-    c = a + b
-    print(c)  # Ausgabe: 15
+```python
+# Addition
+a = 10
+b = 5
+c = a + b
+print(c)  # Ausgabe: 15
 
-    # Subtraktion
-    a = 10
-    b = 5
-    c = a - b
-    print(c)  # Ausgabe: 5
+# Subtraktion
+a = 10
+b = 5
+c = a - b
+print(c)  # Ausgabe: 5
 
-    # Multiplikation
-    a = 10
-    b = 5
-    c = a * b
-    print(c)  # Ausgabe: 50
+# Multiplikation
+a = 10
+b = 5
+c = a * b
+print(c)  # Ausgabe: 50
 
-    # Division
-    a = 10
-    b = 5
-    c = a / b
-    print(c)  # Ausgabe: 2.0
+# Division
+a = 10
+b = 5
+c = a / b
+print(c)  # Ausgabe: 2.0
 
-    # Modulo
-    a = 10
-    b = 3
-    c = a % b
-    print(c)  # Ausgabe: 1
+# Modulo
+a = 10
+b = 3
+c = a % b
+print(c)  # Ausgabe: 1
 
-    # Exponentiation
-    a = 2
-    b = 3
-    c = a ** b
-    print(c)  # Ausgabe: 8
+# Exponentiation
+a = 2
+b = 3
+c = a ** b
+print(c)  # Ausgabe: 8
+```
 
 * ### **Logische Operatoren**
 Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und auszuwerten. Dazu gehören **AND (und), OR (oder) und NOT (nicht)**.
