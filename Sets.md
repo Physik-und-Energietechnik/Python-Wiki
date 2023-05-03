@@ -1,49 +1,62 @@
-2.0 Sets
+# Python Tutorial - Sets
 
-2.1 Einführung
-Sets in Python sind eine Datenstruktur, die eine Sammlung einzigartiger Elemente enthält. Die Elemente in einem Set sind nicht geordnet und nicht indiziert, was bedeutet, dass man nicht auf sie mit einem Index zugreifen kann. Sets können mit geschweiften Klammern {} oder mit der set()-Funktion erstellt werden.
+## Einführung
+In diesem Tutorial geht es um eine Datenstruktur namens Set in Python. Ein Set ist eine Sammlung von einzigartigen Elementen, die in keiner bestimmten Reihenfolge gespeichert werden. Mit Sets können Sie schnell Duplikate aus einer Liste entfernen und mathematische Operationen wie Vereinigung, Schnitt und Differenz durchführen.
 
-2.2 Theorie
+## Theorie
+### Erstellen eines Sets
+Sie können ein Set erstellen, indem Sie geschweifte Klammern {} verwenden oder die set() Funktion aufrufen. Hier ist ein Beispiel:
 
-Die Vorteile von Sets sind, dass sie schnell und einfach zu durchsuchen sind, und dass sie keine Duplikate enthalten. Das kann die Verarbeitung von Daten beschleunigen und vereinfachen.
+```python
+# Verwenden von geschweiften Klammern
+my_set = {1, 2, 3, 4, 5}
 
-Beim Umgang mit Sets sollte man sich jedoch bewusst sein, dass sie nicht indiziert sind und keine Reihenfolge haben. Das bedeutet, dass die Elemente in einem Set bei jeder Iteration in einer anderen Reihenfolge zurückgegeben werden können. Darüber hinaus sind Sets unveränderlich, was bedeutet, dass sie nach ihrer Erstellung nicht mehr geändert werden können. Wenn man Elemente hinzufügen oder entfernen muss, muss man ein neues Set erstellen.
+# Verwenden von set()
+my_set = set([1, 2, 3, 4, 5])
+```
 
-2.2.0 Beispiele
+### Hinzufügen und Entfernen von Elementen
+Sie können ein Element zu einem Set hinzufügen, indem Sie die add() Methode verwenden und ein Element aus einem Set entfernen, indem Sie die remove() Methode verwenden. Hier sind Beispiele:
 
-2.2.1 Entfernung von Duplikaten - Wenn man eine Liste mit wiederholten Elementen hat, kann man sie in ein Set umwandeln, um die Duplikate zu entfernen:
+```python
+my_set = {1, 2, 3, 4, 5}
+my_set.add(6) # Hinzufügen von 6 zum Set
+my_set.remove(3) # Entfernen von 3 aus dem Set
+```
 
-my_list = [1, 2, 3, 3, 4, 4, 5]
-my_set = set(my_list)
-print(my_set) # Output: {1, 2, 3, 4, 5}
+### Vereinigung, Schnitt und Differenz von Sets
+Sie können Sets mathematisch kombinieren, indem Sie die union(), intersection() und difference() Methoden verwenden. Hier sind Beispiele:
 
-2.2.2 Set-Operationen - Sets unterstützen Operationen wie Union, Intersection, Difference und Symmetric Difference:
-
+```python
 set1 = {1, 2, 3}
 set2 = {2, 3, 4}
 
-union_set = set1.union(set2)
-print(union_set) # Output: {1, 2, 3, 4}
+# Vereinigung von set1 und set2
+set3 = set1.union(set2)
+# Ergebnis: {1, 2, 3, 4}
 
-intersection_set = set1.intersection(set2)
-print(intersection_set) # Output: {2, 3}
+# Schnitt von set1 und set2
+set4 = set1.intersection(set2)
+# Ergebnis: {2, 3}
 
-difference_set = set1.difference(set2)
-print(difference_set) # Output: {1}
+# Differenz von set1 und set2
+set5 = set1.difference(set2)
+# Ergebnis: {1}
+```
 
-symmetric_difference_set = set1.symmetric_difference(set2)
-print(symmetric_difference_set) # Output: {1, 4}
+## Praxis
+### Leichte Aufgabe
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und ein Set zurückgibt, das nur die einzigartigen Zahlen aus der Liste enthält.
 
-2.2.3 Membership-Test - Sets können verwendet werden, um zu überprüfen, ob ein Element in einer Sammlung vorhanden ist:
+```python
+def unique_numbers(numbers):
+    return set(numbers)
+```
 
-my_set = {1, 2, 3, 4, 5}
-print(2 in my_set) # Output: True
-print(6 in my_set) # Output: False
+### Schwere Aufgabe
+Schreiben Sie eine Funktion, die zwei Sets entgegennimmt und ein neues Set zurückgibt, das nur Elemente enthält, die in beiden Sets vorkommen.
 
-
-
-2.3 Aufgaben
-
-2.4.1 Schreibe eine Funktion, die eine Liste von Zahlen als Eingabe nimmt und eine Liste von nur den einzigartigen Zahlen zurückgibt.
-2.4.2 Schreibe eine Funktion, die zwei Listen als Eingabe nimmt und eine Liste von Elementen zurückgibt, die in beiden Listen vorkommen.
-2.4.3 Schreibe eine Funktion, die eine Liste von Wörtern als Eingabe nimmt und ein Set von Wörtern zurückgibt, die in der Liste doppelt vorkommen.
+```python
+def common_elements(set1, set2):
+    return set1.intersection(set2)
+```
