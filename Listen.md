@@ -58,3 +58,34 @@ Wir können auch verschiedene Operationen auf Listen anwenden, wie zum Beispiel 
 zahlen = [4, 2, 1, 3, 5]
 zahlen.sort()
 print(zahlen)   # Ausgabe: [1, 2, 3, 4, 5]
+```
+### Praxis
+Nun, da du die Theorie kennst, ist es Zeit für die Praxis! Hier sind zwei Übungen für dich, um dein neues Wissen zu testen.
+
+#### Übung 1 - Leicht
+Erstelle eine Liste mit deinen Lieblingsfarben und gib sie auf der Konsole aus.
+
+Musterlösung:
+
+```python
+lieblingsfarben = ["Rot", "Grün", "Blau"]
+print(lieblingsfarben)
+```
+
+#### Übung 2 - Schwer
+Erstelle ein Programm, das eine Liste mit Zahlen erstellt, die durch 3 teilbar sind, aber nicht durch 2. Die Liste soll 10 Elemente enthalten und auf der Konsole ausgegeben werden.
+
+Musterlösung:
+
+```python
+meine_liste = []
+i = 1
+while len(meine_liste) < 10:
+    if i % 3 == 0 and i % 2 != 0:
+        meine_liste.append(i)
+    i += 1
+print(meine_liste)
+```
+
+Herzlichen Glückwunsch, du hast es geschafft! Du hast nun ein grundlegendes Verständnis für Listen in Python und wie man sie erstellt, manipuliert und darauf zugreift. Listen sind ein wichtiger Bestandteil der Programmierung und es gibt noch viel mehr zu entdecken. Viel Spaß beim Weiterlernen!
+
