@@ -152,9 +152,9 @@ Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann ü
     zahl = int(input("Bitte geben Sie eine Zahl ein: "))   #  Eingabeaufforderung für eine Zahl
    
     if zahl % 2 == 0:   #  Überprüfung ob die Zahl gerade oder ungerade ist
-        print(zahl, "ist eine gerade Zahl")
+    print(zahl, "ist eine gerade Zahl")
     else:
-        print(zahl, "ist eine ungerade Zahl")
+    print(zahl, "ist eine ungerade Zahl")
 
 * **Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable **'zahl'** gespeichert. Anschließend wird mit Hilfe des Modulo-Operators **'%'** geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
 
