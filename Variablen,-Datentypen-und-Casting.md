@@ -71,6 +71,7 @@ name = "Lisa"
 age = 25
 height = 1.65
 ```
+#### Musterlösung von ChatGPT erklärt
 
 ### Aufgabe 2
 Erstelle eine Variable `number` und weise ihr den Wert `5` als Ganzzahl zu. Erstelle dann eine Variable `text` und weise ihr den Wert `10` als String zu. Führe dann die folgenden Schritte aus:
