@@ -59,7 +59,7 @@ zahlen = [4, 2, 1, 3, 5]
 zahlen.sort()
 print(zahlen)   # Ausgabe: [1, 2, 3, 4, 5]
 ```
-### Praxis
+## Praxis
 Nun, da du die Theorie kennst, ist es Zeit für die Praxis! Hier sind zwei Übungen für dich, um dein neues Wissen zu testen.
 
 #### Übung 1 - Leicht
