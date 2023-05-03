@@ -144,7 +144,8 @@ Zuweisungs-Operatoren werden verwendet, um Werte einer Variablen zuzuweisen.
 
 Um das erlangte Wissen über Python-Operatoren zu festigen, soll im Folgenden eine etwas leichtere Aufgabe gestellt werden, die mit Hilfe der Operatoren gelöst werden kann.
 
-### **Aufgabe:** Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann überprüft, ob diese Zahl gerade oder ungerade ist. Gib entsprechend aus, ob es sich um eine gerade oder ungerade Zahl handelt.
+### **Aufgabe:** 
+Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann überprüft, ob diese Zahl gerade oder ungerade ist. Gib entsprechend aus, ob es sich um eine gerade oder ungerade Zahl handelt.
 
 **Musterlösung:**
 
