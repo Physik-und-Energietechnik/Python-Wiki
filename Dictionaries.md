@@ -88,6 +88,38 @@ print(person)  # {"name": "Max", "alter": 30}
 
 In diesem Beispiel wird der Schlüssel `"stadt"` aus dem `person`-Dictionary gelöscht.
 
+### Die pop() Methode
+Die `pop()` Methode entfernt den Eintrag mit dem angegebenen Schlüssel aus dem Dictionary und gibt dessen Wert zurück. Wenn der Schlüssel nicht im Dictionary vorhanden ist, wird ein KeyError ausgelöst.
+
+Hier ist ein Beispiel, wie du `pop()` verwendest:
+
+```python
+mein_dict = {"Name": "Max", "Alter": 25, "Stadt": "Berlin"}
+
+alter = mein_dict.pop("Alter")
+
+print(mein_dict) # {"Name": "Max", "Stadt": "Berlin"}
+print(alter)     # 25
+```
+
+In diesem Beispiel wird der Eintrag mit dem Schlüssel "Alter" aus dem Dictionary `mein_dict` entfernt und sein Wert in der Variable `alter` gespeichert. Das verbleibende Dictionary wird dann ausgegeben.
+
+### Die popitem() Methode
+Die `popitem()` Methode entfernt das letzte Schlüssel-Wert-Paar aus dem Dictionary und gibt es als Tupel zurück. Wenn das Dictionary leer ist, wird ein KeyError ausgelöst.
+
+Hier ist ein Beispiel, wie du `popitem()` verwendest:
+
+```python
+mein_dict = {"Name": "Max", "Alter": 25, "Stadt": "Berlin"}
+
+letztes = mein_dict.popitem()
+
+print(mein_dict) # {"Name": "Max", "Alter": 25}
+print(letztes)   # ("Stadt", "Berlin")
+```
+
+In diesem Beispiel wird das letzte Schlüssel-Wert-Paar des Dictionaries `mein_dict` entfernt und als Tupel in der Variable `letztes` gespeichert. Das verbleibende Dictionary wird dann ausgegeben.
+
 Wenn du alle Einträge aus einem Dictionary entfernen möchtest, kannst du die `clear()` Methode verwenden:
 
 ```python
@@ -152,14 +184,6 @@ print(person["adressen"]["privat"])  # Hauptstraße 1
 
 In diesem Beispiel ist das Dictionary `"adressen"` ein Dictionary, das innerhalb des `person`-Dictionarys verschachtelt ist. Du kannst auf die Werte innerhalb des verschachtelten Dictionarys zugreifen, indem du den Schlüssel des äußeren Dictionarys gefolgt von dem Schlüssel des inneren Dictionarys angibst.
 
-#### Zusammenfassung
-
-In diesem Tutorial hast du gelernt, wie du mit Dictionaries in Python arbeiten kannst. Dictionaries sind eine nützliche Datenstruktur, um Informationen in Form von Schlüssel-Wert-Paaren zu speichern. Du hast gelernt, wie du ein Dictionary erstellen und bearbeiten kannst, wie du auf Einträge und Schlüssel zug
-
-
-
-
-
 ### Länge eines Dictionaries
 Die Länge eines Dictionaries gibt die Anzahl der Einträge im Dictionary zurück. Du kannst die Länge eines Dictionaries mit der len() Funktion ermitteln.
 
@@ -167,3 +191,5 @@ Die Länge eines Dictionaries gibt die Anzahl der Einträge im Dictionary zurüc
 my_dict = {'Name': 'Max', 'Alter': 30, 'Stadt': 'Berlin'}
 print(len(my_dict))   # Output: 3
 ```
+
+## Zusammenfassung
