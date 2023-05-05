@@ -1,4 +1,4 @@
-# Python Abschnitt - Funktionen
+# Abschnitt - Funktionen
 
 ## Einführung
 
