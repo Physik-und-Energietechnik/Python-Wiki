@@ -47,11 +47,7 @@ age = int(input("Wie alt bist du? "))
 year = 2023 + 100 - age
 print("Du wirst im Jahr", year, "100 Jahre alt.")
 ```
-Die Aufgabe fordert den Benutzer auf, sein Alter einzugeben, um dann das Jahr zu berechnen, in dem er 100 Jahre alt wird. Dafür wird zuerst das Alter des Benutzers mit der `input()`-Funktion eingelesen und als Ganzzahl (`int`) in der Variable `age` gespeichert. Anschließend wird das Jahr berechnet, in dem der Benutzer 100 Jahre alt wird. Hierfür wird das aktuelle Jahr 2023 (als Beispieljahr) mit 100 subtrahiert und das Alter des Benutzers addiert. Das Ergebnis wird in der Variablen `year` gespeichert. Schließlich wird die berechnete Information mit der `print()`-Funktion in der Konsole ausgegeben. 
-
-In der zweiten Übungsaufgabe wird der Benutzer aufgefordert, eine Zahl einzugeben, um dann die Fakultät dieser Zahl zu berechnen. Hierfür wird zuerst die Zahl mit der `input()`-Funktion eingelesen und als Ganzzahl in der Variable `num` gespeichert. Anschließend wird die Fakultät dieser Zahl mit einer Schleife berechnet und in der Variable `factorial` gespeichert. Das Ergebnis wird dann mit der `print()`-Funktion in der Konsole ausgegeben.
-
-Ich hoffe, das hilft dir weiter!
+Die Aufgabe fordert den Benutzer auf, sein Alter einzugeben, um dann das Jahr zu berechnen, in dem er 100 Jahre alt wird. Dafür wird zuerst das Alter des Benutzers mit der `input()`-Funktion eingelesen und als Ganzzahl (`int`) in der Variable `age` gespeichert. Anschließend wird das Jahr berechnet, in dem der Benutzer 100 Jahre alt wird. Hierfür wird das aktuelle Jahr 2023 (als Beispieljahr) mit `100` subtrahiert und `age` addiert. Das Ergebnis wird in der Variablen `year` gespeichert. Schließlich wird die berechnete Information mit der `print()`-Funktion in der Konsole ausgegeben. 
 
 ### Übung 2
 Schreibe ein Programm, das den Benutzer nach einer Zahl fragt und dann die Fakultät dieser Zahl berechnet. Gib das Ergebnis in der Konsole aus.
@@ -65,5 +61,30 @@ for i in range(1, num+1):
     factorial *= i
 print("Die Fakultät von", num, "ist", factorial)
 ```
+Diese Aufgabe fordert den Benutzer auf, eine Zahl einzugeben, um dann die Fakultät dieser Zahl zu berechnen. Hierfür wird zuerst die Zahl mit der `input()`-Funktion eingelesen und als Ganzzahl in der Variable `num` gespeichert. Anschließend wird die Fakultät dieser Zahl mit einer Schleife berechnet und in der Variable `factorial` gespeichert. Das Ergebnis wird dann mit der `print()`-Funktion in der Konsole ausgegeben.
+Keine Sorge, wenn du die Lösung zu Beginn noch nicht verstehst, ist das nicht schlimm, was Schleifen sind und wie die `range()`-Funktion funktioniert erklären wir dir noch später.
+
+Falls du es dennoch jetzt verstehen möchtest, klappe einfach das nächste Dropdown Fenster auf.
+
+# [Drop Down im Ilias dann]
+
+Eine Schleife ist eine Kontrollstruktur in der Programmierung, mit der man eine Anweisung oder eine Gruppe von Anweisungen wiederholt ausführen kann. Schleifen sind besonders nützlich, wenn man denselben Codeblock mehrmals ausführen muss, oder wenn man eine Liste von Elementen oder eine Sammlung von Objekten durchlaufen möchte.
+
+In Python gibt es zwei Arten von Schleifen: die `while`-Schleife und die `for`-Schleife. In der `while`-Schleife wird die Schleife solange ausgeführt, wie eine bestimmte Bedingung erfüllt ist. In der `for`-Schleife wird die Schleife für jedes Element in einer Sequenz ausgeführt.
+
+In der zweiten Übungsaufgabe wird eine `for`-Schleife verwendet, um die Fakultät einer Zahl zu berechnen. Die `range()`-Funktion erzeugt eine Sequenz von Ganzzahlen von 1 bis zur eingegebenen Zahl `num`. Innerhalb der Schleife wird die Variable `factorial` mit jedem Durchlauf der Schleife mit dem Wert der Multiplikation von `factorial` mit dem jeweiligen Zähler der Schleife aktualisiert.
+
+Hier ein Beispiel: Wenn der Benutzer die Zahl 5 eingibt, wird die Schleife 5-mal durchlaufen und `factorial` wird wie folgt aktualisiert:
+
+1. In der ersten Schleifendurchlauf hat der Zähler den Wert 1. `factorial` wird mit dem Wert 1 initialisiert. Das erste Element in der Sequenz (1) wird ausgewählt und `factorial` wird mit diesem Wert multipliziert: `factorial` = 1 * 1 = 1.
+2. In der zweiten Schleifendurchlauf hat der Zähler den Wert 2. Das zweite Element in der Sequenz (2) wird ausgewählt und `factorial` wird mit diesem Wert multipliziert: `factorial` = 1 * 2 = 2.
+3. In der dritten Schleifendurchlauf hat der Zähler den Wert 3. Das dritte Element in der Sequenz (3) wird ausgewählt und `factorial` wird mit diesem Wert multipliziert: `factorial` = 2 * 3 = 6.
+4. In der vierten Schleifendurchlauf hat der Zähler den Wert 4. Das vierte Element in der Sequenz (4) wird ausgewählt und `factorial` wird mit diesem Wert multipliziert: `factorial` = 6 * 4 = 24.
+5. In der fünften Schleifendurchlauf hat der Zähler den Wert 5. Das fünfte Element in der Sequenz (5) wird ausgewählt und `factorial` wird mit diesem Wert multipliziert: `factorial` = 24 * 5 = 120.
+
+Am Ende der Schleife hat `factorial` den Wert 120, der die Fakultät von 5 ist.
+
+[Drop Down Ende]
+
 
 Herzlichen Glückwunsch, du hast erfolgreich Ein- und Ausgabe in der Konsole gelernt!
