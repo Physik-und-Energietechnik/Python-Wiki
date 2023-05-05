@@ -1,9 +1,7 @@
-
-
-# Python - Strings
+# Abschnitt - Strings
 
 ## Einführung
-Strings sind Textwerte in Python. Sie werden von Anführungszeichen, entweder einfache (') oder doppelte (") umgeben. In diesem Tutorial werden wir uns mit den Grundlagen von Strings beschäftigen und lernen, wie man sie manipuliert.
+Strings sind Textwerte in Python. Sie werden von Anführungszeichen, entweder einfachen (') oder doppelten (") umgeben. In diesem Tutorial werden wir uns mit den Grundlagen von Strings beschäftigen und lernen, wie man sie manipuliert.
 
 Nach Abschluss des Tutorials wirst du in der Lage sein:
 - Strings in Python zu erstellen und zu manipulieren
@@ -15,16 +13,16 @@ Und falls du dich jemals gefragt hast, was Indiana Jones auf seinem Computer ben
 ## Theorie
 
 ### Erstellen von Strings
-Strings werden durch Anführungszeichen erstellt, die den Text einschließen. Entweder einfache (') oder doppelte ("). Hier sind ein paar Beispiele:
+Strings werden durch Anführungszeichen erstellt, die den Text einschließen. Entweder einfachen (') oder doppelten ("). Hier sind ein paar Beispiele:
 
 ```python
 # einfache Anführungszeichen
 mein_string = 'Hallo, Welt!'
-print(mein_string)
+print(mein_string)  # Hallo, Welt!
 
 # doppelte Anführungszeichen
 mein_string_2 = "Das ist ein anderer String."
-print(mein_string_2)
+print(mein_string_2)  # Das ist ein anderer String.
 ```
 
 ### String-Konkatenation
@@ -34,26 +32,43 @@ Strings können durch den + Operator zusammengeführt werden, um eine längere Z
 string_1 = "Das ist der erste Teil"
 string_2 = " und das ist der zweite Teil."
 ergebnis_string = string_1 + string_2
-print(ergebnis_string)
+print(ergebnis_string)  # Das ist der erste Teil und das ist der zweite Teil.
+```
+
+### Länge von Strings
+Die Länge eines Strings kann mit der Funktion `len()` bestimmt werden:
+
+```python
+mein_string = "Hallo, Welt!"
+print(len(mein_string))  # 12
 ```
 
 ### String-Methoden
-Python bietet eine Menge von Methoden an, die auf Strings angewendet werden können. Hier sind ein paar Beispiele:
+Python bietet eine Vielzahl von Methoden an, die auf Strings angewendet werden können. Hier sind ein paar Beispiele:
+
+#### `strip()`
+Die Methode `strip()` entfernt Leerzeichen am Anfang und Ende eines Strings:
+
+```python
+mein_string = "   Hallo, Welt!   "
+print(mein_string.strip())  # Hallo, Welt!
+```
+
+#### `replace()`
+Die Methode `replace()` ersetzt einen Teil eines Strings durch einen anderen Teil:
 
 ```python
 mein_string = "python ist super cool"
+print(mein_string.replace("python", "java"))  # java ist super cool
+```
 
-# Großschreibung
-print(mein_string.upper())
+#### `format()`
+Die Methode `format()` kann verwendet werden, um Variablen in einen String einzufügen:
 
-# Kleinbuchstaben
-print(mein_string.lower())
-
-# Ersetzung
-print(mein_string.replace("python", "java"))
-
-# Aufspaltung
-print(mein_string.split(" "))
+```python
+name = "Max"
+alter = 30
+print("Mein Name ist {} und ich bin {} Jahre alt.".format(name, alter))  # Mein Name ist Max und ich bin 30 Jahre alt.
 ```
 
 ### String-Indizierung und Slicing
@@ -67,8 +82,8 @@ print(mein_string[0:6]) # Python
 ```
 
 ## Praxis
-
 ### Aufgabe 1
+
 Erstelle einen String und füge den Satz "Ich lerne Python" hinzu.
 
 Musterlösung:
