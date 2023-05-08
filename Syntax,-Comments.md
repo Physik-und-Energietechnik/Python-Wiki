@@ -96,4 +96,4 @@ Abschlussgedöns... (per ChatGPT)
 
 ### [W3Schools](https://www.w3schools.com/python/python_syntax.asp)
 
-### YouTube 
+### [YouTube](https://www.youtube.com/watch?v=ewu4x0eXVt8)
