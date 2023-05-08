@@ -93,3 +93,15 @@ print(neues_tupel) # Ausgabe: ('Star Wars', 'Matrix', 'Indiana Jones', 'Inceptio
 In diesem Python-Code wird zunächst eine Tupel-Variable `meine_lieblingsfilme` definiert, welche die drei Elemente "Star Wars", "Matrix" und "Indiana Jones" enthält. Anschließend wird ein neues Tupel `neues_tupel` durch Konkatenation von `meine_lieblingsfilme` und einem weiteren Tupel mit dem einzigen Element "Inception" erstellt. Hierbei ist zu beachten, dass das Tupel mit einem Komma am Ende definiert wird, um es als Tupel zu kennzeichnen. Das neue Tupel enthält nun vier Elemente. Schließlich wird das neue Tupel mittels `print` auf der Konsole ausgegeben, wobei die Ausgabe `('Star Wars', 'Matrix', 'Indiana Jones', 'Inception')` lautet.
 
 In Python können Tupel mittels der `+`-Operator zusammengeführt werden. Hierbei wird ein neues Tupel erstellt, welches die Elemente beider ursprünglicher Tupel enthält. Dabei bleiben die ursprünglichen Tupel unverändert, da Tupel in Python unveränderlich sind.
+
+## Fazit 
+
+Abschlussgedöns... (per ChatGPT) 
+
+ 
+
+## Links / Weiteres Material 
+
+### W3Schools 
+
+### YouTube 
