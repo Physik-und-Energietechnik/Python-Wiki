@@ -62,18 +62,21 @@ for = "foreach"  # reserviertes Schlüsselwort
 my-name = "Max"  # Bindestrich ist nicht erlaubt
 ```
 
-### Praxis
+## Praxis
 Nun wollen wir das erlernte Wissen in der Praxis umsetzen! 
 
-#### Aufgabe 1
+### Aufgabe 1
 Schreibe ein Python-Programm, das "Hallo Welt!" auf der Konsole ausgibt und füge einen Kommentar hinzu, der erklärt, was das Programm tut.
 
 ```python
 # Ein einfaches Programm, das "Hallo Welt!" ausgibt
 print("Hallo Welt!")
 ```
+#### Erklärung Musterlösung Aufgabe 1
 
-#### Aufgabe 2
+Dieser Python-Code ist ein einfaches Programm, das "Hallo Welt!" ausgibt. Die `print`-Funktion gibt den Text "Hallo Welt!" auf der Konsole aus. Das `#`-Zeichen markiert den Beginn eines Kommentars im Code. Kommentare dienen dazu, den Code zu dokumentieren und zu erklären. Alles, was nach dem `#`-Zeichen folgt, wird vom Python-Interpreter ignoriert und hat keinen Einfluss auf die Ausführung des Codes. In diesem Fall gibt der Kommentar an, was das Programm tut.
+
+### Aufgabe 2
 Schreibe ein Python-Programm, das den Nutzer nach seinem Namen fragt und dann eine personalisierte Begrüßung ausgibt. Füge einen Kommentar hinzu, der erklärt, was das Programm tut.
 
 ```python
@@ -81,3 +84,6 @@ Schreibe ein Python-Programm, das den Nutzer nach seinem Namen fragt und dann ei
 name = input("Wie ist dein Name? ")
 print("Hallo " + name + "! Willkommen in der Welt von Python!")
 ```
+#### Erklärung Musterlösung Aufgabe 2
+
+Das obige Python-Programm verwendet die `input()`-Funktion, um den Nutzer nach seinem Namen zu fragen. Der eingegebene Name wird in der Variablen `name` gespeichert. Dann wird eine personalisierte Begrüßung mit dem eingegebenen Namen ausgegeben. Die `print()`-Funktion gibt den Text "Hallo ", den eingegebenen Namen und den Text "! Willkommen in der Welt von Python!" aus. Die `+`-Operatoren werden verwendet, um die Texte miteinander zu verketten.
