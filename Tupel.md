@@ -79,13 +79,9 @@ print(meine_lieblingsfarben[1]) # Ausgabe: Grün
 ```
 #### Erklärung Musterlösung Aufgabe 1
 
-Dieser Python-Code definiert eine Variable namens "meine_lieblingsfarben" als eine Tupel-Datenstruktur, die drei Elemente enthält, nämlich "Blau", "Grün" und "Rot".
+In diesem Python-Code wird zunächst eine Tupel-Variable `meine_lieblingsfarben` definiert, welche die drei Elemente "Blau", "Grün" und "Rot" enthält. Anschließend wird mittels der Index-Notation `[1]` auf das zweite Element "Grün" zugegriffen und mittels `print` auf der Konsole ausgegeben. Die Ausgabe des Codes lautet daher `Grün`. 
 
-Die Syntax für die Definition eines Tupels in Python verwendet runde Klammern "()", um die Elemente zu gruppieren und ein Komma "," als Trennzeichen zwischen den Elementen zu verwenden.
-
-In der nächsten Zeile wird der zweite Index des Tupels aufgerufen, indem der Ausdruck "meine_lieblingsfarben[1]" verwendet wird. Beachte, dass Python-Indizes bei 0 beginnen, daher entspricht der Index 1 dem zweiten Element in dem Tupel, nämlich "Grün".
-
-Schließlich wird der String "Grün" auf der Konsole ausgegeben, da er das zweite Element des Tupels "meine_lieblingsfarben" ist. Die Ausgabe wird durch den Befehl "print(meine_lieblingsfarben[1])" erzeugt.
+Tupel in Python sind eine Art geordnete Sammlung von Elementen, ähnlich wie Listen. Der Unterschied zu Listen besteht darin, dass Tupel unveränderlich sind, d.h. ihre Elemente können nach der Definition nicht mehr hinzugefügt, entfernt oder geändert werden.
 
 ### Aufgabe 2
 
@@ -98,10 +94,6 @@ print(neues_tupel) # Ausgabe: ('Star Wars', 'Matrix', 'Indiana Jones', 'Inceptio
 ```
 #### Erklärung Musterlösung Aufgabe 2
 
-Dieser Python-Code definiert zuerst eine Variable namens "meine_lieblingsfilme" als ein Tupel mit drei Elementen, nämlich "Star Wars", "Matrix" und "Indiana Jones". 
+In diesem Python-Code wird zunächst eine Tupel-Variable `meine_lieblingsfilme` definiert, welche die drei Elemente "Star Wars", "Matrix" und "Indiana Jones" enthält. Anschließend wird ein neues Tupel `neues_tupel` durch Konkatenation von `meine_lieblingsfilme` und einem weiteren Tupel mit dem einzigen Element "Inception" erstellt. Hierbei ist zu beachten, dass das Tupel mit einem Komma am Ende definiert wird, um es als Tupel zu kennzeichnen. Das neue Tupel enthält nun vier Elemente. Schließlich wird das neue Tupel mittels `print` auf der Konsole ausgegeben, wobei die Ausgabe `('Star Wars', 'Matrix', 'Indiana Jones', 'Inception')` lautet.
 
-In der nächsten Zeile wird ein neues Tupel "neues_tupel" definiert, das die Elemente des ursprünglichen Tupels "meine_lieblingsfilme" und ein weiteres Element "Inception" enthält. Die Syntax hierfür ist, dass das Plus-Zeichen "+" zwei Tupel miteinander verbindet.
-
-Allerdings muss das neue Element als Tupel definiert werden, indem es von einer einzelnen, mit einem Komma abgeschlossenen Klammergruppe umgeben wird. Dies ist notwendig, um sicherzustellen, dass Python weiß, dass es sich um ein Tupel handelt, das mit dem bestehenden Tupel zusammengeführt werden soll.
-
-In der letzten Zeile wird das neue Tupel "neues_tupel" mit dem zusätzlichen Element "Inception" ausgegeben. Dies wird durch den Befehl "print(neues_tupel)" erreicht, was eine Ausgabe des folgenden Tupels auf der Konsole ergibt: ('Star Wars', 'Matrix', 'Indiana Jones', 'Inception').
+In Python können Tupel mittels der `+`-Operator zusammengeführt werden. Hierbei wird ein neues Tupel erstellt, welches die Elemente beider ursprünglicher Tupel enthält. Dabei bleiben die ursprünglichen Tupel unverändert, da Tupel in Python unveränderlich sind.
