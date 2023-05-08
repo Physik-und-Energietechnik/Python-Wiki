@@ -85,3 +85,15 @@ print("Hallo " + name + "! Willkommen in der Welt von Python!")
 #### Erklärung Musterlösung Aufgabe 2
 
 Das obige Python-Programm verwendet die `input()`-Funktion, um den Nutzer nach seinem Namen zu fragen. Der eingegebene Name wird in der Variablen `name` gespeichert. Dann wird eine personalisierte Begrüßung mit dem eingegebenen Namen ausgegeben. Die `print()`-Funktion gibt den Text "Hallo ", den eingegebenen Namen und den Text "! Willkommen in der Welt von Python!" aus. Die `+`-Operatoren werden verwendet, um die Texte miteinander zu verketten.
+
+## Fazit 
+
+Abschlussgedöns... (per ChatGPT) 
+
+ 
+
+## Links / Weiteres Material 
+
+### W3Schools 
+
+### YouTube 
