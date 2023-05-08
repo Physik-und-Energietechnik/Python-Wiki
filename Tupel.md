@@ -96,7 +96,9 @@ In Python können Tupel mittels der `+`-Operator zusammengeführt werden. Hierbe
 
 ## Fazit 
 
-Abschlussgedöns... (per ChatGPT) 
+Dieses Tutorial hat uns einen Überblick darüber gegeben, wie man Tupel in Python erstellt und verwendet. Wir haben gelernt, dass Tupel unveränderlich sind und aus Elementen bestehen, die durch Kommas getrennt und in Klammern eingeschlossen sind. Wir haben gelernt, wie man auf Elemente in einem Tupel zugreift, indem man den Index des Elements in eckigen Klammern nach dem Namen des Tupels angibt. Außerdem haben wir gelernt, dass Tupel durch Kombinieren von anderen Tupeln erstellt werden können und dass der `tuple()` Konstruktor verwendet werden kann, um eine Sequenz von Elementen in ein Tupel zu konvertieren. Schließlich haben wir gesehen, dass die `len()` Funktion verwendet werden kann, um die Länge eines Tupels zu ermitteln.
+
+Insgesamt sind Tupel in Python eine nützliche Datenstruktur, insbesondere wenn man sicherstellen möchte, dass die Elemente nicht geändert werden können. Durch die Verwendung von Tupeln kann man sicherstellen, dass die Daten in einer bestimmten Reihenfolge vorliegen und die Integrität der Daten beibehalten wird.
 
  
 
