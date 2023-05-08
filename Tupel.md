@@ -36,7 +36,7 @@ print(mein_tupel[0]) # Ausgabe: 1
 
 ### Tupelmanipulation
 
-Wie bereits erwähnt, sind Tupel unveränderlich. Dies bedeutet, dass Sie keine Elemente hinzufügen, entfernen oder ändern können, nachdem Sie das Tupel erstellt haben. Sie können jedoch Tupel kombinieren, um neue Tupel zu erstellen:
+Wie bereits erwähnt, sind Tupel unveränderlich. Dies bedeutet, dass du keine Elemente hinzufügen, entfernen oder ändern kannst, nachdem du den Tupel erstellt hast. du kannst jedoch Tupel kombinieren, um neue Tupel zu erstellen:
 
 ```python
 tupel_eins = (1, 2, 3)
