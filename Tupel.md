@@ -55,6 +55,14 @@ Erstellen Sie ein Tupel mit Ihren Lieblingsfarben und geben Sie die zweite Farbe
 meine_lieblingsfarben = ("Blau", "Grün", "Rot")
 print(meine_lieblingsfarben[1]) # Ausgabe: Grün
 ```
+###Erklärung:
+Dieser Python-Code definiert eine Variable namens "meine_lieblingsfarben" als eine Tupel-Datenstruktur, die drei Elemente enthält, nämlich "Blau", "Grün" und "Rot".
+
+Die Syntax für die Definition eines Tupels in Python verwendet runde Klammern "()", um die Elemente zu gruppieren und ein Komma "," als Trennzeichen zwischen den Elementen zu verwenden.
+
+In der nächsten Zeile wird der zweite Index des Tupels aufgerufen, indem der Ausdruck "meine_lieblingsfarben[1]" verwendet wird. Beachte, dass Python-Indizes bei 0 beginnen, daher entspricht der Index 1 dem zweiten Element in dem Tupel, nämlich "Grün".
+
+Schließlich wird der String "Grün" auf der Konsole ausgegeben, da er das zweite Element des Tupels "meine_lieblingsfarben" ist. Die Ausgabe wird durch den Befehl "print(meine_lieblingsfarben[1])" erzeugt.
 
 ### Aufgabe 2
 
