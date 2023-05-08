@@ -102,6 +102,6 @@ Abschlussgedöns... (per ChatGPT)
 
 ## Links / Weiteres Material 
 
-### W3Schools 
+### [W3Schools](https://www.w3schools.com/python/python_tuples.asp)
 
-### YouTube 
+### [YouTube](https://www.youtube.com/watch?v=sRQeACJYZXE)
