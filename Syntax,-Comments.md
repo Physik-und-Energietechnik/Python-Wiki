@@ -1,7 +1,7 @@
 # Python Tutorial - Syntax, Comments
 
 ## Einführung
-Herzlich willkommen zum Python Tutorial! In diesem Tutorial werden wir uns mit der grundlegenden Syntax von Python befassen und lernen, wie man Kommentare in Python schreibt. Python ist eine leistungsstarke Programmiersprache, die in vielen Bereichen wie Webentwicklung, Datenanalyse, künstliche Intelligenz und vielem mehr eingesetzt wird. Durch dieses Tutorial werden Sie in der Lage sein, grundlegende Python-Programme zu schreiben und zu verstehen.
+In diesem Tutorial werden wir uns mit der grundlegenden Syntax von Python befassen und lernen, wie man Kommentare in Python schreibt. Durch dieses Tutorial wirst du in der Lage sein, grundlegende Python-Programme zu schreiben und zu verstehen.
 
 ## Theorie
 ### Python-Syntax
@@ -30,7 +30,7 @@ print("Dieser Code wird ausgeführt") # Das ist ein Kommentar in Python, der dem
 Nun wollen wir das erlernte Wissen in der Praxis umsetzen! 
 
 #### Aufgabe 1
-Schreiben Sie ein Python-Programm, das "Hallo Welt!" auf der Konsole ausgibt und fügen Sie einen Kommentar hinzu, der erklärt, was das Programm tut.
+Schreibe ein Python-Programm, das "Hallo Welt!" auf der Konsole ausgibt und füge einen Kommentar hinzu, der erklärt, was das Programm tut.
 
 ```python
 # Ein einfaches Programm, das "Hallo Welt!" ausgibt
@@ -38,12 +38,10 @@ print("Hallo Welt!")
 ```
 
 #### Aufgabe 2
-Schreiben Sie ein Python-Programm, das den Nutzer nach seinem Namen fragt und dann eine personalisierte Begrüßung ausgibt. Fügen Sie einen Kommentar hinzu, der erklärt, was das Programm tut.
+Schreibe ein Python-Programm, das den Nutzer nach seinem Namen fragt und dann eine personalisierte Begrüßung ausgibt. Füge einen Kommentar hinzu, der erklärt, was das Programm tut.
 
 ```python
 # Ein Programm, das den Nutzer nach seinem Namen fragt und eine personalisierte Begrüßung ausgibt
 name = input("Wie ist dein Name? ")
 print("Hallo " + name + "! Willkommen in der Welt von Python!")
 ```
-
-Herzlichen Glückwunsch, Sie haben erfolgreich die Grundlagen der Python-Syntax und Kommentare erlernt!
