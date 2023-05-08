@@ -4,7 +4,7 @@
 In diesem Tutorial werden wir uns mit der grundlegenden Syntax von Python befassen und lernen, wie man Kommentare in Python schreibt. Durch dieses Tutorial wirst du in der Lage sein, grundlegende Python-Programme zu schreiben und zu verstehen.
 
 ## Theorie
-Klar, hier sind einige Python-Syntax-Regeln und Beispiele:
+Hier sind einige Python-Syntax-Regeln und Beispiele:
 
 ### Grundlagen der Syntax
 
