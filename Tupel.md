@@ -6,7 +6,7 @@
 
 Tupel sind eine Art von Datenstruktur in Python, die verwendet wird, um eine Sammlung von Elementen zu speichern. Im Gegensatz zu Listen sind Tupel unveränderlich, was bedeutet, dass sie nach ihrer Erstellung nicht mehr geändert werden können. In diesem Tutorial werden wir uns ansehen, wie Tupel in Python erstellt und verwendet werden können.
 
-Nach diesem Tutorial werden Sie wissen:
+Nach diesem Tutorial wirst du wissen:
 - Was Tupel sind und wie man sie erstellt
 - Wie man auf Elemente in einem Tupel zugreift
 - Wie man Tupel in Python manipuliert und verwendet
