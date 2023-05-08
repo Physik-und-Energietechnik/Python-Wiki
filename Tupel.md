@@ -44,6 +44,28 @@ tupel_zwei = (4, 5, 6)
 tupel_drei = tupel_eins + tupel_zwei
 print(tupel_drei) # Ausgabe: (1, 2, 3, 4, 5, 6)
 ```
+ 
+### Der `tuple()` Konstruktor
+
+Ein Tupel kann auf verschiedene Weise erstellt werden. Eine Möglichkeit besteht darin, den `tuple()` Konstruktor zu verwenden. Der `tuple()` Konstruktor erwartet als Argument eine Sequenz von Elementen (z. B. eine Liste oder einen anderen Tupel) und gibt ein neues Tupel mit den Elementen in derselben Reihenfolge zurück. Hier ist ein Beispiel:
+
+```python
+mein_tupel = tuple([1, 2, 3, 4])
+print(mein_tupel) # Ausgabe: (1, 2, 3, 4)
+```
+
+In diesem Beispiel haben wir eine Liste `[1, 2, 3, 4]` als Argument an den `tuple()` Konstruktor übergeben, um ein neues Tupel zu erstellen. Das Ergebnis ist das Tupel `(1, 2, 3, 4)`.
+
+### Länge von Tupeln
+
+Wie bei Listen können wir auch die Länge eines Tupels mithilfe der `len()` Funktion ermitteln. Hier ist ein Beispiel:
+
+```python
+mein_tupel = (1, 2, 3, 4)
+print(len(mein_tupel)) # Ausgabe: 4
+```
+
+In diesem Beispiel haben wir ein Tupel `(1, 2, 3, 4)` erstellt und dann seine Länge mit der `len()` Funktion ermittelt.
 
 ## Praxis
 
