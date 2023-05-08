@@ -1,69 +1,49 @@
-# Python - Syntax, Comments
-
-## Titel
-In diesem Abschnitt geht es um die Syntax von Python und um die Verwendung von Kommentaren.
+# Python Tutorial - Syntax, Comments
 
 ## Einführung
-Python ist eine Programmiersprache, die sehr lesbar und intuitiv ist. Die Syntax von Python ist vergleichsweise einfach zu lernen und zu verstehen. In diesem Abschnitt lernst du die Grundlagen der Python-Syntax und wie du Kommentare in deinem Code verwenden kannst.
+Herzlich willkommen zum Python Tutorial! In diesem Tutorial werden wir uns mit der grundlegenden Syntax von Python befassen und lernen, wie man Kommentare in Python schreibt. Python ist eine leistungsstarke Programmiersprache, die in vielen Bereichen wie Webentwicklung, Datenanalyse, künstliche Intelligenz und vielem mehr eingesetzt wird. Durch dieses Tutorial werden Sie in der Lage sein, grundlegende Python-Programme zu schreiben und zu verstehen.
 
 ## Theorie
 ### Python-Syntax
-Die Syntax von Python definiert die Regeln und Strukturen, die in Python-Code verwendet werden. Ein Beispiel für Python-Syntax ist das Einrücken von Codeblöcken. In Python wird Einrückung verwendet, um Codeblöcke zu definieren. Ein Codeblock wird durch das Einrücken von Code innerhalb von Schleifen, Bedingungen oder Funktionen gebildet. 
+Python-Syntax bezieht sich auf die Regeln, die bestimmen, wie ein gültiges Python-Programm geschrieben wird. Hier sind einige wichtige Syntax-Regeln in Python:
 
-#### Allgemeines Code-Beispiel:
-```
-if x > 0:
-    print("x ist größer als 0")
+#### Einrückungen
+In Python wird Code-Blöcke nicht durch Klammern oder Schlüsselwörter wie "begin" und "end" begrenzt, sondern durch Einrückungen. Die Einrückungen müssen einheitlich sein, um Fehler im Code zu vermeiden. 
+
+```python
+# Ein Beispiel für korrekte Einrückungen:
+if 5 > 2:
+  print("Fünf ist größer als zwei")
 else:
-    print("x ist kleiner als oder gleich 0")
+  print("Das kann nicht sein")
 ```
 
-#### Explizites Code-Beispiel direkt in Python:
+#### Kommentare
+Kommentare sind Textteile im Code, die nicht ausgeführt werden, sondern dem Leser des Codes helfen sollen, diesen zu verstehen. In Python werden Kommentare mit dem `#`-Zeichen eingeleitet. Alles, was nach diesem Zeichen steht, wird von Python ignoriert.
+
 ```python
-if x > 0:
-    print("x ist größer als 0")
-else:
-    print("x ist kleiner als oder gleich 0")
+# Das ist ein Kommentar in Python
+print("Dieser Code wird ausgeführt") # Das ist ein Kommentar in Python, der dem Code folgt
 ```
 
-### Kommentare
-Kommentare sind Texte, die im Code stehen, um den Zweck und die Funktionsweise des Codes zu beschreiben. In Python werden Kommentare mit dem Symbol `#` am Anfang der Zeile eingeführt. Python ignoriert alles nach dem `#`-Symbol. Kommentare sind nützlich, um deinen Code zu dokumentieren und anderen zu helfen, ihn zu verstehen.
+### Praxis
+Nun wollen wir das erlernte Wissen in der Praxis umsetzen! 
 
-#### Allgemeines Code-Beispiel:
-```
-# Dies ist ein Kommentar
-print("Hallo Welt") # Dies ist auch ein Kommentar
-```
+#### Aufgabe 1
+Schreiben Sie ein Python-Programm, das "Hallo Welt!" auf der Konsole ausgibt und fügen Sie einen Kommentar hinzu, der erklärt, was das Programm tut.
 
-#### Explizites Code-Beispiel direkt in Python:
 ```python
-# Dies ist ein Kommentar
-print("Hallo Welt") # Dies ist auch ein Kommentar
+# Ein einfaches Programm, das "Hallo Welt!" ausgibt
+print("Hallo Welt!")
 ```
 
-## Praxis
-### Aufgabe 1
-Schreibe ein Programm, das die Summe der Zahlen von 1 bis 10 berechnet und das Ergebnis ausgibt. Verwende Kommentare, um deinen Code zu dokumentieren.
+#### Aufgabe 2
+Schreiben Sie ein Python-Programm, das den Nutzer nach seinem Namen fragt und dann eine personalisierte Begrüßung ausgibt. Fügen Sie einen Kommentar hinzu, der erklärt, was das Programm tut.
 
-#### Musterlösung
 ```python
-# Berechne die Summe der Zahlen von 1 bis 10
-summe = 0
-for zahl in range(1, 11):
-    summe += zahl
-# Gib das Ergebnis aus
-print("Die Summe der Zahlen von 1 bis 10 ist:", summe)
+# Ein Programm, das den Nutzer nach seinem Namen fragt und eine personalisierte Begrüßung ausgibt
+name = input("Wie ist dein Name? ")
+print("Hallo " + name + "! Willkommen in der Welt von Python!")
 ```
 
-### Aufgabe 2
-Schreibe ein Programm, das eine Liste von Zahlen sortiert. Verwende Kommentare, um deinen Code zu dokumentieren.
-
-#### Musterlösung
-```python
-# Definiere eine Liste von Zahlen
-zahlen = [3, 6, 1, 8, 2, 10, 5]
-# Sortiere die Liste
-zahlen.sort()
-# Gib die sortierte Liste aus
-print("Die sortierte Liste lautet:", zahlen)
-```
+Herzlichen Glückwunsch, Sie haben erfolgreich die Grundlagen der Python-Syntax und Kommentare erlernt!
