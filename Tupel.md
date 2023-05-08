@@ -71,7 +71,7 @@ In diesem Beispiel haben wir ein Tupel `(1, 2, 3, 4)` erstellt und dann seine L�
 
 ### Aufgabe 1
 
-Erstellen Sie ein Tupel mit Ihren Lieblingsfarben und geben Sie die zweite Farbe in der Liste aus.
+Erstelle ein Tupel mit deinen Lieblingsfarben und gebe die zweite Farbe in der Liste aus.
 
 ```python
 meine_lieblingsfarben = ("Blau", "Grün", "Rot")
@@ -85,7 +85,7 @@ Tupel in Python sind eine Art geordnete Sammlung von Elementen, ähnlich wie Lis
 
 ### Aufgabe 2
 
-Erstellen Sie ein Tupel mit den Namen Ihrer Lieblingsfilme. Fügen Sie dann einen weiteren Film hinzu und speichern Sie das Ergebnis in einer neuen Variablen. Geben Sie die neue Variable aus.
+Erstelle ein Tupel mit den Namen deiner Lieblingsfilme. Füge dann einen weiteren Film hinzu und Speicher das Ergebnis in einer neuen Variablen. Geben die neue Variable aus.
 
 ```python
 meine_lieblingsfilme = ("Star Wars", "Matrix", "Indiana Jones")
