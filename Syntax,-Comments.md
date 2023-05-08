@@ -88,8 +88,6 @@ Das obige Python-Programm verwendet die `input()`-Funktion, um den Nutzer nach s
 
 ## Fazit 
 
-## Fazit
-
 In diesem Tutorial haben wir die grundlegende Syntax von Python kennengelernt und gelernt, wie man Kommentare in Python schreibt. Wir haben gelernt, dass Kommentare in Python mit dem Rautezeichen `#` beginnen und vom Interpreter ignoriert werden. Sie sind nützlich, um den Code zu dokumentieren und Hinweise für andere Entwickler zu geben.
 
 Wir haben auch gelernt, dass Python Einrückungen verwendet, um Blöcke von Code anzuzeigen, und dass Variablen in Python durch Zuweisung erstellt werden und nicht vorher deklariert werden müssen. Wir haben auch die Regeln für Variablennamen in Python besprochen.
