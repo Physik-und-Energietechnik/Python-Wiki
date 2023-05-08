@@ -55,7 +55,8 @@ Erstellen Sie ein Tupel mit Ihren Lieblingsfarben und geben Sie die zweite Farbe
 meine_lieblingsfarben = ("Blau", "Grün", "Rot")
 print(meine_lieblingsfarben[1]) # Ausgabe: Grün
 ```
-### Erklärung:
+#### Erklärung Musterlösung Aufgabe 1
+
 Dieser Python-Code definiert eine Variable namens "meine_lieblingsfarben" als eine Tupel-Datenstruktur, die drei Elemente enthält, nämlich "Blau", "Grün" und "Rot".
 
 Die Syntax für die Definition eines Tupels in Python verwendet runde Klammern "()", um die Elemente zu gruppieren und ein Komma "," als Trennzeichen zwischen den Elementen zu verwenden.
@@ -64,7 +65,7 @@ In der nächsten Zeile wird der zweite Index des Tupels aufgerufen, indem der Au
 
 Schließlich wird der String "Grün" auf der Konsole ausgegeben, da er das zweite Element des Tupels "meine_lieblingsfarben" ist. Die Ausgabe wird durch den Befehl "print(meine_lieblingsfarben[1])" erzeugt.
 
-#### Aufgabe 2
+### Aufgabe 2
 
 Erstellen Sie ein Tupel mit den Namen Ihrer Lieblingsfilme. Fügen Sie dann einen weiteren Film hinzu und speichern Sie das Ergebnis in einer neuen Variablen. Geben Sie die neue Variable aus.
 
@@ -73,3 +74,12 @@ meine_lieblingsfilme = ("Star Wars", "Matrix", "Indiana Jones")
 neues_tupel = meine_lieblingsfilme + ("Inception",)
 print(neues_tupel) # Ausgabe: ('Star Wars', 'Matrix', 'Indiana Jones', 'Inception')
 ```
+#### Erklärung Musterlösung Aufgabe 2
+
+Der Python-Code definiert zuerst eine Variable namens "meine_lieblingsfilme" als ein Tupel mit drei Elementen, nämlich "Star Wars", "Matrix" und "Indiana Jones". 
+
+In der nächsten Zeile wird ein neues Tupel "neues_tupel" definiert, das die Elemente des ursprünglichen Tupels "meine_lieblingsfilme" und ein weiteres Element "Inception" enthält. Die Syntax hierfür ist, dass das Plus-Zeichen "+" zwei Tupel miteinander verbindet.
+
+Allerdings muss das neue Element als Tupel definiert werden, indem es von einer einzelnen, mit einem Komma abgeschlossenen Klammergruppe umgeben wird. Dies ist notwendig, um sicherzustellen, dass Python weiß, dass es sich um ein Tupel handelt, das mit dem bestehenden Tupel zusammengeführt werden soll.
+
+In der letzten Zeile wird das neue Tupel "neues_tupel" mit dem zusätzlichen Element "Inception" ausgegeben. Dies wird durch den Befehl "print(neues_tupel)" erreicht, was eine Ausgabe des folgenden Tupels auf der Konsole ergibt: ('Star Wars', 'Matrix', 'Indiana Jones', 'Inception').
