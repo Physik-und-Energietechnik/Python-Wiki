@@ -76,7 +76,7 @@ print(neues_tupel) # Ausgabe: ('Star Wars', 'Matrix', 'Indiana Jones', 'Inceptio
 ```
 #### Erklärung Musterlösung Aufgabe 2
 
-Der Python-Code definiert zuerst eine Variable namens "meine_lieblingsfilme" als ein Tupel mit drei Elementen, nämlich "Star Wars", "Matrix" und "Indiana Jones". 
+Dieser Python-Code definiert zuerst eine Variable namens "meine_lieblingsfilme" als ein Tupel mit drei Elementen, nämlich "Star Wars", "Matrix" und "Indiana Jones". 
 
 In der nächsten Zeile wird ein neues Tupel "neues_tupel" definiert, das die Elemente des ursprünglichen Tupels "meine_lieblingsfilme" und ein weiteres Element "Inception" enthält. Die Syntax hierfür ist, dass das Plus-Zeichen "+" zwei Tupel miteinander verbindet.
 
