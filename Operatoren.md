@@ -1,10 +1,12 @@
+# **Python - Operatoren**
+
 ## **Einführung**
 Willkommen zu diesem Python-Tutorial über Operatoren. In diesem Tutorial werden wir uns mit den verschiedenen Arten von Operatoren in Python befassen und wie man sie benutzt. Wir werden uns auch einige praktische Anwendungen ansehen, um zu verstehen, wie Operatoren in der Praxis verwendet werden können.
 
 ## **Theorie**
 Operatoren sind Symbole oder Schlüsselwörter in Python, die verwendet werden, um arithmetische oder logische Operationen auf Variablen und Werten durchzuführen. In Python gibt es verschiedene Arten von Operatoren, darunter:
 
-* ### **Arithmetische Operatoren** 
+### **Arithmetische Operatoren** 
 Diese Operatoren werden verwendet, um mathematische Berechnungen durchzuführen, wie **Addition(+), Subtraktion(-), Multiplikation(*), Division(/), Potenz(**) und Modulo(%)**.
 Hier ist **ein allgemeines Code-Beispiel**:
 
@@ -55,7 +57,7 @@ c = a ** b
 print(c)  # Ausgabe: 8
 ```
 
-* ### **Logische Operatoren**
+### **Logische Operatoren**
 Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und auszuwerten. Dazu gehören **AND (und), OR (oder) und NOT (nicht)**.
 
 **Allgemeines Code-Beispiel:**
@@ -88,7 +90,7 @@ c = not a
 print(c)  # Ausgabe: False
 ```
 
-* ### **Vergleichsoperatoren**
+### **Vergleichsoperatoren**
 Vergleichsoperatoren werden verwendet, um den Vergleich von Variablen oder Ausdrücken durchzuführen. Dazu gehören **!= (ungleich), == (gleich), > (größer als), < (kleiner als), >= (größer oder gleich) und <= (kleiner oder gleich)**.
 
 **Allgemeines Code-Beispiel**:
@@ -112,7 +114,7 @@ print(a < b)   # Ausgabe: False
 print(a >= b)  # Ausgabe: True
 print(a <= b)  # Ausgabe: False
 ```
-* ### **Zuweisungs-Operatoren:**
+### **Zuweisungs-Operatoren:**
 Zuweisungs-Operatoren werden verwendet, um Werte einer Variablen zuzuweisen.
 
 **Allgemeines Code-Beispiel:**
