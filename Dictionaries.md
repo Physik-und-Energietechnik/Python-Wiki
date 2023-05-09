@@ -193,7 +193,7 @@ print(len(my_dict))   # Output: 3
 ```
 
 ## Praxis
-### Aufgabe 1:
+### Aufgabe 1
 
 Erstelle ein Python-Dictionary mit dem Namen "person". Fülle es mit den Schlüssel-Wert-Paaren "name" (string), "alter" (integer) und "wohnort" (string). Gib dann den Namen und das Alter der Person aus.
 
@@ -207,7 +207,7 @@ print("Alter:", person["alter"])
 
 Erklärung: Zunächst wird ein leeres Dictionary mit dem Namen "person" erstellt. Dann wird das Dictionary mit den Schlüssel-Wert-Paaren "name", "alter" und "wohnort" gefüllt. Mit den Schlüsseln kann man auf die entsprechenden Werte zugreifen und sie ausgeben.
 
-### Aufgabe 2:
+### Aufgabe 2
 
 Erstelle eine Funktion in Python, die ein Dictionary akzeptiert und die Anzahl der Werte zurückgibt, die in dem Dictionary mindestens doppelt vorkommen.
 
