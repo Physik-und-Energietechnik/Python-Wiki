@@ -20,6 +20,7 @@ Es gibt verschiedene Datentypen in Python. Hier sind einige der häufigsten:
 * Ganzzahlen: z.B. `42`
 * Gleitkommazahlen: z.B. `3.14`
 * Boolesche Werte: `True` oder `False`
+* Komplexe Zahlen: z.B. 2 + 3j
 
 Python erkennt den Datentyp automatisch, wenn du eine Variable erstellst. Du kannst den Datentyp einer Variable auch explizit überprüfen, indem du die `type()`-Funktion verwendest:
 
@@ -37,6 +38,8 @@ print(type(height))     # Output: <class 'float'>
 is_student = True       # Boolescher Wert
 print(type(is_student)) # Output: <class 'bool'>
 
+c = 2 + 3j              # Komplexe Zahl
+print(type(c))          # Output: <class 'complex'>
 ```
 
 Die `type()`-Funktion ist in Python eine integrierte Funktion, die den Datentyp einer Variable zurückgibt. Sie kann auf alle Variablen angewendet werden, um ihren Datentyp zu überprüfen.
@@ -94,7 +97,10 @@ print(result) # Output: 50.0
 
 ## Fazit
 Abschlussgedöns... (per ChatGPT)
+Kommt nix vernüfntiges bei rum xD
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+https://www.w3schools.com/python/python_variables.asp
+https://www.w3schools.com/python/python_datatypes.asp
+https://www.w3schools.com/python/python_numbers.asp
+https://www.w3schools.com/python/python_casting.asp
