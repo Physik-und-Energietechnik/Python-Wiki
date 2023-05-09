@@ -3,7 +3,7 @@
 # Python Tutorial - Dictionaries
 
 ## Einführung
-In diesem Abschnitt lernst du, wie du in Python Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Mit Dictionaries kannst du Daten in Form von Schlüssel-Wert-Paaren speichern. Diese Art der Datenstruktur kann besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bietet. Am Ende dieses Tutorials wirst du in der Lage sein, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr!
+In diesem Abschnitt lernst du, wie du in Python Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Mit Dictionaries kannst du Daten in Form von Schlüssel-Wert-Paaren speichern. Diese Art der Datenstruktur kann besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bietet. Am Ende dieses Abschnitts wirst du in der Lage sein, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr!
 ## Theorie
 
 ### Was sind Dictionaries?
@@ -130,7 +130,7 @@ person.clear()
 print(person)  # {}
 ```
 
-### Durch ein Dictionary Schleifen
+### Durch ein Dictionary schleifen
 
 Es gibt verschiedene Möglichkeiten, durch ein Dictionary zu iterieren und auf dessen Elemente zuzugreifen. Eine Möglichkeit besteht darin, die `items()` Methode zu verwenden, die eine Liste von Tupeln zurückgibt, wobei jedes Tupel einen Schlüssel und den dazugehörigen Wert enthält. Zum Beispiel:
 
@@ -210,4 +210,25 @@ print("Alter:", person["alter"])
 
 Erklärung: Zunächst wird ein leeres Dictionary mit dem Namen "person" erstellt. Dann wird das Dictionary mit den Schlüssel-Wert-Paaren "name", "alter" und "wohnort" gefüllt. Mit den Schlüsseln kann man auf die entsprechenden Werte zugreifen und sie ausgeben.
 
-Herzlichen Glückwunsch, du hast das Python Tutorial zu Dictionaries erfolgreich abgeschlossen! Du hast gelernt, wie du Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Dictionaries können besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bieten. Am Ende dieses Tutorials bist du nun in der Lage, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr. Mit diesem Wissen kannst du jetzt komplexere Python-Anwendungen schreiben und effektiver arbeiten. Viel Spaß beim Entwickeln!
+### Aufgabe 2:
+
+Erstelle eine Funktion in Python, die ein Dictionary akzeptiert und die Anzahl der Werte zurückgibt, die in dem Dictionary mindestens doppelt vorkommen.
+
+Beispiel:
+Input: {'a': 1, 'b': 2, 'c': 2, 'd': 3, 'e': 3, 'f': 3}
+Output: 2
+Erklärung: Die Werte 2 und 3 kommen jeweils mindestens zweimal vor, daher ist die Ausgabe 2.
+
+Musterlösung:
+```python
+def count_double_values(my_dict):
+    count = 0
+    for value in my_dict.values():
+        if list(my_dict.values()).count(value) >= 2:
+            count += 1
+    return count
+```
+
+Erlärung: Zunächst wird eine Variable "count" initialisiert, um zu zählen, wie oft Werte mindestens doppelt vorkommen. Dann wird eine Schleife durch jedes Element in my_dict.values() durchlaufen. In jeder Iteration wird geprüft, ob der Wert mindestens zweimal in my_dict.values() vorkommt. Wenn ja, wird die Zählvariable erhöht. Schließlich wird die Anzahl der doppelt vorkommenden Werte als Ergebnis zurückgegeben.
+
+Herzlichen Glückwunsch, du hast den Abschnitt zu Dictionaries erfolgreich abgeschlossen! Du hast gelernt, wie du Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Dictionaries können besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bieten. Am Ende dieses Tutorials bist du nun in der Lage, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr. Mit diesem Wissen kannst du jetzt komplexere Python-Anwendungen schreiben und effektiver arbeiten.
