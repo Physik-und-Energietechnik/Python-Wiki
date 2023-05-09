@@ -13,14 +13,14 @@ Aber warum sind Listen so wichtig? Nun, sie erlauben es uns, viele Elemente auf 
 
 Hier sind die grundlegenden Operationen einer Liste in Python:
 
-### Erstellung einer Liste:
+### Erstellung einer Liste
 Du kannst eine Liste in Python erstellen, indem du die Elemente in eckigen Klammern `[]` mit einem Komma getrennt einfügst.
 
 ```python
 meine_liste = ["Apfel", "Birne", "Kirsche"]
 ```
 
-### Zugriff auf Elemente in einer Liste:
+### Zugriff auf Elemente in einer Liste
 Du kannst auf jedes Element in der Liste zugreifen, indem du den Index des Elements verwendest. Beachte, dass in Python die Indizierung bei 0 beginnt.
 
 ```python
@@ -28,7 +28,7 @@ meine_liste = ["Apfel", "Birne", "Kirsche"]
 print(meine_liste[0]) # Ausgabe: "Apfel"
 ```
 
-### Ändern eines Elements in einer Liste:
+### Ändern eines Elements in einer Liste
 Du kannst ein Element in der Liste ändern, indem du auf das Element zugreifst und es überschreibst.
 
 ```python
@@ -37,7 +37,7 @@ meine_liste[1] = "Orange"
 print(meine_liste) # Ausgabe: ["Apfel", "Orange", "Kirsche"]
 ```
 
-### Hinzufügen eines Elements zu einer Liste:
+### Hinzufügen eines Elements zu einer Liste
 Du kannst ein Element am Ende der Liste hinzufügen, indem du die `append()`-Methode verwendest.
 
 ```python
@@ -46,7 +46,7 @@ meine_liste.append("Pfirsich")
 print(meine_liste) # Ausgabe: ["Apfel", "Birne", "Kirsche", "Pfirsich"]
 ```
 
-### Entfernen eines Elements aus einer Liste:
+### Entfernen eines Elements aus einer Liste
 Du kannst ein Element aus der Liste entfernen, indem du die `remove()`-Methode verwendest und den Wert des Elements übergibst.
 
 ```python
@@ -55,7 +55,7 @@ meine_liste.remove("Kirsche")
 print(meine_liste) # Ausgabe: ["Apfel", "Birne"]
 ```
 
-### Entfernen und Rückgabe eines Elements aus einer Liste:
+### Entfernen und Rückgabe eines Elements aus einer Liste
 Du kannst ein Element aus der Liste entfernen und gleichzeitig zurückgeben, indem du die `pop()`-Methode verwendest und den Index des Elements übergibst.
 
 ```python
