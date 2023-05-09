@@ -64,6 +64,50 @@ entferntes_element = meine_liste.pop(1)
 print(entferntes_element) # Ausgabe: "Birne"
 print(meine_liste) # Ausgabe: ["Apfel", "Kirsche"]
 ```
+Natürlich, ich werde den vorherigen Gedanken fortsetzen. Hier sind einige weitere grundlegende Operationen, die du mit Listen in Python durchführen kannst:
+
+### Einfügen eines Elements an einer bestimmten Stelle
+Du kannst ein Element an einer bestimmten Position in der Liste einfügen, indem du die `insert()`-Methode verwendest und den Index der Position und den Wert des Elements übergibst.
+
+    ```python
+    meine_liste = ["Apfel", "Birne", "Kirsche"]
+    meine_liste.insert(1, "Orange")
+    print(meine_liste) # Ausgabe: ["Apfel", "Orange", "Birne", "Kirsche"]
+    ```
+
+###Länge einer Liste:
+Du kannst die Anzahl der Elemente in der Liste mit der `len()`-Funktion ermitteln.
+
+    ```python
+    meine_liste = ["Apfel", "Birne", "Kirsche"]
+    print(len(meine_liste)) # Ausgabe: 3
+    ```
+
+- **Sortieren einer Liste:** Du kannst eine Liste in aufsteigender Reihenfolge mit der `sort()`-Methode sortieren.
+
+    ```python
+    meine_liste = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+    meine_liste.sort()
+    print(meine_liste) # Ausgabe: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+    ```
+
+### Umkehren einer Liste:
+Du kannst die Reihenfolge der Elemente in der Liste umkehren, indem du die `reverse()`-Methode verwendest.
+
+    ```python
+    meine_liste = ["Apfel", "Birne", "Kirsche"]
+    meine_liste.reverse()
+    print(meine_liste) # Ausgabe: ["Kirsche", "Birne", "Apfel"]
+    ```
+
+### Überprüfen, ob ein Element in einer Liste vorhanden ist
+Du kannst prüfen, ob ein bestimmtes Element in der Liste vorhanden ist, indem du den `in`-Operator verwendest.
+
+    ```python
+    meine_liste = ["Apfel", "Birne", "Kirsche"]
+    print("Apfel" in meine_liste) # Ausgabe: True
+    print("Pfirsich" in meine_liste) # Ausgabe: False
+    ```
 
 ## Praxis
 Nun, da du die Theorie kennst, ist es Zeit für die Praxis! Hier sind zwei Übungen für dich, um dein neues Wissen zu testen.
