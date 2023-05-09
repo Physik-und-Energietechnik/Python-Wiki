@@ -59,7 +59,7 @@ print(c)  # Ausgabe: 8
 
 ### **Logische Operatoren**
 Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und auszuwerten. Dazu gehören **AND (und), OR (oder) und NOT (nicht)**. 
-Mithilfe von der Tabelle zu Logik Gattern können wir die logische Operatoren anwenden ( für 1 = True, 0 = False )  : 
+Mithilfe von der Tabelle zu Logik Gattern kann man die logischen Operatoren anwenden ( für 1 = True, 0 = False )  : 
 
 
 | A | B | A AND B | A OR B | NOT A |
