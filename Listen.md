@@ -91,7 +91,7 @@ Du kannst eine Liste in aufsteigender Reihenfolge mit der `sort()`-Methode sorti
     print(meine_liste) # Ausgabe: [1, 1, 2, 3, 4, 5, 5, 6, 9]
     ```
 
-### Umkehren einer Liste:
+### Umkehren einer Liste
 Du kannst die Reihenfolge der Elemente in der Liste umkehren, indem du die `reverse()`-Methode verwendest.
 
     ```python
