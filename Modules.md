@@ -98,8 +98,13 @@ print(zufallsliste(10))
 
 ## Fazit
 
-## Links / Weiteres Material 
+Herzlichen Glückwunsch! Du hast erfolgreich die Grundlagen von Python-Modulen erlernt und gelernt, wie man Standardmodule und eigene Module erstellt. Durch das Importieren von Modulen können wir unseren Code strukturieren und zusätzliche Funktionalitäten nutzen, die Python standardmäßig nicht bietet. Wir haben auch einige praktische Anwendungsbeispiele gesehen und sowohl eine leichte als auch eine schwere Aufgabe gelöst.
 
-### W3Schools 
+Denk daran, dass es eine Vielzahl von Standardmodulen in Python gibt, die dir die Arbeit erleichtern können. Es gibt jedoch auch viele Drittmodule, die du installieren und nutzen kannst, um noch komplexere Aufgaben zu lösen.
 
-### YouTube 
+Ich hoffe, dass dieser kurze Überblick über Python-Module dir hilfreich war und du dich nun besser in der Welt der Python-Entwicklung zurechtfindest. Viel Erfolg beim Programmieren!
+
+## Links / Weiteres Material
+
+- [W3Schools Python Module Tutorial](https://www.w3schools.com/python/python_modules.asp)
+- [Python Standard Library](https://docs.python.org/3/library/index.html)
