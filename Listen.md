@@ -10,6 +10,7 @@ Stell dir vor, du bist in der Schule und musst eine Liste von Dingen machen, die
 Aber warum sind Listen so wichtig? Nun, sie erlauben es uns, viele Elemente auf einmal zu speichern und darauf zuzugreifen, ohne jedes einzelne Element nennen zu müssen. Wir können sie auch dynamisch verändern, Elemente hinzufügen oder entfernen und so vieles mehr. Kurz gesagt, Listen sind ein wichtiges Werkzeug in der Programmierung und ein Must-have in deinem Python-Arsenal.
 
 ## Theorie
+Eine Liste ist eine geordnete Sammlung von Elementen, die in eckigen Klammern [] eingeschlossen sind und durch Kommata getrennt sind. Eine Liste kann beliebig viele Elemente enthalten und sie können von jedem beliebigen Datentyp sein (z. B. Zahlen, Zeichenketten, andere Listen usw.).
 
 Hier sind die grundlegenden Operationen einer Liste in Python:
 
