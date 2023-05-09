@@ -1,4 +1,3 @@
-# Python - Modules
 
 ## Einführung
 
