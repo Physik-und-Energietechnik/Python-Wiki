@@ -88,3 +88,6 @@ Am Ende der Schleife hat `factorial` den Wert 120, der die Fakultät von 5 ist.
 
 
 Herzlichen Glückwunsch, du hast erfolgreich Ein- und Ausgabe in der Konsole gelernt!
+
+## Links / Weiteres Material
+https://www.programiz.com/python-programming/input-output-import
