@@ -19,11 +19,11 @@ print(math.sqrt(16))   # Ausgabe: 4.0
 
 Alternativ können wir auch ein Modul mit einem Alias importieren, indem wir dem Modulnamen ein Alias mit dem `as`-Keyword zuweisen. Dies kann hilfreich sein, wenn wir ein langes Modul mit einem kurzen Alias verwenden möchten.
 
-```python
-import numpy as np
+import math as m
 
-print(np.array([1, 2, 3]))   # Ausgabe: [1 2 3]
-```
+print(m.pi)  # 3.141592653589793
+print(m.sqrt(4))  # 2.0
+
 
 ### Eigene Module erstellen
 Wir haben auch die Möglichkeit, unsere eigenen Module zu erstellen. Hierfür können wir einfach eine neue Datei mit dem gewünschten Modulnamen erstellen und unsere Funktionen oder Klassen definieren. Um das Modul in unserem Code zu verwenden, müssen wir es einfach nur importieren.
