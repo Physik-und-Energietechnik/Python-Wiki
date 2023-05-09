@@ -74,7 +74,7 @@ meine_liste.insert(1, "Orange")
 print(meine_liste) # Ausgabe: ["Apfel", "Orange", "Birne", "Kirsche"]
 ```
 
-###Länge einer Liste
+### Länge einer Liste
 Du kannst die Anzahl der Elemente in der Liste mit der `len()`-Funktion ermitteln.
 
 ```python
@@ -82,7 +82,7 @@ meine_liste = ["Apfel", "Birne", "Kirsche"]
 print(len(meine_liste)) # Ausgabe: 3
 ```
 
-###Sortieren einer Liste
+### Sortieren einer Liste
 Du kannst eine Liste in aufsteigender Reihenfolge mit der `sort()`-Methode sortieren.
 
 ```python
