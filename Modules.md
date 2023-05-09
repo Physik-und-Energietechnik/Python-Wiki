@@ -102,8 +102,6 @@ Herzlichen Glückwunsch! Du hast erfolgreich die Grundlagen von Python-Modulen e
 
 Denk daran, dass es eine Vielzahl von Standardmodulen in Python gibt, die dir die Arbeit erleichtern können. Es gibt jedoch auch viele Drittmodule, die du installieren und nutzen kannst, um noch komplexere Aufgaben zu lösen.
 
-Ich hoffe, dass dieser kurze Überblick über Python-Module dir hilfreich war und du dich nun besser in der Welt der Python-Entwicklung zurechtfindest. Viel Erfolg beim Programmieren!
-
 ## Links / Weiteres Material
 
 - [W3Schools Python Module Tutorial](https://www.w3schools.com/python/python_modules.asp)
