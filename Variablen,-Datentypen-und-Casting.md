@@ -4,14 +4,20 @@ In diesem Abschnitt geht es darum, wie man Variablen in Python benutzt und wie m
 ## Theorie
 
 ### Variablen
-Variablen sind einfach Behälter, in denen du Werte speichern kannst. Stell dir eine Schublade vor, in der du Dinge aufbewahren kannst. In Python kannst du Variablen auf diese Weise definieren:
+Variablen sind einfach Behälter, in denen du Werte speichern kannst. Stell dir eine Schublade vor, in der du Dinge aufbewahren kannst. In Python sind Variablen case-sensitive, was bedeutet, dass Variablennamen, die sich in ihrer Groß- und Kleinschreibung unterscheiden, als unterschiedliche Variablen betrachtet werden.
+
+Zum Beispiel sind die Variablen "name" und "Name" in Python zwei verschiedene Variablen, die unterschiedliche Werte speichern können. Das bedeutet, dass du beim Benennen von Variablen darauf achten musst, dass du die Groß- und Kleinschreibung richtig verwendest. In Python kannst du Variablen auf diese Weise definieren:
 
 ```python
 name = "Max"
+Name = "Lisa"
 age = 30
+Age = 25
+print(name) # Output: Max
+print(Name) # Output: Lisa
 ```
 
-Hier haben wir zwei Variablen definiert. Eine namens `name` und eine andere namens `age`. Wir haben den Wert `"Max"` der Variable `name` zugewiesen und den Wert `30` der Variable `age`. Beachte, dass wir hier Anführungszeichen für den `name` verwendet haben, da es sich um einen String handelt, während wir für `age` keine Anführungszeichen verwendet haben, da es sich um eine Ganzzahl handelt.
+Hier haben wir zwei Variablen definiert. Eine namens `name` und eine andere namens `age`. Wir haben den Wert `"Max"` der Variable `name` zugewiesen und den Wert `30` der Variable `age`. Beachte, dass wir hier Anführungszeichen für den `name` verwendet haben, da es sich um einen String handelt, während wir für `age` keine Anführungszeichen verwendet haben, da es sich um eine Ganzzahl handelt. Beachte auch, dass die Variablen "name" und "Name" unterschiedliche Werte haben und dass die Groß- und Kleinschreibung in den print-Anweisungen beibehalten wird.
 
 ### Datentypen
 Es gibt verschiedene Datentypen in Python. Hier sind einige der häufigsten:
