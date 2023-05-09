@@ -51,9 +51,13 @@ Python verf체gt 체ber viele Standardmodule, die h채ufig verwendete Funktionalit�
 - `re`: Funktionen zum Arbeiten mit regul채ren Ausdr체cken
 
 ```python
-import os
+import random
 
-print(os.getcwd())   # Ausgabe: /home/user
+# Generiere eine zuf채llige Ganzzahl zwischen 1 und 10 (inklusive)
+zahl = random.randint(1, 10)
+
+# Gebe die generierte Zahl aus
+print("Die zuf채llige Zahl ist:", zahl)
 ```
 
 ## Praxis
