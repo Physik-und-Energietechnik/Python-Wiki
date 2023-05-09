@@ -74,7 +74,7 @@ Du kannst ein Element an einer bestimmten Position in der Liste einfügen, indem
     print(meine_liste) # Ausgabe: ["Apfel", "Orange", "Birne", "Kirsche"]
     ```
 
-###Länge einer Liste:
+###Länge einer Liste
 Du kannst die Anzahl der Elemente in der Liste mit der `len()`-Funktion ermitteln.
 
     ```python
