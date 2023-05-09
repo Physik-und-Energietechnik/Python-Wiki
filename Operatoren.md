@@ -193,7 +193,7 @@ else:
     print(zahl, "ist eine ungerade Zahl")
 ```
 
-**Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable **'zahl'** gespeichert. Anschließend wird mit Hilfe des Modulo-Operators **'%'** geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
+**Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable 'zahl' gespeichert. Anschließend wird mit Hilfe des Modulo-Operators '%' geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
 
 
 
