@@ -82,7 +82,8 @@ Du kannst die Anzahl der Elemente in der Liste mit der `len()`-Funktion ermittel
     print(len(meine_liste)) # Ausgabe: 3
     ```
 
-- **Sortieren einer Liste:** Du kannst eine Liste in aufsteigender Reihenfolge mit der `sort()`-Methode sortieren.
+###Sortieren einer Liste
+Du kannst eine Liste in aufsteigender Reihenfolge mit der `sort()`-Methode sortieren.
 
     ```python
     meine_liste = [3, 1, 4, 1, 5, 9, 2, 6, 5]
