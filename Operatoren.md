@@ -58,7 +58,16 @@ print(c)  # Ausgabe: 8
 ```
 
 ### **Logische Operatoren**
-Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und auszuwerten. Dazu gehören **AND (und), OR (oder) und NOT (nicht)**.
+Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und auszuwerten. Dazu gehören **AND (und), OR (oder) und NOT (nicht)**. Mithilfe von der Tabelle zu Logik Gattern können wir die logische Operatoren anwenden ( für 1 = True, 0 = False )  : 
+
+```python
+| A | B | A AND B | A OR B | NOT A |
+|---|---|---------|--------|-------|
+| 0 | 0 | 0       | 0      | 1     |
+| 0 | 1 | 0       | 1      | 1     |
+| 1 | 0 | 0       | 1      | 0     |
+| 1 | 1 | 1       | 1      | 0     |
+```
 
 **Allgemeines Code-Beispiel:**
 
@@ -154,12 +163,24 @@ print(a)   # Ausgabe: 0
 
 ## **Praxis**
 
-Um das erlangte Wissen über Python-Operatoren zu festigen, soll im Folgenden eine etwas leichtere Aufgabe gestellt werden, die mit Hilfe der Operatoren gelöst werden kann.
+Um das erlangte Wissen über Python-Operatoren zu festigen, sollen im Folgenden die beiden Aufgabe gestellt werden, die mit Hilfe der Operatoren gelöst werden kann.
 
-### **Aufgabe:** 
+### **Aufgabe1:**
+Schreibe ein Python-Programm, das zwei Zahlen addieret.
+
+**Musterlösung:** 
+```python
+zahl_1 = 5
+zahl_2 = 3
+Summe = zahl_1 + zahl_2
+print(Summe)
+```
+**Erklärung:** In dieser Musterlösung werden zwei Zahlen (zahl_1 und zahl_2) mithilfe des Additionsoperators (+) addiert und das Ergebnis in der Variablen "Summe" gespeichert. Die Ausgabe zeigt das Ergebnis der Addition.
+
+### **Aufgabe2:** 
 Schreibe ein Python-Programm, das den Benutzer nach einer Zahl fragt und dann überprüft, ob diese Zahl gerade oder ungerade ist. Gib entsprechend aus, ob es sich um eine gerade oder ungerade Zahl handelt.
 
-* **Musterlösung:**
+**Musterlösung:**
 ```python
 # Eingabeaufforderung für eine Zahl
 zahl = int(input("Bitte geben Sie eine Zahl ein: "))
@@ -171,7 +192,7 @@ else:
     print(zahl, "ist eine ungerade Zahl")
 ```
 
-* **Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable **'zahl'** gespeichert. Anschließend wird mit Hilfe des Modulo-Operators **'%'** geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
+**Erklärung:** In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable **'zahl'** gespeichert. Anschließend wird mit Hilfe des Modulo-Operators **'%'** geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
 
 
 
