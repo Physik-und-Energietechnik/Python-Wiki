@@ -94,7 +94,7 @@ def zufallsliste(n):
     return [random.randint(0, 100) for _ in range(n)]
 
 print(zufallsliste(10))
-
+```
 ###Fazit
 
 ## Links / Weiteres Material 
