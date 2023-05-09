@@ -1,7 +1,4 @@
 
-
-# Python - Listen
-
 ## Einführung
 Listen gehören zu den grundlegenden Datenstrukturen in Python und sind ein wichtiges Werkzeug in der Programmierung. In diesem Abschnitt lernst du, wie man Listen erstellt, sie manipuliert und darauf zugreift. Aber bevor wir loslegen, lass uns eine wichtige Frage klären: Was sind Listen überhaupt?
 
