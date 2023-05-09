@@ -100,7 +100,8 @@ Abschlussgedöns... (per ChatGPT)
 Kommt nix vernüfntiges bei rum xD
 
 ## Links / Weiteres Material
-https://www.w3schools.com/python/python_variables.asp
-https://www.w3schools.com/python/python_datatypes.asp
-https://www.w3schools.com/python/python_numbers.asp
-https://www.w3schools.com/python/python_casting.asp
+
+* https://www.w3schools.com/python/python_variables.asp
+* https://www.w3schools.com/python/python_datatypes.asp
+* https://www.w3schools.com/python/python_numbers.asp
+* https://www.w3schools.com/python/python_casting.asp
