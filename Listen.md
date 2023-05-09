@@ -37,7 +37,8 @@ meine_liste[1] = "Orange"
 print(meine_liste) # Ausgabe: ["Apfel", "Orange", "Kirsche"]
 ```
 
-### Hinzufügen eines Elements zu einer Liste:** Du kannst ein Element am Ende der Liste hinzufügen, indem du die `append()`-Methode verwendest.
+### Hinzufügen eines Elements zu einer Liste:
+Du kannst ein Element am Ende der Liste hinzufügen, indem du die `append()`-Methode verwendest.
 
 ```python
 meine_liste = ["Apfel", "Birne", "Kirsche"]
