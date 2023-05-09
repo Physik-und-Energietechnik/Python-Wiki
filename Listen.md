@@ -64,7 +64,6 @@ entferntes_element = meine_liste.pop(1)
 print(entferntes_element) # Ausgabe: "Birne"
 print(meine_liste) # Ausgabe: ["Apfel", "Kirsche"]
 ```
-Natürlich, ich werde den vorherigen Gedanken fortsetzen. Hier sind einige weitere grundlegende Operationen, die du mit Listen in Python durchführen kannst:
 
 ### Einfügen eines Elements an einer bestimmten Stelle
 Du kannst ein Element an einer bestimmten Position in der Liste einfügen, indem du die `insert()`-Methode verwendest und den Index der Position und den Wert des Elements übergibst.
