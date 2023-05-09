@@ -68,37 +68,37 @@ print(meine_liste) # Ausgabe: ["Apfel", "Kirsche"]
 ### Einfügen eines Elements an einer bestimmten Stelle
 Du kannst ein Element an einer bestimmten Position in der Liste einfügen, indem du die `insert()`-Methode verwendest und den Index der Position und den Wert des Elements übergibst.
 
-    ```python
-    meine_liste = ["Apfel", "Birne", "Kirsche"]
-    meine_liste.insert(1, "Orange")
-    print(meine_liste) # Ausgabe: ["Apfel", "Orange", "Birne", "Kirsche"]
-    ```
+```python
+meine_liste = ["Apfel", "Birne", "Kirsche"]
+meine_liste.insert(1, "Orange")
+print(meine_liste) # Ausgabe: ["Apfel", "Orange", "Birne", "Kirsche"]
+```
 
 ###Länge einer Liste
 Du kannst die Anzahl der Elemente in der Liste mit der `len()`-Funktion ermitteln.
 
-    ```python
-    meine_liste = ["Apfel", "Birne", "Kirsche"]
-    print(len(meine_liste)) # Ausgabe: 3
-    ```
+```python
+meine_liste = ["Apfel", "Birne", "Kirsche"]
+print(len(meine_liste)) # Ausgabe: 3
+```
 
 ###Sortieren einer Liste
 Du kannst eine Liste in aufsteigender Reihenfolge mit der `sort()`-Methode sortieren.
 
-    ```python
-    meine_liste = [3, 1, 4, 1, 5, 9, 2, 6, 5]
-    meine_liste.sort()
-    print(meine_liste) # Ausgabe: [1, 1, 2, 3, 4, 5, 5, 6, 9]
-    ```
+```python
+meine_liste = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+meine_liste.sort()
+print(meine_liste) # Ausgabe: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+```
 
 ### Umkehren einer Liste
 Du kannst die Reihenfolge der Elemente in der Liste umkehren, indem du die `reverse()`-Methode verwendest.
 
-    ```python
-    meine_liste = ["Apfel", "Birne", "Kirsche"]
-    meine_liste.reverse()
-    print(meine_liste) # Ausgabe: ["Kirsche", "Birne", "Apfel"]
-    ```
+```python
+meine_liste = ["Apfel", "Birne", "Kirsche"]
+meine_liste.reverse()
+print(meine_liste) # Ausgabe: ["Kirsche", "Birne", "Apfel"]
+```
 
 ### Überprüfen, ob ein Element in einer Liste vorhanden ist
 Du kannst prüfen, ob ein bestimmtes Element in der Liste vorhanden ist, indem du den `in`-Operator verwendest.
