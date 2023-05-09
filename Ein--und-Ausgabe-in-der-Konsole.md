@@ -1,5 +1,3 @@
-# Python - Ein- und Ausgabe in der Konsole
-
 ## Einführung
 In diesem Tutorial werden wir uns damit beschäftigen, wie man Daten in der Konsole ausgibt und wie man Daten von Benutzern in der Konsole einliest. Am Ende dieses Tutorials solltest du in der Lage sein, einfache Programme zu schreiben, die Benutzereingaben akzeptieren und Ausgaben in der Konsole anzeigen. 
 
