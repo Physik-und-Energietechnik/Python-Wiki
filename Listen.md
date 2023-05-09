@@ -103,11 +103,11 @@ Du kannst die Reihenfolge der Elemente in der Liste umkehren, indem du die `reve
 ### Überprüfen, ob ein Element in einer Liste vorhanden ist
 Du kannst prüfen, ob ein bestimmtes Element in der Liste vorhanden ist, indem du den `in`-Operator verwendest.
 
-    ```python
-    meine_liste = ["Apfel", "Birne", "Kirsche"]
-    print("Apfel" in meine_liste) # Ausgabe: True
-    print("Pfirsich" in meine_liste) # Ausgabe: False
-    ```
+```python
+meine_liste = ["Apfel", "Birne", "Kirsche"]
+print("Apfel" in meine_liste) # Ausgabe: True
+print("Pfirsich" in meine_liste) # Ausgabe: False
+```
 
 ## Praxis
 Nun, da du die Theorie kennst, ist es Zeit für die Praxis! Hier sind zwei Übungen für dich, um dein neues Wissen zu testen.
