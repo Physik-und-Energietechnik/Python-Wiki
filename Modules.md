@@ -61,7 +61,7 @@ print("Die zufällige Zahl ist:", zahl)
 
 ## Praxis
 
-### Leichte Aufgabe
+### Aufgabe 1
 Schreibe eine Funktion `addiere_zahlen(x, y)`, die zwei Zahlen addiert. Importiere diese Funktion in einem anderen Python-Script und verwende sie.
 
 Musterlösung:
@@ -80,7 +80,7 @@ ergebnis = addiere_zahlen(3, 5)
 print(ergebnis)   # Ausgabe: 8
 ```
 
-### Schwerere Aufgabe
+### Aufgabe 2
 Schreibe eine Funktion `zufallsliste(n)`, die eine Liste mit `n` Zufallszahlen zwischen 0 und 100 zurückgibt. Verwende das `random`-Modul.
 
 Musterlösung:
