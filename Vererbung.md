@@ -92,6 +92,16 @@ class Katze(Tier):
 meine_katze = Katze("Minka")
 meine_katze.laut_machen()
 ```
+Erklärung: Zunächst wird eine Kindklasse namens "Katze" erstellt, die von einer übergeordneten Klasse namens "Tier" erbt. Die genaue Implementierung der übergeordneten Klasse wird in diesem Ausschnitt nicht gezeigt.
+
+Die Kindklasse "Katze" definiert eine Methode namens "laut_machen", die spezifisch für Katzen ist. In diesem Fall gibt die Methode einfach den Text "Die Katze miaut: Miau!" in der Konsole aus.
+
+Dann wird eine Instanz der Kindklasse "Katze" mit dem Namen "Minka" erstellt. Diese Instanz wird in der Variablen "meine_katze" gespeichert.
+
+Schließlich wird die Methode "laut_machen()" aufgerufen, die zur Instanz "meine_katze" gehört. Dadurch wird der Text "Die Katze miaut: Miau!" in der Konsole ausgegeben.
+
+Das Programm zeigt somit die grundlegende Verwendung von Vererbung, Klassen und Methoden, um spezifisches Verhalten für eine bestimmte Unterklasse zu implementieren.
+
 ### Aufgabe 2
 Erstelle eine neue Kindklasse namens `Student`, die von einer Elternklasse `Person` erbt. Die Elternklasse `Person` soll eine Methode namens `vorstellen()` haben, die den Namen der Person ausgibt. Die Kindklasse `Student` soll zusätzlich zur `vorstellen()`-Methode eine Eigenschaft namens `studienfach` haben, die den Namen des Studienfachs des Studenten speichert.
 
@@ -117,6 +127,17 @@ mein_student = Student("Max Mustermann", "Informatik")
 mein_student.vorstellen()
 print("Ich studiere", mein_student.studienfach)
 ```
+Erklärung: Zunächst wird eine Elternklasse namens "Person" definiert. Diese Klasse hat einen Konstruktor `__init__()`, der einen Namen als Parameter erwartet. Der übergebene Name wird in einer Instanzvariable namens `name` gespeichert. Die Klasse hat auch eine Methode `vorstellen()`, die den Namen der Person ausgibt.
+
+Dann wird eine Kindklasse namens "Student" erstellt, die von der Elternklasse "Person" erbt. Die Kindklasse hat ebenfalls einen Konstruktor `__init__()`, der zusätzlich zum Namen auch das Studienfach des Studenten erwartet. Der Konstruktor der Elternklasse wird mit `super().__init__(name)` aufgerufen, um den Namen der Person zu initialisieren. Das Studienfach wird in einer Instanzvariable namens `studienfach` gespeichert.
+
+Anschließend wird eine Instanz der Kindklasse "Student" mit dem Namen "Max Mustermann" und dem Studienfach "Informatik" erstellt. Diese Instanz wird in der Variable `mein_student` gespeichert.
+
+Die Methode `vorstellen()` wird aufgerufen, die zur Instanz `mein_student` gehört. Dadurch wird der Text "Hallo, ich bin Max Mustermann" in der Konsole ausgegeben.
+
+Schließlich wird der Name des Studienfachs des Studenten mit `print("Ich studiere", mein_student.studienfach)` in der Konsole ausgegeben.
+
+Das Programm veranschaulicht somit, wie eine Kindklasse Methoden und Eigenschaften von einer Elternklasse erbt und diese erweitern kann. Die `super()`-Funktion wird verwendet, um den Konstruktor der Elternklasse aufzurufen und gemeinsame Initialisierungen zu nutzen.
 
 ## Fazit
 
