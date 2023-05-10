@@ -103,3 +103,9 @@ Musterlösung:
 mein_string = "Dies ist ein langer String."
 print(mein_string[::2])
 ```
+
+## Links / Weiteres Material 
+
+### [W3Schools](https://www.w3schools.com/python/python_strings.asp)
+
+### [YouTube](https://www.youtube.com/watch?v=sTEf4_mrLvw)
