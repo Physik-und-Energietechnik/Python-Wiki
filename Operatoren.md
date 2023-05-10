@@ -193,6 +193,10 @@ else:
 
 Erklärung: In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefragt und diese als Variable 'zahl' gespeichert. Anschließend wird mit Hilfe des Modulo-Operators '%' geprüft, ob die Zahl durch 2 teilbar ist oder nicht. Ist der Rest der Division 0, handelt es sich um eine gerade Zahl, ansonsten um eine ungerade Zahl. Die Ausgabe erfolgt dann entsprechend mit Hilfe der if-else-Struktur.
 
+## Fazit
+
+In diesem Python-Tutorial haben wir uns mit verschiedenen Arten von Operatoren in Python beschäftigt. Wir haben gelernt, dass es arithmetische, logische, Vergleichs- und Zuweisungsoperatoren gibt und wie sie verwendet werden. Operatoren sind Symbole oder Schlüsselwörter, die verwendet werden, um arithmetische oder logische Operationen auf Variablen und Werten durchzuführen. Wir haben auch einige praktische Anwendungen für Operatoren in der Praxis besprochen.
+
 ### Links / Weiteres Material 
 
 [W3Schools](https://www.w3schools.com/python/python_operators.asp)
