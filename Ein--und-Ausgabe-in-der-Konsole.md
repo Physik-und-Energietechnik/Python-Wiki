@@ -1,5 +1,5 @@
 ## Einführung
-In diesem Tutorial werden wir uns damit beschäftigen, wie man Daten in der Konsole ausgibt und wie man Daten von Benutzern in der Konsole einliest. Am Ende dieses Tutorials solltest du in der Lage sein, einfache Programme zu schreiben, die Benutzereingaben akzeptieren und Ausgaben in der Konsole anzeigen. 
+In diesem Abschnitt werden wir uns damit beschäftigen, wie man Daten in der Konsole ausgibt und wie man Daten von Benutzern in der Konsole einliest. Am Ende dieses Abschnittes solltest du in der Lage sein, einfache Programme zu schreiben, die Benutzereingaben akzeptieren und Ausgaben in der Konsole anzeigen. 
 
 ## Theorie
 
@@ -64,7 +64,7 @@ Diese Aufgabe fordert den Benutzer auf, eine Zahl einzugeben, um dann die Fakult
 ## Fazit
 Herzlichen Glückwunsch, du hast erfolgreich Ein- und Ausgabe in der Konsole gelernt!
 
-In diesem Tutorial haben wir gelernt, wie man Daten in der Konsole ausgibt und Benutzereingaben in der Konsole einliest. Mit der Funktion print() können wir Text und Variablenwerte in der Konsole anzeigen, während die Funktion input() uns ermöglicht, Benutzereingaben entgegenzunehmen. Indem wir diese grundlegenden Konzepte beherrschen, sind wir nun in der Lage, einfache Programme zu schreiben, die interaktive Konsolein- und -ausgaben ermöglichen.
+In diesem Abschnitt haben wir gelernt, wie man Daten in der Konsole ausgibt und Benutzereingaben in der Konsole einliest. Mit der Funktion print() können wir Text und Variablenwerte in der Konsole anzeigen, während die Funktion input() uns ermöglicht, Benutzereingaben entgegenzunehmen. Indem wir diese grundlegenden Konzepte beherrschen, sind wir nun in der Lage, einfache Programme zu schreiben, die interaktive Konsolein- und -ausgaben ermöglichen.
 
 ## Links / Weiteres Material
 https://www.programiz.com/python-programming/input-output-import
