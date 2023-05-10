@@ -142,4 +142,4 @@ Wir hoffen, dass du Spaß hattest, während du diese Aufgabe durchgegangen bist.
 
 Das war's! Du hast jetzt eine grundlegende Vorstellung von Arrays in Python. Du kennst die Syntax zur Array-Deklaration, den Array-Zugriff und die Array-Manipulation. Jetzt kannst du diese mächtige Datenstruktur nutzen, um deine Python-Programme noch leistungsfähiger zu gestalten.
 
-Wir hoffen, dass du Spaß hattest, während du dieses Tutorial durchgegangen bist. Python kann manchmal wie ein Zoo aussehen, aber keine Sorge, mit etwas Übung wirst du bald zum Python-Profi. Viel Erfolg beim Experimentieren mit Arrays in Python!
+Wir hoffen, dass du Spaß hattest, während du diesen Abschnitt durchgegangen bist. Python kann manchmal wie ein Zoo aussehen, aber keine Sorge, mit etwas Übung wirst du bald zum Python-Profi. Viel Erfolg beim Experimentieren mit Arrays in Python!
