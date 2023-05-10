@@ -77,7 +77,7 @@ def berechne_durchschnitt(werte):
     durchschnitt = summe / len(werte)
     return durchschnitt
 ``` 
-
+## Fazit
 Herzlichen Glückwunsch, du hast das Python Tutorial über Funktionen abgeschlossen! Du solltest jetzt in der Lage sein, Funktionen zu definieren und in deinem Code zu verwenden.
 
 ## Links / Weiteres Material 
