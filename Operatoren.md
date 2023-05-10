@@ -5,7 +5,7 @@ Willkommen zu diesem Python-Tutorial über Operatoren. In diesem Tutorial werden
 Operatoren sind Symbole oder Schlüsselwörter in Python, die verwendet werden, um arithmetische oder logische Operationen auf Variablen und Werten durchzuführen. In Python gibt es verschiedene Arten von Operatoren, darunter:
 
 ### Arithmetische Operatoren
-Diese Operatoren werden verwendet, um mathematische Berechnungen durchzuführen, wie **Addition(+), Subtraktion(-), Multiplikation(*), Division(/), Potenz(**) und Modulo(%)**.
+Diese Operatoren werden verwendet, um mathematische Berechnungen durchzuführen, wie Addition(+), Subtraktion(-), Multiplikation(*), Division(/), Potenz(**) und Modulo(%).
 Hier ist **ein allgemeines Code-Beispiel**:
 
 ```python
@@ -56,7 +56,7 @@ print(c)  # Ausgabe: 8
 ```
 
 ### Logische Operatoren
-Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und auszuwerten. Dazu gehören **AND (und), OR (oder) und NOT (nicht)**. 
+Logische Operatoren werden verwendet, um logische Aussagen zu kombinieren und auszuwerten. Dazu gehören AND (und), OR (oder) und NOT (nicht). 
 Mithilfe von der Tabelle zu Logik Gattern kann man die logischen Operatoren anwenden ( für 1 = True, 0 = False )  : 
 
 
@@ -99,7 +99,7 @@ print(c)  # Ausgabe: False
 ```
 
 ### Vergleichsoperatoren
-Vergleichsoperatoren werden verwendet, um den Vergleich von Variablen oder Ausdrücken durchzuführen. Dazu gehören **!= (ungleich), == (gleich), > (größer als), < (kleiner als), >= (größer oder gleich) und <= (kleiner oder gleich)**.
+Vergleichsoperatoren werden verwendet, um den Vergleich von Variablen oder Ausdrücken durchzuführen. Dazu gehören != (ungleich), == (gleich), > (größer als), < (kleiner als), >= (größer oder gleich) und <= (kleiner oder gleich).
 
 Allgemeines Code-Beispiel:
 
