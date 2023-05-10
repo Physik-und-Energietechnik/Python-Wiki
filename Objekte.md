@@ -1,16 +1,14 @@
 
 
-# Python - Objekte
-
-## Einführung
+# Einführung
 
 Objekte sind die Grundlage von Python. Alles in Python ist ein Objekt, von einfachen Datentypen wie Zahlen und Strings bis hin zu komplexen Datenstrukturen wie Listen und Dictionaries. Wenn du also Python lernen möchtest, solltest du dich mit Objekten vertraut machen.
 
-In diesem Tutorial wirst du lernen, was Objekte sind, wie man sie erstellt und manipuliert und wie sie in Python verwendet werden können. Am Ende dieses Tutorials solltest du in der Lage sein, eigene Objekte zu erstellen und in deinem Code einzusetzen.
+In diesem Abschnitt wirst du lernen, was Objekte sind, wie man sie erstellt und manipuliert und wie sie in Python verwendet werden können. Am Ende dieses Abschnitts solltest du in der Lage sein, eigene Objekte zu erstellen und in deinem Code einzusetzen.
 
-## Theorie
+# Theorie
 
-### Objekte erstellen
+## Objekte erstellen
 
 In Python werden Objekte erstellt, indem man eine sogenannte "Klasse" definiert. Eine Klasse ist eine Art Bauplan für ein Objekt. Sie definiert, welche Attribute ein Objekt hat und welche Methoden es ausführen kann.
 
@@ -25,7 +23,7 @@ class Person:
 
 Hier wird eine Klasse "Person" definiert, die zwei Attribute hat: "name" und "alter". Das Attribut "name" ist vom Typ String und das Attribut "alter" ist vom Typ Integer.
 
-### Objekte manipulieren
+## Objekte manipulieren
 
 Um ein Objekt zu manipulieren, kann man auf die Attribute und Methoden der Klasse zugreifen. Hier ist ein Beispiel, das zeigt, wie man das Attribut "name" einer Person ändert:
 
@@ -35,7 +33,7 @@ person.name = "Moritz"
 print(person.name)  # Ausgabe: Moritz
 ```
 
-### Methoden definieren
+## Methoden definieren
 
 In einer Klasse können auch Methoden definiert werden. Eine Methode ist eine Funktion, die auf ein Objekt angewendet werden kann. Hier ist ein Beispiel, das zeigt, wie man eine Methode in einer Klasse definiert:
 
@@ -52,22 +50,9 @@ class Person:
 
 In diesem Beispiel wird eine Methode "geburtstag_feiern" definiert, die das Alter einer Person um eins erhöht und eine Nachricht ausgibt, die den Namen und das neue Alter enthält.
 
-### Vererbung
+# Praxis
 
-Eine der nützlichsten Funktionen von Klassen in Python ist die Vererbung. Vererbung ermöglicht es, eine Klasse zu erstellen, die von einer anderen Klasse abgeleitet ist und alle Attribute und Methoden der Basisklasse erbt. Hier ist ein Beispiel, das zeigt, wie man eine abgeleitete Klasse erstellt:
-
-```python
-class Student(Person):
-    def __init__(self, name, alter, matrikelnummer):
-        super().__init__(name, alter)
-        self.matrikelnummer = matrikelnummer
-```
-
-In diesem Beispiel wird eine Klasse "Student" definiert, die von der Klasse "Person" abgeleitet ist. Die Klasse "Student" hat ein zusätzliches Attribut "matrikelnummer". Der Konstruktor der Klasse "Student" ruft den Konstruktor der Basisklasse "Person" auf, um die Attribute "name" und "alter" zu initialisieren.
-
-## Praxis
-
-### Aufgabe 1
+## Aufgabe 1
 
 Erstelle eine Klasse "Auto", die folgende Attribute hat:
 
@@ -83,7 +68,7 @@ Erstelle anschließend ein Objekt der Klasse "Auto" mit den folgenden Werten:
 - Baujahr: 2021
 - Farbe: "Blau"
 
-### Lösung 1
+## Lösung 1
 
 ```python
 class Auto:
@@ -96,35 +81,8 @@ class Auto:
 auto = Auto("BMW", "X5", 2021, "Blau")
 ```
 
-### Aufgabe 2
+## Aufgabe 2
 
-Erstelle eine abgeleitete Klasse "Elektroauto", die von der Klasse "Auto" abgeleitet ist und ein zusätzliches Attribut "reichweite" (Integer) hat. Definiere auch eine Methode "laden", die die Reichweite des Elektroautos um einen bestimmten Betrag erhöht.
 
-Erstelle anschließend ein Objekt der Klasse "Elektroauto" mit den folgenden Werten:
 
-- Hersteller: "Tesla"
-- Modell: "Model S"
-- Baujahr: 2022
-- Farbe: "Rot"
-- Reichweite: 500
-
-Rufe dann die Methode "laden" auf, um die Reichweite um 100 zu erhöhen.
-
-### Lösung 2
-
-```python
-class Elektroauto(Auto):
-    def __init__(self, hersteller, modell, baujahr, farbe, reichweite):
-        super().__init__(hersteller, modell, baujahr, farbe)
-        self.reichweite = reichweite
-
-    def laden(self, betrag):
-        self.reichweite += betrag
-
-elektroauto = Elektroauto("Tesla", "Model S", 2022, "Rot", 500)
-elektroauto.laden(100)
-print(elektroauto.reichweite)  # Ausgabe: 600
-``` 
-Herzlichen Glückwunsch, du hast erfolgreich das Tutorial zum Thema "Python - Objekte" durchgearbeitet! Du solltest nun ein grundlegendes Verständnis für Klassen, Objekte und Vererbung in Python haben. Mit diesem Wissen bist du in der Lage, komplexe Datenstrukturen und -typen zu erstellen und in deinem Code zu verwenden.
-
-Es gibt jedoch noch viel mehr zu entdecken, wenn es um Python geht, also bleibe neugierig und experimentiere weiter!
+## Lösung 2
