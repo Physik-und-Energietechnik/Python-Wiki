@@ -1,5 +1,5 @@
 ## Einführung
-Herzlich willkommen zum Python-Schleifen-Tutorial für Anfänger! In diesem Tutorial werden wir lernen, wie man Schleifen in Python schreibt. Schleifen sind sehr nützlich, um wiederholte Aufgaben auszuführen, ohne dass man den Code mehrfach schreiben muss. Wenn du jemals müde davon bist, wiederholt denselben Code zu schreiben, dann bist du hier genau richtig. Lass uns loslegen und in die Welt der Schleifen eintauchen!
+In diesem Abschnitt werden wir lernen, wie man Schleifen in Python schreibt. Schleifen sind sehr nützlich, um wiederholte Aufgaben auszuführen, ohne dass man den Code mehrfach schreiben muss. Wenn du jemals müde davon bist, wiederholt denselben Code zu schreiben, dann bist du hier genau richtig. Lass uns loslegen und in die Welt der Schleifen eintauchen!
 
 ## Theorie
 ### Was sind Schleifen?
@@ -136,7 +136,7 @@ def finde_primzahlen(obergrenze):
 Diese Funktion verwendet die `ist_primzahl`-Funktion, um alle Primzahlen von 2 bis zur gegebenen Obergrenze zu finden. Die Funktion gibt eine Liste aller gefundenen Primzahlen zurück.
 
 ## Fazit
-Ich hoffe, dieses Tutorial hat dir geholfen, Schleifen in Python zu verstehen. Schleifen sind eine wichtige Grundlage in der Programmierung und werden dir helfen, effizienten und wiederverwendbaren Code zu schreiben. Jetzt bist du bereit, Schleifen in deinen eigenen Python-Programmen zu verwenden. Viel Spaß beim Coden!
+Ich hoffe, dieser Abschnnitt hat dir geholfen, Schleifen in Python zu verstehen. Schleifen sind eine wichtige Grundlage in der Programmierung und werden dir helfen, effizienten und wiederverwendbaren Code zu schreiben. Jetzt bist du bereit, Schleifen in deinen eigenen Python-Programmen zu verwenden. Viel Spaß beim Coden!
 
 ## Links / Weiteres Material
 ### W3Schools
