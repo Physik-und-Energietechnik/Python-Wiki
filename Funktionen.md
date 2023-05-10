@@ -1,5 +1,3 @@
-# Abschnitt - Funktionen
-
 ## Einführung
 
 Willkommen zum Python Abschnitt über Funktionen! Funktionen sind ein grundlegender Bestandteil der Programmierung und sind in jeder Sprache unerlässlich. In diesem Abschnitt lernst du, wie man Funktionen in Python definiert, aufruft und verwendet. Durch das Verständnis von Funktionen kannst du deinen Code strukturieren, wiederverwendbar machen und das Schreiben von Programmen vereinfachen.
