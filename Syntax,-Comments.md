@@ -1,5 +1,5 @@
 ## Einführung
-In diesem Tutorial werden wir uns mit der grundlegenden Syntax von Python befassen und lernen, wie man Kommentare in Python schreibt. Durch dieses Tutorial wirst du in der Lage sein, grundlegende Python-Programme zu schreiben und zu verstehen.
+In diesem Abschnitt werden wir uns mit der grundlegenden Syntax von Python befassen und lernen, wie man Kommentare in Python schreibt. Durch diesen Abschnitt wirst du in der Lage sein, grundlegende Python-Programme zu schreiben und zu verstehen.
 
 ## Theorie
 Hier sind einige Python-Syntax-Regeln und Beispiele:
@@ -84,7 +84,7 @@ Das obige Python-Programm verwendet die `input()`-Funktion, um den Nutzer nach s
 
 ## Fazit 
 
-In diesem Tutorial haben wir die grundlegende Syntax von Python kennengelernt und gelernt, wie man Kommentare in Python schreibt. Wir haben gelernt, dass Kommentare in Python mit dem Rautezeichen `#` beginnen und vom Interpreter ignoriert werden. Sie sind nützlich, um den Code zu dokumentieren und Hinweise für andere Entwickler zu geben.
+In diesem Abschnitt haben wir die grundlegende Syntax von Python kennengelernt und gelernt, wie man Kommentare in Python schreibt. Wir haben gelernt, dass Kommentare in Python mit dem Rautezeichen `#` beginnen und vom Interpreter ignoriert werden. Sie sind nützlich, um den Code zu dokumentieren und Hinweise für andere Entwickler zu geben.
 
 Wir haben auch gelernt, dass Python Einrückungen verwendet, um Blöcke von Code anzuzeigen, und dass Variablen in Python durch Zuweisung erstellt werden und nicht vorher deklariert werden müssen. Wir haben auch die Regeln für Variablennamen in Python besprochen.
 
