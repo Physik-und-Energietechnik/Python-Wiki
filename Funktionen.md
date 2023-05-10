@@ -84,6 +84,6 @@ Herzlichen Glückwunsch, du hast das Python Tutorial über Funktionen abgeschlos
 
 ## Links / Weiteres Material 
 
-### [W3Schools](w3schools.com/python/python_functions.asp)
+### [W3Schools](https://www.w3schools.com/python/python_functions.asp)
 
 ### [YouTube](https://www.youtube.com/watch?v=mgA-Ytr32Ys)
