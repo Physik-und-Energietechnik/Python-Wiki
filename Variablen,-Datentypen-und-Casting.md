@@ -1,5 +1,5 @@
 ## Einführung
-In diesem Abschnitt geht es darum, wie man Variablen in Python benutzt und wie man die verschiedenen Datentypen verwendet. Das Ziel dieses Tutorials ist es, dass du die Grundlagen von Variablen und Datentypen in Python verstehst und lernst, wie man zwischen verschiedenen Datentypen umwandelt.
+In diesem Abschnitt geht es darum, wie man Variablen in Python benutzt und wie man die verschiedenen Datentypen verwendet. Das Ziel dieses Abschnitts ist es, dass du die Grundlagen von Variablen und Datentypen in Python verstehst und lernst, wie man zwischen verschiedenen Datentypen umwandelt.
 
 ## Theorie
 
@@ -80,7 +80,8 @@ name = "Lisa"
 age = 25
 height = 1.65
 ```
-#### Musterlösung von ChatGPT erklärt
+
+Der gegebene Code definiert drei Variablen in Python: "name", "age" und "height". Die erste Variable "name" ist ein String, der den Wert "Lisa" enthält. Die zweite Variable "age" ist eine ganze Zahl (Integer), die den Wert 25 enthält. Die dritte Variable "height" ist eine Fließkommazahl (Float), die den Wert 1.65 enthält und die Höhe von Lisa in Metern darstellt.
 
 ### Aufgabe 2
 Erstelle eine Variable `number` und weise ihr den Wert `5` als Ganzzahl zu. Erstelle dann eine Variable `text` und weise ihr den Wert `10` als String zu. Führe dann die folgenden Schritte aus:
@@ -100,6 +101,9 @@ text_int = int(text)
 result = number_float * text_int
 print(result) # Output: 50.0
 ```
+
+Der gegebene Code definiert drei Variablen in Python: "number", "text" und "result". Die Variable "number" hat den Wert 5, was eine Ganzzahl (Integer) darstellt. Die Variable "text" hat den Wert "10", was ein String ist, der eine Zahl in Zeichenkette darstellt.
+Der Code führt dann zwei Umwandlungen durch. Zuerst wird der Wert der Variablen "number" in eine Fließkommazahl (Float) umgewandelt und der resultierende Wert wird der Variablen "number_float" zugewiesen. Dann wird der Wert der Variablen "text" in eine Ganzzahl (Integer) umgewandelt und der resultierende Wert wird der Variablen "text_int" zugewiesen. Der Code multipliziert dann die beiden umgewandelten Werte "number_float" und "text_int" und speichert das Ergebnis in der Variablen "result".Schließlich wird das Ergebnis mithilfe der print()-Funktion auf der Konsole ausgegeben. Der Output zeigt das Ergebnis der Multiplikation, das 50.0 beträgt.
 
 ## Fazit
 Abschlussgedöns... (per ChatGPT)
