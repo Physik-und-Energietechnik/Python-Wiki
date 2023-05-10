@@ -1,5 +1,3 @@
-# Abschnitt - Strings
-
 ## Einführung
 Strings sind Textwerte in Python. Sie werden von Anführungszeichen, entweder einfachen (') oder doppelten (") umgeben. In diesem Tutorial werden wir uns mit den Grundlagen von Strings beschäftigen und lernen, wie man sie manipuliert.
 
