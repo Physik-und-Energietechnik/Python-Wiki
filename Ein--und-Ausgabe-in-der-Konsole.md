@@ -47,7 +47,7 @@ print("Du wirst im Jahr", year, "100 Jahre alt.") # Ausgabe Du wirst im Jahr `ye
 ```
 Die Aufgabe fordert den Benutzer auf, sein Alter einzugeben, um dann das Jahr zu berechnen, in dem er 100 Jahre alt wird. Dafür wird zuerst das Alter des Benutzers mit der `input()`-Funktion eingelesen und als Ganzzahl (`int`) in der Variable `age` gespeichert. Anschließend wird das Jahr berechnet, in dem der Benutzer 100 Jahre alt wird. Hierfür wird das aktuelle Jahr 2023 (als Beispieljahr) mit `100` subtrahiert und `age` addiert. Das Ergebnis wird in der Variablen `year` gespeichert. Schließlich wird die berechnete Information mit der `print()`-Funktion in der Konsole ausgegeben. 
 
-### Übung 2
+### Aufgabe 2
 Schreibe ein Programm, das den Benutzer nach einer Zahl fragt und dann die Fakultät dieser Zahl berechnet. Gib das Ergebnis in der Konsole aus.
 
 Hier ist eine mögliche Lösung:
