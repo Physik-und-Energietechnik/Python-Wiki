@@ -79,9 +79,9 @@ def berechne_durchschnitt(werte):
 ``` 
 ## Fazit
 
-Herzlichen Glückwunsch, du hast das Python Tutorial über Funktionen abgeschlossen! Du solltest jetzt in der Lage sein, Funktionen zu definieren und in deinem Code zu verwenden.
+Herzlichen Glückwunsch, du hast den Abschnitt über Funktionen abgeschlossen! Du solltest jetzt in der Lage sein, Funktionen zu definieren und in deinem Code zu verwenden.
 
-In diesem Tutorial hast du gelernt, wie man Funktionen in Python definiert, aufruft und verwendet. Funktionen sind ein grundlegender Bestandteil der Programmierung und helfen dabei, Code zu strukturieren, wiederverwendbar zu machen und das Schreiben von Programmen zu vereinfachen. Du hast auch gelernt, wie man Rückgabewerte definiert und wie man Funktionen mit Parametern aufruft. Am Ende hast du zwei praktische Übungen durchgeführt, um das Gelernte anzuwenden. Nun bist du in der Lage, Funktionen in Python zu definieren und in deinem Code zu verwenden.
+In diesem Abschnitt hast du gelernt, wie man Funktionen in Python definiert, aufruft und verwendet. Funktionen sind ein grundlegender Bestandteil der Programmierung und helfen dabei, Code zu strukturieren, wiederverwendbar zu machen und das Schreiben von Programmen zu vereinfachen. Du hast auch gelernt, wie man Rückgabewerte definiert und wie man Funktionen mit Parametern aufruft. Am Ende hast du zwei praktische Übungen durchgeführt, um das Gelernte anzuwenden. Nun bist du in der Lage, Funktionen in Python zu definieren und in deinem Code zu verwenden.
 
 ## Links / Weiteres Material 
 
