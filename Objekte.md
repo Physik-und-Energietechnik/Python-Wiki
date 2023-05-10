@@ -1,14 +1,14 @@
 
 
-# Einführung
+## Einführung
 
 Objekte sind die Grundlage von Python. Alles in Python ist ein Objekt, von einfachen Datentypen wie Zahlen und Strings bis hin zu komplexen Datenstrukturen wie Listen und Dictionaries. Wenn du also Python lernen möchtest, solltest du dich mit Objekten vertraut machen.
 
 In diesem Abschnitt wirst du lernen, was Objekte sind, wie man sie erstellt und manipuliert und wie sie in Python verwendet werden können. Am Ende dieses Abschnitts solltest du in der Lage sein, eigene Objekte zu erstellen und in deinem Code einzusetzen.
 
-# Theorie
+## Theorie
 
-## Objekte erstellen
+### Objekte erstellen
 
 In Python werden Objekte erstellt, indem man eine sogenannte "Klasse" definiert. Eine Klasse ist eine Art Bauplan für ein Objekt. Sie definiert, welche Attribute ein Objekt hat und welche Methoden es ausführen kann.
 
@@ -23,7 +23,7 @@ class Person:
 
 Hier wird eine Klasse `Person` definiert, die zwei Attribute hat: `name` und `alter`. Das Attribut `name` ist vom Typ String und das Attribut `alter` ist vom Typ Integer.
 
-## Objekte manipulieren
+### Objekte manipulieren
 
 Um ein Objekt zu manipulieren, kann man auf die Attribute und Methoden der Klasse zugreifen. Hier ist ein Beispiel, das zeigt, wie man das Attribut `name` einer Person ändert:
 
@@ -33,7 +33,7 @@ person.name = "Moritz"
 print(person.name)  # Ausgabe: Moritz
 ```
 
-## Methoden definieren
+### Methoden definieren
 
 In einer Klasse können auch Methoden definiert werden. Eine Methode ist eine Funktion, die auf ein Objekt angewendet werden kann. Hier ist ein Beispiel, das zeigt, wie man eine Methode in einer Klasse definiert:
 
@@ -50,9 +50,9 @@ class Person:
 
 In diesem Beispiel wird eine Methode `geburtstag_feiern()` definiert, die das Alter einer Person um eins erhöht und eine Nachricht ausgibt, die den Namen und das neue Alter enthält.
 
-# Praxis
+## Praxis
 
-## Aufgabe 1
+### Aufgabe 1
 
 Erstelle eine Klasse `Auto`, die folgende Attribute hat:
 
@@ -68,7 +68,7 @@ Erstelle anschließend ein Objekt der Klasse `Auto` mit den folgenden Werten:
 - Baujahr: `2021`
 - Farbe: `Blau`
 
-## Lösung 1
+### Aufgabe 2
 
 ```python
 class Auto:
@@ -80,9 +80,3 @@ class Auto:
 
 auto = Auto("BMW", "X5", 2021, "Blau")
 ```
-
-## Aufgabe 2
-
-
-
-## Lösung 2
