@@ -66,7 +66,7 @@ for i in range(5):
 
 Dieser Code gibt die Zahlen 0 bis 4 aus. `i` nimmt in jeder Iteration der Schleife den nächsten Wert aus der von `range(5)` erzeugten Folge an.
 
-#### 'continue' und 'range'
+#### 'continue' und 'break'
 Klar, gerne erkläre ich auch die Anweisungen `continue` und `break`.
 
 `continue` und `break` sind Kontrollstrukturen, die in Schleifen verwendet werden, um den Programmfluss zu steuern.
