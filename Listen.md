@@ -148,5 +148,5 @@ Wenn die while-Schleife beendet ist, wird die Liste "meine_liste" mit den 10 Ele
 Herzlichen Glückwunsch, du hast es geschafft! Du hast nun ein grundlegendes Verständnis für Listen in Python und wie man sie erstellt, manipuliert und darauf zugreift. Listen sind ein wichtiger Bestandteil der Programmierung und es gibt noch viel mehr zu entdecken. Viel Spaß beim Weiterlernen!
 
 ## Links / Weiteres Material
-[W3Schools Listen](https://www.w3schools.com/python/python_lists.asp)
-[Python Dokumentation Listen](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+- [W3Schools Listen](https://www.w3schools.com/python/python_lists.asp)
+- [Python Dokumentation Listen](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
