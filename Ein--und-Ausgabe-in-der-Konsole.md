@@ -62,8 +62,9 @@ print("Die Fakultät von", num, "ist", factorial) # Ausgabe: Die Fakultät von `
 Diese Aufgabe fordert den Benutzer auf, eine Zahl einzugeben, um dann die Fakultät dieser Zahl zu berechnen. Hierfür wird zuerst die Zahl mit der `input()`-Funktion eingelesen und als Ganzzahl in der Variable `num` gespeichert. Anschließend wird die Fakultät dieser Zahl mit einer Schleife berechnet und in der Variable `factorial` gespeichert. Das Ergebnis wird dann mit der `print()`-Funktion in der Konsole ausgegeben.
 
 ## Fazit
-
 Herzlichen Glückwunsch, du hast erfolgreich Ein- und Ausgabe in der Konsole gelernt!
+
+In diesem Tutorial haben wir gelernt, wie man Daten in der Konsole ausgibt und Benutzereingaben in der Konsole einliest. Mit der Funktion print() können wir Text und Variablenwerte in der Konsole anzeigen, während die Funktion input() uns ermöglicht, Benutzereingaben entgegenzunehmen. Indem wir diese grundlegenden Konzepte beherrschen, sind wir nun in der Lage, einfache Programme zu schreiben, die interaktive Konsolein- und -ausgaben ermöglichen.
 
 ## Links / Weiteres Material
 https://www.programiz.com/python-programming/input-output-import
