@@ -1,5 +1,5 @@
 ## Einführung
-Willkommen zu diesem Python-Tutorial über Operatoren. In diesem Tutorial werden wir uns mit den verschiedenen Arten von Operatoren in Python befassen und wie man sie benutzt. Wir werden uns auch einige praktische Anwendungen ansehen, um zu verstehen, wie Operatoren in der Praxis verwendet werden können.
+In diesem Abschnitt werden wir uns mit den verschiedenen Arten von Operatoren in Python befassen und wie man sie benutzt. Wir werden uns auch einige praktische Anwendungen ansehen, um zu verstehen, wie Operatoren in der Praxis verwendet werden können.
 
 ## Theorie
 Operatoren sind Symbole oder Schlüsselwörter in Python, die verwendet werden, um arithmetische oder logische Operationen auf Variablen und Werten durchzuführen. In Python gibt es verschiedene Arten von Operatoren, darunter:
@@ -195,7 +195,7 @@ Erklärung: In der Musterlösung wird zuerst der Benutzer nach einer Zahl gefrag
 
 ## Fazit
 
-In diesem Python-Tutorial haben wir uns mit verschiedenen Arten von Operatoren in Python beschäftigt. Wir haben gelernt, dass es arithmetische, logische, Vergleichs- und Zuweisungsoperatoren gibt und wie sie verwendet werden. Operatoren sind Symbole oder Schlüsselwörter, die verwendet werden, um arithmetische oder logische Operationen auf Variablen und Werten durchzuführen. Wir haben auch einige praktische Anwendungen für Operatoren in der Praxis besprochen.
+In diesem Abschnitt haben wir uns mit verschiedenen Arten von Operatoren in Python beschäftigt. Wir haben gelernt, dass es arithmetische, logische, Vergleichs- und Zuweisungsoperatoren gibt und wie sie verwendet werden. Operatoren sind Symbole oder Schlüsselwörter, die verwendet werden, um arithmetische oder logische Operationen auf Variablen und Werten durchzuführen. Wir haben auch einige praktische Anwendungen für Operatoren in der Praxis besprochen.
 
 ## Links / Weiteres Material 
 
