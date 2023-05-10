@@ -1,5 +1,3 @@
-# Python - Arrays
-
 ## Einführung
 
 Hey ihr Python-Neulinge! Heute werfen wir einen Blick auf ein spannendes Thema - Arrays in Python. Aber Moment mal, was ist eigentlich ein Array und warum ist es wichtig, das zu lernen?
