@@ -134,6 +134,11 @@ while len(meine_liste) < 10:
     i += 1
 print(meine_liste)
 ```
+Zunächst wird eine leere Liste mit dem Namen "meine_liste" erstellt. Eine Variable i wird auf den Wert 1 gesetzt, um das Zählen der Zahlen zu starten.
+
+Dann beginnt die while-Schleife, die so lange läuft, bis die Anzahl der Elemente in der Liste "meine_liste" 10 erreicht. Innerhalb der while-Schleife wird eine if-Anweisung verwendet, um zu überprüfen, ob die Zahl i durch 3 teilbar ist, aber nicht durch 2. Wenn dies der Fall ist, wird die Zahl i zur Liste "meine_liste" hinzugefügt. Dann wird die Variable i um eins erhöht, um zur nächsten Zahl überzugehen.
+
+Wenn die while-Schleife beendet ist, wird die Liste "meine_liste" mit den 10 Elementen auf der Konsole ausgegeben.
 
 ## Fazit
 Herzlichen Glückwunsch, du hast es geschafft! Du hast nun ein grundlegendes Verständnis für Listen in Python und wie man sie erstellt, manipuliert und darauf zugreift. Listen sind ein wichtiger Bestandteil der Programmierung und es gibt noch viel mehr zu entdecken. Viel Spaß beim Weiterlernen!
