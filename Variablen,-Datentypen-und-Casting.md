@@ -106,8 +106,7 @@ Der gegebene Code definiert drei Variablen in Python: "number", "text" und "resu
 Der Code führt dann zwei Umwandlungen durch. Zuerst wird der Wert der Variablen "number" in eine Fließkommazahl (Float) umgewandelt und der resultierende Wert wird der Variablen "number_float" zugewiesen. Dann wird der Wert der Variablen "text" in eine Ganzzahl (Integer) umgewandelt und der resultierende Wert wird der Variablen "text_int" zugewiesen. Der Code multipliziert dann die beiden umgewandelten Werte "number_float" und "text_int" und speichert das Ergebnis in der Variablen "result".Schließlich wird das Ergebnis mithilfe der print()-Funktion auf der Konsole ausgegeben. Der Output zeigt das Ergebnis der Multiplikation, das 50.0 beträgt.
 
 ## Fazit
-Abschlussgedöns... (per ChatGPT)
-Kommt nix vernüfntiges bei rum xD
+In diesem Abschnitt wurden die Grundlagen von Variablen und Datentypen in Python behandelt. Du hast gelernt, wie man Variablen definiert und zwischen verschiedenen Datentypen umwandelt. Darüber hinaus wurden die verschiedenen Datentypen in Python vorgestellt und erklärt, wie man ihren Datentyp überprüfen kann. Casting, also das Ändern des Datentyps einer Variable, wurde ebenfalls behandelt. Diese grundlegenden Konzepte sind sehr wichtig, um Python effektiv zu nutzen und zu verstehen.
 
 ## Links / Weiteres Material
 
