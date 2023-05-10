@@ -21,11 +21,11 @@ class Person:
         self.alter = alter
 ```
 
-Hier wird eine Klasse "Person" definiert, die zwei Attribute hat: "name" und "alter". Das Attribut "name" ist vom Typ String und das Attribut "alter" ist vom Typ Integer.
+Hier wird eine Klasse `Person` definiert, die zwei Attribute hat: `name` und `alter`. Das Attribut `name` ist vom Typ String und das Attribut `alter` ist vom Typ Integer.
 
 ## Objekte manipulieren
 
-Um ein Objekt zu manipulieren, kann man auf die Attribute und Methoden der Klasse zugreifen. Hier ist ein Beispiel, das zeigt, wie man das Attribut "name" einer Person ändert:
+Um ein Objekt zu manipulieren, kann man auf die Attribute und Methoden der Klasse zugreifen. Hier ist ein Beispiel, das zeigt, wie man das Attribut `name` einer Person ändert:
 
 ```python
 person = Person("Max", 30)
@@ -48,25 +48,25 @@ class Person:
         print(f"{self.name} feiert seinen {self.alter}. Geburtstag!")
 ```
 
-In diesem Beispiel wird eine Methode "geburtstag_feiern" definiert, die das Alter einer Person um eins erhöht und eine Nachricht ausgibt, die den Namen und das neue Alter enthält.
+In diesem Beispiel wird eine Methode `geburtstag_feiern()` definiert, die das Alter einer Person um eins erhöht und eine Nachricht ausgibt, die den Namen und das neue Alter enthält.
 
 # Praxis
 
 ## Aufgabe 1
 
-Erstelle eine Klasse "Auto", die folgende Attribute hat:
+Erstelle eine Klasse `Auto`, die folgende Attribute hat:
 
-- Hersteller (String)
-- Modell (String)
-- Baujahr (Integer)
-- Farbe (String)
+- `Hersteller` (String)
+- `Modell` (String)
+- `Baujahr` (Integer)
+- `Farbe` (String)
 
-Erstelle anschließend ein Objekt der Klasse "Auto" mit den folgenden Werten:
+Erstelle anschließend ein Objekt der Klasse `Auto` mit den folgenden Werten:
 
-- Hersteller: "BMW"
-- Modell: "X5"
-- Baujahr: 2021
-- Farbe: "Blau"
+- Hersteller: `BMW`
+- Modell: `X5`
+- Baujahr: `2021`
+- Farbe: `Blau`
 
 ## Lösung 1
 
