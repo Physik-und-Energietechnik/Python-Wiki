@@ -5,7 +5,7 @@ Herzlich willkommen zum Python-Schleifen-Tutorial für Anfänger! In diesem Tuto
 ### Was sind Schleifen?
 Schleifen ermöglichen es dir, eine bestimmte Anzahl von Codezeilen immer wieder auszuführen, bis eine bestimmte Bedingung erfüllt ist. Es gibt zwei Arten von Schleifen in Python: die "for-Schleife" und die "while-Schleife".
 
-#### for-Schleife
+### for-Schleife
 Die for-Schleife wird verwendet, wenn du eine Anzahl von Schritten ausführen möchtest, die bereits im Voraus bekannt sind. Zum Beispiel, wenn du alle Elemente in einer Liste durchgehen möchtest, kannst du eine for-Schleife verwenden. Ein allgemeines Codebeispiel für eine for-Schleife sieht so aus:
 
 ```python
@@ -22,7 +22,7 @@ for element in meine_liste:
     print(element)
 ```
 
-#### while-Schleife
+### while-Schleife
 Die while-Schleife wird verwendet, wenn du eine Schleife ausführen möchtest, bis eine bestimmte Bedingung erfüllt ist. Ein allgemeines Codebeispiel für eine while-Schleife sieht so aus:
 
 ```python
@@ -40,7 +40,7 @@ while i <= 5:
     i += 1
 ```
 
-#### range
+### range
 `range()` ist eine Python-Funktion, die eine Folge von Zahlen erzeugt. Sie wird häufig in Schleifen verwendet, um den Schleifenindex zu steuern. 
 
 Die `range()`-Funktion kann auf verschiedene Arten aufgerufen werden. Hier sind zwei Beispiele:
@@ -66,7 +66,7 @@ for i in range(5):
 
 Dieser Code gibt die Zahlen 0 bis 4 aus. `i` nimmt in jeder Iteration der Schleife den nächsten Wert aus der von `range(5)` erzeugten Folge an.
 
-#### 'continue' und 'break'
+### 'continue' und 'break'
 Klar, gerne erkläre ich auch die Anweisungen `continue` und `break`.
 
 `continue` und `break` sind Kontrollstrukturen, die in Schleifen verwendet werden, um den Programmfluss zu steuern.
@@ -93,7 +93,9 @@ for zahl in range(10):
 
 Dieser Code gibt die Zahlen von 0 bis 4 aus und bricht dann die Schleife ab, wenn `zahl` den Wert 5 erreicht.
 
-## Aufgabe 1
+## Praxis
+
+### Aufgabe 1
 Jetzt, da wir wissen, wie man Schleifen in Python schreibt, lass uns eine kleine Übung machen. Schreibe eine for-Schleife, die alle geraden Zahlen von 0 bis 10 ausdruckt. Hier ist die Musterlösung:
 
 ```python
@@ -101,7 +103,7 @@ for zahl in range(0, 11, 2):
     print(zahl)
 ```
 
-## Aufgabe 2
+### Aufgabe 2
 Klar, hier ist eine etwas anspruchsvollere Aufgabe:
 
 Schreibe eine Python-Funktion `finde_primzahlen`, die eine positive ganze Zahl als Parameter erhält und eine Liste aller Primzahlen bis zu dieser Zahl zurückgibt. Verwende eine while-Schleife, um alle Zahlen von 2 bis zur gegebenen Zahl zu überprüfen, ob sie Primzahlen sind oder nicht.
@@ -133,7 +135,9 @@ def finde_primzahlen(obergrenze):
 
 Diese Funktion verwendet die `ist_primzahl`-Funktion, um alle Primzahlen von 2 bis zur gegebenen Obergrenze zu finden. Die Funktion gibt eine Liste aller gefundenen Primzahlen zurück.
 
-Viel Spaß beim Ausprobieren dieser anspruchsvolleren Aufgabe!
-
-
+## Fazit
 Ich hoffe, dieses Tutorial hat dir geholfen, Schleifen in Python zu verstehen. Schleifen sind eine wichtige Grundlage in der Programmierung und werden dir helfen, effizienten und wiederverwendbaren Code zu schreiben. Jetzt bist du bereit, Schleifen in deinen eigenen Python-Programmen zu verwenden. Viel Spaß beim Coden!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
