@@ -140,6 +140,23 @@ Herzlichen Glückwunsch! Du hast erfolgreich eine Funktion geschrieben, die best
 
 Wir hoffen, dass du Spaß hattest, während du diese Aufgabe durchgegangen bist. Probiere jetzt mit verschiedenen Arrays und Filterbedingungen herum, um dein Verständnis weiter zu vertiefen.
 
+## Fazit 
+In diesem Abschnitt haben wir das Thema "Python - Arrays" behandelt. Wir haben erklärt, was Arrays sind, wie man Arrays in Python erstellt und wie man auf Elemente in Arrays zugreift. 
+
+Außerdem haben wir uns einige nützliche Array-Manipulationsfunktionen wie `append()`, `pop()`, `remove()` und `len()` angesehen und gezeigt, wie man mit ihnen arbeitet. Wir haben auch eine praktische Aufgabe zur Anwendung der Array-Grundlagen durchgeführt, die es uns ermöglicht hat, unser Verständnis zu vertiefen.
+
+Ich hoffe, dass du nun ein besseres Verständnis davon hast, was Arrays sind und wie man sie in Python erstellt und manipuliert. Arrays sind ein grundlegender Bestandteil der Programmierung, und es ist wichtig, sie zu verstehen, um effektiv und effizient programmieren zu können. 
+
+## Weiterführende Links
+Hier sind einige weiterführende Links, die dir helfen können, dein Verständnis von Python-Arrays und deren Verwendung zu vertiefen:
+
+- [Python-Dokumentation zu Listen (Arrays)](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists): Hier findest du ausführliche Informationen zu Python-Listen, einschließlich weiterer Methoden und Eigenschaften.
+
+- [Numpy - Python-Paket für wissenschaftliches Rechnen](https://numpy.org/): Numpy ist ein beliebtes Python-Paket, das Arrays für wissenschaftliches Rechnen und Datenanalyse optimiert. Wenn du Arrays für mathematische oder wissenschaftliche Zwecke verwendest, ist dies eine nützliche Ressource.
+
+- [Python Array Module](https://docs.python.org/3/library/array.html): Das Python Array-Modul stellt eine Alternative zu Python-Listen dar, die spezifische Datentypen verwenden kann. Diese Module können besonders nützlich sein, wenn man mit großen Datenmengen arbeitet und die Effizienz ein Problem darstellt.
+
+
 Das war's! Du hast jetzt eine grundlegende Vorstellung von Arrays in Python. Du kennst die Syntax zur Array-Deklaration, den Array-Zugriff und die Array-Manipulation. Jetzt kannst du diese mächtige Datenstruktur nutzen, um deine Python-Programme noch leistungsfähiger zu gestalten.
 
 Wir hoffen, dass du Spaß hattest, während du diesen Abschnitt durchgegangen bist. Python kann manchmal wie ein Zoo aussehen, aber keine Sorge, mit etwas Übung wirst du bald zum Python-Profi. Viel Erfolg beim Experimentieren mit Arrays in Python!
