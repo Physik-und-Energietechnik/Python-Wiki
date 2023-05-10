@@ -81,3 +81,9 @@ def berechne_durchschnitt(werte):
 ``` 
 
 Herzlichen Glückwunsch, du hast das Python Tutorial über Funktionen abgeschlossen! Du solltest jetzt in der Lage sein, Funktionen zu definieren und in deinem Code zu verwenden.
+
+## Links / Weiteres Material 
+
+### [W3Schools](w3schools.com/python/python_functions.asp)
+
+### [YouTube](https://www.youtube.com/watch?v=mgA-Ytr32Ys)
