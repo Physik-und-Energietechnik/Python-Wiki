@@ -1,5 +1,3 @@
-# Python-Schleifen: Eine Einführung
-
 ## Einführung
 Herzlich willkommen zum Python-Schleifen-Tutorial für Anfänger! In diesem Tutorial werden wir lernen, wie man Schleifen in Python schreibt. Schleifen sind sehr nützlich, um wiederholte Aufgaben auszuführen, ohne dass man den Code mehrfach schreiben muss. Wenn du jemals müde davon bist, wiederholt denselben Code zu schreiben, dann bist du hier genau richtig. Lass uns loslegen und in die Welt der Schleifen eintauchen!
 
