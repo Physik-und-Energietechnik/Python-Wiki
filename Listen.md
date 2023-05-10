@@ -110,7 +110,7 @@ print("Pfirsich" in meine_liste) # Ausgabe: False
 ## Praxis
 Nun, da du die Theorie kennst, ist es Zeit für die Praxis! Hier sind zwei Übungen für dich, um dein neues Wissen zu testen.
 
-#### Übung 1
+### Aufgabe 1
 Erstelle eine Liste mit deinen Lieblingsfarben und gib sie auf der Konsole aus.
 
 Musterlösung:
@@ -120,7 +120,7 @@ lieblingsfarben = ["Rot", "Grün", "Blau"]
 print(lieblingsfarben)
 ```
 
-#### Übung 2
+### Aufgabe 2
 Erstelle ein Programm, das eine Liste mit Zahlen erstellt, die durch 3 teilbar sind, aber nicht durch 2. Die Liste soll 10 Elemente enthalten und auf der Konsole ausgegeben werden.
 
 Musterlösung:
