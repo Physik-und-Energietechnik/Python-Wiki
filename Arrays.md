@@ -51,8 +51,19 @@ print(mein_array)
 In diesem Beispiel ändern wir den Wert an Index 2 in `mein_array` von 3 auf 42.
 
 Es gibt auch viele eingebaute Funktionen in Python, die dir helfen, Arrays zu manipulieren, wie zum Beispiel `append()`, `pop()`, `remove()` und viele mehr. Du kannst sie verwenden, um Arrays zu erweitern, Elemente aus Arrays zu entfernen oder nach bestimmten Werten in Arrays zu suchen.
+Hier sind einige wichtige Array-Manipulationsfunktionen:
 
-## Aufgabe
+- `append(element)`: Fügt `element` am Ende des Arrays hinzu. Beispiel: `mein_array.append(42)` fügt die Zahl 42 am Ende von `mein_array` an.
+
+- `pop(index)`: Entfernt das Element an Position `index` aus dem Array und gibt es zurück. Beispiel: `letztes_element = mein_array.pop()` entfernt das letzte Element aus `mein_array` und gibt es zurück.
+
+- `remove(element)`: Entfernt das erste Vorkommen von `element` aus dem Array. Beispiel: `mein_array.remove(42)` entfernt die Zahl 42 aus `mein_array`.
+
+- `len()`: Gibt die Anzahl der Elemente im Array zurück. Beispiel: `array_laenge = len(mein_array)` speichert die Länge von `mein_array` in der Variablen `array_laenge`.
+
+Diese Funktionen sind sehr nützlich, wenn es darum geht, Arrays zu manipulieren und auf sie zuzugreifen.
+
+## Aufgabe 1
 
 Okay, jetzt seid ihr dran! Hier ist eine Aufgabe für euch, um euer Wissen über Arrays in Python zu überprüfen:
 
@@ -77,6 +88,59 @@ Musterlösung:
 ```
 
 Herzlichen Glückwunsch! Du hast erfolgreich den Wert im Array geändert. Probiere jetzt mit verschiedenen Arrays herum und nutze die verschiedenen Array-Manipulationsfunktionen, um dein Verständnis weiter zu vertiefen.
+
+## Aufgabe 2
+
+Hier ist eine etwas anspruchsvollere Aufgabe:
+
+Gegeben ist ein Array von Zahlen. Schreibe eine Funktion `filtern(arr)`, die das Array als Eingabe erhält und eine neue Liste zurückgibt, die nur die geraden Zahlen aus dem ursprünglichen Array enthält.
+
+Beispiel:
+
+```python
+# Gegebenes Array
+mein_array = [3, 7, 8, 12, 15, 21, 24, 31, 36]
+
+# Funktion zum Filtern der geraden Zahlen
+def filtern(arr):
+    # Code hier einfügen
+    return ergebnis
+
+# Ergebnis ausgeben
+ergebnis = filtern(mein_array)
+print(ergebnis)
+```
+
+Die Ausgabe sollte sein:
+
+```
+[8, 12, 24, 36]
+```
+
+Musterlösung:
+
+```python
+# Gegebenes Array
+mein_array = [3, 7, 8, 12, 15, 21, 24, 31, 36]
+
+# Funktion zum Filtern der geraden Zahlen
+def filtern(arr):
+    ergebnis = []
+    for zahl in arr:
+        if zahl % 2 == 0:
+            ergebnis.append(zahl)
+    return ergebnis
+
+# Ergebnis ausgeben
+ergebnis = filtern(mein_array)
+print(ergebnis)
+```
+
+Die Funktion geht das Array durch und fügt jede gerade Zahl in eine neue Liste `ergebnis` ein. Diese Liste wird schließlich von der Funktion zurückgegeben und gedruckt.
+
+Herzlichen Glückwunsch! Du hast erfolgreich eine Funktion geschrieben, die bestimmte Elemente aus einem Array filtert. Mit dieser Funktion kannst du zukünftige Programmieraufgaben effizienter lösen.
+
+Wir hoffen, dass du Spaß hattest, während du diese Aufgabe durchgegangen bist. Probiere jetzt mit verschiedenen Arrays und Filterbedingungen herum, um dein Verständnis weiter zu vertiefen.
 
 Das war's! Du hast jetzt eine grundlegende Vorstellung von Arrays in Python. Du kennst die Syntax zur Array-Deklaration, den Array-Zugriff und die Array-Manipulation. Jetzt kannst du diese mächtige Datenstruktur nutzen, um deine Python-Programme noch leistungsfähiger zu gestalten.
 
