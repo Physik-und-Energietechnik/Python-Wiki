@@ -165,7 +165,7 @@ print(a)   # Ausgabe: 0
 Um das erlangte Wissen über Python-Operatoren zu festigen, sollen im Folgenden die beiden Aufgabe gestellt werden, die mit Hilfe der Operatoren gelöst werden kann.
 
 ### Aufgabe 1
-Schreibe ein Python-Programm, das zwei Zahlen addieret.
+Schreibe ein Python-Programm, das zwei Zahlen addieret. Gib die Summe von der Operatoren auf dem Bildschirm aus.
 
 Musterlösung: 
 ```python
