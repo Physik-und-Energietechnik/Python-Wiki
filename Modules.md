@@ -79,11 +79,12 @@ from modul import addiere_zahlen
 ergebnis = addiere_zahlen(3, 5)
 print(ergebnis)   # Ausgabe: 8
 ```
-In der Musterlösung wurde die Funktion addiere_zahlen(x, y) in einem Modul modul.py definiert. Die Funktion nimmt zwei Parameter x und y und gibt die Summe zurück.
 
-Dann wird in einem anderen Python-Skript, main.py, die Funktion addiere_zahlen aus dem Modul modul.py importiert. Dies geschieht durch die Zeile from modul import addiere_zahlen. Dadurch ist die Funktion addiere_zahlen im Skript main.py verfügbar.
+In der Musterlösung wurde die Funktion `addiere_zahlen(x, y)` in einem Modul `modul.py` definiert. Die Funktion nimmt zwei Parameter x und y und gibt die Summe zurück. 
 
-Anschließend wird die Funktion addiere_zahlen mit den Argumenten 3 und 5 aufgerufen und das Ergebnis in der Variablen ergebnis gespeichert. Schließlich wird das Ergebnis mit der print-Funktion auf der Konsole ausgegeben.
+Dann wird in einem anderen Python-Skript, `main.py`, die Funktion `addiere_zahlen` aus dem Modul `modul.py` importiert. Dies geschieht durch die Zeile `from modul import addiere_zahlen`. Dadurch ist die Funktion `addiere_zahlen` im Skript `main.py` verfügbar.
+
+Anschließend wird die Funktion `addiere_zahlen` mit den Argumenten 3 und 5 aufgerufen und das Ergebnis in der Variablen `ergebnis` gespeichert. Schließlich wird das Ergebnis mit der `print`-Funktion auf der Konsole ausgegeben.
 
 ### Aufgabe 2
 Schreibe eine Funktion `zufallsliste(n)`, die eine Liste mit `n` Zufallszahlen zwischen 0 und 100 zurückgibt. Verwende das `random`-Modul.
