@@ -102,6 +102,10 @@ mein_string = "Dies ist ein langer String."
 print(mein_string[::2])
 ```
 
+## Fazit
+
+In diesem Tutorial haben wir uns mit den Grundlagen von Strings in Python beschäftigt und gelernt, wie man sie erstellt, manipuliert und auf sie zugreift. Wir haben auch verschiedene Methoden für Strings kennengelernt, wie z.B. `strip()`, `replace()` und `format()`. Durch Übungen wie das Erstellen eines Strings und das Ausgeben jedes zweiten Buchstabens haben wir das Gelernte in die Praxis umgesetzt. Nun bist du in der Lage, Strings in Python zu erstellen und zu manipulieren und die verschiedenen Methoden und Operatoren, die dafür zur Verfügung stehen, zu nutzen.
+
 ## Links / Weiteres Material 
 
 ### [W3Schools](https://www.w3schools.com/python/python_strings.asp)
