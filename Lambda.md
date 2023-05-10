@@ -1,5 +1,3 @@
-# Python Tutorial: Lambda Funktionen
-
 ## Einführung
 In diesem Tutorial geht es um Lambda Funktionen in Python. Mit Lambda Funktionen kann man schnell und einfach kleine, anonyme Funktionen erstellen. Dies kann sehr nützlich sein, wenn man z.B. eine Funktion nur einmal benötigt oder wenn eine Funktion als Argument an eine andere Funktion übergeben werden soll.
 
