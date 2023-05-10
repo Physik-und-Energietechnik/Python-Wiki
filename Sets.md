@@ -1,5 +1,3 @@
-# Python Tutorial - Sets
-
 ## Einführung
 In diesem Tutorial geht es um eine Datenstruktur namens Set in Python. Ein Set ist eine Sammlung von einzigartigen Elementen, die in keiner bestimmten Reihenfolge gespeichert werden. Mit Sets können Sie schnell Duplikate aus einer Liste entfernen und mathematische Operationen wie Vereinigung, Schnitt und Differenz durchführen.
 
