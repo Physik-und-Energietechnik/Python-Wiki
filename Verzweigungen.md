@@ -101,6 +101,8 @@ if name == "Guido":
 else:
     print("Hallo " + name + ", schön dich kennenzulernen!")
 ```
+Erklärung: In dieser Aufgabe wird der Benutzer nach seinem Namen gefragt und speichert die eingegebene Antwort in der Variablen "name". Dann überprüft das Programm, ob der eingegebene Name "Guido" ist. Wenn ja, gibt das Programm "Hey Guido, willkommen zurück!" in der Konsole aus. Wenn der eingegebene Name jedoch nicht "Guido" ist, gibt das Programm "Hallo [eingegebener Name], schön dich kennenzulernen!" aus, wobei der eingegebene Name in die Ausgabe eingefügt wird.
+
 
 ### Aufgabe 2
 
