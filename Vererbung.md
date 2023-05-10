@@ -92,7 +92,7 @@ class Katze(Tier):
 meine_katze = Katze("Minka")
 meine_katze.laut_machen()
 ```
-## Aufgabe 2
+### Aufgabe 2
 Erstelle eine neue Kindklasse namens `Student`, die von einer Elternklasse `Person` erbt. Die Elternklasse `Person` soll eine Methode namens `vorstellen()` haben, die den Namen der Person ausgibt. Die Kindklasse `Student` soll zusätzlich zur `vorstellen()`-Methode eine Eigenschaft namens `studienfach` haben, die den Namen des Studienfachs des Studenten speichert.
 
 Lösung:
@@ -117,3 +117,9 @@ mein_student = Student("Max Mustermann", "Informatik")
 mein_student.vorstellen()
 print("Ich studiere", mein_student.studienfach)
 ```
+
+## Fazit
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
