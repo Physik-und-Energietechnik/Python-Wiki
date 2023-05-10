@@ -68,7 +68,6 @@ Erstelle ein Tupel mit deinen Lieblingsfarben und gebe die zweite Farbe in der L
 meine_lieblingsfarben = ("Blau", "Grün", "Rot")
 print(meine_lieblingsfarben[1]) # Ausgabe: Grün
 ```
-#### Erklärung Musterlösung Aufgabe 1
 
 In diesem Python-Code wird zunächst eine Tupel-Variable `meine_lieblingsfarben` definiert, welche die drei Elemente "Blau", "Grün" und "Rot" enthält. Anschließend wird mittels der Index-Notation `[1]` auf das zweite Element "Grün" zugegriffen und mittels `print` auf der Konsole ausgegeben. Die Ausgabe des Codes lautet daher `Grün`. 
 
@@ -83,7 +82,6 @@ meine_lieblingsfilme = ("Star Wars", "Matrix", "Indiana Jones")
 neues_tupel = meine_lieblingsfilme + ("Inception",)
 print(neues_tupel) # Ausgabe: ('Star Wars', 'Matrix', 'Indiana Jones', 'Inception')
 ```
-#### Erklärung Musterlösung Aufgabe 2
 
 In diesem Python-Code wird zunächst eine Tupel-Variable `meine_lieblingsfilme` definiert, welche die drei Elemente "Star Wars", "Matrix" und "Indiana Jones" enthält. Anschließend wird ein neues Tupel `neues_tupel` durch Konkatenation von `meine_lieblingsfilme` und einem weiteren Tupel mit dem einzigen Element "Inception" erstellt. Hierbei ist zu beachten, dass das Tupel mit einem Komma am Ende definiert wird, um es als Tupel zu kennzeichnen. Das neue Tupel enthält nun vier Elemente. Schließlich wird das neue Tupel mittels `print` auf der Konsole ausgegeben, wobei die Ausgabe `('Star Wars', 'Matrix', 'Indiana Jones', 'Inception')` lautet.
 
@@ -96,7 +94,6 @@ Dieses Tutorial hat uns einen Überblick darüber gegeben, wie man Tupel in Pyth
 Insgesamt sind Tupel in Python eine nützliche Datenstruktur, insbesondere wenn man sicherstellen möchte, dass die Elemente nicht geändert werden können. Durch die Verwendung von Tupeln kann man sicherstellen, dass die Daten in einer bestimmten Reihenfolge vorliegen und die Integrität der Daten beibehalten wird.
 
  
-
 ## Links / Weiteres Material 
 
 ### [W3Schools](https://www.w3schools.com/python/python_tuples.asp)
