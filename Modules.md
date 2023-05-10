@@ -101,6 +101,16 @@ def zufallsliste(n):
 print(zufallsliste(10))
 ```
 
+Die Musterlösung importiert zunächst das `random`-Modul, um zufällige Zahlen zu generieren.
+
+Dann definiert die Funktion `zufallsliste(n)` mit dem Parameter `n`. Innerhalb der Funktion wird eine List Comprehension verwendet, um eine Liste von n Zufallszahlen zwischen 0 und 100 zu erzeugen. 
+
+`random.randint(0, 100)` gibt eine zufällige Ganzzahl zwischen 0 und 100 zurück, und `range(n)` erzeugt eine Liste von `n` Elementen, wobei jedes Element eine zufällige Zahl zwischen 0 und 100 ist.
+
+Die Funktion gibt diese Liste von Zufallszahlen zurück.
+
+Zuletzt wird die Funktion mit dem Argument 10 aufgerufen und das Ergebnis mit der `print`-Funktion auf der Konsole ausgegeben.
+
 ## Fazit
 
 Herzlichen Glückwunsch! Du hast erfolgreich die Grundlagen von Python-Modulen erlernt und gelernt, wie man Standardmodule und eigene Module erstellt. Durch das Importieren von Modulen können wir unseren Code strukturieren und zusätzliche Funktionalitäten nutzen, die Python standardmäßig nicht bietet. 
