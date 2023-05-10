@@ -21,7 +21,7 @@ class Person:
         self.alter = alter
 ```
 
-Hier wird eine Klasse `Person` definiert, die zwei Attribute hat: `name` und `alter`. Das Attribut `name` ist vom Typ String und das Attribut `alter` ist vom Typ Integer.
+Hier wird eine Klasse `Person` definiert, die zwei Attribute hat: `name` und `alter`. Das Attribut `name` ist vom Typ String und das Attribut `alter` ist vom Typ Integer.Um nun ein Objekt der Klasse `Person` zu erstellen müssen den Konstruktor, also die `__init__()`funktion,  aufrufen.
 
 ### Objekte manipulieren
 
@@ -68,7 +68,7 @@ Erstelle anschließend ein Objekt der Klasse `Auto` mit den folgenden Werten:
 - Baujahr: `2021`
 - Farbe: `Blau`
 
-### Aufgabe 2
+### Lösung 2
 
 ```python
 class Auto:
