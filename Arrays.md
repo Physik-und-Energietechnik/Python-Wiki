@@ -4,7 +4,7 @@ Hey ihr Python-Neulinge! Heute werfen wir einen Blick auf ein spannendes Thema -
 
 Ein Array ist eine Art von Datenstruktur, die es dir ermöglicht, mehrere Werte in einer einzigen Variablen zu speichern. Das macht Arrays besonders nützlich, wenn du mit einer Liste von Werten arbeiten möchtest, wie zum Beispiel einer Liste von Zahlen, Wörtern oder anderen Daten. Mit Arrays kannst du Daten effizient organisieren und auf sie zugreifen, was dir bei vielen Aufgaben in der Programmierung helfen kann.
 
-In diesem Tutorial werden wir uns anschauen, wie man Arrays in Python erstellt, darauf zugreift und sie manipuliert. Du wirst lernen, wie man Arrays deklariert, Werte in Arrays speichert und aus Arrays liest. Aber keine Sorge, wir werden es in einfachen Worten erklären und mit humorvollen Beispielen arbeiten, um sicherzustellen, dass ihr alle Spaß beim Lernen habt!
+In diesem Abschnitt werden wir uns anschauen, wie man Arrays in Python erstellt, darauf zugreift und sie manipuliert. Du wirst lernen, wie man Arrays deklariert, Werte in Arrays speichert und aus Arrays liest. Aber keine Sorge, wir werden es in einfachen Worten erklären und mit humorvollen Beispielen arbeiten, um sicherzustellen, dass ihr alle Spaß beim Lernen habt!
 
 ## Theorie
 
