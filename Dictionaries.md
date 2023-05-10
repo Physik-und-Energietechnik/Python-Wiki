@@ -229,7 +229,7 @@ def count_double_values(my_dict):
 Erlärung: Zunächst wird eine Variable "count" initialisiert, um zu zählen, wie oft Werte mindestens doppelt vorkommen. Dann wird eine Schleife durch jedes Element in my_dict.values() durchlaufen. In jeder Iteration wird geprüft, ob der Wert mindestens zweimal in my_dict.values() vorkommt. Wenn ja, wird die Zählvariable erhöht. Schließlich wird die Anzahl der doppelt vorkommenden Werte als Ergebnis zurückgegeben.
 
 ## Fazit
-Herzlichen Glückwunsch, du hast den Abschnitt zu Dictionaries erfolgreich abgeschlossen! Du hast gelernt, wie du Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Dictionaries können besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bieten. Am Ende dieses Tutorials bist du nun in der Lage, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr. Mit diesem Wissen kannst du jetzt komplexere Python-Anwendungen schreiben und effektiver arbeiten.
+Herzlichen Glückwunsch, du hast den Abschnitt zu Dictionaries erfolgreich abgeschlossen! Du hast gelernt, wie du Daten in einem formatierten und organisierten Format speichern und abrufen kannst. Dictionaries können besonders nützlich sein, wenn du große Datenmengen verarbeiten musst, da sie effizienten Zugriff auf Einträge bieten. Am Ende dieses Abschnittes bist du nun in der Lage, Dictionaries zu erstellen, auf Einträge zuzugreifen, sie zu bearbeiten und vieles mehr. Mit diesem Wissen kannst du jetzt komplexere Python-Anwendungen schreiben und effektiver arbeiten.
 
 ## Links / Weiteres Material
 ### W3Schools
