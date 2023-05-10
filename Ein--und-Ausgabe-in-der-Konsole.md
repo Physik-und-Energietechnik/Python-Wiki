@@ -35,7 +35,7 @@ Dieser Code fordert den Benutzer auf, einen Namen in der Konsole einzugeben. Der
 ## Praxis
 Lass uns das Gelernte in die Praxis umsetzen! Hier ist eine einfache Übung:
 
-### Übung 1
+### Aufgabe 1
 Schreibe ein Programm, das den Benutzer nach seinem Alter fragt und dann das Jahr berechnet, in dem der Benutzer 100 Jahre alt wird. Gib das Ergebnis in der Konsole aus.
 
 Hier ist eine mögliche Lösung:
@@ -84,6 +84,7 @@ Am Ende der Schleife hat `factorial` den Wert 120, der die Fakultät von 5 ist.
 
 [Drop Down Ende]
 
+## Fazit
 
 Herzlichen Glückwunsch, du hast erfolgreich Ein- und Ausgabe in der Konsole gelernt!
 
