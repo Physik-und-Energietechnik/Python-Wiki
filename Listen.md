@@ -120,6 +120,10 @@ lieblingsfarben = ["Rot", "Grün", "Blau"]
 print(lieblingsfarben)
 ```
 
+Der gegebene Code definiert eine Python-Liste mit dem Namen "lieblingsfarben". In dieser Liste sind drei Strings enthalten, "Rot", "Grün" und "Blau", die jeweils den Namen einer Farbe darstellen. Die eckigen Klammern [] kennzeichnen, dass es sich um eine Liste handelt, und die Elemente innerhalb der Liste sind durch Kommas getrennt.
+
+Die print()-Funktion wird verwendet, um die Liste auf der Konsole auszugeben. Wenn dieser Code ausgeführt wird, wird die Liste der Lieblingsfarben ausgegeben, dargestellt als ein Array von Strings: ["Rot", "Grün", "Blau"].
+
 ### Aufgabe 2
 Erstelle ein Programm, das eine Liste mit Zahlen erstellt, die durch 3 teilbar sind, aber nicht durch 2. Die Liste soll 10 Elemente enthalten und auf der Konsole ausgegeben werden.
 
