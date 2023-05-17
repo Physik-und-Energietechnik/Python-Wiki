@@ -37,7 +37,7 @@ Praxis
 
 Jetzt wird es Zeit, deine eigene Magie zu entfesseln! Wir haben eine leichte und eine schwere Aufgabe vorbereitet, um deine Fähigkeiten mit Sets zu testen.
 ## Aufgaben
-### Leichte Aufgabe: Finde gemeinsame Tricks
+### Aufgabe 1
 
 Hier ist eine leichte Aufgabe für dich. Gegeben sind zwei Sets von Zaubertricks. Schreibe Code, um die Tricks zu finden, die in beiden Sets enthalten sind. Das wird deine Zaubertrick-Superkraft demonstrieren!
 
@@ -51,6 +51,7 @@ print(common_tricks)  # Output: {'Schwebender Ball', 'Zersägte Dame'}
 
 ````
 
+### Aufgabe 2
 
 Jetzt wird es etwas schwieriger. Gegeben sind mehrere Sets von Zaubertricks. Schreibe Code, um alle einzigartigen Tricks zu finden, die in den Sets enthalten sind. Zeige uns, dass du der Meister der Einzigartigkeit bist!
 
