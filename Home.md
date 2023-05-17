@@ -8,3 +8,5 @@ Welcome to the Projektarbeit-ChatGPT-Python wiki!
 [[Modules]]
 [[Objekte]]
 [[Operatoren]]
+[[Schleifen]]
+[[Sets]]
