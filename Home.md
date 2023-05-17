@@ -3,7 +3,7 @@ Willkommen im Wiki zur Projektarbeit Python mit ChatGPT!
 | ----------- | ----------- |
 | [[Arrays]] | Beschreibung... |
 | [[Dictionaries]] | Beschreibung... |
-| [[Ein und Ausgabe in der Konsole]] | Beschreibung... |
+| [[Ein und Ausgabe]] | Beschreibung... |
 | [[Funktionen]] | Beschreibung... |
 | [[Lambda]] | Beschreibung... |
 | [[Listen]] | Beschreibung... |
