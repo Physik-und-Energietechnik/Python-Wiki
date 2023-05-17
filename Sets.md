@@ -1,60 +1,62 @@
+# Python - Sets
 ## Einführung
-In diesem Tutorial geht es um eine Datenstruktur namens Set in Python. Ein Set ist eine Sammlung von einzigartigen Elementen, die in keiner bestimmten Reihenfolge gespeichert werden. Mit Sets können Sie schnell Duplikate aus einer Liste entfernen und mathematische Operationen wie Vereinigung, Schnitt und Differenz durchführen.
 
+Willkommen zu unserem Python-Tutorial über Sets! Hast du jemals davon geträumt, eine Sammlung von einzigartigen Gegenständen zu haben? Nun, Sets in Python machen genau das möglich! In diesem Tutorial werden wir dir erklären, was Sets sind, wie du sie erstellst und welche magischen Kräfte sie besitzen.
+
+Du wirst lernen, wie du Sets verwenden kannst, um Elemente ohne Duplikate zu speichern und Operationen wie Vereinigung, Schnittmenge und Differenz durchzuführen. Sets sind wie die Zauberkünstler der Python-Welt - sie lassen Duplikate verschwinden und zaubern dir ein Lächeln ins Gesicht!
 ## Theorie
-### Erstellen eines Sets
-Sie können ein Set erstellen, indem Sie geschweifte Klammern {} verwenden oder die set() Funktion aufrufen. Hier ist ein Beispiel:
+### Was sind Sets?
 
-```python
-# Verwenden von geschweiften Klammern
-my_set = {1, 2, 3, 4, 5}
+Sets sind wie unsichtbare Käfige für einzigartige Objekte. Sie sind Sammlungen von Elementen, bei denen jedes Element einzigartig ist und keine bestimmte Reihenfolge hat. Stell dir vor, du hast eine Sammlung von magischen Zaubertricks - jedes Trick ist einzigartig und in deinem Set sicher verwahrt.
+### Code-Beispiel: Allgemein
 
-# Verwenden von set()
-my_set = set([1, 2, 3, 4, 5])
-```
+Hier ist ein allgemeines Code-Beispiel, um dir zu zeigen, wie Sets funktionieren:
 
-### Hinzufügen und Entfernen von Elementen
-Sie können ein Element zu einem Set hinzufügen, indem Sie die add() Methode verwenden und ein Element aus einem Set entfernen, indem Sie die remove() Methode verwenden. Hier sind Beispiele:
 
-```python
-my_set = {1, 2, 3, 4, 5}
-my_set.add(6) # Hinzufügen von 6 zum Set
-my_set.remove(3) # Entfernen von 3 aus dem Set
-```
 
-### Vereinigung, Schnitt und Differenz von Sets
-Sie können Sets mathematisch kombinieren, indem Sie die union(), intersection() und difference() Methoden verwenden. Hier sind Beispiele:
+`magic_tricks = {"Verschwindende Münze", "Schwebender Ball", "Zersägte Dame"}` <br>
+`print(magic_tricks)  # Output: {'Schwebender Ball', 'Verschwindende Münze', 'Zersägte Dame'}`
 
-```python
-set1 = {1, 2, 3}
-set2 = {2, 3, 4}
+In diesem Beispiel haben wir ein Set namens magic_tricks erstellt und drei Zaubertricks hinzugefügt. Beachte, dass die Reihenfolge der Tricks nicht erhalten bleibt und jedes Element einzigartig ist. Sets sorgen dafür, dass deine magischen Tricks niemals langweilig werden!
+### Code-Beispiel: Explizit in Python
 
-# Vereinigung von set1 und set2
-set3 = set1.union(set2)
-# Ergebnis: {1, 2, 3, 4}
+Wenn du kein Fan von Unsichtbarkeit bist und lieber direkte Dinge magst, hier ist dasselbe Beispiel mit einer expliziten Methode:
 
-# Schnitt von set1 und set2
-set4 = set1.intersection(set2)
-# Ergebnis: {2, 3}
 
-# Differenz von set1 und set2
-set5 = set1.difference(set2)
-# Ergebnis: {1}
-```
+`magic_tricks = set(["Verschwindende Münze", "Schwebender Ball", "Zersägte Dame"])` <br>
+`print(magic_tricks)  # Output: {'Schwebender Ball', 'Verschwindende Münze', 'Zersägte Dame'}`
 
-## Praxis
-### Leichte Aufgabe
-Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und ein Set zurückgibt, das nur die einzigartigen Zahlen aus der Liste enthält.
+Siehst du den Unterschied? Die Set-Version ist kompakt und mysteriös, während die explizite Methode dir zeigt, was genau passiert. Beide Wege führen dich zu einem Set voller magischer Elemente!
+Praxis
 
-```python
-def unique_numbers(numbers):
-    return set(numbers)
-```
+Jetzt wird es Zeit, deine eigene Magie zu entfesseln! Wir haben eine leichte und eine schwere Aufgabe vorbereitet, um deine Fähigkeiten mit Sets zu testen.
+## Aufgaben
+### Leichte Aufgabe: Finde gemeinsame Tricks
 
-### Schwere Aufgabe
-Schreiben Sie eine Funktion, die zwei Sets entgegennimmt und ein neues Set zurückgibt, das nur Elemente enthält, die in beiden Sets vorkommen.
+Hier ist eine leichte Aufgabe für dich. Gegeben sind zwei Sets von Zaubertricks. Schreibe Code, um die Tricks zu finden, die in beiden Sets enthalten sind. Das wird deine Zaubertrick-Superkraft demonstrieren!
 
-```python
-def common_elements(set1, set2):
-    return set1.intersection(set2)
-```
+
+
+`set1 = {"Verschwindende Münze", "Schwebender Ball", "Zersägte Dame"}` <br>
+`set2 = {"Zersägte Dame", "Schwebender Ball", "Durchbohrter Apfel"}` <br>
+
+`common_tricks = set1.intersection(set2)` <br>
+`common_tricks = set1.intersection(set2)` <br>
+`print(common_tricks)  ` <br>
+`# Output: {'Schwebender Ball', 'Zersägte Dame'}`
+
+In diesem Beispiel verwenden wir die Methode intersection(), um die gemeinsamen Tricks zwischen set1 und set2 zu finden. Das Ergebnis ist ein neues Set mit den Tricks, die in beiden Sets enthalten sind. Lass die Magie beginnen!
+### Schwere Aufgabe: Einzigartige Tricks
+
+Jetzt wird es etwas schwieriger. Gegeben sind mehrere Sets von Zaubertricks. Schreibe Code, um alle einzigartigen Tricks zu finden, die in den Sets enthalten sind. Zeige uns, dass du der Meister der Einzigartigkeit bist!
+
+
+
+`set1 = {"Verschwindende Münze", "Schwebender Ball", "Zersägte Dame"}` <br>
+`set2 = {"Zersägte Dame", "Schwebender Ball", "Durchbohrter Apfel"}` <br>
+`set3 = {"Schwebender Ball", "Schwebendes Tuch", "Levitierender Zauberstab"}` <br>
+`unique_tricks = set1.union(set2, set3)` <br>
+`print(unique_tricks)` <br>
+`# Output: {'Verschwindende Münze', 'Levitierender Zauberstab', 'Schwebendes Tuch', 'Zersägte Dame', 'Durchbohrter Apfel', 'Schwebender Ball'}`
+
+In diesem Beispiel verwenden wir die Methode union(), um alle einzigartigen Tricks aus set1, set2 und set3 zu finden. Das Ergebnis ist ein neues Set mit allen Tricks, ohne Duplikate. Zeige uns deine Meistermagie und finde alle einzigartigen Tricks!
