@@ -1,2 +1,10 @@
 Welcome to the Projektarbeit-ChatGPT-Python wiki!
 [[Arrays]]
+[[Dictionaries]]
+[[Ein und Ausgabe in der Konsole]]
+[[Funktionen]]
+[[Lambda]]
+[[Listen]]
+[[Modules]]
+[[Objekte]]
+[[Operatoren]]
