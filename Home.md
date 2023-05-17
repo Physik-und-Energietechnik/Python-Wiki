@@ -1,4 +1,8 @@
 Willkommen im Wiki zur Projektarbeit Python mit ChatGPT!
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 [[Arrays]]
 [[Dictionaries]]
 [[Ein und Ausgabe in der Konsole]]
