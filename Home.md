@@ -1,22 +1,20 @@
 Willkommen im Wiki zur Projektarbeit Python mit ChatGPT!
-| Syntax | Description |
+| Seite | Beschreibung |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-[[Arrays]]
-[[Dictionaries]]
-[[Ein und Ausgabe in der Konsole]]
-[[Funktionen]]
-[[Lambda]]
-[[Listen]]
-[[Modules]]
-[[Objekte]]
-[[Operatoren]]
-[[Schleifen]]
-[[Sets]]
-[[Strings]]
-[[Syntax, Comments]]
-[[Tupel]]
-[[Variablen, Datentypen und Casting]]
-[[Vererbung]]
-[[Verzweigungen]]
+| [[Arrays]] | Beschreibung... |
+| [[Dictionaries]] | Beschreibung... |
+| [[Ein und Ausgabe in der Konsole]] | Beschreibung... |
+| [[Funktionen]] | Beschreibung... |
+| [[Lambda]] | Beschreibung... |
+| [[Listen]] | Beschreibung... |
+| [[Modules]] | Beschreibung... |
+| [[Objekte]] | Beschreibung... |
+| [[Operatoren]] | Beschreibung... |
+| [[Schleifen]] | Beschreibung... |
+| [[Sets]] | Beschreibung... |
+| [[Strings]] | Beschreibung... |
+| [[Syntax, Comments]] | Beschreibung... |
+| [[Tupel]] | Beschreibung... |
+| [[Variablen, Datentypen und Casting]] | Beschreibung... |
+| [[Vererbung]] | Beschreibung... |
+| [[Verzweigungen]] | Beschreibung... |
