@@ -8,18 +8,18 @@ Lambdas sind wie Miniatur-Versionen von Funktionen, die du "on the fly" erstelle
 ### Code-Beispiel: Allgemein
 Um dir zu zeigen, wie Lambdas funktionieren, hier ein allgemeines Code-Beispiel: <br>
 
-`add_numbers = lambda x, y: x + y`
-`result = add_numbers(3, 5)`
-`print(result)  # Output: 8` <br>
+`add_numbers = lambda x, y: x + y` <br>
+`result = add_numbers(3, 5)` <br>
+`print(result)  # Output: 8`
+<br>
 Hier haben wir eine Lambda-Funktion erstellt, die zwei Zahlen addiert. Das Schlüsselwort lambda zeigt an, dass es sich um eine Lambda-Funktion handelt, gefolgt von den Parametern x und y. Der Doppelpunkt : trennt die Parameter von der eigentlichen Berechnung. In diesem Fall addieren wir einfach x und y.
 ### Code-Beispiel: Explizit in Python
 Wenn du die Lambda-Syntax nicht verwendest, könntest du dasselbe Code-Beispiel wie oben mit einer expliziten Funktion schreiben: <br>
-
-`def add_numbers(x, y):`
-    `return x + y`
-
-`result = add_numbers(3, 5)`
-`print(result)  # Output: 8` <br>
+`def add_numbers(x, y):` <br>
+    `return x + y` <br>
+`result = add_numbers(3, 5)`<br>
+`print(result)  # Output: 8`
+<br>
 Die Lambda-Variante ist jedoch nützlich, wenn du eine Funktion benötigst, die nur an einer Stelle im Code verwendet wird und keine eigenen Namen haben muss.
 
 ## Praxis
@@ -29,10 +29,10 @@ Schreibe eine Lambda-Funktion, die zwei Zahlen multipliziert. Verwende dann die 
 
 
 
-`from functools import reduce`
+`from functools import reduce` <br>
 
-`numbers = [2, 3, 4, 5]`
-`product = reduce(lambda x, y: x * y, numbers)`
+`numbers = [2, 3, 4, 5]` <br>
+`product = reduce(lambda x, y: x * y, numbers)` <br>
 `print(product)  # Output: 120`
 
 ### Schwere Aufgabe: Sortiere Wörter nach Länge
@@ -41,9 +41,10 @@ Schreibe eine Lambda-Funktion, die die Länge eines Worts zurückgibt. Verwende 
 
 
 
-`words = ["Python", "is", "awesome", "to", "learn"]`
-`sorted_words = sorted(words, key=lambda word: len(word))`
-`print(sorted_words)  # Output: ['is', 'to', 'learn', 'Python', 'awesome']` <br>
+`words = ["Python", "is", "awesome", "to", "learn"]` <br>
+`sorted_words = sorted(words, key=lambda word: len(word))` <br>
+`print(sorted_words) `<br>
+`# Output: ['is', 'to', 'learn', 'Python', 'awesome']` <br>
 
 In diesem Beispiel wird die Lambda-Funktion als key-Argument an sorted() übergeben, um die Länge jedes Worts zu berechnen und die Wörter entsprechend zu sortieren.
 
