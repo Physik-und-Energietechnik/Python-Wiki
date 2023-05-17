@@ -1,4 +1,4 @@
-Welcome to the Projektarbeit-ChatGPT-Python wiki!
+Willkommen im Wiki zur Projektarbeit Python mit ChatGPT!
 [[Arrays]]
 [[Dictionaries]]
 [[Ein und Ausgabe in der Konsole]]
@@ -10,3 +10,9 @@ Welcome to the Projektarbeit-ChatGPT-Python wiki!
 [[Operatoren]]
 [[Schleifen]]
 [[Sets]]
+[[Strings]]
+[[Syntax, Comments]]
+[[Tupel]]
+[[Variablen, Datentypen und Casting]]
+[[Vererbung]]
+[[Verzweigungen]]
