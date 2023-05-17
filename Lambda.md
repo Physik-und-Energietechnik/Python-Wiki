@@ -1,36 +1,49 @@
-## Einführung
-In diesem Tutorial geht es um Lambda Funktionen in Python. Mit Lambda Funktionen kann man schnell und einfach kleine, anonyme Funktionen erstellen. Dies kann sehr nützlich sein, wenn man z.B. eine Funktion nur einmal benötigt oder wenn eine Funktion als Argument an eine andere Funktion übergeben werden soll.
+Python - Lambda
+Einführung
+Willkommen zu unserem Python-Tutorial über Lambdas! Wenn du dich fragst, was zum Teufel ein Lambda ist und wie es dir beim Programmieren helfen kann, dann bist du hier genau richtig. Keine Sorge, wir werden es dir in einer verständlichen und humorvollen Weise erklären.
+In diesem Tutorial wirst du lernen, wie du Lambdas in Python erstellst und wie du sie in deinen eigenen Programmen einsetzen kannst. Lambdas sind eine elegante Möglichkeit, kleine anonyme Funktionen zu definieren, die oft in Verbindung mit Funktionen wie map(), filter() und reduce() verwendet werden. Sie können dir helfen, deinen Code kompakter und lesbarer zu machen.
+Theorie
+Was sind Lambdas?
+Lambdas sind wie Miniatur-Versionen von Funktionen, die du "on the fly" erstellen kannst. Sie sind anonyme Funktionen, was bedeutet, dass sie keinen Namen haben. Du kannst sie direkt an der Stelle verwenden, an der du sie brauchst, ohne sie zuerst definieren zu müssen.
+Code-Beispiel: Allgemein
+Um dir zu zeigen, wie Lambdas funktionieren, hier ein allgemeines Code-Beispiel:
+python
+add_numbers = lambda x, y: x + y
+result = add_numbers(3, 5)
+print(result)  # Output: 8
+Hier haben wir eine Lambda-Funktion erstellt, die zwei Zahlen addiert. Das Schlüsselwort lambda zeigt an, dass es sich um eine Lambda-Funktion handelt, gefolgt von den Parametern x und y. Der Doppelpunkt : trennt die Parameter von der eigentlichen Berechnung. In diesem Fall addieren wir einfach x und y.
+Code-Beispiel: Explizit in Python
+Wenn du die Lambda-Syntax nicht verwendest, könntest du dasselbe Code-Beispiel wie oben mit einer expliziten Funktion schreiben:
+python
+def add_numbers(x, y):
+    return x + y
 
-## Theorie
-Eine Lambda Funktion in Python wird mit dem Schlüsselwort `lambda` definiert und hat die folgende Syntax:
-```python
-lambda argumente: ausdruck
-```
-Dabei sind `argumente` die Parameter der Funktion und `ausdruck` der Ausdruck, der von der Funktion zurückgegeben wird.
+result = add_numbers(3, 5)
+print(result)  # Output: 8
+Die Lambda-Variante ist jedoch nützlich, wenn du eine Funktion benötigst, die nur an einer Stelle im Code verwendet wird und keine eigenen Namen haben muss.
 
-Ein allgemeines Code-Beispiel:
-```python
-# Eine einfache Lambda Funktion, die zwei Zahlen addiert
-addieren = lambda a, b: a + b
-print(addieren(3, 4)) # Ausgabe: 7
-```
+Praxis
+Leichte Aufgabe: Multipliziere Zahlen
 
-Ein explizites Code-Beispiel:
-```python
-# Eine Lambda Funktion, die das Quadrat einer Zahl berechnet
-quadrat = lambda x: x*x
-print(quadrat(5)) # Ausgabe: 25
-```
+Schreibe eine Lambda-Funktion, die zwei Zahlen multipliziert. Verwende dann die Funktion reduce(), um die Produkt aller Zahlen in einer Liste zu berechnen. Hier ist ein Musterbeispiel, um dir den Einstieg zu erleichtern:
 
-## Praxis
-### Leichte Aufgabe
-Schreibe eine Lambda Funktion, die das Produkt zweier Zahlen berechnet und speichere sie in der Variablen `produkt`.
-```python
-produkt = lambda x, y: x * y
-```
-### Schwerere Aufgabe
-Schreibe eine Lambda Funktion, die eine Liste von Zahlen als Argument nimmt und die Summe aller ungeraden Zahlen in der Liste zurückgibt. Speichere diese Funktion in der Variablen `summe_ungerade`.
-```python
-summe_ungerade = lambda lst: sum(filter(lambda x: x%2 != 0, lst))
-```
-Beachte, dass hier die `filter` Funktion verwendet wird, um nur die ungeraden Zahlen aus der Liste auszuwählen. Die `sum` Funktion addiert dann alle ausgewählten Zahlen zusammen.
+python
+
+from functools import reduce
+
+numbers = [2, 3, 4, 5]
+product = reduce(lambda x, y: x * y, numbers)
+print(product)  # Output: 120
+
+Schwere Aufgabe: Sortiere Wörter nach Länge
+
+Schreibe eine Lambda-Funktion, die die Länge eines Worts zurückgibt. Verwende dann die Funktion sorted(), um eine Liste von Wörtern nach ihrer Länge zu sortieren. Hier ist ein Musterbeispiel:
+
+python
+
+words = ["Python", "is", "awesome", "to", "learn"]
+sorted_words = sorted(words, key=lambda word: len(word))
+print(sorted_words)  # Output: ['is', 'to', 'learn', 'Python', 'awesome']
+
+In diesem Beispiel wird die Lambda-Funktion als key-Argument an sorted() übergeben, um die Länge jedes Worts zu berechnen und die Wörter entsprechend zu sortieren.
+
