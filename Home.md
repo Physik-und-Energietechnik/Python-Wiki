@@ -1,4 +1,6 @@
-Willkommen im Wiki zur Projektarbeit Python mit ChatGPT!
+# Willkommen im Wiki zur Projektarbeit Python mit ChatGPT!
+
+## Grundlagen
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Arrays]] | Beschreibung... |
@@ -14,7 +16,8 @@ Willkommen im Wiki zur Projektarbeit Python mit ChatGPT!
 | [[Sets]] | Beschreibung... |
 | [[Strings]] | Beschreibung... |
 | [[Syntax, Comments]] | Beschreibung... |
-| [[Tupel]] | Beschreibung... |
-| [[Variablen, Datentypen und Casting]] | Beschreibung... |
-| [[Vererbung]] | Beschreibung... |
-| [[Verzweigungen]] | Beschreibung... |
+
+## Säule 1
+| Seite | Beschreibung |
+| ----------- | ----------- |
+| [[Lorem Ipsum]] | Beschreibung... |
