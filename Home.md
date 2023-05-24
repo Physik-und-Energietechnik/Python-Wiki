@@ -31,6 +31,7 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Einführung in Matplotlib]] | Beschreibung... |
+| [[Erstellen eines einfachen Linienplots]] | Beschreibung... |
 
 ## Säule 4
 | Seite | Beschreibung |
