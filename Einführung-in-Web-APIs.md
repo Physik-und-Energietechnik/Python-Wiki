@@ -1,0 +1,171 @@
+```markdown
+# Python Tutorial: Einführung in Web-APIs und deren Bedeutung
+
+## 1. Einführung in die Web-APIs und deren Bedeutung
+
+### 1.1 Was sind Web-APIs?
+
+Web-APIs (Application Programming Interfaces) sind Schnittstellen, die es verschiedenen Anwendungen ermöglichen, miteinander zu kommunizieren. Sie dienen als Brücke zwischen einem Client (z. B. eine Website oder eine App) und einem Server. Mithilfe von Web-APIs können Daten und Funktionen zwischen Client und Server ausgetauscht werden.
+
+### 1.2 Warum sind sie wichtig für die Kommunikation zwischen Client und Server?
+
+Stell dir vor, du bist in einem Restaurant und möchtest eine Pizza bestellen. Anstatt direkt in die Küche zu gehen und den Pizzabäcker anzusprechen, gibt es eine Schnittstelle, nämlich den Kellner. Du gibst dem Kellner deine Bestellung auf und er kümmert sich darum, dass die Nachricht an den Pizzabäcker weitergeleitet wird. Die Web-APIs funktionieren ähnlich. Sie ermöglichen eine lose Kopplung zwischen Client und Server, indem sie die Kommunikation vereinfachen und standardisieren.
+
+### 1.3 Übersicht über gängige API-Architekturen (z. B. REST, GraphQL)
+
+Es gibt verschiedene Architekturen für Web-APIs, die jeweils ihre Vor- und Nachteile haben. Hier sind zwei gängige Beispiele:
+
+#### 1.3.1 REST (Representational State Transfer)
+
+REST ist eine weit verbreitete Architektur für Web-APIs. Sie basiert auf dem Prinzip von Ressourcen, die über eindeutige URLs angesprochen werden können. Mit REST können verschiedene HTTP-Methoden wie GET, POST, PUT und DELETE verwendet werden, um auf diese Ressourcen zuzugreifen und mit ihnen zu interagieren.
+
+Ein allgemeines Code-Beispiel für den Aufruf einer REST-API könnte so aussehen:
+
+```python
+import requests
+
+response = requests.get("https://api.example.com/users")
+if response.status_code == 200:
+    data = response.json()
+    for user in data:
+        print(user["name"])
+```
+
+#### 1.3.2 GraphQL
+
+GraphQL ist eine moderne Alternative zu REST. Es ermöglicht dem Client, genau die Daten anzufordern, die er benötigt, und reduziert dadurch Overfetching und Underfetching. Bei GraphQL definiert der Client eine Abfrage, die seine Anforderungen spezifiziert, und die Server-API liefert genau diese Daten zurück.
+
+Ein Beispiel für den Aufruf einer GraphQL-API in Python könnte so aussehen:
+
+```python
+import requests
+
+query = """
+    query {
+        users {
+            name
+        }
+    }
+"""
+
+response = requests.post("https://api.example.com/graphql", json={"query": query})
+if response.status_code == 200:
+    data = response.json()
+    users = data["data"]["users"]
+    for user in users:
+        print(user["name"])
+```
+
+## 2. Theorie
+
+In diesem Abschnitt werden wir genauer auf die Theorie hinter Web-APIs eingehen und praktische Beispiele in Python betrachten.
+
+### 2.1 API-Grundlagen
+
+Eine API (Application Programming Interface) ist eine Schnittstelle, die verschiedene Funktionen und Daten bereitstellt. Sie definiert, wie ein Client auf diese Funktionen
+
+ und Daten zugreifen kann. APIs ermöglichen die Modulare Entwicklung von Software, da verschiedene Komponenten miteinander kommunizieren können, ohne interne Details offenlegen zu müssen.
+
+```python
+# Beispiel: Eine einfache API-Funktion, die zwei Zahlen addiert
+def add_numbers(a, b):
+    return a + b
+```
+
+### 2.2 REST-APIs
+
+REST (Representational State Transfer) ist ein Architekturstil für Web-APIs. Es basiert auf dem Konzept von Ressourcen, die über eindeutige URLs angesprochen werden. REST-APIs verwenden verschiedene HTTP-Methoden wie GET, POST, PUT und DELETE, um mit Ressourcen zu interagieren.
+
+```python
+# Beispiel: GET-Anfrage an eine REST-API, um Informationen abzurufen
+import requests
+
+response = requests.get("https://api.example.com/users/123")
+if response.status_code == 200:
+    user = response.json()
+    print(user["name"])
+```
+
+### 2.3 GraphQL-APIs
+
+GraphQL ist eine moderne Alternative zu REST. Es ermöglicht dem Client, genau die Daten anzufordern, die er benötigt, und reduziert dadurch Overfetching und Underfetching. Bei GraphQL definiert der Client eine Abfrage, die seine Anforderungen spezifiziert, und die Server-API liefert genau diese Daten zurück.
+
+```python
+# Beispiel: GraphQL-Abfrage, um Benutzernamen abzurufen
+import requests
+
+query = """
+    query {
+        user(id: "123") {
+            name
+        }
+    }
+"""
+
+response = requests.post("https://api.example.com/graphql", json={"query": query})
+if response.status_code == 200:
+    data = response.json()
+    user = data["data"]["user"]
+    print(user["name"])
+```
+
+## 3. Praxis
+
+Jetzt wollen wir das gelernte Wissen in die Praxis umsetzen. Hier sind zwei Aufgaben, eine leichtere und eine etwas schwierigere, die du lösen kannst.
+
+### Aufgabe 1
+
+Erstelle eine Python-Funktion, die mithilfe einer REST-API die aktuelle Wettervorhersage für eine bestimmte Stadt abruft und ausgibt. Die API-Dokumentation stellt die folgende URL zur Verfügung: `https://api.example.com/weather?city=Berlin`
+
+Musterlösung:
+
+```python
+import requests
+
+def get_weather(city):
+    url = f"https://api.example.com/weather?city={city}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        weather_data = response.json()
+        print(f"Aktuelle Wettervorhersage für {city}: {weather_data['forecast']}")
+    else:
+        print("Fehler beim Abrufen der Wetterdaten")
+
+get_weather("Berlin")
+```
+
+### Aufgabe 2
+
+Erstelle eine Python-Funktion, die mithilfe einer GraphQL-API alle Benutzer einer Website abruft und deren Namen ausgibt. Die GraphQL-URL lautet: `https://api.example.com/graphql`
+
+Musterlösung:
+
+```python
+import requests
+
+def get_users():
+    query = """
+        query {
+            users {
+                name
+            }
+        }
+    """
+    response = requests.post("https://api.example.com/graphql", json={"query": query})
+    if response.status_code == 200:
+        data = response.json()
+        users = data["data"]["users"]
+        for user in users:
+            print(user["name"])
+    else:
+        print("
+
+Fehler beim Abrufen der Benutzerdaten")
+
+get_users()
+```
+
+Das war eine Einführung in Web-APIs und deren Bedeutung. Du hast gelernt, was Web-APIs sind, warum sie wichtig sind und einen Überblick über gängige API-Architekturen wie REST und GraphQL bekommen. Außerdem hast du praktische Beispiele in Python gesehen und zwei Aufgaben gelöst, um dein Wissen anzuwenden. Weiter so!
+```
+
+Bitte beachte, dass der Code in diesem Tutorial als Beispiel dient und auf tatsächlichen APIs basieren sollte, um korrekte Ergebnisse zu erhalten.
