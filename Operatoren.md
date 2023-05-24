@@ -6,7 +6,7 @@ Operatoren sind Symbole oder Schlüsselwörter in Python, die verwendet werden, 
 
 ### Arithmetische Operatoren
 Diese Operatoren werden verwendet, um mathematische Berechnungen durchzuführen, wie Addition(+), Subtraktion(-), Multiplikation(*), Division(/), Potenz(**) und Modulo(%).
-Hier ist **ein allgemeines Code-Beispiel**:
+Hier ist ein allgemeines Code-Beispiel:
 
 ```python
 a = 10
