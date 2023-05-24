@@ -17,12 +17,12 @@
 | [[Strings]] | Beschreibung... |
 | [[Syntax, Comments]] | Beschreibung... |
 
-## Säule 1
+## Wissenschaftliches Rechnen
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Lorem Ipsum]] | Beschreibung... |
 
-## Säule 2
+## Graphical User Interface
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Lorem Ipsum]] | Beschreibung... |
@@ -31,14 +31,19 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Einführung in Matplotlib]] | Beschreibung... |
-| [[Erstellen eines einfachen Linienplots]] | Beschreibung... |
+| [[Grundlagen des Plottings]] | Beschreibung... |
+| [[Plottypen]] | Beschreibung... |
+| [[Subplots und mehrere Achsen]] | Beschreibung... |
+| [[Anpassungen und Stilisierung]] | Beschreibung... |
+| [[Fortgeschrittene Plot-Techniken]] | Beschreibung... |
+| [[Praktische Anwendungen von Plots]] | Beschreibung... |
 
-## Säule 4
+## Kommunikation
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Lorem Ipsum]] | Beschreibung... |
 
-## Säule 5
+## Daten
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Lorem Ipsum]] | Beschreibung... |
