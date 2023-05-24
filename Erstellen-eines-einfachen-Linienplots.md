@@ -60,7 +60,7 @@ Jetzt kannst du deine eigene Achterbahnfahrt des Koffeinkonsums visualisieren!
 
 ## Praxis
 
-### Übung 1
+### Aufgabe 1
 Erstelle einen Linienplot für die folgenden Daten:
 
 ```python
@@ -69,15 +69,8 @@ y = [0, 1, 4, 9, 16, 25]
 ```
 
 Verwende passende Achsenbeschriftungen und einen aussagekräftigen Titel für den Plot.
+Musterlösung:
 
-### Übung 2
-Erstelle einen Linienplot für die Funktion f(x) = sin(x) im Intervall von 0 bis 2π. Hinweis: Du kannst die `numpy`-Bibliothek verwenden, um die Sinusfunktion zu berechnen.
-
-Viel Erfolg bei den Aufgaben!
-
-Musterlösungen:
-
-#### Übung 1
 ```python
 import matplotlib.pyplot as plt
 
@@ -91,7 +84,9 @@ plt.title('Quadratische Funktion')
 plt.show()
 ```
 
-#### Übung 2
+### Aufgabe 2
+Erstelle einen Linienplot für die Funktion f(x) = sin(x) im Intervall von 0 bis 2π. Hinweis: Du kannst die `numpy`-Bibliothek verwenden, um die Sinusfunktion zu berechnen.
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -106,4 +101,7 @@ plt.title('Sinusfunktion')
 plt.show()
 ```
 
+Viel Erfolg bei den Aufgaben!
+
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich Linienplots erstellt und bist bereit, deine Daten visuell ansprechend darzustellen.
