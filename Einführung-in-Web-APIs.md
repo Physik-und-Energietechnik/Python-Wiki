@@ -1,4 +1,3 @@
-```markdown
 # Python Tutorial: Einführung in Web-APIs und deren Bedeutung
 
 ## 1. Einführung in die Web-APIs und deren Bedeutung
