@@ -58,10 +58,10 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
+| [[Grundlagen der Netzwerkprogrammierung mit Python]] | Beschreibung... |
+| [[Aufbau eines einfachen HTTP-Servers in Python]] | Beschreibung... |
+| [[Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Beschreibung... |
+| [[Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
 | [[Einführung in Web APIs]] | Beschreibung... |
 | [[Einführung in Web APIs]] | Beschreibung... |
 | [[Einführung in Web APIs]] | Beschreibung... |
