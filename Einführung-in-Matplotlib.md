@@ -9,9 +9,7 @@ Um mit diesem Tutorial mitzumachen, benötigst du grundlegende Kenntnisse in Pyt
 
 Bereite dich sich darauf vor, deine Daten zum Leben zu erwecken und deine Python-Kenntnisse auf die nächste Stufe zu heben! Lass uns gemeinsam in die Welt der Datenvisualisierung mit Python Matplotlib eintauchen.
 
-## Theorie
-Natürlich! Hier ist eine einfache Anleitung zur Installation und Verwendung von Matplotlib für Python-Anfänger:
-
+## Installation und Einrichtung
 1. Installation von Matplotlib:
    Um Matplotlib zu installieren, öffnen Sie Ihre Kommandozeile oder Ihr Terminal und geben Sie den folgenden Befehl ein:
    ```
