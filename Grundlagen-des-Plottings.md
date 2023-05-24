@@ -1,6 +1,6 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Erstellen von einfachen Linienplots]] | Beschreibung... |
+| [[Erstellen eines einfachen Linienplots]] | Beschreibung... |
 | [[Anpassen von Achsen]] | Beschreibung... |
 | [[Hinzufügen von Legenden]] | Beschreibung... |
 | [[Verwenden verschiedener Marker und Linienstile]] | Beschreibung... |
