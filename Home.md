@@ -37,6 +37,7 @@
 ## Darstellung
 | Seite | Beschreibung |
 | ----------- | ----------- |
+| [[Installation Python und Pip]] | Beschreibung... |
 | [[Einführung in Matplotlib]] | Beschreibung... |
 | [[Grundlagen des Plottings]] | Beschreibung... |
 | [[Plottypen]] | Beschreibung... |
