@@ -41,7 +41,7 @@
 ## Kommunikation
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Lorem Ipsum]] | Beschreibung... |
+| [[Einführung in Web APIs]] | Beschreibung... |
 
 ## Daten
 | Seite | Beschreibung |
