@@ -25,7 +25,14 @@
 ## Graphical User Interface
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Lorem Ipsum]] | Beschreibung... |
+| [[Fenster: Erstellung]] | Beschreibung... |
+| [[Fenster: Anpassung - Größe + Hintergrund(-farbe)]] | Beschreibung... |
+| [[Fenster: Anpassung - Titel- und Werkzeugleiste]] | Beschreibung... |
+| [[Fenster: Popups/Dialogfenster]] | Beschreibung... |
+| [[Interaktionsmöglichkeiten: Arten]] | Beschreibung... |
+| [[Interaktionsmöglichkeiten: Interaktion mit Code]] | Beschreibung... |
+| [[Grafische Darstellungen]] | Beschreibung... |
+| [[Layout-Management]] | Beschreibung... |
 
 ## Darstellung
 | Seite | Beschreibung |
