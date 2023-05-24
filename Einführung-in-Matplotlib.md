@@ -27,8 +27,6 @@ Bereite dich sich darauf vor, deine Daten zum Leben zu erwecken und deine Python
 
 ## Unterschiede zwischen Matplotlib und Plotly
 
-Hier sind 10 Unterschiede zwischen Matplotlib und Plotly:
-
 1. Syntax und Verwendung: Matplotlib ist eine eher traditionelle Bibliothek, die eine statische Syntax verwendet. Es erstellt statische Grafiken und Plots. Plotly hingegen ist interaktiv und ermöglicht es Benutzern, Grafiken zu erstellen, die interaktiv erkundet werden können.
 
 2. Interaktivität: Plotly bietet interaktive Funktionen, mit denen Benutzer mit den erstellten Grafiken interagieren können. Sie können zoomen, schwenken, Tooltipps anzeigen und Datenpunkte auswählen. Matplotlib hingegen bietet von Natur aus weniger Interaktivität.
