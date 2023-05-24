@@ -62,11 +62,11 @@
 | [[Aufbau eines einfachen HTTP-Servers in Python]] | Beschreibung... |
 | [[Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Beschreibung... |
 | [[Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Einführung in Web APIs]] | Beschreibung... |
+| [[Verwendung von Datenformaten in Web-APIs]] | Beschreibung... |
+| [[Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
+| [[API-Dokumentation und Testen]] | Beschreibung... |
+| [[Deployment und Skalierung von Web-APIs]] | Beschreibung... |
+| [[Praxisprojekt: Entwicklung einer vollständigen RESTful API]] | Beschreibung... |
 
 ## Daten
 | Seite | Beschreibung |
