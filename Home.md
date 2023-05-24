@@ -27,10 +27,10 @@
 | ----------- | ----------- |
 | [[Lorem Ipsum]] | Beschreibung... |
 
-## Säule 3
+## Darstellung
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Lorem Ipsum]] | Beschreibung... |
+| [[Einführung in Matplotlib]] | Beschreibung... |
 
 ## Säule 4
 | Seite | Beschreibung |
