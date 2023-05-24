@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Willkommen zum Python-Tutorial über die Kombination verschiedener Plot-Typen in einem Subplot mit Matplotlib! In diesem Tutorial werden wir lernen, wie wir unsere Daten auf kreative und informative Weise visualisieren können. Matplotlib ist eine leistungsstarke Bibliothek zur Erstellung von Grafiken und Diagrammen in Python. 
+Willkommen zum Python-Tutorial über die Kombination verschiedener Plot-Typen in einem Subplot mit Matplotlib! In diesem Tutorial werden wir lernen, wie wir unsere Daten auf kreative und informative Weise visualisieren können.
 
 Hast du jemals versucht, verschiedene Arten von Diagrammen nebeneinander darzustellen? Zum Beispiel einen Balken- und einen Liniendiagramm? Mit Matplotlib ist das ganz einfach! Wir werden lernen, wie man Subplots erstellt, um mehrere Plot-Typen auf einer einzigen Figure anzuzeigen. 
 
