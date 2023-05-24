@@ -1,7 +1,7 @@
 # Matplotlib - Verwendung verschiedener Marker und Linienstile
 
 ## Einführung
-Willkommen zu unserem Python-Tutorial über die Verwendung verschiedener Marker und Linienstile in Matplotlib! Matplotlib ist eine weit verbreitete Bibliothek zur Visualisierung von Daten in Python. In diesem Tutorial werden wir lernen, wie wir unsere Diagramme mit verschiedenen Markern und Linienstilen aufpeppen können. Dieses Wissen wird dir helfen, beeindruckende und aussagekräftige Grafiken zu erstellen, sei es für Präsentationen, Berichte oder einfach nur zum Spaß!
+Willkommen zu unserem Python-Tutorial über die Verwendung verschiedener Marker und Linienstile in Matplotlib! In diesem Tutorial werden wir lernen, wie wir unsere Diagramme mit verschiedenen Markern und Linienstilen aufpeppen können. Dieses Wissen wird dir helfen, beeindruckende und aussagekräftige Grafiken zu erstellen, sei es für Präsentationen, Berichte oder einfach nur zum Spaß!
 
 ## Theorie
 Bevor wir in die Praxis eintauchen, werfen wir einen Blick auf die Theorie hinter den Markern und Linienstilen in Matplotlib. Markers repräsentieren einzelne Datenpunkte in einem Diagramm, während Linienstile das Erscheinungsbild der Linien zwischen den Datenpunkten beeinflussen.
