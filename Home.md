@@ -64,5 +64,7 @@
 ## Daten
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Datenbanken: Einführung und Praxis in Python]]| Erstellung der Datenbanken, welche Arten es gibt etc |
+| [[Suche nach bestimmten Kriterien]]| Durchsuchen der JSON und CSV - Dateien|
 | [[Dateiformate]]| JSON und CSV |
+| [[Datenbanken: Einführung und Praxis in Python]]| Erstellung der Datenbanken, welche Arten es gibt etc |
+
