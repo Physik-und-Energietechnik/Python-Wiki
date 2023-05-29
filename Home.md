@@ -64,4 +64,3 @@
 ## Daten
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Lorem Ipsum]] | Beschreibung... |
