@@ -63,4 +63,6 @@
 
 ## Daten
 | Seite | Beschreibung |
+| ----------- | ----------- |
 | [[Datenbanken: Einführung und Praxis in Python]]| Erstellung der Datenbanken, welche Arten es gibt etc |
+| [[Python - Dateiformate]]| Erstellung der Datenbanken, welche Arten es gibt etc |
