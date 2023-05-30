@@ -65,6 +65,7 @@
 | ----------- | ----------- |
 | [[Dateiformate]]| JSON und CSV |
 | [[Suche nach bestimmten Kriterien]]| Durchsuchen der JSON und CSV - Dateien|
+| [[Dateiformate - Vertiefung]]| Vertieftes Wissen zu den Themen JSON |
 | [[Zugänge für Erstellung einer Datenbank]]| Nötigen Installationen, Verbindung mit einer Datenbank|
 | [[Datenbanken: Einführung und Praxis in Python]]| Basiswissen|
 | [[Abfragen]]| Abfragen mit Python erstellen|
