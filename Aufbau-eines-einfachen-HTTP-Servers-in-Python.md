@@ -1,5 +1,3 @@
-# 3. Aufbau eines einfachen HTTP-Servers in Python
-
 ## 3.1 Einrichten eines HTTP-Servers mit Python
 
 Willkommen zum lustigen Abenteuer des HTTP-Serveraufbaus mit Python! Hier erfährst du, wie du einen einfachen HTTP-Server erstellen kannst, um Anfragen zu empfangen und Antworten zu senden.
