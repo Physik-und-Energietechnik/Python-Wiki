@@ -50,15 +50,15 @@
 ## Kommunikation
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Einführung in Web APIs]] | Beschreibung... |
-| [[Grundlagen der Netzwerkprogrammierung mit Python]] | Beschreibung... |
-| [[Aufbau eines einfachen HTTP-Servers in Python]] | Beschreibung... |
-| [[Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Beschreibung... |
-| [[Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
-| [[Verwendung von Datenformaten in Web-APIs]] | Beschreibung... |
-| [[Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
-| [[API-Dokumentation und Testen]] | Beschreibung... |
-| [[Deployment und Skalierung von Web-APIs]] | Beschreibung... |
+| [[1.Einführung in Web APIs]] | Beschreibung... |
+| [[2.Grundlagen der Netzwerkprogrammierung mit Python]] | Beschreibung... |
+| [[3.Aufbau eines einfachen HTTP-Servers in Python]] | Beschreibung... |
+| [[4.Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Beschreibung... |
+| [[5.Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
+| [[6.Verwendung von Datenformaten in Web-APIs]] | Beschreibung... |
+| [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
+| [[8.API-Dokumentation und Testen]] | Beschreibung... |
+| [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
 | [[Praxisprojekt: Entwicklung einer vollständigen RESTful API]] | Beschreibung... |
 
 ## Daten
