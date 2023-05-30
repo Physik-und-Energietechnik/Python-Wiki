@@ -1,5 +1,3 @@
-# 4. Entwicklung einer RESTful API mit Python und Flask (FastAPI)
-
 ## 4.1 Einführung in das Flask-Framework
 
 Flask ist ein beliebtes Web-Framework für Python, das die Entwicklung von Webanwendungen und RESTful APIs erleichtert. In diesem Tutorial lernst du, wie du mit Flask eine RESTful API erstellen kannst.
