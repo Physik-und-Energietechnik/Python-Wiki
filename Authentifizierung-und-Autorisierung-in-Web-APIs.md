@@ -1,5 +1,3 @@
-# Authentifizierung und Autorisierung in Web-APIs
-
 ## 5.1 Grundlagen der Authentifizierung (z. B. Token-basierte Authentifizierung)
 
 Willkommen zurück! In diesem Abschnitt werden wir uns mit einem aufregenden Thema befassen: der Authentifizierung und Autorisierung in Web-APIs. Das klingt vielleicht kompliziert, aber keine Sorge, wir machen es einfach und unterhaltsam!
