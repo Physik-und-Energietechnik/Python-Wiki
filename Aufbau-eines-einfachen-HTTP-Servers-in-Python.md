@@ -1,0 +1,178 @@
+# 3. Aufbau eines einfachen HTTP-Servers in Python
+
+## 3.1 Einrichten eines HTTP-Servers mit Python
+
+Willkommen zum lustigen Abenteuer des HTTP-Serveraufbaus mit Python! Hier erfährst du, wie du einen einfachen HTTP-Server erstellen kannst, um Anfragen zu empfangen und Antworten zu senden.
+
+Um loszulegen, müssen wir zuerst einen HTTP-Server einrichten. Ein HTTP-Server hört auf bestimmten Portnummern und wartet darauf, dass Anfragen von Clients eintreffen. Mit Python können wir dies mit dem `http.server`-Modul erreichen.
+
+### Allgemeines Code-Beispiel:
+```python
+import http.server
+import socketserver
+
+# Portnummer festlegen
+port = 8000
+
+# Server-Klasse erstellen
+Handler = http.server.SimpleHTTPRequestHandler
+
+# Server erstellen und starten
+with socketserver.TCPServer(("", port), Handler) as httpd:
+    print("Server läuft auf http://localhost:{}".format(port))
+    httpd.serve_forever()
+```
+
+## 3.2 Verarbeiten von HTTP-Anfragen
+
+Großartig, wir haben einen Server! Aber was tun wir, wenn eine Anfrage eingeht? Wir müssen sie verarbeiten und entsprechend handeln. Hierfür können wir die `BaseHTTPRequestHandler`-Klasse aus dem `http.server`-Modul verwenden.
+
+### Allgemeines Code-Beispiel:
+```python
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+# Server-Klasse erstellen
+class RequestHandler(BaseHTTPRequestHandler):
+    # GET-Anfragen verarbeiten
+    def do_GET(self):
+        # Antwort-Header setzen
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+
+        # Antwortinhalt senden
+        self.wfile.write(b"<h1>Hallo, Welt!</h1>")
+
+# Server erstellen und starten
+server_address = ('', 8000)
+httpd = HTTPServer(server_address, RequestHandler)
+print('Server läuft auf http://localhost:8000')
+httpd.serve_forever()
+```
+
+## 3.3 Generieren von HTTP-Antworten
+
+Wenn wir Anfragen erhalten, ist es wichtig, die entsprechenden Antworten zu generieren. Dabei können wir den Statuscode, Header-Informationen und den Inhalt der Antwort festlegen. Hier ist ein Beispiel, wie wir eine personalisierte Antwort senden können.
+
+### Allgemeines Code-Beispiel:
+```python
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+# Server-Klasse erstellen
+class RequestHandler(BaseHTTPRequestHandler):
+    # GET-Anfragen verarbeiten
+    def do_GET(self):
+        # Antwort-Header setzen
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+
+        # Antwortinhalt generieren
+        response_content = "<h1>Hallo, {}!</h1>".format(self.client_address[0])
+
+        # Antwortinhalt senden
+        self.wfile.write(response_content.encode())
+
+# Server erstellen und starten
+server_address = ('', 8000)
+httpd = HTTPServer(server_address, RequestHandler)
+print('Server läuft auf http://localhost:8000')
+httpd.serve_forever()
+```
+
+Herzlichen Glückwunsch! Du hast gelernt, wie man einen einfachen HTTP-Server in Python erstellt. Jetzt kannst du Anfragen verarbeiten und personal
+
+isierte Antworten senden. Mach weiter so und werde ein Meister der HTTP-Kommunikation!
+
+## 4. Praxis
+
+### Leichte Aufgabe
+
+Schreibe ein Python-Programm, das einen einfachen HTTP-Server erstellt und auf Anfragen mit einer individuellen Antwort reagiert. Lass den Server eine lustige Begrüßung an den Client senden.
+
+#### Musterlösung
+
+```python
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+# Server-Klasse erstellen
+class RequestHandler(BaseHTTPRequestHandler):
+    # GET-Anfragen verarbeiten
+    def do_GET(self):
+        # Antwort-Header setzen
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+
+        # Antwortinhalt generieren
+        response_content = "<h1>Hallo, du lustiger Client!</h1>"
+
+        # Antwortinhalt senden
+        self.wfile.write(response_content.encode())
+
+# Server erstellen und starten
+server_address = ('', 8000)
+httpd = HTTPServer(server_address, RequestHandler)
+print('Server läuft auf http://localhost:8000')
+httpd.serve_forever()
+```
+
+### Schwere Aufgabe
+
+Schreibe ein Python-Programm, das einen HTTP-Server erstellt und eine HTML-Seite mit einem Formular anzeigt. Wenn das Formular ausgefüllt und abgeschickt wird, soll der Server die eingegebenen Daten verarbeiten und eine individuelle Antwort zurücksenden.
+
+#### Musterlösung
+
+```python
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+# Server-Klasse erstellen
+class RequestHandler(BaseHTTPRequestHandler):
+    # GET-Anfragen verarbeiten
+    def do_GET(self):
+        # Antwort-Header setzen
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+
+        # HTML-Formular anzeigen
+        form = """
+        <form method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Absenden">
+        </form>
+        """
+        self.wfile.write(form.encode())
+
+    # POST-Anfragen verarbeiten
+    def do_POST(self):
+        # Antwort-Header setzen
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+
+        # POST-Daten abrufen und verarbeiten
+        content_length = int(self.headers['Content-Length'])
+        post_data = self.rfile.read(content_length).decode('utf-8')
+
+        # Antwortinhalt generieren
+        response_content = "<h1>Danke für deine Nachricht!</h1>"
+        response_content += "<p>Du hast folgende Daten übermittelt:</p>"
+        response_content += "<pre>{}</pre>".format(post_data)
+
+        # Antwortinhalt senden
+        self.wfile.write(response_content.encode())
+
+# Server erstellen und starten
+server_address = ('', 8000)
+httpd = HTTPServer(server_address, RequestHandler)
+print('Server läuft auf http://localhost:8000')
+httpd.serve_forever()
+```
+
+Das war der Aufbau eines einfachen HTTP-Servers in Python. Du hast gelernt, wie man einen Server einrichtet, Anfragen verarbeitet und individuelle Antworten generiert
+
+. Setze dein Wissen in der Praxis ein und erkunde die Welt der HTTP-Kommunikation weiter!
