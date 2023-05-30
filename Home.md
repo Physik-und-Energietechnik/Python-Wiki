@@ -67,5 +67,7 @@
 | [[Suche nach bestimmten Kriterien]]| Durchsuchen der JSON und CSV - Dateien|
 | [[Datenbanken: Einführung und Praxis in Python]]| Basiswissen|
 | [[Abfragen]]| Abfragen mit Python erstellen|
+| [[JSON vs. Datenbanken in Python]]| Hier sind Erklärungen mit Beispielen, wann man Datenbanken und wann JSON benutzen soll|
+
 
 
