@@ -67,7 +67,46 @@ with open('data.json', 'w') as file:
 
 print("Die Daten wurden erfolgreich in der JSON-Datei gespeichert.")
 ```
+Entschuldigung für das Versäumnis. Hier ist die Musterlösung für die dritte Aufgabe zu Dateiformate - Vertiefung:
 
+Aufgabe:
+
+3. Du hast eine CSV-Datei mit dem Namen "data.csv", die folgende Daten enthält:
+
+   ```
+   Name,Alter,Stadt
+   John,25,New York
+   Lisa,30,San Francisco
+   Peter,35,Chicago
+   ```
+
+   Schreibe ein Python-Programm, das die CSV-Datei einliest und die Daten in einer Liste von Wörterbüchern speichert. Jedes Wörterbuch sollte einen Eintrag für "Name", "Alter" und "Stadt" enthalten. Gib dann die Liste mit den Daten aus.
+
+Musterlösung:
+
+```python
+import csv
+
+data = []
+
+with open("data.csv", "r") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        data.append(row)
+
+for person in data:
+    print(person)
+```
+
+Die Ausgabe des Programms sollte folgendermaßen aussehen:
+
+```
+{'Name': 'John', 'Alter': '25', 'Stadt': 'New York'}
+{'Name': 'Lisa', 'Alter': '30', 'Stadt': 'San Francisco'}
+{'Name': 'Peter', 'Alter': '35', 'Stadt': 'Chicago'}
+```
+
+Nochmals Entschuldigung für das Versehen, und vielen Dank, dass du es bemerkt hast!
 
 
 Viel Spaß beim Vertiefen deiner Kenntnisse über Dateiformate und deren Manipulation!
