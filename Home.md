@@ -69,7 +69,7 @@
 | [[Zugänge für Erstellung einer Datenbank]]| Nötigen Installationen, Verbindung mit einer Datenbank|
 | [[Datenbanken: Einführung und Praxis in Python]]| Basiswissen|
 | [[Abfragen]]| Abfragen mit Python erstellen|
-| [[Interaktion zwischen Datenbanken und swn Dateien]| Interaktion zwischen der Datenbanken und den Dateien, wo die Daten abgespeichert werden|
+| [[Interaktion zwischen Datenbanken und den Dateien]]| Interaktion zwischen der Datenbanken und den Dateien, wo die Daten abgespeichert werden|
 | [[JSON vs. Datenbanken in Python]]| Hier sind Erklärungen mit Beispielen, wann man Datenbanken und wann JSON benutzen soll|
 | [[Datenbanken - Vertiefung]]| Vertieftes Wissen für jemanden, der sich mehr mit Datenbanken beschäftigen will|
 
