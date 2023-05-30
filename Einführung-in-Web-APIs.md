@@ -1,7 +1,3 @@
-# Python Tutorial: Einführung in Web-APIs und deren Bedeutung
-
-## 1. Einführung in die Web-APIs und deren Bedeutung
-
 ### 1.1 Was sind Web-APIs?
 
 Web-APIs (Application Programming Interfaces) sind Schnittstellen, die es verschiedenen Anwendungen ermöglichen, miteinander zu kommunizieren. Sie dienen als Brücke zwischen einem Client (z. B. eine Website oder eine App) und einem Server. Mithilfe von Web-APIs können Daten und Funktionen zwischen Client und Server ausgetauscht werden.
