@@ -1,11 +1,5 @@
 # 6. Verwendung von Datenformaten in Web-APIs
 
-## Einführung in die Web-APIs und deren Bedeutung
-
-Web-APIs (Application Programming Interfaces) sind Schnittstellen, die es Anwendungen ermöglichen, miteinander zu kommunizieren und Daten auszutauschen. Sie spielen eine wichtige Rolle bei der Entwicklung moderner Webanwendungen und ermöglichen die Integration verschiedener Systeme.
-
-In diesem Tutorial werden wir uns mit der Verwendung von Datenformaten in Web-APIs beschäftigen. Wir werden uns insbesondere auf JSON als Standarddatenformat konzentrieren und auch andere Datenformate wie XML und YAML erwähnen.
-
 ## 6.1 JSON als Standarddatenformat für die API-Kommunikation
 
 JSON (JavaScript Object Notation) ist ein weit verbreitetes und einfach zu lesendes Datenformat, das in der Web-API-Kommunikation häufig verwendet wird. Es basiert auf einer einfachen Schlüssel-Wert-Struktur und unterstützt verschiedene Datentypen wie Strings, Zahlen, Booleans, Arrays und Objekte.
