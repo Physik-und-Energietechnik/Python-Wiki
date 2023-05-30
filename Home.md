@@ -69,6 +69,7 @@
 | [[Datenbanken: Einführung und Praxis in Python]]| Basiswissen|
 | [[Abfragen]]| Abfragen mit Python erstellen|
 | [[JSON vs. Datenbanken in Python]]| Hier sind Erklärungen mit Beispielen, wann man Datenbanken und wann JSON benutzen soll|
+| [[Datenbanken - Vertiefung]]| Vertieftes Wissen für jemanden, der sich mehr mit Datenbanken beschäftigen will|
 
 
 
