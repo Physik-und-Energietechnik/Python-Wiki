@@ -26,14 +26,14 @@
 ## Graphical User Interface
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Fenster: Erstellung]] | Beschreibung... |
-| [[Fenster: Anpassung - Größe + Hintergrund(-farbe)]] | Beschreibung... |
-| [[Fenster: Anpassung - Titel- und Werkzeugleiste]] | Beschreibung... |
-| [[Fenster: Popups/Dialogfenster]] | Beschreibung... |
-| [[Interaktionsmöglichkeiten: Arten]] | Beschreibung... |
-| [[Interaktionsmöglichkeiten: Interaktion mit Code]] | Beschreibung... |
-| [[Grafische Darstellungen]] | Beschreibung... |
-| [[Layout-Management]] | Beschreibung... |
+| [[Fenster: Erstellung]] | Erstellen von Fenstern |
+| [[Fenster: Anpassung - Größe + Hintergrund(-farbe)]] | Anpassung der Größe und des Hintergrunds eines Fensters |
+| [[Fenster: Anpassung - Titel- und Werkzeugleiste]] | Anpassung der Titel- und Werkzeugleisten eines Fensters |
+| [[Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
+| [[Interaktionsmöglichkeiten: Arten]] | Verschiedene Arten der Interaktionsmöglichkeiten |
+| [[Interaktionsmöglichkeiten: Interaktion mit Code]] | Interaktionsmöglichkeiten mit dem Code interagieren lassen |
+| [[Grafische Darstellungen]] | Graphen und Bilder grafisch darstellen |
+| [[Layout-Management]] | Anpassung des Layouts eines Fensters |
 
 ## Darstellung
 | Seite | Beschreibung |
