@@ -28,7 +28,8 @@
 | ----------- | ----------- |
 | [[Fenster: Erstellung]] | Erstellen von Fenstern |
 | [[Fenster: Anpassung - Hintergrund(-farbe)]] | Anpassung des Hintergrunds eines Fensters |
-| [[Fenster: Anpassung - Titel- und Werkzeugleiste]] | Anpassung der Titel- und Werkzeugleisten eines Fensters |
+| [[Fenster: Anpassung - Titelleiste]] | Anpassung der Titelleiste eines Fensters |
+| [[Fenster: Anpassung - Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
 | [[Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
 | [[Interaktionsmöglichkeiten: Arten]] | Verschiedene Arten der Interaktionsmöglichkeiten |
 | [[Interaktionsmöglichkeiten: Interaktion mit Code]] | Interaktionsmöglichkeiten mit dem Code interagieren lassen |
