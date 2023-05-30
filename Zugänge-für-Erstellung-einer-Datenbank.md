@@ -1,5 +1,3 @@
-# Erstellen einer Datenbank mit Python
-
 Wenn du eine Datenbank mit Python erstellen möchtest, brauchst du einige Werkzeuge und Module. Keine Sorge, ich werde dir zeigen, was du brauchst!
 
 ## 1. Datenbank-Management-System (DBMS)
