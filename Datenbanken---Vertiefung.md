@@ -86,3 +86,87 @@ conn.close()
 3. Führe eine Join-Abfrage durch, um Daten aus zwei Tabellen zusammenzuführen und die Ergebnisse anzuzeigen.
 
 Viel Spaß beim Vertiefen deiner Datenbankkenntnisse!
+
+
+## Musterlösungen
+
+Aufgabe 1: Speichern von Daten aus einer JSON-Datei in einer SQLite-Datenbank
+
+```python
+import sqlite3
+import json
+
+# Verbindung zur Datenbank herstellen
+conn = sqlite3.connect('mydatabase.db')
+
+# Tabelle erstellen
+conn.execute('''CREATE TABLE IF NOT EXISTS employees
+                 (id INT PRIMARY KEY NOT NULL,
+                 name TEXT NOT NULL,
+                 age INT NOT NULL);''')
+
+# Daten aus JSON-Datei lesen
+with open('data.json', 'r') as file:
+    data = json.load(file)
+
+# Daten in die Datenbank einfügen
+for item in data:
+    conn.execute("INSERT INTO employees (id, name, age) VALUES (?, ?, ?)",
+                 (item['id'], item['name'], item['age']))
+
+# Änderungen speichern und Verbindung schließen
+conn.commit()
+conn.close()
+
+print("Die Daten wurden erfolgreich in der Datenbank gespeichert.")
+```
+
+Aufgabe 2: Abrufen von Daten aus der Datenbank und Speichern in einer CSV-Datei
+
+```python
+import sqlite3
+import csv
+
+# Verbindung zur Datenbank herstellen
+conn = sqlite3.connect('mydatabase.db')
+
+# SQL-Abfrage ausführen
+cursor = conn.execute("SELECT * FROM employees")
+
+# Daten in CSV-Datei exportieren
+with open('data.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow([i[0] for i in cursor.description])  # Überschriften schreiben
+    writer.writerows(cursor)
+
+# Verbindung schließen
+conn.close()
+
+print("Die Daten wurden erfolgreich in der CSV-Datei gespeichert.")
+```
+
+Aufgabe 3: Aktualisieren von Daten in der Datenbank basierend auf Änderungen in einer JSON-Datei
+
+```python
+import sqlite3
+import json
+
+# Verbindung zur Datenbank herstellen
+conn = sqlite3.connect('mydatabase.db')
+
+# Daten aus JSON-Datei lesen
+with open('changes.json', 'r') as file:
+    changes = json.load(file)
+
+# Daten in der Datenbank aktualisieren
+for change in changes:
+    conn.execute("UPDATE employees SET age = ? WHERE id = ?",
+                 (change['new_age'], change['id']))
+
+# Änderungen speichern und Verbindung schließen
+conn.commit()
+conn.close()
+
+print("Die Daten in der Datenbank wurden erfolgreich aktualisiert.")
+```
+
