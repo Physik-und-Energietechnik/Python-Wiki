@@ -1,4 +1,4 @@
-# 6. Verwendung von Datenformaten in Web-APIs
+Verwendung von Datenformaten in Web-APIs
 
 ## 6.1 JSON als Standarddatenformat für die API-Kommunikation
 
