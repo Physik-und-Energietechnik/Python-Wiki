@@ -59,7 +59,6 @@
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
 | [[8.API-Dokumentation und Testen]] | Beschreibung... |
 | [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
-| [[Praxisprojekt: Entwicklung einer vollständigen RESTful API]] | Beschreibung... |
 
 ## Daten
 | Seite | Beschreibung |
