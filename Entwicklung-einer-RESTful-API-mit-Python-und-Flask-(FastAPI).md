@@ -59,9 +59,7 @@ Für die Speicherung und Verwaltung von Daten in einer RESTful API ist oft eine 
 
 Eine humorvolle Erklärung dazu wäre:
 
-Nehmen wir an, deine RESTful API ist wie ein riesiges Lagerhaus voller Daten. SQLAlchemy ist dein treuer Assistent, der dafür sorgt, dass alles organisiert und im Einklang bleibt. Egal ob du Daten hinzufügst, aktualisierst oder abrufst, SQLAlchemy kümmert sich um die schwierigen Details, damit du dich auf das Wichtige konzentrieren kannst - das Einrichten einer gemütlichen E
-
-cke in deinem Lagerhaus, um deinen Benutzern genau das zu geben, wonach sie suchen.
+Nehmen wir an, deine RESTful API ist wie ein riesiges Lagerhaus voller Daten. SQLAlchemy ist dein treuer Assistent, der dafür sorgt, dass alles organisiert und im Einklang bleibt. Egal ob du Daten hinzufügst, aktualisierst oder abrufst, SQLAlchemy kümmert sich um die schwierigen Details, damit du dich auf das Wichtige konzentrieren kannst - das Einrichten einer gemütlichen Ecke in deinem Lagerhaus, um deinen Benutzern genau das zu geben, wonach sie suchen.
 
 Um SQLAlchemy in deine Flask-Anwendung zu integrieren, musst du zunächst die entsprechenden Module installieren und konfigurieren. Danach kannst du Modelle definieren, die deine Datenbanktabellen repräsentieren, und Datenbankoperationen durchführen.
 
