@@ -27,7 +27,7 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Fenster: Erstellung]] | Erstellen von Fenstern |
-| [[Fenster: Anpassung - Größe + Hintergrund(-farbe)]] | Anpassung der Größe und des Hintergrunds eines Fensters |
+| [[Fenster: Anpassung - Hintergrund(-farbe)]] | Anpassung des Hintergrunds eines Fensters |
 | [[Fenster: Anpassung - Titel- und Werkzeugleiste]] | Anpassung der Titel- und Werkzeugleisten eines Fensters |
 | [[Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
 | [[Interaktionsmöglichkeiten: Arten]] | Verschiedene Arten der Interaktionsmöglichkeiten |
