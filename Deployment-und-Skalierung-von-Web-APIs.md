@@ -1,5 +1,3 @@
-# 9. Deployment und Skalierung von Web-APIs
-
 ## Einführung
 Willkommen zum Abschnitt über das Deployment und die Skalierung von Web-APIs! In diesem Tutorial werden wir lernen, wie man eine Web-API auf Produktionsumgebungen bereitstellt, sie effizient skalieren kann und wie man Überwachung und Fehlerbehebung in produktiven API-Systemen durchführt.
 
