@@ -1,5 +1,3 @@
-Verwendung von Datenformaten in Web-APIs
-
 ## 6.1 JSON als Standarddatenformat für die API-Kommunikation
 
 JSON (JavaScript Object Notation) ist ein weit verbreitetes und einfach zu lesendes Datenformat, das in der Web-API-Kommunikation häufig verwendet wird. Es basiert auf einer einfachen Schlüssel-Wert-Struktur und unterstützt verschiedene Datentypen wie Strings, Zahlen, Booleans, Arrays und Objekte.
