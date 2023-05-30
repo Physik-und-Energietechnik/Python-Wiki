@@ -1,5 +1,3 @@
-# 8. API-Dokumentation und Testen
-
 ## Einführung
 Willkommen zum Abschnitt über API-Dokumentation und Testen! In diesem Tutorial lernst du, wie du API-Dokumentation erstellst und deine APIs mit Python-Bibliotheken testest. API-Dokumentation ist von entscheidender Bedeutung, um anderen Entwicklern zu zeigen, wie sie deine API nutzen können. Darüber hinaus ist das Testen von APIs ein wichtiger Schritt, um sicherzustellen, dass sie wie erwartet funktionieren.
 
