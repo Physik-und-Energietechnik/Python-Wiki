@@ -65,3 +65,38 @@ for row in results:
 ```
 
 Ob du JSON oder eine Datenbank verwendest, hängt von deinen spezifischen Anforderungen ab. JSON ist großartig für einfache Datenstrukturen und den Austausch von Informationen, während Datenbanken leistungsstark sind, wenn es um komplexe Datenverwaltung und Abfragen geht.
+
+Natürlich! Hier sind weitere Beispiele und einige Multiple-Choice-Fragen, um dein Wissen zu testen:
+
+### Beispiel 1: JSON
+
+Du hast eine Webanwendung, die Informationen über Benutzerprofile speichert und anzeigt. JSON eignet sich gut für diese Art von Anwendung, da du Benutzerdaten in einer einfachen und strukturierten Form speichern kannst. Außerdem ermöglicht JSON eine einfache Kommunikation zwischen der Webanwendung und dem Backend.
+
+### Beispiel 2: CSV
+
+Du hast eine große Menge an Tabellendaten, z. B. Kundendaten oder Verkaufsberichte. CSV ist eine gute Wahl, um diese Daten zu speichern, da CSV-Dateien einfach zu lesen und zu schreiben sind. Sie können auch in Tabellenkalkulationsprogrammen wie Excel geöffnet und bearbeitet werden.
+
+### Beispiel 3: Datenbanken
+
+Du entwickelst eine E-Commerce-Website, auf der Produkte, Bestellungen und Kundeninformationen gespeichert werden müssen. Eine Datenbank eignet sich gut für diese Art von Anwendung, da sie eine effiziente Verwaltung großer Mengen strukturierter Daten ermöglicht. Du kannst komplexe Abfragen ausführen, Beziehungen zwischen den Tabellen herstellen und die Daten sicher speichern.
+
+### Multiple-Choice-Fragen:
+
+1. Welches Dateiformat eignet sich am besten zum Speichern von Kundeninformationen?
+   A) JSON
+   B) CSV
+   C) Datenbanken
+   Antwort: C) Datenbanken
+
+2. Du möchtest Daten zwischen verschiedenen Anwendungen austauschen. Welches Format ist dafür am besten geeignet?
+   A) JSON
+   B) CSV
+   C) Datenbanken
+   Antwort: A) JSON
+
+3. Welches Format eignet sich am besten, um große Mengen an Tabellendaten zu speichern und zu verarbeiten?
+   A) JSON
+   B) CSV
+   C) Datenbanken
+   Antwort: C) Datenbanken
+
