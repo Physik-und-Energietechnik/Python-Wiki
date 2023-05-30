@@ -26,4 +26,50 @@ Die Qualität deiner Daten ist wichtig, daher ist es ratsam, Datenvalidierungste
 
 3. Berechne den Durchschnitt der Verkaufspreise in einer JSON-Datei und speichere das Ergebnis in einer neuen Datei.
 
+
+
+## Musterlösungen
+
+Aufgabe 1: Extrahieren von Daten aus einer JSON-Datei und Speichern in einer CSV-Datei
+
+```python
+import json
+import csv
+
+# Daten aus JSON-Datei lesen
+with open('data.json', 'r') as file:
+    data = json.load(file)
+
+# Daten in CSV-Datei speichern
+with open('data.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(['Name', 'Alter', 'Stadt'])  # Überschriften schreiben
+    for item in data:
+        writer.writerow([item['name'], item['age'], item['city']])
+
+print("Die Daten wurden erfolgreich in der CSV-Datei gespeichert.")
+```
+
+Aufgabe 2: Extrahieren von Daten aus einer CSV-Datei und Spe
+
+ichern in einer JSON-Datei
+
+```python
+import csv
+import json
+
+# Daten aus CSV-Datei lesen
+with open('data.csv', 'r') as file:
+    reader = csv.DictReader(file)
+    data = [row for row in reader]
+
+# Daten in JSON-Datei speichern
+with open('data.json', 'w') as file:
+    json.dump(data, file, indent=4)
+
+print("Die Daten wurden erfolgreich in der JSON-Datei gespeichert.")
+```
+
+
+
 Viel Spaß beim Vertiefen deiner Kenntnisse über Dateiformate und deren Manipulation!
