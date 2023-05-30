@@ -81,9 +81,7 @@ conn.close()
 
 1. Erstelle einen Index für eine bestimmte Spalte in deiner Tabelle und vergleiche die Geschwindigkeit der Abfragen vor und nach der Erstellung des Indexes.
 
-2. Führe eine Transaktion durch, um
-
- mehrere Datenänderungen atomar auszuführen. Stelle sicher, dass alle Änderungen entweder vollständig übernommen oder abgebrochen werden, wenn ein Fehler auftritt.
+2. Führe eine Transaktion durch, um mehrere Datenänderungen atomar auszuführen. Stelle sicher, dass alle Änderungen entweder vollständig übernommen oder abgebrochen werden, wenn ein Fehler auftritt.
 
 3. Führe eine Join-Abfrage durch, um Daten aus zwei Tabellen zusammenzuführen und die Ergebnisse anzuzeigen.
 
