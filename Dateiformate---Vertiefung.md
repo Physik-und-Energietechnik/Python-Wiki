@@ -50,9 +50,7 @@ with open('data.csv', 'w', newline='') as file:
 print("Die Daten wurden erfolgreich in der CSV-Datei gespeichert.")
 ```
 
-Aufgabe 2: Extrahieren von Daten aus einer CSV-Datei und Spe
-
-ichern in einer JSON-Datei
+Aufgabe 2: Extrahieren von Daten aus einer CSV-Datei und Speichern in einer JSON-Datei
 
 ```python
 import csv
