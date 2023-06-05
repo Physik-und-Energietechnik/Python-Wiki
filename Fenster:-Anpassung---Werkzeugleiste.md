@@ -56,7 +56,7 @@ In diesem Beispiel haben wir eine Funktion `beenden()` definiert, die aufgerufen
 
 Deine Aufgabe besteht darin, ein Fenster zu erstellen und diesem eine Werkzeugleiste hinzuzufügen!
 
-Musterlösung:
+**Musterlösung:**
 
 ```python
 import tkinter as tk
@@ -73,7 +73,7 @@ fenster.mainloop()
 
 Deine Aufgabe besteht darin, zwei Schaltflächen zur Werkzeugleiste hinzuzufügen: eine zum Drucken und eine zum Speichern. Verwende die vorhandenen Code-Beispiele als Ausgangspunkt und experimentiere ein wenig!
 
-Musterlösung:
+**Musterlösung:**
 
 ```python
 import tkinter as tk
