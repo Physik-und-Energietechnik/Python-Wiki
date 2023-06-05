@@ -48,7 +48,7 @@ Jetzt ist es Zeit, Ihr Wissen in die Praxis umzusetzen. Wir haben für Sie zwei 
 
 Erstellen Sie ein Fenster mit einem blauen Hintergrund.
 
-Musterlösung:
+**Musterlösung:**
 
 ```python
 import tkinter as tk
