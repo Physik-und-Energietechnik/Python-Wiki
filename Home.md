@@ -31,8 +31,7 @@
 | [[Fenster: Anpassung - Titelleiste]] | Anpassung der Titelleiste eines Fensters |
 | [[Fenster: Anpassung - Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
 | [[Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
-| [[Interaktionsmöglichkeiten: Arten]] | Verschiedene Arten der Interaktionsmöglichkeiten |
-| [[Interaktionsmöglichkeiten: Interaktion mit Code]] | Interaktionsmöglichkeiten mit dem Code interagieren lassen |
+| [[Interaktionsmöglichkeiten] | Verschiedene Arten von Interaktionsmöglichkeiten |
 | [[Grafische Darstellungen]] | Graphen und Bilder grafisch darstellen |
 | [[Layout-Management]] | Anpassung des Layouts eines Fensters |
 
