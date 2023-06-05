@@ -48,7 +48,7 @@ Jetzt ist es Zeit, dein Wissen in die Praxis umzusetzen!
 
 Erstelle ein einfaches GUI-Fenster mit Tkinter. Das Fenster soll 600 Pixel breit und 400 Pixel hoch sein.
 
-Musterlösung:
+**Musterlösung:**
 
   ```python
   import tkinter as tk
