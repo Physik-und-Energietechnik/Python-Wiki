@@ -65,6 +65,3 @@ Gut gemacht! Du hast erfolgreich gelernt, wie man ein GUI-Fenster in Python erst
 In diesem Abschnitt haben wir gelernt, wie man mit Python und der Tkinter-Bibliothek ein GUI-Fenster erstellt. Wir haben die theoretischen Grundlagen erklärt und praktische Übungen durchgeführt, um das Gelernte anzuwenden.
 
 Jetzt bist du bereit, mit GUI-Programmierung in Python zu experimentieren und eigene Fenster zu erstellen. Denke daran, dass dies nur der Anfang ist, und es gibt noch viele weitere Möglichkeiten, um dein GUI zu verbessern und interaktive Anwendungen zu entwickeln. Viel Spaß beim Coden und Erstellen deiner eigenen benutzerfreundlichen Programme!
-
-## Links / Weiteres Material
-[Youtube](https://www.youtube.com/watch?v=dQw4w9WgXcQ) (Platzhalter)
