@@ -99,5 +99,4 @@ button.pack()
 root.mainloop()
 ```
 ### Fazit
-In diesem Tutorial haben wir gelernt, wie man Popups Dialogfenster in Python erstellt. Wir haben gesehen, wie man Informationen anzeigen und Benutzereingaben abfragen kann. Popups sind eine großartige Möglichkeit, um mit dem Benutzer zu interagieren und ihm eine angenehme Benutzererfahrung zu bieten. Indem du dieses W
-
+Herzlichen Glückwunsch, du hast es geschafft! Du hast gelernt, wie man Popups Dialogfenster in Python erstellt. Jetzt kannst du wichtige Informationen an deine Nutzer weitergeben und ihre Eingaben abfragen. Sei mutig und lass deine Popups in der Welt deiner Python-Programme aufsteigen, um die Nutzer zu begeistern und zu überraschen. Denke daran, die Macht der Popups weise einzusetzen und deinen Benutzern ein Lächeln ins Gesicht zu zaubern. Viel Spaß beim Coden! 🐍😄
