@@ -62,6 +62,7 @@ Erstelle ein GUI-Fenster mit einer Schaltfläche ("Klick mich!") und einem Textf
 ### Musterlösung:
 
 ´´´python
+
 import tkinter as tk
 
 window = tk.Tk()
@@ -81,6 +82,7 @@ Erstelle ein GUI-Fenster mit drei Schaltflächen ("Ja", "Nein", "Vielleicht") in
 ### Musterlösung:
 
 ´´´python 
+
 import tkinter as tk
 
 def update_text(button_text):
