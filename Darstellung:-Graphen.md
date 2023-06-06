@@ -5,7 +5,7 @@ Willkommen zu unserem Python-Tutorial für unerfahrene Nutzer! In diesem Tutoria
 ### Grundlagen von Tkinter
 Tkinter ist eine Python-Bibliothek, die es uns ermöglicht, GUI-Anwendungen zu erstellen. Es bietet eine Vielzahl von Widgets (grafische Elemente) wie Buttons, Textfelder, Labels und mehr. Um Tkinter zu verwenden, müssen wir es zuerst importieren:
 
-´´´python
+```python
 
 import tkinter as tk
 
@@ -18,12 +18,12 @@ import tkinter as tk
 
 root = tk.Tk()  # Das Hauptfenster erstellen
 root.mainloop()  # Das Fenster anzeigen
-´´´
+```
 
 ## Erstellen eines Graphen
 Nun, da wir ein Fenster haben, möchten wir einen Graphen darin anzeigen. Glücklicherweise bietet Tkinter das Canvas-Widget, das uns dabei hilft. Hier ist ein Beispielcode, der einen einfachen Graphen erstellt:
 
-´´´python
+```python
 
 import tkinter as tk
 
@@ -40,7 +40,7 @@ canvas.create_line(100, 100, 200, 200)
 
 root.mainloop()  # Das Fenster anzeigen
 
-´´´
+```
 
 ## Praxis
 ### Leichte Aufgabe: Erstelle einen einfachen Graphen
@@ -48,7 +48,7 @@ Deine Aufgabe besteht darin, einen einfachen Graphen mit zwei Knoten und einer K
 
 Hier ist eine Musterlösung:
 
-´´´python
+```python
 import tkinter as tk
 
 root = tk.Tk()  # Das Hauptfenster erstellen
@@ -66,15 +66,15 @@ canvas.create_oval(250, 100, 300, 150, fill="green")
 canvas.create_line(125, 125, 275, 125, fill="red", width=2)
 
 root.mainloop()  # Das Fenster anzeigen
+```
 
-´´´
 ## Schwierigere Aufgabe: Erstelle einen interaktiven Graphen
 
 Jetzt wird es etwas anspruchsvoller! Deine Aufgabe besteht darin, einen interaktiven Graphen zu erstellen, der es dem Benutzer ermöglicht, Knoten hinzuzufügen, zu verschieben und zu löschen. Du kannst dabei die Mausereignisse verwenden, um die Interaktion umzusetzen.
 
 Hier ist eine Musterlösung, um dich zu inspirieren:
 
-´´´python
+```python
 import tkinter as tk
 
 # Funktion zum Hinzufügen eines neuen Knotens
@@ -92,6 +92,6 @@ canvas.pack()
 canvas.bind("<Button-1>", add_node)
 
 root.mainloop()  # Das Fenster anzeigen
-´´´
+```
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie du mit Python und Tkinter Graphen in einer grafischen Benutzeroberfläche darstellen kannst. Wir haben die Grundlagen von Tkinter kennengelernt und sowohl einfache als auch interaktive Graphen erstellt. Du kannst dieses Wissen nutzen, um beeindruckende Datenvisualisierungen, Spiele oder andere spannende Anwendungen zu entwickeln. Lass deiner Kreativität freien Lauf und hab Spaß beim Programmieren!
