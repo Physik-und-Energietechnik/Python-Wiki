@@ -1,9 +1,11 @@
-###Einführung
+### Einführung
+
 In diesem Tutorial werden wir uns mit einem wichtigen Teil der Benutzeroberfläche (GUI) in Python beschäftigen: Popups Dialogfenster. Popups sind kleine Fenster, die Informationen anzeigen, Warnungen ausgeben oder Benutzereingaben abfragen können. Sie sind nützlich, um mit dem Benutzer zu interagieren und ihm eine Rückmeldung zu geben.
 
 Nach Abschluss dieses Tutorials wirst du in der Lage sein, Popups in deinen Python-Programmen einzusetzen, um Benutzerinteraktionen zu ermöglichen und wichtige Informationen anzuzeigen. Dieses Wissen kann in verschiedenen Projekten verwendet werden, sei es für Spiele, Anwendungen oder andere interaktive Programme.
 
 ## Theorie
+
 Was sind Popups Dialogfenster?
 Popups Dialogfenster sind kleine, modale Fenster, die über dem Hauptfenster deiner Anwendung auftauchen. Sie können verwendet werden, um dem Benutzer wichtige Informationen anzuzeigen oder um eine Benutzereingabe zu erhalten. Im Gegensatz zu normalen Fenstern blockieren Popups den Rest der Anwendung, bis der Benutzer auf eine Schaltfläche klickt oder eine Eingabe macht.
 
@@ -65,7 +67,7 @@ Erstelle ein Python-Programm, das ein Popup Dialogfenster mit einer Frage anzeig
 ### Musterlösungen
 Hier sind die Musterlösungen für die beiden Aufgaben:
 
-### Aufgabe 1:
+Aufgabe 1:
 ```python
 import tkinter as tk
 from tkinter import messagebox
@@ -80,7 +82,7 @@ button.pack()
 
 root.mainloop()
 ```
-### Aufgabe 2:
+Aufgabe 2:
 ```python
 import tkinter as tk
 from tkinter import messagebox
