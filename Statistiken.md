@@ -5,6 +5,6 @@
 | [[errorbar]] | Beschreibung... |
 | [[violinplot]] | Beschreibung... |
 | [[eventplot]] | Beschreibung... |
-| [[hist2s]] | Beschreibung... |
+| [[hist2d]] | Beschreibung... |
 | [[hexbin]] | Beschreibung... |
 | [[pie]] | Beschreibung... |
