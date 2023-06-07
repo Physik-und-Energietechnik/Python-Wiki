@@ -62,3 +62,4 @@ Herzlichen Glückwunsch! Du hast erfolgreich n-dimensionale Arrays in NumPy kenn
 Viel Spaß beim Experimentieren mit n-dimensionalen Arrays in NumPy!
 
 ## Weiterführende Links
+### [Numpy.org](https://numpy.org/doc/stable/user/absolute_beginners.html#whats-the-difference-between-a-python-list-and-a-numpy-array)
