@@ -1,0 +1,9 @@
+| Seite | Beschreibung |
+| ----------- | ----------- |
+| [[imshow]] | Beschreibung... |
+| [[pccolormesh]] | Beschreibung... |
+| [[contour]] | Beschreibung... |
+| [[contourf]] | Beschreibung... |
+| [[barbs]] | Beschreibung... |
+| [[quiver]] | Beschreibung... |
+| [[streamplot]] | Beschreibung... |
