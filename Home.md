@@ -21,6 +21,7 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Python.math]] | Beschreibung... |
+| [[NumPy]] | Beschreibung... |
 
 
 ## Graphical User Interface
