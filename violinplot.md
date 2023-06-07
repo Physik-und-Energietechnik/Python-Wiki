@@ -110,7 +110,7 @@ men_data = [60, 65, 70, 72, 75, 77, 80, 85, 88, 90]
 women_data = [55, 58, 62, 66, 68, 70, 72, 74, 76, 78]
 ```
 
-### Musterlös
+### Musterlösung
 
 ung (schwere Aufgabe)
 Hier ist eine mögliche Lösung für die schwere Aufgabe:
