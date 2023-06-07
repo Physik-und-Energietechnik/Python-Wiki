@@ -100,6 +100,37 @@ plt.show()
 ```
 
 ### Musterlösungen
-Keine Sorge, wir haben auch die Musterlösungen für dich vorbereitet. Du findest sie [hier](https://www.example.com). Aber versuche erst, die Aufgaben selbst zu lösen, bevor du dir die Lösungen anschaust!
+Keine Sorge, wir haben auch die Musterlösungen für dich vorbereitet. Aber versuche erst, die Aufgaben selbst zu lösen, bevor du dir die Lösungen anschaust!
+Natürlich! Hier sind die Musterlösungen zu den Aufgaben:
+
+### Leichte Aufgabe - Musterlösung
+```python
+import matplotlib.pyplot as plt
+
+game_hours = [1, 2, 3, 4, 5]
+pizzas = [2, 4, 6, 8, 10]
+
+plt.scatter(game_hours, pizzas)
+plt.xlabel("Stunden Videospiele")
+plt.ylabel("Anzahl der Pizzen")
+plt.title("Beziehung zwischen Videospielzeit und Pizzaverzehr")
+plt.show()
+```
+
+### Schwere Aufgabe - Musterlösung
+```python
+import matplotlib.pyplot as plt
+
+study_hours = [10, 15, 20, 25, 30]
+grades = [70, 80, 85, 90, 95]
+
+plt.scatter(study_hours, grades)
+plt.xlabel("Stunden für Prüfungsvorbereitung")
+plt.ylabel("Noten")
+plt.title("Beziehung zwischen Lernstunden und Noten")
+plt.show()
+```
+
+Probier sie aus und schau dir die beeindruckenden Scatter Plots an, die du erstellt hast! Wenn du Fragen hast oder etwas nicht verstehst, stehe ich dir gerne zur Verfügung.
 
 Viel Spaß beim Erkunden der faszinierenden Welt der Scatter Plots mit Matplotlib!
