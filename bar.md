@@ -1,6 +1,6 @@
 ## Einführung
 
-Willkommen zurück, Python-Einsteiger! In diesem Abschnitt werden wir uns mit einem weiteren mächtigen Werkzeug namens Matplotlib beschäftigen. Genauer gesagt werden wir uns auf den Bar Plot konzentrieren. Aber was zur Hölle ist ein Bar Plot? Keine Sorge, ich werde es dir auf verständliche Weise erklären!
+In diesem Abschnitt werden wir uns mit dem Bar Plot beschäftigen.
 
 Ein Bar Plot ist eine Art von Diagramm, das uns dabei hilft, Daten in einer visuell ansprechenden Weise darzustellen. Du kannst dir das Ganze wie eine Bar an der Bartheke vorstellen. Wenn du in einer Bar stehst, möchtest du natürlich wissen, wie viele Getränke du bereits konsumiert hast, um sicherzustellen, dass du nicht plötzlich auf dem Boden landest, oder? Genau das ermöglicht uns ein Bar Plot, aber statt alkoholischer Getränke zählen wir Datenwerte!
 
@@ -61,7 +61,8 @@ Deine leichte Aufgabe besteht darin, einen Bar Plot für die Anzahl der verkauft
 - März: 120
 - April: 105
 
-Viel Erfolg! Hier ist ein Beispiel, wie der Code aussehen könnte:
+Viel Erfolg! 
+Hier ist ein Beispiel, wie der Code aussehen könnte:
 
 ```python
 import matplotlib.pyplot as plt
@@ -75,9 +76,7 @@ plt.bar(monate, verkäufe)
 plt.show()
 ```
 
-#### Musterlösung für die leichte Aufgabe
-
-Hier ist eine mögliche Musterlösung für die leichte Aufgabe:
+Hier ist eine mögliche Musterlösung für die leichte Aufgabe 1:
 
 ```python
 import matplotlib.pyplot as plt
@@ -136,11 +135,7 @@ plt.legend()
 plt.show()
 ```
 
-#### Musterlösung für die schwierigere Aufgabe
-
-Hier ist eine mögliche Musterlösung für die schwierigere
-
- Aufgabe:
+Aufgabe 2 Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
