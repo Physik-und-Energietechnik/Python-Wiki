@@ -46,9 +46,7 @@ x = [1, 2, 3, 4, 5]
 y = [10, 5, 8, 2, 7]
 colors = ["r", "g", "b", "c", "m"]
 sizes = [30, 80, 120, 200, 300]
-labels = ["A", "B", "C", "D
-
-", "E"]
+labels = ["A", "B", "C", "D", "E"]
 
 plt.scatter(x, y, c=colors, s=sizes, label=labels)
 plt.xlabel("X-Achse")
@@ -80,6 +78,21 @@ plt.title("Beziehung zwischen Videospielzeit und Pizzaverzehr")
 plt.show()
 ```
 
+Keine Sorge, wir haben auch die Musterlösungen für dich vorbereitet. Aber versuche erst, die Aufgaben selbst zu lösen, bevor du dir die Lösungen anschaust!
+
+```python
+import matplotlib.pyplot as plt
+
+game_hours = [1, 2, 3, 4, 5]
+pizzas = [2, 4, 6, 8, 10]
+
+plt.scatter(game_hours, pizzas)
+plt.xlabel("Stunden Videospiele")
+plt.ylabel("Anzahl der Pizzen")
+plt.title("Beziehung zwischen Videospielzeit und Pizzaverzehr")
+plt.show()
+```
+
 ### Aufgabe 2
 Du bist ein echter Datenanalyse-Ninja! Erstelle einen Scatter Plot, der die Beziehung zwischen der Anzahl der Stunden, die du für die Vorbereitung auf deine Prüfungen aufwendest, und deinen Noten zeigt. Verwende die folgenden Daten:
 
@@ -97,25 +110,8 @@ plt.title("Beziehung zwischen Lernstunden und Noten")
 plt.show()
 ```
 
-### Musterlösungen
-Keine Sorge, wir haben auch die Musterlösungen für dich vorbereitet. Aber versuche erst, die Aufgaben selbst zu lösen, bevor du dir die Lösungen anschaust!
-Natürlich! Hier sind die Musterlösungen zu den Aufgaben:
+Hier sind die Musterlösungen zu der Aufgabe 2:
 
-### Leichte Aufgabe - Musterlösung
-```python
-import matplotlib.pyplot as plt
-
-game_hours = [1, 2, 3, 4, 5]
-pizzas = [2, 4, 6, 8, 10]
-
-plt.scatter(game_hours, pizzas)
-plt.xlabel("Stunden Videospiele")
-plt.ylabel("Anzahl der Pizzen")
-plt.title("Beziehung zwischen Videospielzeit und Pizzaverzehr")
-plt.show()
-```
-
-### Schwere Aufgabe - Musterlösung
 ```python
 import matplotlib.pyplot as plt
 
@@ -131,4 +127,9 @@ plt.show()
 
 Probier sie aus und schau dir die beeindruckenden Scatter Plots an, die du erstellt hast! Wenn du Fragen hast oder etwas nicht verstehst, stehe ich dir gerne zur Verfügung.
 
+## Fazit
 Viel Spaß beim Erkunden der faszinierenden Welt der Scatter Plots mit Matplotlib!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
