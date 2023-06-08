@@ -1,5 +1,3 @@
-# Matplotlib - Der `fill_between` Plot
-
 ## Einführung
 
 Willkommen zurück zu unserem Python-Tutorial für Anfänger! Heute werden wir uns mit einem spannenden Thema beschäftigen: dem `fill_between` Plot in Matplotlib. Wenn du bereits die Grundlagen von Matplotlib kennst und dich fragst, wie du bestimmte Bereiche zwischen Linien oder Kurven einfärben kannst, dann bist du hier genau richtig!
@@ -55,7 +53,7 @@ Jetzt bist du an der Reihe! Lass uns das erlangte Wissen in die Praxis umsetzen.
 
 
 
-### Leichte Aufgabe
+### Aufgabe 1
 
 Deine Aufgabe besteht darin, eine Fläche zwischen zwei Linien zu füllen. Erstelle einen `fill_between` Plot mit den folgenden Daten:
 
@@ -85,7 +83,7 @@ plt.show()
 
 Führe den Code aus, um die Fläche zwischen den beiden Linien zu sehen!
 
-### Schwere Aufgabe
+### Aufgabe 2
 
 Für diejenigen, die eine größere Herausforderung suchen, hier ist eine schwierigere Aufgabe:
 
@@ -120,5 +118,11 @@ plt.show()
 
 Führe den Code aus, um den Bereich zwischen den beiden Kurven zu sehen!
 
+## Fazit
+
 Das war's schon für den `fill_between` Plot in Matplotlib. Du hast jetzt gelernt, wie du Bereiche zwischen Linien oder Kurven einfärben kannst, um deine Visualisierungen aufzupeppen. Experimentiere mit verschiedenen Farben und Daten, um einzigartige und aussagekräftige Plots zu erstellen. Viel Spaß beim Programmieren und bis zum nächsten Tutorial!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
 
