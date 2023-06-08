@@ -1,7 +1,5 @@
-# Matplotlib - Der stem Plot
-
 ## Einführung
-Willkommen zum spannenden Abenteuer der Datenvisualisierung mit Matplotlib! In diesem Tutorial widmen wir uns einem besonders faszinierenden Werkzeug - dem "stem Plot". Klingt nach Pflanzenbiologie, oder? Nun, es ist tatsächlich so ähnlich, nur dass wir hier keine Pflanzen, sondern Daten betrachten. Der stem Plot ermöglicht es uns, diskrete Datenpunkte auf einer Achse darzustellen und Verbindungen zwischen ihnen herzustellen. Klingt cool, oder? Lass uns eintauchen und herausfinden, wie wir damit unsere Daten zum Blühen bringen können!
+In diesem Abschnitt widmen wir uns einem besonders faszinierenden Werkzeug - dem "stem Plot". Klingt nach Pflanzenbiologie, oder? Nun, es ist tatsächlich so ähnlich, nur dass wir hier keine Pflanzen, sondern Daten betrachten. Der stem Plot ermöglicht es uns, diskrete Datenpunkte auf einer Achse darzustellen und Verbindungen zwischen ihnen herzustellen. Klingt cool, oder? Lass uns eintauchen und herausfinden, wie wir damit unsere Daten zum Blühen bringen können!
 
 ## Theorie
 
@@ -39,7 +37,7 @@ plt.show()
 ## Praxis
 Jetzt wollen wir unser neu erworbenes Wissen in die Praxis umsetzen! Hier sind zwei Aufgaben, die dir helfen werden, den stem Plot besser zu verstehen.
 
-### Leichte Aufgabe
+### Aufgabe 1
 Erstelle einen stem Plot für die folgenden Daten:
 ```python
 x = [1, 2, 3, 4, 5]
@@ -62,7 +60,7 @@ plt.title('Mein erster stem Plot
 plt.show()
 ```
 
-### Schwerere Aufgabe
+### Aufgabe 2
 Erstelle einen stem Plot für die folgenden Daten:
 ```python
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
