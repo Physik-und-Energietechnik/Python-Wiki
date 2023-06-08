@@ -1,7 +1,5 @@
-# Matplotlib - Der Scatter Plot
-
 ## Einführung
-Willkommen zurück zu unserem aufregenden Python-Tutorial für Anfänger! Heute werden wir uns mit einem mächtigen Werkzeug namens Matplotlib beschäftigen und uns speziell auf den "Scatter Plot" konzentrieren. Aber was zur Hölle ist ein Scatter Plot? Nun, es ist keine wilde Geschichte über verstreute Flecken oder verängstigte Punkte - keine Sorge! Ein Scatter Plot ist ein Diagramm, das uns hilft, den Zusammenhang zwischen zwei Variablen zu visualisieren. 
+In diesem Abschnitt werden wir uns speziell auf den "Scatter Plot" konzentrieren. Aber was zur Hölle ist ein Scatter Plot? Nun, es ist keine wilde Geschichte über verstreute Flecken oder verängstigte Punkte - keine Sorge! Ein Scatter Plot ist ein Diagramm, das uns hilft, den Zusammenhang zwischen zwei Variablen zu visualisieren. 
 
 In diesem Tutorial werden wir lernen, wie man Scatter Plots erstellt, um Datenpunkte zu analysieren und Muster darin zu entdecken. Mit Matplotlib können wir unsere Ergebnisse in Form von farbenfrohen und anschaulichen Grafiken präsentieren. Es ist wie ein Malbuch für Datenwissenschaftler, nur ohne die Notwendigkeit, zwischen den Linien zu bleiben!
 
@@ -65,7 +63,7 @@ In diesem Beispiel haben wir jedem Punkt eine eigene Farbe (rot, grün, blau, cy
 ## Praxis
 Genug Theorie, lass uns jetzt in die Praxis übergehen! Wir haben zwei Aufgaben für dich vorbereitet, um dein frisch erlerntes Wissen zu testen.
 
-### Leichte Aufgabe
+### Aufgabe 1
 Erstelle einen Scatter Plot, der die Beziehung zwischen der Anzahl der Stunden, die du Videospiele spielst, und der Anzahl der Pizzen, die du isst, zeigt. Verwende die folgenden Daten:
 
 ```python
@@ -82,7 +80,7 @@ plt.title("Beziehung zwischen Videospielzeit und Pizzaverzehr")
 plt.show()
 ```
 
-### Schwere Aufgabe
+### Aufgabe 2
 Du bist ein echter Datenanalyse-Ninja! Erstelle einen Scatter Plot, der die Beziehung zwischen der Anzahl der Stunden, die du für die Vorbereitung auf deine Prüfungen aufwendest, und deinen Noten zeigt. Verwende die folgenden Daten:
 
 ```python
