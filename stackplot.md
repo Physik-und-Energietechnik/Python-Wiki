@@ -1,12 +1,10 @@
-## Matplotlib - Der stackplot Plot
+## Einführung
 
-### Einführung
-
-Willkommen zurück, Python-Abenteurer! In diesem Abschnitt werden wir uns mit einem spannenden Teil von Matplotlib befassen - dem `stackplot` Plot. Aber bevor wir in die Tiefen dieses Plots eintauchen, lassen Sie uns zunächst darüber sprechen, was Sie durch dieses Tutorial erreichen können und wie Sie dieses neu erworbene Wissen einsetzen können.
+In diesem Abschnitt werden wir uns mit einem spannenden Teil von Matplotlib befassen - dem `stackplot` Plot. Aber bevor wir in die Tiefen dieses Plots eintauchen, lassen Sie uns zunächst darüber sprechen, was Sie durch dieses Tutorial erreichen können und wie Sie dieses neu erworbene Wissen einsetzen können.
 
 Hier werden Sie lernen, wie Sie mit Matplotlib beeindruckende Diagramme erstellen können, die verschiedene Datensätze stapeln und Ihnen dabei helfen, komplexe Muster zu erkennen. Das Wissen über den `stackplot` Plot wird Ihnen ermöglichen, Daten visuell ansprechend darzustellen und gleichzeitig Einblicke in die Verteilung der Daten zu gewinnen. Ganz gleich, ob Sie Daten analysieren, Finanzdiagramme erstellen oder einfach nur Ihren Freunden zeigen möchten, wie cool Python ist, dieser Plot wird Ihnen helfen, Ihre Ziele zu erreichen!
 
-### Theorie
+## Theorie
 
 Bevor wir uns in den Code stürzen, lassen Sie uns kurz die Theorie hinter dem `stackplot` Plot verstehen. Der `stackplot` Plot ist ein Diagramm, das uns ermöglicht, verschiedene Datenreihen aufeinander zu stapeln und ihre Verteilung zu visualisieren. Es eignet sich hervorragend, um Veränderungen im Laufe der Zeit darzustellen oder um die Beiträge verschiedener Kategorien zu einem Gesamtwert zu zeigen.
 
@@ -51,9 +49,7 @@ plt.stackplot(jahre, kategorie1, kategorie2, kategorie3, labels=['Kategorie 1', 
 # Legende anzeigen
 plt.legend()
 
-# Ach
-
-sentitel
+# Achsentitel
 plt.xlabel('Jahre')
 plt.ylabel('Umsatz in Millionen')
 
@@ -63,7 +59,7 @@ plt.show()
 
 In diesem Beispiel haben wir die Umsätze für drei verschiedene Kategorien über einen Zeitraum von fünf Jahren. Die Jahre sind in der Liste `jahre` gespeichert, während die Umsätze für jede Kategorie in separaten Listen (`kategorie1`, `kategorie2`, `kategorie3`) enthalten sind. Durch die Verwendung von `plt.stackplot` stapeln wir die Datenreihen und erhalten ein Diagramm, das uns zeigt, wie sich die Umsätze jeder Kategorie im Laufe der Zeit entwickelt haben.
 
-### Praxis
+## Praxis
 
 Nun, da Sie die Theorie hinter dem `stackplot` Plot kennen, ist es Zeit, Ihr neu erworbenes Wissen in die Praxis umzusetzen. Machen Sie sich bereit für ein paar Übungen!
 
@@ -121,8 +117,11 @@ plt.ylabel('Niederschlagsverteilung in mm')
 plt.show()
 ```
 
-Herzlichen Glückwunsch! Sie haben gerade den `stackplot` Plot gemeistert. Mit diesem Wissen können Sie
-
- nun beeindruckende stapelbasierte Diagramme erstellen und Ihre Daten zum Leben erwecken. Gehen Sie raus und setzen Sie Ihre Python-Künste ein, um die Welt der Datenvisualisierung zu erobern!
+## Fazit
+Herzlichen Glückwunsch! Sie haben gerade den `stackplot` Plot gemeistert. Mit diesem Wissen können Sie nun beeindruckende stapelbasierte Diagramme erstellen und Ihre Daten zum Leben erwecken. Gehen Sie raus und setzen Sie Ihre Python-Künste ein, um die Welt der Datenvisualisierung zu erobern!
 
 Happy Coding!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
