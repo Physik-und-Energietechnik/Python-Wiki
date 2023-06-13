@@ -41,7 +41,7 @@
 ## Darstellung
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Installation Python und Pip]] | Beschreibung... |
+| [[Installation Python und Pip]] | Installation von Python und Pip auf Windows, Linux & macOS |
 | [[Einführung in Matplotlib]] | Beschreibung... |
 | [[Grundlagen des Plottings]] | Beschreibung... |
 | [[Plottypen]] | Beschreibung... |
