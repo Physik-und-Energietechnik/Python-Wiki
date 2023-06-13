@@ -45,7 +45,7 @@
 | [[Einführung in Matplotlib]] | Installation und Einrichtung von Matplotlib |
 | [[Grundlagen des Plottings]] | Achsen, Legenden, Marker & Linienstile |
 | [[Plottypen]] | Basic, Statistiken, 3D etc. |
-| [[Subplots und mehrere Achsen]] | Beschreibung... |
+| [[Subplots und mehrere Achsen]] | Kombinieren verschiedener Plot-Typen und Arbeiten mit mehreren Achsen |
 | [[Anpassungen und Stilisierung]] | Beschreibung... |
 | [[Fortgeschrittene Plot-Techniken]] | Beschreibung... |
 | [[Praktische Anwendungen von Plots]] | Beschreibung... |
