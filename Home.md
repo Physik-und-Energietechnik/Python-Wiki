@@ -46,7 +46,7 @@
 | [[Grundlagen des Plottings]] | Achsen, Legenden, Marker & Linienstile |
 | [[Plottypen]] | Basic, Statistiken, 3D etc. |
 | [[Subplots und mehrere Achsen]] | Kombinieren verschiedener Plot-Typen und Arbeiten mit mehreren Achsen |
-| [[Anpassungen und Stilisierung]] | Beschreibung... |
+| [[Anpassungen und Stilisierung]] | Hintergrundbilder, Gatterlinien, Schriftarten & Autoscaling |
 | [[Fortgeschrittene Plot-Techniken]] | Beschreibung... |
 | [[Praktische Anwendungen von Plots]] | Beschreibung... |
 
