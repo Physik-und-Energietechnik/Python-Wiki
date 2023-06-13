@@ -48,7 +48,7 @@
 | [[Subplots und mehrere Achsen]] | Kombinieren verschiedener Plot-Typen und Arbeiten mit mehreren Achsen |
 | [[Anpassungen und Stilisierung]] | Hintergrundbilder, Gatterlinien, Schriftarten & Autoscaling |
 | [[Fortgeschrittene Plot-Techniken]] | Daten aus CSV-Dateien, Feinabstimmung Plot-Layouts & benutzerdefinierte Plot-Typen |
-| [[Praktische Anwendungen von Plots]] | Beschreibung... |
+| [[Praktische Anwendungen von Plots]] | Trends, wissenschaftliche Diagramme & interaktive Dashboards |
 
 ## Kommunikation
 | Seite | Beschreibung |
