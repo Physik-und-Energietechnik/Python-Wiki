@@ -81,10 +81,10 @@ age = 25
 height = 1.65
 ```
 
-Der gegebene Code definiert drei Variablen in Python: "name", "age" und "height". Die erste Variable "name" ist ein String, der den Wert "Lisa" enthält. Die zweite Variable "age" ist eine ganze Zahl (Integer), die den Wert 25 enthält. Die dritte Variable "height" ist eine Fließkommazahl (Float), die den Wert 1.65 enthält und die Höhe von Lisa in Metern darstellt.
+Der gegebene Code definiert drei Variablen in Python: `name`, `age` und `height`. Die erste Variable `name` ist ein String, der den Wert `Lisa` enthält. Die zweite Variable `age` ist eine ganze Zahl (Integer), die den Wert 25 enthält. Die dritte Variable `height` ist eine Fließkommazahl (Float), die den Wert `1.65` enthält und die Höhe von Lisa in Metern darstellt.
 
 ### Aufgabe 2
-Erstelle eine Variable `number` und weise ihr den Wert `5` als Ganzzahl zu. Erstelle dann eine Variable `text` und weise ihr den Wert `10` als String zu. Führe dann die folgenden Schritte aus:
+Erstelle eine Variable `number` und weise ihr den Wert `5` als Ganzzahl zu. Erstelle dann eine Variable `text` und weise ihr den Wert `"10"` als String zu. Führe dann die folgenden Schritte aus:
 
 1. Wandle die Variable `number` in eine Gleitkommazahl um und weise sie der Variable `number_float` zu.
 2. Wandle die Variable `text` in eine Ganzzahl um und weise sie der Variable `text_int` zu.
