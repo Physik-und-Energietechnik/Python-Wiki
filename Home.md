@@ -44,7 +44,7 @@
 | [[Installation Python und Pip]] | Installation von Python und Pip auf Windows, Linux & macOS |
 | [[Einführung in Matplotlib]] | Installation und Einrichtung von Matplotlib |
 | [[Grundlagen des Plottings]] | Achsen, Legenden, Marker & Linienstile |
-| [[Plottypen]] | Beschreibung... |
+| [[Plottypen]] | Basic, Statistiken, 3D etc. |
 | [[Subplots und mehrere Achsen]] | Beschreibung... |
 | [[Anpassungen und Stilisierung]] | Beschreibung... |
 | [[Fortgeschrittene Plot-Techniken]] | Beschreibung... |
