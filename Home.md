@@ -16,6 +16,7 @@
 | [[Sets]] | Beschreibung... |
 | [[Strings]] | Beschreibung... |
 | [[Syntax, Comments]] | Beschreibung... |
+| [[Variablen, Datentypen und Casting]] | Beschreibung... |
 
 ## Wissenschaftliches Rechnen
 | Seite | Beschreibung |
