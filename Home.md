@@ -42,7 +42,7 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Installation Python und Pip]] | Installation von Python und Pip auf Windows, Linux & macOS |
-| [[Einführung in Matplotlib]] | Beschreibung... |
+| [[Einführung in Matplotlib]] | Installation und Einrichtung von Matplotlib |
 | [[Grundlagen des Plottings]] | Beschreibung... |
 | [[Plottypen]] | Beschreibung... |
 | [[Subplots und mehrere Achsen]] | Beschreibung... |
