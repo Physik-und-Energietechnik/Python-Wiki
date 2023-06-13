@@ -26,7 +26,7 @@ Es gibt verschiedene Datentypen in Python. Hier sind einige der häufigsten:
 * Ganzzahlen: z.B. `42`
 * Gleitkommazahlen: z.B. `3.14`
 * Boolesche Werte: `True` oder `False`
-* Komplexe Zahlen: z.B. 2 + 3j
+* Komplexe Zahlen: z.B. `2 + 3j`
 
 Python erkennt den Datentyp automatisch, wenn du eine Variable erstellst. Du kannst den Datentyp einer Variable auch explizit überprüfen, indem du die `type()`-Funktion verwendest:
 
@@ -102,8 +102,8 @@ result = number_float * text_int
 print(result) # Output: 50.0
 ```
 
-Der gegebene Code definiert drei Variablen in Python: "number", "text" und "result". Die Variable "number" hat den Wert 5, was eine Ganzzahl (Integer) darstellt. Die Variable "text" hat den Wert "10", was ein String ist, der eine Zahl in Zeichenkette darstellt.
-Der Code führt dann zwei Umwandlungen durch. Zuerst wird der Wert der Variablen "number" in eine Fließkommazahl (Float) umgewandelt und der resultierende Wert wird der Variablen "number_float" zugewiesen. Dann wird der Wert der Variablen "text" in eine Ganzzahl (Integer) umgewandelt und der resultierende Wert wird der Variablen "text_int" zugewiesen. Der Code multipliziert dann die beiden umgewandelten Werte "number_float" und "text_int" und speichert das Ergebnis in der Variablen "result".Schließlich wird das Ergebnis mithilfe der print()-Funktion auf der Konsole ausgegeben. Der Output zeigt das Ergebnis der Multiplikation, das 50.0 beträgt.
+Der gegebene Code definiert drei Variablen in Python: `number`, `text` und `result`. Die `number` hat den Wert `5`, was eine Ganzzahl (Integer) darstellt. Die Variable `text` hat den Wert `"10"`, was ein String ist, der eine Zahl in Zeichenkette darstellt.
+Der Code führt dann zwei Umwandlungen durch. Zuerst wird der Wert der Variablen `number` in eine Fließkommazahl (Float) umgewandelt und der resultierende Wert wird der Variablen `number_float` zugewiesen. Dann wird der Wert der Variablen `text` in eine Ganzzahl (Integer) umgewandelt und der resultierende Wert wird der Variablen `text_int` zugewiesen. Der Code multipliziert dann die beiden umgewandelten Werte `number_float` und `text_int` und speichert das Ergebnis in der Variablen `result`.Schließlich wird das Ergebnis mithilfe der `print()`-Funktion auf der Konsole ausgegeben. Der Output zeigt das Ergebnis der Multiplikation, das `50.0` beträgt.
 
 ## Fazit
 In diesem Abschnitt wurden die Grundlagen von Variablen und Datentypen in Python behandelt. Du hast gelernt, wie man Variablen definiert und zwischen verschiedenen Datentypen umwandelt. Darüber hinaus wurden die verschiedenen Datentypen in Python vorgestellt und erklärt, wie man ihren Datentyp überprüfen kann. Casting, also das Ändern des Datentyps einer Variable, wurde ebenfalls behandelt. Diese grundlegenden Konzepte sind sehr wichtig, um Python effektiv zu nutzen und zu verstehen.
