@@ -23,6 +23,8 @@
 | ----------- | ----------- |
 | [[Python.math]] | Beschreibung... |
 | [[NumPy]] | Beschreibung... |
+| [[SciPy]] | Beschreibung... |
+| [[SymPy]] | Beschreibung... |
 
 
 ## Graphical User Interface
