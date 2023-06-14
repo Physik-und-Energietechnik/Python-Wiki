@@ -1,5 +1,3 @@
-# Python Tutorial für Anfänger - Trigonometrische Funktionen mit Python.math
-
 ## Einführung
 Willkommen zu unserem lustigen und spannenden Tutorial über trigonometrische Funktionen mit Python! In diesem Tutorial wirst du lernen, wie du mithilfe der `python.math`-Bibliothek trigonometrische Funktionen wie Sinus, Kosinus und Tangens berechnen kannst. Aber was genau sind eigentlich trigonometrische Funktionen und wofür sind sie gut?
 
