@@ -1,5 +1,3 @@
-# Python Tutorial für Anfänger - Konstanten von `math.py`
-
 ## Einführung
 Willkommen zu unserem unterhaltsamen Python-Tutorial über die Konstanten von `math.py`! In diesem Tutorial werden wir uns mit den verschiedenen mathematischen Konstanten befassen, die in der `math.py`-Bibliothek von Python integriert sind. Aber welche Konstanten sind das und wie können wir sie nutzen, um unsere Python-Programme zu verbessern?
 
