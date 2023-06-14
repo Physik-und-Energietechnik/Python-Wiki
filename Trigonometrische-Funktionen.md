@@ -11,18 +11,7 @@ In diesem Tutorial lernst du, wie du die trigonometrischen Funktionen Sinus, Kos
 ### Sinus
 Der Sinus einer Winkelmaßzahl ist das Verhältnis der Länge der Seite gegenüber dem Winkel zum Verhältnis der Länge der Hypotenuse eines rechtwinkligen Dreiecks. 
 
-Hier ist ein allgemeines Code-Beispiel, das den Sinus eines Winkels berechnet:
-
-```python
-import math
-
-angle = 45  # Winkel in Grad
-sin_value = math.sin(math.radians(angle))  # math.radians konvertiert Grad in Bogenmaß
-
-print(sin_value)
-```
-
-Ein explizites Code-Beispiel, um den Sinus des Winkels 45 Grad zu berechnen:
+Hier ist ein Beispiel, das den Sinus eines Winkels berechnet:
 
 ```python
 import math
@@ -37,18 +26,7 @@ print(f"Der Sinus von {angle} Grad ist {sin_value}")
 ### Kosinus
 Der Kosinus einer Winkelmaßzahl ist das Verhältnis der Länge der Seite neben dem Winkel zur Länge der Hypotenuse eines rechtwinkligen Dreiecks.
 
-Hier ist ein allgemeines Code-Beispiel, das den Kosinus eines Winkels berechnet:
-
-```python
-import math
-
-angle = 60  # Winkel in Grad
-cos_value = math.cos(math.radians(angle))  # math.radians konvertiert Grad in Bogenmaß
-
-print(cos_value)
-```
-
-Ein explizites Code-Beispiel, um den Kosinus des Winkels 60 Grad zu berechnen:
+Hier ist ein Beispiel, das den Kosinus eines Winkels berechnet:
 
 ```python
 import math
@@ -61,22 +39,9 @@ print(f"Der Kosinus von {angle} Grad ist {cos_value}")
 ```
 
 ### Tangens
-Der Tangens einer Winkelmaßzahl ist das Verhältnis der Länge der Seite gegenüber dem Winkel zur Länge der Seite neben dem Winkel eines rechtwinkligen Dreiecks
+Der Tangens einer Winkelmaßzahl ist das Verhältnis der Länge der Seite gegenüber dem Winkel zur Länge der Seite neben dem Winkel eines rechtwinkligen Dreiecks.
 
-.
-
-Hier ist ein allgemeines Code-Beispiel, das den Tangens eines Winkels berechnet:
-
-```python
-import math
-
-angle = 30  # Winkel in Grad
-tan_value = math.tan(math.radians(angle))  # math.radians konvertiert Grad in Bogenmaß
-
-print(tan_value)
-```
-
-Ein explizites Code-Beispiel, um den Tangens des Winkels 30 Grad zu berechnen:
+Hier ist ein Beispiel, das den Tangens eines Winkels berechnet:
 
 ```python
 import math
