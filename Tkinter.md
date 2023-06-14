@@ -1,12 +1,12 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Fenster: Erstellung]] | Erstellen von Fenstern |
-| [[Fenster: Anpassung - Hintergrund(-farbe)]] | Anpassung des Hintergrunds eines Fensters |
-| [[Fenster: Anpassung - Titelleiste]] | Anpassung der Titelleiste eines Fensters |
-| [[Fenster: Anpassung - Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
-| [[Fenster: Tabs]] | Erstellung mehrerer Tabs in einem Fenster |
-| [[Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
-| [[Interaktionsmöglichkeiten]] | Verschiedene Arten von Interaktionsmöglichkeiten |
-| [[Darstellung: Graphen]] | Graphen (Matplotlib) grafisch darstellen |
-| [[Darstellung: Bilder]] | Bilder grafisch darstellen |
-| [[Layout-Management]] | Anpassung des Layouts eines Fensters |
+| [[(Tkinter) Fenster: Erstellung]] | Erstellen von Fenstern |
+| [[(Tkinter) Fenster: Anpassung - Hintergrund(-farbe)]] | Anpassung des Hintergrunds eines Fensters |
+| [[(Tkinter) Fenster: Anpassung - Titelleiste]] | Anpassung der Titelleiste eines Fensters |
+| [[(Tkinter) Fenster: Anpassung - Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
+| [[(Tkinter) Fenster: Tabs]] | Erstellung mehrerer Tabs in einem Fenster |
+| [[(Tkinter) Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
+| [[(Tkinter) Interaktionsmöglichkeiten]] | Verschiedene Arten von Interaktionsmöglichkeiten |
+| [[(Tkinter) Darstellung: Graphen]] | Graphen (Matplotlib) grafisch darstellen |
+| [[(Tkinter) Darstellung: Bilder]] | Bilder grafisch darstellen |
+| [[(Tkinter) Layout-Management]] | Anpassung des Layouts eines Fensters |
