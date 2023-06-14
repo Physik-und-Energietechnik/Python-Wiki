@@ -32,7 +32,7 @@
 | ----------- | ----------- |
 | [[Tkinter]] | Simple GUI-Erstellung |
 | [[PyQt5]] | Komplexere GUI-Erstellung |
-| [[Kivy]] | GUIs mit besseren Support für mobile Geräte |
+| [[Kivy]] | GUIs mit besserem Support für mobile Geräte |
 | [[Streamlit]] | GUI für Visualisierung und Analyse von Daten |
 | [[Gradio]] | GUI für ML Demos |
 
