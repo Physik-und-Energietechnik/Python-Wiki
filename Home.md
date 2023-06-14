@@ -34,7 +34,7 @@
 | [[PyQt5]] | Beschreibung... |
 | [[Kivy]] | Beschreibung... |
 | [[Streamlit]] | GUI für Visualisierung und Analyse von Daten |
-| [[Gradio]] | GUI für ML |
+| [[Gradio]] | GUI für ML Demos |
 
 ## Darstellung
 | Seite | Beschreibung |
