@@ -33,7 +33,7 @@
 | [[Tkinter]] | Beschreibung... |
 | [[PyQt5]] | Beschreibung... |
 | [[Kivy]] | Beschreibung... |
-| [[Streamlit]] | Beschreibung... |
+| [[Streamlit]] | GUI für Visualisierung und Analyse von Daten |
 | [[Gradio]] | GUI für ML |
 
 ## Darstellung
