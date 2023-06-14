@@ -4,6 +4,7 @@
 | [[Fenster: Anpassung - Hintergrund(-farbe)]] | Anpassung des Hintergrunds eines Fensters |
 | [[Fenster: Anpassung - Titelleiste]] | Anpassung der Titelleiste eines Fensters |
 | [[Fenster: Anpassung - Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
+| [[Fenster: Tabs]] | Erstellung mehrerer Tabs |
 | [[Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
 | [[Interaktionsmöglichkeiten]] | Verschiedene Arten von Interaktionsmöglichkeiten |
 | [[Darstellung: Graphen]] | Graphen (Matplotlib) grafisch darstellen |
