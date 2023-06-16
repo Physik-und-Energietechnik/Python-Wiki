@@ -89,6 +89,55 @@ ser.close()
 
 In diesem Beispiel importieren wir das `serial`-Modul aus der `pyserial`-Bibliothek und verwenden es, um eine serielle Verbindung herzustellen, Daten zu lesen und zu schreiben.
 
+## Praxis: Aufgabenstellung und Musterlösung
+
+### Aufgabenstellung
+
+Nun ist es an der Zeit, dein Wissen über die serielle Kommunikation in Python in der Praxis anzuwenden. Deine Aufgabe besteht darin, eine einfache Anwendung zu entwickeln, die Daten über eine serielle Schnittstelle sendet und empfängt.
+
+#### Anforderungen:
+
+1. Stelle eine Verbindung mit einer seriellen Schnittstelle her.
+2. Sende den Text "Hallo, serielle Welt!" über die Schnittstelle.
+3. Empfange die Antwortdaten von der Schnittstelle.
+4. Drucke die empfangenen Daten auf der Konsole.
+
+### Musterlösung
+
+```python
+import serial
+
+# Serielle Verbindung herstellen
+ser = serial.Serial('/dev/ttyUSB0', 9600)
+
+# Text senden
+text = "Hallo, serielle Welt!"
+ser.write(text.encode())
+
+# Daten empfangen
+data = ser.readline()
+
+# Empfangene Daten ausgeben
+print(data.decode())
+
+# Serielle Verbindung schließen
+ser.close()
+```
+
+In dieser Musterlösung verwenden wir die `encode()`-Methode, um den Text in das erforderliche Byteformat für die serielle Kommunikation umzuwandeln. Anschließend senden wir den Text über die Schnittstelle. Wir verwenden die `decode()`-Methode, um die empfangenen Daten von Bytes in einen lesbaren Text umzuwandeln.
+
+Denke daran, den richtigen Port (`/dev/ttyUSB0`) und die richtige Baudrate (9600) in deiner Lösung anzugeben, abhängig von deiner spezifischen Konfiguration.
+
+### Erklärung
+
+In dieser Aufgabe hast du eine Verbindung mit einer seriellen Schnittstelle hergestellt und Daten darüber gesendet und empfangen. Du hast den Text "Hallo, serielle Welt!" über die Schnittstelle gesendet und die Antwortdaten empfangen. Die empfangenen Daten wurden dann auf der Konsole ausgegeben.
+
+Die `encode()`-Methode wird verwendet, um den Text in das Byteformat umzuwandeln, das über die serielle Schnittstelle übertragen werden kann. Die `decode()`-Methode wird verwendet, um die empfangenen Bytes wieder in einen lesbaren Text umzuwandeln.
+
+Es ist wichtig, die serielle Verbindung ordnungsgemäß zu öffnen und zu schließen, um Ressourcenlecks zu vermeiden und die Schnittstelle für andere Anwendungen freizugeben.
+
+Herzlichen Glückwunsch! Du hast erfolgreich die Aufgabe zur seriellen Kommunikation in Python gelöst. Du kannst nun deine Kenntnisse über serielle Schnittstellen nutzen, um mit externen Geräten zu kommunizieren und eigene spannende Projekte umzusetzen.
+
 ## Fazit
 
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man über serielle Schnittstellen kommuniziert. Du kennst jetzt die Grundlagen der seriellen Kommunikation, den Verbindungsaufbau, das Lesen und Schreiben von Daten sowie die Interaktion mit seriellen Geräten in Python. Du bist nun bereit, serielle Kommunikation in eigenen Projekten einzusetzen und mit externen Geräten zu interagieren. Viel Spaß beim Entdecken und Experimentieren mit serieller Kommunikation in Python!
