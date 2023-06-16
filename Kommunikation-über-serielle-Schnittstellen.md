@@ -136,8 +136,6 @@ Die `encode()`-Methode wird verwendet, um den Text in das Byteformat umzuwandeln
 
 Es ist wichtig, die serielle Verbindung ordnungsgemäß zu öffnen und zu schließen, um Ressourcenlecks zu vermeiden und die Schnittstelle für andere Anwendungen freizugeben.
 
-Herzlichen Glückwunsch! Du hast erfolgreich die Aufgabe zur seriellen Kommunikation in Python gelöst. Du kannst nun deine Kenntnisse über serielle Schnittstellen nutzen, um mit externen Geräten zu kommunizieren und eigene spannende Projekte umzusetzen.
-
 ## Fazit
 
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man über serielle Schnittstellen kommuniziert. Du kennst jetzt die Grundlagen der seriellen Kommunikation, den Verbindungsaufbau, das Lesen und Schreiben von Daten sowie die Interaktion mit seriellen Geräten in Python. Du bist nun bereit, serielle Kommunikation in eigenen Projekten einzusetzen und mit externen Geräten zu interagieren. Viel Spaß beim Entdecken und Experimentieren mit serieller Kommunikation in Python!
