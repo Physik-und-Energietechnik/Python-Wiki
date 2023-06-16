@@ -1,4 +1,3 @@
-# Datenbanktransaktionen und Fehlerbehandlung
 
 Willkommen zu unserem Python-Tutorial über Datenbanktransaktionen und Fehlerbehandlung! In diesem Tutorial werden wir lernen, wie wir sicherstellen können, dass unsere Datenbankoperationen zuverlässig ausgeführt werden und wie wir mit auftretenden Fehlern umgehen können. Aber bevor wir starten, lassen Sie uns zunächst eine kurze Einführung geben.
 
