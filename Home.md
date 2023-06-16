@@ -61,6 +61,7 @@
 | [[8.API-Dokumentation und Testen]] | Erstellen von API-Dokumentation mit OpenAPI/Swagger sowie das Testen von APIs mit Python-Bibliotheken |
 | [[9.Deployment und Skalierung von Web-APIs]] | Bereitstellen von APIs, Skalierungstechniken und Fehlerbehebung |
 | [[10.Kommunikation über serielle Schnittstellen]] | Unterkapitel für serielle Schnittstellen |
+| [[Messaging und Queueing in Python ]] | Beschreibung |
 
 ## Daten
 | Seite | Beschreibung |
