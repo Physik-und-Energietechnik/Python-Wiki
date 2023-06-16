@@ -58,7 +58,7 @@
 | [[5.Authentifizierung und Autorisierung in Web-APIs]] | Grundlagen der Authentifizierung in Python |
 | [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Paginierung, Filterung, Caching, Leistungsoptimierung, Webhooks |
-| [[8.API-Dokumentation und Testen]] | Erstellen klarer Anleitungen für die API-Nutzung sowie das Überprüfen der Funktionalität durch Tests |
+| [[8.API-Dokumentation und Testen]] | Erstellen von API-Dokumentation mit OpenAPI/Swagger sowie das Testen von APIs mit Python-Bibliotheken |
 | [[9.Deployment und Skalierung von Web-APIs]] | Bereitstellen von APIs, Skalierungstechniken und Fehlerbehebung |
 | [[10.Kommunikation über serielle Schnittstellen]] | Unterkapitel für serielle Schnittstellen |
 
