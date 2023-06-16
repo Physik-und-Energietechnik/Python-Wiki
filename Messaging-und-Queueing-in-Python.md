@@ -64,9 +64,7 @@ my_queue = queue.Queue()
 my_queue.put("Nachricht 1")
 my_queue.put("Nachricht 2")
 
-# Elemente aus der W
-
-arteschlange abrufen
+# Elemente aus der Warteschlange abrufen
 while not my_queue.empty():
     message = my_queue.get()
     print("Nachricht erhalten:", message)
