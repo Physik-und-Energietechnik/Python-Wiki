@@ -1,7 +1,6 @@
 
-Willkommen zu unserem Python-Tutorial über die Kommunikation mit Datenbanken! In diesem Tutorial werden wir lernen, wie wir Datenbanken nutzen können, um Informationen effizient zu speichern, abzurufen und zu manipulieren. Aber bevor wir loslegen, lassen Sie uns zunächst einen kurzen Überblick geben.
-
 ## Einführung
+Willkommen zu unserem Python-Tutorial über die Kommunikation mit Datenbanken! In diesem Tutorial werden wir lernen, wie wir Datenbanken nutzen können, um Informationen effizient zu speichern, abzurufen und zu manipulieren. Aber bevor wir loslegen, lassen Sie uns zunächst einen kurzen Überblick geben.
 
 Datenbanken sind wie riesige digitale Speicherplätze für Informationen. Sie werden in verschiedenen Bereichen eingesetzt, von Unternehmen, die Kundendaten verwalten, bis hin zu sozialen Netzwerken, die Millionen von Benutzerprofilen speichern. In diesem Tutorial werden wir uns darauf konzentrieren, wie wir mit Datenbanken in Python kommunizieren können.
 
