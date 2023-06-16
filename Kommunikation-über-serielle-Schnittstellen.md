@@ -1,10 +1,10 @@
-## 3.1 Einführung
+## Einführung
 
 In diesem Abschnitt werden wir uns ausführlich mit der seriellen Kommunikation beschäftigen. Serielle Schnittstellen sind eine weit verbreitete Methode zur Datenübertragung zwischen Computern und externen Geräten. In diesem Tutorial werden wir lernen, wie man serielle Verbindungen herstellt, Daten überträgt und mit seriellen Geräten interagiert.
 
 ## Theorie
 
-### 3.2 Verbindungsaufbau mit seriellen Schnittstellen
+### Verbindungsaufbau mit seriellen Schnittstellen
 
 Bevor wir mit der Datenübertragung beginnen können, müssen wir eine Verbindung mit der seriellen Schnittstelle herstellen. Hier ist ein allgemeines Python-Codebeispiel, um den Verbindungsaufbau zu verstehen:
 
@@ -43,7 +43,7 @@ ser.close()
 
 In diesem Beispiel verwenden wir die Funktion `readline()`, um Daten von der seriellen Schnittstelle zu lesen, und die Funktion `write()`, um Daten zu schreiben. Die gelesenen Daten können dann weiterverarbeitet oder gedruckt werden.
 
-### 3.4 Interaktion mit seriellen Geräten in Python
+### Interaktion mit seriellen Geräten in Python
 
 Jetzt, da wir wissen, wie wir Daten über serielle Schnittstellen lesen und schreiben können, können wir mit seriellen Geräten interagieren. Das können zum Beispiel Sensoren, Aktoren oder Mikrocontroller sein. Wir können Befehle an das Gerät senden und die empfangenen Daten verarbeiten. Hier ist ein einfaches Beispiel:
 
@@ -66,7 +66,7 @@ ser.close()
 
 In diesem Beispiel senden wir den Befehl "read" an das serielle Gerät und empfangen die Antwort. Du kannst die empfangenen Daten dann weiterverarbeiten, je nach Anforderungen deines Projekts.
 
-### 3.5 Bibliotheken für serielle Kommunikation in Python
+### Bibliotheken für serielle Kommunikation in Python
 
 Es gibt verschiedene Python-Bibliotheken, die uns
 
