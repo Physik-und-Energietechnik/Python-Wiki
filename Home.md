@@ -60,7 +60,7 @@
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
 | [[8.API-Dokumentation und Testen]] | Beschreibung... |
 | [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
-| [[Kommunikation über serielle Schnittstellen]] | Beschreibung... |
+| [[10.Kommunikation über serielle Schnittstellen]] | Beschreibung... |
 
 ## Daten
 | Seite | Beschreibung |
