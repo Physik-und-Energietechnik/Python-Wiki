@@ -61,6 +61,7 @@
 | [[8.API-Dokumentation und Testen]] | Beschreibung... |
 | [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
 | [[Kommunikation über serielle Schnittstellen]] | Beschreibung... |
+| [[Kommunikation mit Datenbanken in Python]] | Beschreibung... |
 
 ## Daten
 | Seite | Beschreibung |
