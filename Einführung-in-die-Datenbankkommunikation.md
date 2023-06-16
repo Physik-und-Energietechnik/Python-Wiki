@@ -1,4 +1,3 @@
-# Einführung in die Datenbankkommunikation
 
 Willkommen zu unserem Python-Tutorial über die Kommunikation mit Datenbanken! In diesem Tutorial werden wir lernen, wie wir Datenbanken nutzen können, um Informationen effizient zu speichern, abzurufen und zu manipulieren. Aber bevor wir loslegen, lassen Sie uns zunächst einen kurzen Überblick geben.
 
