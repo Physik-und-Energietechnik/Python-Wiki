@@ -91,11 +91,8 @@ In diesem Beispiel importieren wir das `serial`-Modul aus der `pyserial`-Bibliot
 
 ## Praxis
 
-### Aufgabenstellung
 
 Nun ist es an der Zeit, dein Wissen über die serielle Kommunikation in Python in der Praxis anzuwenden. Deine Aufgabe besteht darin, eine einfache Anwendung zu entwickeln, die Daten über eine serielle Schnittstelle sendet und empfängt.
-
-#### Anforderungen:
 
 1. Stelle eine Verbindung mit einer seriellen Schnittstelle her.
 2. Sende den Text "Hallo, serielle Welt!" über die Schnittstelle.
