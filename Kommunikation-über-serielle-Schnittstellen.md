@@ -89,7 +89,7 @@ ser.close()
 
 In diesem Beispiel importieren wir das `serial`-Modul aus der `pyserial`-Bibliothek und verwenden es, um eine serielle Verbindung herzustellen, Daten zu lesen und zu schreiben.
 
-## Praxis: Aufgabenstellung und Musterlösung
+## Praxis
 
 ### Aufgabenstellung
 
@@ -127,8 +127,6 @@ ser.close()
 In dieser Musterlösung verwenden wir die `encode()`-Methode, um den Text in das erforderliche Byteformat für die serielle Kommunikation umzuwandeln. Anschließend senden wir den Text über die Schnittstelle. Wir verwenden die `decode()`-Methode, um die empfangenen Daten von Bytes in einen lesbaren Text umzuwandeln.
 
 Denke daran, den richtigen Port (`/dev/ttyUSB0`) und die richtige Baudrate (9600) in deiner Lösung anzugeben, abhängig von deiner spezifischen Konfiguration.
-
-### Erklärung
 
 In dieser Aufgabe hast du eine Verbindung mit einer seriellen Schnittstelle hergestellt und Daten darüber gesendet und empfangen. Du hast den Text "Hallo, serielle Welt!" über die Schnittstelle gesendet und die Antwortdaten empfangen. Die empfangenen Daten wurden dann auf der Konsole ausgegeben.
 
