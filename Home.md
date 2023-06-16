@@ -56,7 +56,7 @@
 | [[3.Aufbau eines einfachen HTTP-Servers in Python]] | Beschreibung... |
 | [[4.Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Beschreibung... |
 | [[5.Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
-| [[6.Verwendung von Datenformaten in Web-APIs]] | Verwednung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
+| [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
 | [[8.API-Dokumentation und Testen]] | Beschreibung... |
 | [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
