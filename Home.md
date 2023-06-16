@@ -55,7 +55,7 @@
 | [[2.Grundlagen der Netzwerkprogrammierung mit Python]] | Verschiedene Netztwerk-Protokolle und Umgang mit Python Sockets |
 | [[3.Aufbau eines einfachen HTTP-Servers in Python]] | Erstellung eines HTTP Servers, sowie verarbeiten und erstellen von HTTP-Anfragen |
 | [[4.Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Einführung in Flask |
-| [[5.Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
+| [[5.Authentifizierung und Autorisierung in Web-APIs]] | Grundlagen der Authentifizierung in Python |
 | [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
 | [[8.API-Dokumentation und Testen]] | Erstellen klarer Anleitungen für die API-Nutzung sowie das Überprüfen der Funktionalität durch Tests |
