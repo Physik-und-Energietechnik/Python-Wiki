@@ -60,7 +60,7 @@
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Paginierung, Filterung, Caching, Leistungsoptimierung, Webhooks |
 | [[8.API-Dokumentation und Testen]] | Erstellen klarer Anleitungen für die API-Nutzung sowie das Überprüfen der Funktionalität durch Tests |
 | [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
-| [[10.Kommunikation über serielle Schnittstellen]] | Beschreibung... |
+| [[10.Kommunikation über serielle Schnittstellen]] | Unterkapitel für serielle Schnittstellen |
 
 ## Daten
 | Seite | Beschreibung |
