@@ -59,7 +59,7 @@
 | [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Paginierung, Filterung, Caching, Leistungsoptimierung, Webhooks |
 | [[8.API-Dokumentation und Testen]] | Erstellen klarer Anleitungen für die API-Nutzung sowie das Überprüfen der Funktionalität durch Tests |
-| [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
+| [[9.Deployment und Skalierung von Web-APIs]] | Bereitstellen von APIs, Skalierungstechniken und Fehlerbehebung |
 | [[10.Kommunikation über serielle Schnittstellen]] | Unterkapitel für serielle Schnittstellen |
 
 ## Daten
