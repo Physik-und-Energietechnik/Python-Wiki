@@ -53,7 +53,7 @@
 | ----------- | ----------- |
 | [[1.Einführung in Web APIs]] | Beschreibung... |
 | [[2.Grundlagen der Netzwerkprogrammierung mit Python]] | Beschreibung... |
-| [[3.Aufbau eines einfachen HTTP-Servers in Python]] | Beschreibung... |
+| [[3.Aufbau eines einfachen HTTP-Servers in Python]] | Einrichten eines HTTP Servers, sowie verarbeiten und erstellen von HTTP-Abfragen |
 | [[4.Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Beschreibung... |
 | [[5.Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
 | [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
