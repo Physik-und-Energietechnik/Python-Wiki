@@ -58,7 +58,7 @@
 | [[5.Authentifizierung und Autorisierung in Web-APIs]] | Beschreibung... |
 | [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
 | [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
-| [[8.API-Dokumentation und Testen]] | Beschreibung... |
+| [[8.API-Dokumentation und Testen]] | Erstellen klarer Anleitungen für die API-Nutzung sowie das Überprüfen der Funktionalität durch Tests |
 | [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
 | [[10.Kommunikation über serielle Schnittstellen]] | Beschreibung... |
 
