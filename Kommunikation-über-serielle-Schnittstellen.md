@@ -1,5 +1,3 @@
-# 3. Kommunikation über serielle Schnittstellen
-
 ## 3.1 Einführung in serielle Kommunikation
 
 Willkommen zum dritten Teil unseres Tutorials über Kommunikation über serielle Schnittstellen! In diesem Abschnitt werden wir uns ausführlich mit der seriellen Kommunikation beschäftigen. Serielle Schnittstellen sind eine weit verbreitete Methode zur Datenübertragung zwischen Computern und externen Geräten. In diesem Tutorial werden wir lernen, wie man serielle Verbindungen herstellt, Daten überträgt und mit seriellen Geräten interagiert.
