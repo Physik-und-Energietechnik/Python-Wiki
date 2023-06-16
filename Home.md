@@ -57,7 +57,7 @@
 | [[4.Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Einführung in Flask |
 | [[5.Authentifizierung und Autorisierung in Web-APIs]] | Grundlagen der Authentifizierung in Python |
 | [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
-| [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Beschreibung... |
+| [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Paginierung, Filterung, Caching, Leistungsoptimierung, Webhooks |
 | [[8.API-Dokumentation und Testen]] | Erstellen klarer Anleitungen für die API-Nutzung sowie das Überprüfen der Funktionalität durch Tests |
 | [[9.Deployment und Skalierung von Web-APIs]] | Beschreibung... |
 | [[10.Kommunikation über serielle Schnittstellen]] | Beschreibung... |
