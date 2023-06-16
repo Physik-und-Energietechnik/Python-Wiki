@@ -1,8 +1,7 @@
 
-Willkommen zu unserem Python-Tutorial über Datenbanktransaktionen und Fehlerbehandlung! In diesem Tutorial werden wir lernen, wie wir sicherstellen können, dass unsere Datenbankoperationen zuverlässig ausgeführt werden und wie wir mit auftretenden Fehlern umgehen können. Aber bevor wir starten, lassen Sie uns zunächst eine kurze Einführung geben.
-
 ## Einführung
 
+Willkommen zu unserem Python-Tutorial über Datenbanktransaktionen und Fehlerbehandlung! In diesem Tutorial werden wir lernen, wie wir sicherstellen können, dass unsere Datenbankoperationen zuverlässig ausgeführt werden und wie wir mit auftretenden Fehlern umgehen können. Aber bevor wir starten, lassen Sie uns zunächst eine kurze Einführung geben.
 Datenbanktransaktionen sind wie eine Reise in die Bank. Du möchtest Geld einzahlen und sicherstellen, dass alles korrekt abläuft. Wenn du das Geld einzahlst und dein Konto aktualisiert wird, möchtest du sicher sein, dass der Vorgang erfolgreich war. Wenn etwas schief geht, möchtest du wissen, wie du mit der Situation umgehen kannst. In diesem Tutorial werden wir genau das lernen!
 
 Durch das Erlernen von Datenbanktransaktionen und Fehlerbehandlung in Python können wir:
