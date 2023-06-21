@@ -142,5 +142,5 @@ sys.exit(app.exec_())
 ```
 Wir haben eine Funktion 'my_function()' definiert, die beim Klicken des benutzerdefinierten Schalters aufgerufen wird und eine einfache Ausgabe erzeugt. Stelle sicher, dass du den Code ausführst und den Schalter in der Titelleiste testest!
 
-Fazit
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie du die Titelleiste von GUI-Fenstern in Python mit PyQt5 anpassen kannst. Du kennst nun die Grundlagen, um den Fenstertitel zu ändern, benutzerdefinierte Symbole hinzuzufügen und eigene Steuerelemente zu erstellen. Experimentiere weiter und finde heraus, wie du deine Anwendungen noch individueller gestalten kannst. Viel Spaß beim Programmieren und der Gestaltung deiner eigenen einzigartigen Benutzeroberflächen!
