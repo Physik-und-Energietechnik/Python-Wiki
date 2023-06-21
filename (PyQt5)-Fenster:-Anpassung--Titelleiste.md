@@ -1,4 +1,4 @@
-Einführung
+## Einführung
 Willkommen zu unserem Python-Tutorial über die Anpassung der Titelleiste von GUI-Fenstern mit Hilfe von PyQt5! In diesem Tutorial werden wir lernen, wie wir die Titelleiste eines Fensters personalisieren können, um unseren eigenen Stil und Charakter einzubringen.
 
 Die Titelleiste ist der oberste Bereich eines Fensters, der den Fenstertitel und verschiedene Steuerelemente wie Minimieren, Maximieren und Schließen enthält. Durch die Anpassung der Titelleiste können wir die Benutzererfahrung verbessern und unser Programm individuell gestalten.
