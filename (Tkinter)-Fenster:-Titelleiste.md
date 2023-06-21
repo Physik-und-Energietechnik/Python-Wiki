@@ -22,6 +22,24 @@ window.title("Ein individueller Titel")
 # Fenster ausführen
 window.mainloop()
 ```
+
+### Ändern des Fenster-Icons
+Um das Icon des Fensters zu ändern, benötigen wir eine Bilddatei im ICO-Format. Dann können wir die iconbitmap()-Methode verwenden, um das Icon festzulegen. Hier ist ein Beispiel: 
+
+```python
+import tkinter as tk
+
+# Erstellt ein Fenster
+window = tk.Tk()
+
+# Setzt das Icon des Fensters auf "icon.ico"
+window.iconbitmap("icon.ico")
+
+# Zeigt das Fenster an
+window.mainloop()
+```
+In diesem Code-Beispiel verwenden wir die iconbitmap()-Methode, um das Icon des Fensters festzulegen. Du musst eine Bilddatei im ICO-Format haben, um dies zu tun. Ersetze einfach "icon.ico" durch den Dateinamen und den Pfad zu deinem eigenen Icon. Wenn die Datei im selben Verzeichnis wie dein Python-Skript liegt, reicht es, den Dateinamen anzugeben.
+
 ## Praxis
 ### Aufgabe 1
 Ändere den Titel des Fensters in "Hello World GUI" und führe den Code aus. Überprüfe, ob der Titel in der Titelleiste des Fensters angezeigt wird.
