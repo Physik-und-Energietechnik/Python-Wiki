@@ -1,7 +1,7 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[(Tkinter) Fenster: Erstellung]] | Erstellen von Fenstern |
-| [[(Tkinter) Fenster: Anpassung - Hintergrund(-farbe)]] | Anpassung des Hintergrunds eines Fensters |
+| [[(Tkinter) Fenster: Anpassung Hintergrund]] | Anpassung des Hintergrunds eines Fensters |
 | [[(Tkinter) Fenster: Anpassung - Titelleiste]] | Anpassung der Titelleiste eines Fensters |
 | [[(Tkinter) Fenster: Anpassung - Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
 | [[(Tkinter) Fenster: Tabs]] | Erstellung mehrerer Tabs in einem Fenster |
