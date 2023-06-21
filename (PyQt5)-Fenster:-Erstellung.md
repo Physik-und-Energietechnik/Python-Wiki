@@ -82,7 +82,8 @@ Der Code erstellt in der Lösung ein GUI-Fenster mit dem Titel "Mein zweites Fen
 
 Aber lass uns noch eine Schippe drauflegen und eine etwas anspruchsvollere Aufgabe angehen:
 
-### Aufgabe 2: Erstelle ein neues Fenster mit dem Titel "Mein drittes Fenster" und einer Größe von 800x600 Pixeln. Füge außerdem eine Schaltfläche mit dem Text "Klick mich!" hinzu.
+### Aufgabe 2: 
+Erstelle ein neues Fenster mit dem Titel "Mein drittes Fenster" und einer Größe von 800x600 Pixeln. Füge außerdem eine Schaltfläche mit dem Text "Klick mich!" hinzu.
 
 Hier ist eine Musterlösung für die schwierigere Aufgabe:
 ```python
