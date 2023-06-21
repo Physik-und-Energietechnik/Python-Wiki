@@ -58,7 +58,8 @@ Das ist unser grundlegendes Beispiel. Wenn du diesen Code ausführst, solltest d
 ## Praxis
 Jetzt ist es an der Zeit, dein Wissen in der Praxis anzuwenden. Hier ist eine leichte Aufgabe für dich:
 
-### Aufgabe 1: Erstelle ein neues Fenster mit dem Titel "Mein zweites Fenster" und einer Größe von 500x300 Pixeln.
+### Aufgabe 1: 
+Erstelle ein neues Fenster mit dem Titel "Mein zweites Fenster" und einer Größe von 500x300 Pixeln.
 
 Hier ist eine Musterlösung für die leichte Aufgabe:
 ```python
