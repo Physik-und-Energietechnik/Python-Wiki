@@ -39,33 +39,49 @@ canvas.create_oval(100, 100, 200, 200, fill="red")
 canvas.create_line(100, 100, 200, 200)
 
 root.mainloop()  # Das Fenster anzeigen
-
 ```
 
+## Darstellung von Graphen mit Mathplotlib
+
+Mathplotlib ist eine mächtige Python-Bibliothek für die Erstellung von Grafiken und Diagrammen. Mit Mathplotlib können wir verschiedene Arten von Graphen, wie Linien-, Balken- oder Kreisdiagramme, erstellen und anpassen.
+
+Hier ist ein Beispiel, wie du einen einfachen Liniengraphen mit Matplotlib erstellen kannst:
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+plt.plot(x, y)
+plt.xlabel("X-Achse")
+plt.ylabel("Y-Achse")
+plt.title("Mein erster Graph")
+plt.show()
+```
+In diesem Beispiel haben wir zwei Listen x und y, die die Koordinaten für unsere Linie enthalten. Dann verwenden wir die Funktion plot von Matplotlib, um den Graphen zu erstellen. Anschließend können wir Achsentitel und einen Titel für unseren Graphen festlegen, bevor wir ihn mit show anzeigen.
+
 ## Praxis
+Genug mit der Theorie! Lass uns das Gelernte anwenden und ein paar Aufgaben lösen.
+
 ### Leichte Aufgabe: Erstelle einen einfachen Graphen
-Deine Aufgabe besteht darin, einen einfachen Graphen mit zwei Knoten und einer Kante zu erstellen. Verwende verschiedene Farben für die Knoten und die Kante, um es interessanter zu gestalten.
+Erstelle einen einfachen Liniengraphen mit den folgenden Datenpunkten:
+
+x: [1, 2, 3, 4, 5]
+y: [2, 4, 6, 8, 10]
 
 Hier ist eine Musterlösung:
 
 ```python
-import tkinter as tk
+import matplotlib.pyplot as plt
 
-root = tk.Tk()  # Das Hauptfenster erstellen
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
 
-canvas = tk.Canvas(root, width=400, height=300)  # Ein Canvas-Widget erstellen
-canvas.pack()
-
-# Ersten Knoten zeichnen
-canvas.create_oval(100, 100, 150, 150, fill="blue")
-
-# Zweiten Knoten zeichnen
-canvas.create_oval(250, 100, 300, 150, fill="green")
-
-# Kante zeichnen
-canvas.create_line(125, 125, 275, 125, fill="red", width=2)
-
-root.mainloop()  # Das Fenster anzeigen
+plt.plot(x, y)
+plt.xlabel("X-Achse")
+plt.ylabel("Y-Achse")
+plt.title("Mein erster Graph")
+plt.show()
 ```
 
 ## Schwierigere Aufgabe: Erstelle einen interaktiven Graphen
