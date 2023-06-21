@@ -1,9 +1,9 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[(Kivy) Fenster: Erstellung]] | Erstellen von Fenstern |
-| [[(Kivy) Fenster: Anpassung Hintergrund]] | Anpassung des Hintergrunds eines Fensters |
-| [[(Kivy) Fenster: Anpassung Titelleiste]] | Anpassung der Titelleiste eines Fensters |
-| [[(Kivy) Fenster: Anpassung Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
+| [[(Kivy) Fenster: Hintergrund]] | Anpassung des Hintergrunds eines Fensters |
+| [[(Kivy) Fenster: Titelleiste]] | Anpassung der Titelleiste eines Fensters |
+| [[(Kivy) Fenster: Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
 | [[(Kivy) Fenster: Tabs]] | Erstellung mehrerer Tabs in einem Fenster |
 | [[(Kivy) Fenster: Popups/Dialogfenster]] | Erstellung und Anpassung von Popups |
 | [[(Kivy) Interaktionsmöglichkeiten]] | Verschiedene Arten von Interaktionsmöglichkeiten |
