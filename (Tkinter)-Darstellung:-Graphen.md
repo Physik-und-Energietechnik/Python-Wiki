@@ -84,7 +84,7 @@ plt.title("Mein erster Graph")
 plt.show()
 ```
 
-## Schwierigere Aufgabe: Erstelle einen interaktiven Graphen
+### Schwierigere Aufgabe: Erstelle einen interaktiven Graphen
 
 Jetzt wird es etwas anspruchsvoller! Deine Aufgabe besteht darin, einen interaktiven Graphen zu erstellen, der es dem Benutzer ermöglicht, Knoten hinzuzufügen, zu verschieben und zu löschen. Du kannst dabei die Mausereignisse verwenden, um die Interaktion umzusetzen.
 
