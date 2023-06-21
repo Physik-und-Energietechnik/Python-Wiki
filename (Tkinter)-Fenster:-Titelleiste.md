@@ -5,20 +5,7 @@ Herzlich willkommen zu unserem Python-Tutorial für unerfahrene Nutzer! In diese
 Was ist die Titelleiste?
 Bevor wir loslegen, lassen uns kurz klären, was die Titelleiste ist. Die Titelleiste befindet sich oben in einem Fenster und zeigt den Namen oder den Titel der Anwendung an, die gerade ausgeführt wird. In den meisten Fällen enthält sie auch die Schaltflächen zum Minimieren, Maximieren und Schließen des Fensters.
 
-### Allgemeines Code-Beispiel
-Hier ist ein allgemeines Code-Beispiel, das die grundlegende Struktur einer Python-Anwendung mit GUI zeigt:
-```python
-import tkinter as tk
 
-# Fenster erstellen
-window = tk.Tk()
-window.title("Mein erstes GUI-Fenster")
-
-# GUI-Code hier einfügen
-
-# Fenster ausführen
-window.mainloop()
-```
 ### Code-Beispiel: Anpassung der Titelleiste
 Um die Titelleiste anzupassen, können wir die title()-Methode des Fensters verwenden und ihr einen neuen Namen übergeben. Hier ist ein Code-Beispiel, das zeigt, wie du den Titel eines Fensters ändern kannst:
 
