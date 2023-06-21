@@ -66,9 +66,9 @@ Genug mit der Theorie! Lass uns das Gelernte anwenden und ein paar Aufgaben lös
 ### Leichte Aufgabe: Erstelle einen einfachen Graphen
 Erstelle einen einfachen Liniengraphen mit den folgenden Datenpunkten:
 
-x: [1, 2, 3, 4, 5]; 
+* x: [1, 2, 3, 4, 5]
 
-y: [2, 4, 6, 8, 10]
+* y: [2, 4, 6, 8, 10]
 
 Hier ist eine Musterlösung:
 
