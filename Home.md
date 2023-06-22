@@ -64,18 +64,45 @@
 | [[Messaging und Queueing in Python ]] | Beschreibung |
 
 ## Daten
+Hier ist das überarbeitete Inhaltsverzeichnis mit der richtigen Reihenfolge und den angegebenen Beschreibungen:
+
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Dateiformate]]| JSON und CSV |
-| [[Suche nach bestimmten Kriterien]]| Durchsuchen der JSON und CSV - Dateien|
-| [[Dateiformate - Vertiefung]]| Vertieftes Wissen zu den Themen JSON |
-| [[Zugänge für Erstellung einer Datenbank]]| Nötigen Installationen, Verbindung mit einer Datenbank|
-| [[Datenbanken: Einführung und Praxis in Python]]| Basiswissen|
-| [[Abfragen]]| Abfragen mit Python erstellen|
-| [[Interaktion zwischen Datenbanken und den Dateien]]| Interaktion zwischen der Datenbanken und den Dateien, wo die Daten abgespeichert werden|
-| [[JSON vs. Datenbanken in Python]]| Hier sind Erklärungen mit Beispielen, wann man Datenbanken und wann JSON benutzen soll|
-| [[Datenbanken - Vertiefung]]| Vertieftes Wissen für jemanden, der sich mehr mit Datenbanken beschäftigen will|
-
-
+| [[Dateiformate]] | JSON und CSV: Eine Einführung in die gängigen Dateiformate JSON (JavaScript Object Notation) und CSV (Comma-Separated Values) für den Austausch und die Speicherung von Daten. |
+| [[Suche nach bestimmten Kriterien]] | Durchsuchen der JSON und CSV-Dateien: Techniken und Tools zur Suche und Filterung von Daten in JSON- und CSV-Dateien basierend auf bestimmten Kriterien. |
+| [[Dateiformate - Vertiefung]] | Vertieftes Wissen zu den Themen JSON: Fortgeschrittene Konzepte und Funktionen von JSON zur effektiven Datenverarbeitung und -manipulation. |
+| [[Zugänge für Erstellung einer Datenbank]] | Nötige Installationen und Verbindung mit einer Datenbank: Schritte und Anforderungen zur Installation und Verbindung mit einer Datenbank für die Datenbankentwicklung. |
+| [[Datenbanken: Einführung und Praxis in Python]] | Basiswissen zu Datenbanken: Einführung in Datenbanken, deren Konzepte und praktische Anwendung in Python. |
+| [[Abfragen]] | Erstellung von Abfragen mit Python: Verwendung von SQL-Abfragen in Python zur Extraktion und Manipulation von Daten aus einer Datenbank. |
+| [[Interaktion zwischen Datenbanken und den Dateien]] | Interaktion zwischen Datenbanken und den Dateien: Verständnis der Interaktion und Verbindung zwischen Datenbanken und den zugrunde liegenden Dateien, in denen die Daten gespeichert werden. |
+| [[JSON vs. Datenbanken in Python]] | Unterschiede und Anwendungen von JSON und Datenbanken in Python: Erläuterung der Unterschiede, Vor- und Nachteile sowie Anwendungsgebiete von JSON und Datenbanken in Python. |
+| [[Datenbanken - Vertiefung]] | Vertieftes Wissen für jemanden, der sich mehr mit Datenbanken beschäftigen will: Fortgeschrittene Themen und Konzepte im Bereich Datenbanken zur Erweiterung des Wissens und zur Verbesserung der Fähigkeiten. |
+| [[Datenbanktypen]] | Verschiedene Arten von Datenbanken: Überblick über verschiedene Arten von Datenbanken, einschließlich relationale Datenbanken, NoSQL-Datenbanken, Graphdatenbanken usw. |
+| [[Geschichte der Datenbanken]] | Die Entwicklung und Geschichte der Datenbanken: Rückblick auf die Entstehung, Entwicklung und Meilensteine der Datenbanktechnologie. |
+| [[Transaktionen]] | Transaktionen in Datenbanken: Konzepte und Verfahren zur Gewährleistung der Datenkonsistenz und -integrität bei gleichzeitigen Datenbankzugriffen. |
+| [[Indexierung]] | Indexierung in Datenbanken: Verwendung von Indizes zur Beschleunigung von Abfragen und Optimierung der Datenbankleistung. |
+| [[Indexierung - Vertiefung]] | Vertieftes Wissen zur Indexierung: Fortgeschrittene Techniken und Optimierungsstrategien für die Indexierung in Datenbanken. |
+| [[Datenbankadministration]] | Grundlagen der Datenbankadministration: Aufgaben, Verantwortlichkeiten und Best Practices für die effektive Verwaltung und Wartung von Datenbanken. |
+| [[Datenbankadministration - Vertiefung]] | Vertieftes Wissen zur Datenbankadministration: Fortgeschrittene Konzepte und fortgeschrittene Verwaltungsaufgaben in der Datenbankadministration. |
+| [[Datenbankdesign]] | Grundlagen des Datenbankdesigns: Methoden und Techniken zur Gestaltung einer effizienten und gut strukturierten Datenbank. |
+| [[Schlüssel in Datenbanken]] | Schlüssel in Datenbanken: Verwendung von Primärschlüsseln, Fremdschlüsseln und eindeutigen Schlüsseln zur Gewährleistung der Datenintegrität und zum Aufbau von Beziehungen zwischen Tabellen. |
+| [[Datenbankoptimierung]] | Optimierung der Datenbankleistung: Maßnahmen und Techniken zur Optimierung der Leistung einer Datenbank für eine bessere Abfragegeschwindigkeit und Skalierbarkeit. |
+| [[Datenbankoptimierung - Vertiefung]] | Vertieftes Wissen zur Datenbankoptimierung: Fortgeschrittene Optimierungstechniken und Best Practices zur weiteren Verbesserung der Datenbankleistung. |
+| [[Skalierbarkeit]] | Skalierbarkeit von Datenbanken: Konzepte und Strategien zur Bewältigung von wachsenden Datenmengen und steigenden Anforderungen an die Datenbankleistung. |
+| [[Datenbank-Sicherheit]] | Sicherheit in Datenbanken: Maßnahmen und Methoden zur Sicherung von Datenbanken vor unbefugtem Zugriff, Datenverlust und Datenmanipulation. |
+| [[Datenbank-Backups und Wiederherstellung]] | Datensicherung und Wiederherstellung in Datenbanken: Strategien und Verfahren zur regelmäßigen Sicherung von Datenbanken und zur Wiederherstellung im Falle von Datenverlusten. |
+| [[Datenbankreplikation]] | Replikation von Datenbanken: Konfiguration und Verwendung von Datenbankreplikation zur Verbesserung der Skalierbarkeit, Redundanz und Ausfallsicherheit von Datenbanken. |
+| [[Datenbank-Migration]] | Datenbank-Migration: Prozess und Techniken zum Umzug von Datenbanken von einem System oder einer Plattform auf eine andere. |
+| [[Datenbanken und Webanwendungen]] | Integration von Datenbanken in Webanwendungen: Verbindung und Interaktion zwischen Datenbanken und Webanwendungen zur dynamischen Datenverarbeitung und -speicherung. |
+| [[Normalisierung von Datenbanken]] | Normalisierung von Datenbanken: Grundsätze und Techniken zur Reduzierung von Redundanz und Anomalien in Datenbanken durch die Anwendung von Normalisierungsregeln. |
+| [[Datenbank-Abstraktion]] | Datenbank-Abstraktion: Konzepte und Methoden zur Abstraktion der Datenbankzugriffsschicht für eine flexible und unabhängige Datenbanknutzung. |
+| [[Datenbank-Abstraktion: Vertiefung]] | Vertieftes Wissen zur Datenbank-Abstraktion: Fortgeschrittene Konzepte und Techniken zur Erweiterung der Datenbankabstraktion für komplexe Anwendungen und Systeme. |
+| [[XML]] | XML (Extensible Markup Language): Eine Einführung in das XML-Format und seine Verwendung in der Datenverarbeitung und -speicherung. |
+| [[Data Warehousing]] | Data Warehousing: Konzepte und Architektur von Data Warehouses zur zentralen Datenspeicherung und Analyse in Unternehmensumgebungen. |
+| [[Datenbank-Performance-Monitoring]] | Überwachung der Datenbankleistung: Methoden und Werkzeuge zur Überwachung und Analyse der Leistung einer Datenbank zur Identifizierung und Behebung von Engpässen. |
+| [[Datenbank-Partitionierung]] | Partitionierung in Datenbanken: Aufteilung großer Datenmengen in Teilbereiche (Partitionen) zur Verbesserung der Verwaltung, Abfragegeschwindigkeit und Skalierbarkeit. |
+| [[Datenbank-Auditierung]] | Auditierung in Datenbanken: Protokollierung und Überwachung von Datenbankaktivitäten zur Sicherstellung der Datenintegrität, Compliance und Nachverfolgbarkeit. |
+| [[Datenbank-Integration mit externen Systemen]] | Integration von Datenbanken mit externen Systemen: Methoden und Techniken zur nahtlosen Integration von Datenbanken mit anderen Anwendungen und Systemen. |
+| [[Datenbank-Testing und Qualitätssicherung]] | Datenbank-Testing und Qualitätssicherung: Strategien und Verfahren zur Durchführung von Tests und Sicherstellung der Qualität von Datenbanken und ihrer Funktionen. |
 
 
