@@ -121,6 +121,18 @@ fenster.show()
 
 sys.exit(app.exec())
 ```
+**Erklärung: **
+* Zuerst werden die notwendigen Bibliotheken importiert: 'sys' für den Zugriff auf das Betriebssystem und PyQt5.QtWidgets für die GUI-Elemente.
+* Eine Instanz von 'QApplication' wird erstellt, um die Anwendung zu initialisieren.
+* Ein leeres Fenster ('QWidget') mit dem Titel "Mein GUI-Fenster mit Tabs" wird erstellt.
+* Ein Tab-Widget ('QTabWidget') wird erstellt, das dazu verwendet wird, die Tabs zu verwalten.
+* Drei leere Widgets ('QWidget') werden erstellt, die als die Inhalte der Tabs dienen. Sie werden als Tab 1, Tab 2 und Tab 3 benannt und zum Tab-Widget hinzugefügt.
+* Lösung für Tab 1: Ein Button mit der Beschriftung "Klick mich!" wird zu Tab 1 hinzugefügt. Ein Klick auf den Button führt dazu, dass die Nachricht "Du hast mich geklickt!" in der Konsole ausgegeben wird.
+* Lösung für Tab 2: Ein Textfeld ('QLineEdit') wird zu Tab 2 hinzugefügt.
+* Lösung für Tab 3: Ein Label ('QLabel') mit der Beschriftung "Herzlich willkommen auf Tab 3!" wird zu Tab 3 hinzugefügt.
+* Die Layouts werden für das Fenster und die Tabs erstellt und eingerichtet und das Tab-Widget wird dem Layout des Fensters hinzugefügt.
+* Das Layout des Fensters wird auf das Fenster angewendet. Schließlich wird das Fenster angezeigt und die Anwendung wird gestartet.
+
 ### Schwerere Aufgabe
 Erstelle ein GUI-Fenster mit Tabs, in denen jeweils ein Formular zur Eingabe von persönlichen Informationen (Name, E-Mail, Alter) angezeigt wird. Wenn der Benutzer alle Informationen in einem Tab eingibt und auf einen "Speichern" -Button klickt, soll die eingegebene Information in der Konsole angezeigt werden
 
@@ -163,5 +175,21 @@ fenster.show()
 
 sys.exit(app.exec())
 ```
+**Erklärung: **
+
+* Es wird eine Anwendung mit 'QApplication' aus der PyQt5-Bibliothek erstellt.
+* Ein Hauptfenster ('QWidget') wird erzeugt und mit dem Titel "Mein GUI-Fenster mit Tabs" versehen.
+* Ein 'QTabWidget' wird erstellt, um die Tabs zu verwalten.
+* Ein Tab ('tab1') mit dem Titel "Persönliche Informationen" wird erstellt und dem Tab-Widget hinzugefügt.
+* Ein 'QFormLayout' wird für den Tab1 erstellt, um das Formular zu organisieren.
+* Es werden Eingabefelder ('QLineEdit') für den Namen und die E-Mail erstellt sowie ein 'QSpinBox' für das Alter.
+* Die Eingabefelder und der SpinBox werden dem Formular hinzugefügt.
+* Ein "Speichern"-Button ('QPushButton') wird erstellt und dem Formular hinzugefügt.
+* Der Button wird mit einem Lambda-Ausdruck verbunden, der die eingegebenen Informationen in der Konsole ausgibt, wenn der Button geklickt wird.
+* Ein vertikales Layout ('QVBoxLayout') wird für das Hauptfenster erstellt.
+* Das Tab-Widget wird dem vertikalen Layout hinzugefügt.
+* Das vertikale Layout wird dem Hauptfenster zugewiesen, und das Fenster wird angezeigt.
+* Die Anwendung wird gestartet ('app.exec()') und das Programm läuft, bis das Fenster geschlossen wird.
+
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man GUI-Fenster mit Tabs in Python mithilfe der PyQt5-Bibliothek erstellt. Mit Tabs kannst du deine Anwendungen besser organisieren und es den Benutzern leichter machen, zwischen verschiedenen Funktionen zu navigieren. Du kannst jetzt kreativ werden und noch mehr coole Tabs in deine Python-Anwendungen einbauen. Viel Spaß beim Coden und bis zum nächsten Mal! 😊
