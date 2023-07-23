@@ -121,7 +121,7 @@ fenster.show()
 
 sys.exit(app.exec())
 ```
-**Erklärung: **
+**Erklärung:**
 * Zuerst werden die notwendigen Bibliotheken importiert: 'sys' für den Zugriff auf das Betriebssystem und PyQt5.QtWidgets für die GUI-Elemente.
 * Eine Instanz von 'QApplication' wird erstellt, um die Anwendung zu initialisieren.
 * Ein leeres Fenster ('QWidget') mit dem Titel "Mein GUI-Fenster mit Tabs" wird erstellt.
@@ -175,7 +175,7 @@ fenster.show()
 
 sys.exit(app.exec())
 ```
-**Erklärung: **
+**Erklärung:**
 
 * Es wird eine Anwendung mit 'QApplication' aus der PyQt5-Bibliothek erstellt.
 * Ein Hauptfenster ('QWidget') wird erzeugt und mit dem Titel "Mein GUI-Fenster mit Tabs" versehen.
