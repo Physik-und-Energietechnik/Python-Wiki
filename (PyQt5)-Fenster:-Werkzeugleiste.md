@@ -81,6 +81,8 @@ window = MyWindow()
 window.show()
 sys.exit(app.exec_())
 ```
+**Erklärung:**
+
 
 ### Schwere Aufgabe
 Erweitert eure Anwendung, indem ihr der Werkzeugleiste einen weiteren Button hinzufügt. Dieser Button soll ein Icon haben und eine neue Funktion auslösen, die euch eine Glückwunschmeldung anzeigt, wenn ihr den Button anklickt. Verwendet das zweite Code-Beispiel als Ausgangspunkt.
