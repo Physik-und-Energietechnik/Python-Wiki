@@ -58,7 +58,7 @@ Erstellt eine kleine Anwendung mit einer Werkzeugleiste, die einen Button enthä
 
 **Musterlösung:**
 
-´´´python
+```python
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QToolBar, QMessageBox
 
@@ -80,7 +80,7 @@ app = QApplication(sys.argv)
 window = MyWindow()
 window.show()
 sys.exit(app.exec_())
-´´´
+```
 
 ### Schwere Aufgabe
 Erweitert eure Anwendung, indem ihr der Werkzeugleiste einen weiteren Button hinzufügt. Dieser Button soll ein Icon haben und eine neue Funktion auslösen, die euch eine Glückwunschmeldung anzeigt, wenn ihr den Button anklickt. Verwendet das zweite Code-Beispiel als Ausgangspunkt.
