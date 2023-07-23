@@ -9,7 +9,7 @@ Eine Werkzeugleiste ist wie ein gut sortierter Werkzeugkasten für deine GUI. St
 
 In der Welt der GUIs sind Werkzeugleisten nichts anderes als Sammlungen von Schaltflächen, Symbolen und Funktionen, die dem Benutzer bestimmte Aktionen ermöglichen. Denke an Schaltflächen zum Öffnen und Speichern von Dateien, zum Drucken oder zum Ausführen einer speziellen Funktion in deinem Programm.
 
-### Code-Beispiel: Grundgerüst einer Werkzeugleiste:
+**Code-Beispiel: Grundgerüst einer Werkzeugleiste:**
 
 ```python
 import sys
@@ -30,7 +30,7 @@ window = MyWindow()
 window.show()
 sys.exit(app.exec_())
 ```
-### Explizites Code-Beispiel: Werkzeugleiste mit Icons:
+**Explizites Code-Beispiel: Werkzeugleiste mit Icons:**
 
 ```python
 import sys
