@@ -56,7 +56,7 @@ sys.exit(app.exec_())
 ### Leichte Aufgabe
 Erstellt eine kleine Anwendung mit einer Werkzeugleiste, die einen Button enthält. Der Button soll eine einfache Meldung ausgeben, wenn er geklickt wird. Verwendet das erste Code-Beispiel als Ausgangspunkt.
 
-### Musterlösung:
+**Musterlösung:**
 
 ´´´python
 import sys
@@ -85,7 +85,8 @@ sys.exit(app.exec_())
 ### Schwere Aufgabe
 Erweitert eure Anwendung, indem ihr der Werkzeugleiste einen weiteren Button hinzufügt. Dieser Button soll ein Icon haben und eine neue Funktion auslösen, die euch eine Glückwunschmeldung anzeigt, wenn ihr den Button anklickt. Verwendet das zweite Code-Beispiel als Ausgangspunkt.
 
-### Musterlösung:
+**Musterlösung:**
+
 ```python
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QToolBar, QMessageBox
