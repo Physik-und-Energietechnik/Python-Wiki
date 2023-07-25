@@ -67,12 +67,12 @@ if result == QMessageBox.Ok:
     QMessageBox.information(None, "Begrüßung", f"Hallo {name}!")
 ```
 **Erklärung:**
-* Zunächst werden die benötigten Bibliotheken importiert: sys für die Kommandozeilenargumente und QApplication, QMessageBox und QLineEdit aus PyQt5.QtWidgets für die Erstellung der Anwendung und der Dialogfenster.
+* Zunächst werden die benötigten Bibliotheken importiert: sys für die Kommandozeilenargumente und **'QApplication, QMessageBox und QLineEdit' **aus PyQt5.QtWidgets für die Erstellung der Anwendung und der Dialogfenster.
 *Eine Qt-Anwendung wird erstellt, indem QApplication mit den Kommandozeilenargumenten initialisiert wird.
-* Es wird ein Eingabefeld (QLineEdit) erstellt, das als Platzhaltertext "Gib deinen Namen ein..." hat.
-* Ein Popup Dialogfenster (QMessageBox) wird erstellt und mit dem Text "Wie heißt du?" versehen. Es enthält einen OK-Button als Standard-Button und das zuvor erstellte Eingabefeld.
+* Es wird ein Eingabefeld (**'QLineEdit'**) erstellt, das als Platzhaltertext "Gib deinen Namen ein..." hat.
+* Ein Popup Dialogfenster (**'QMessageBox'**) wird erstellt und mit dem Text "Wie heißt du?" versehen. Es enthält einen OK-Button als Standard-Button und das zuvor erstellte Eingabefeld.
 * Das Popup wird mit msg_box.exec_() angezeigt, und die Ausführung des Programms wird angehalten, bis der Benutzer das Popup schließt.
-* Nachdem der Benutzer das Popup geschlossen hat, wird überprüft, ob der Benutzer den OK-Button ausgewählt hat (indem der result-Wert mit QMessageBox.Ok verglichen wird).
+* Nachdem der Benutzer das Popup geschlossen hat, wird überprüft, ob der Benutzer den OK-Button ausgewählt hat (indem der result-Wert mit **'QMessageBox.Ok'** verglichen wird).
 * Wenn der Benutzer OK ausgewählt hat, wird der eingegebene Name aus dem Eingabefeld abgerufen und eine Informationsmeldung angezeigt, die den Benutzer mit "Hallo [Name]!" begrüßt.
 
 ### Aufgabe 2
@@ -102,17 +102,21 @@ else:
 * Import der benötigten Bibliotheken:
 
 **'sys'**: Dieses Modul wird für den Zugriff auf das Betriebssystem und die Befehlszeilenargumente verwendet.
+
 **'QApplication'**: Eine Klasse aus PyQt5, die eine Qt-Anwendung initialisiert.
 
 * Erstellen einer Anwendung:
 
-**'app** = **QApplication(sys.argv)'**: Hier wird eine Qt-Anwendung initialisiert. 
+**'app** = **QApplication(sys.argv)'**: Hier wird eine Qt-Anwendung initialisiert.
+ 
 **'sys.argv'** sind die Befehlszeilenargumente, die von der Anwendung verwendet werden.
 
 * Erstellen eines Popup-Dialogfensters:
 
 **'msg_box = QMessageBox()**': Hier wird ein Objekt der 'QMessageBox'-Klasse erstellt, das das Popup-Dialogfenster repräsentiert.
+
 **'msg_box.setIcon(QMessageBox.Warning)'**: Setzt das Icon des Dialogfensters auf ein Warnungssymbol.
+
 **'msg_box.setText("Achtung! Diese Aktion kann nicht rückgängig gemacht werden!")**': Setzt den Haupttext der Warnung.
 
 * Festlegen der verfügbaren Buttons:
