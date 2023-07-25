@@ -100,25 +100,31 @@ else:
 **Erklärung:**
 
 * Import der benötigten Bibliotheken:
+
 **'sys'**: Dieses Modul wird für den Zugriff auf das Betriebssystem und die Befehlszeilenargumente verwendet.
 **'QApplication'**: Eine Klasse aus PyQt5, die eine Qt-Anwendung initialisiert.
 
 * Erstellen einer Anwendung:
+
 **'app** = **QApplication(sys.argv)'**: Hier wird eine Qt-Anwendung initialisiert. 
 **'sys.argv'** sind die Befehlszeilenargumente, die von der Anwendung verwendet werden.
 
 * Erstellen eines Popup-Dialogfensters:
+
 **'msg_box = QMessageBox()**': Hier wird ein Objekt der 'QMessageBox'-Klasse erstellt, das das Popup-Dialogfenster repräsentiert.
 **'msg_box.setIcon(QMessageBox.Warning)'**: Setzt das Icon des Dialogfensters auf ein Warnungssymbol.
 **'msg_box.setText("Achtung! Diese Aktion kann nicht rückgängig gemacht werden!")**': Setzt den Haupttext der Warnung.
 
 * Festlegen der verfügbaren Buttons:
+
 **'msg_box.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)'**: Hier werden die Schaltflächen festgelegt, die im Dialogfenster angezeigt werden sollen. In diesem Fall gibt es "OK" und "Abbrechen".
 
 * Anzeigen des Popup-Dialogfensters und Warten auf Benutzerentscheidung:
+
 **'result** = **msg_box.exec_()'**: Mit dieser Methode wird das Dialogfenster angezeigt, und die Anwendung wartet auf die Entscheidung des Benutzers.
 
 * Auswerten der Benutzerentscheidung:
+
 Wenn der Benutzer die "OK"-Schaltfläche auswählt (**'QMessageBox.Ok'**), wird die Meldung "Aktion wird ausgeführt..." ausgegeben.
 Andernfalls wird die Meldung "Aktion abgebrochen." ausgegeben.
 
