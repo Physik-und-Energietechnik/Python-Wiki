@@ -5,6 +5,7 @@ Wir werden uns Schritt für Schritt durch die Magie von Kivy bewegen. Vom Erscha
 
 ## Theorie
 **Einführung in Kivy**
+
 Kivy ist wie der Houdini der GUI-Programmierung. Es ermöglicht dir, Benutzeroberflächen für deine Python-Apps zu zaubern, die auf verschiedenen Plattformen laufen. Lass uns in die Grundlagen eintauchen:
 
 1. **Widgets:** Widgets sind die Bausteine deiner GUI, wie Buttons, Labels und Textfelder.
