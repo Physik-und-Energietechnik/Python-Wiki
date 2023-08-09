@@ -90,28 +90,26 @@ app.exec()
 ```
 **Erklärung:**
 
-   * Import von Bibliotheken: Du hast die benötigten Bibliotheken importiert, nämlich 'QApplication', 'QMainWindow' aus PyQt5 und 'pg' (die 
+   * **Import von Bibliotheken**: Du hast die benötigten Bibliotheken importiert, nämlich 'QApplication', 'QMainWindow' aus PyQt5 und 'pg' (die 
      'pyqtgraph'-Bibliothek für die Diagrammerstellung).
 
-   * Erstellen der Anwendung: Du hast eine Anwendung mit 'QApplication([])' erstellt.
+   * **Erstellen der Anwendung:** Du hast eine Anwendung mit 'QApplication([])' erstellt.
 
-   * Erstellen des Hauptfensters: Du hast ein Hauptfenster ('QMainWindow') erstellt und ihm einen Titel "Eiscreme-Umsatz" gegeben. Die 
+   * **Erstellen des Hauptfensters:** Du hast ein Hauptfenster ('QMainWindow') erstellt und ihm einen Titel "Eiscreme-Umsatz" gegeben. Die 
      Abmessungen wurden mit 'setGeometry' festgelegt.
 
-   * Erstellen des Plot-Widgets: Ein Plot-Widget ('pg.PlotWidget') wurde erstellt, das später das Balken-Diagramm anzeigen wird. Seine 
+   * **Erstellen des Plot-Widgets:** Ein Plot-Widget ('pg.PlotWidget') wurde erstellt, das später das Balken-Diagramm anzeigen wird. Seine 
      Abmessungen wurden ebenfalls festgelegt.
 
-   * Daten vorbereiten: Du hast zwei Listen erstellt: 'monate' enthält die Monate und 'umsatz' enthält die zugehörigen Umsatzzahlen.
+   * **Daten vorbereiten: Du hast zwei Listen erstellt:** 'monate' enthält die Monate und 'umsatz' enthält die zugehörigen Umsatzzahlen.
 
-   * Balken-Diagramm erstellen: Das Balken-Diagramm wurde mit 'plot_widget.plot' ('monate', 'umsatz', pen='b', symbol='o') erstellt. Dabei wurde 
+   * **Balken-Diagramm erstellen:** Das Balken-Diagramm wurde mit 'plot_widget.plot' ('monate', 'umsatz', pen='b', symbol='o') erstellt. Dabei wurde 
      monate auf der x-Achse und umsatz auf der y-Achse platziert. Die Balken werden in Blau (blue) gezeichnet und als Kreise (circles) dargestellt.
 
-   * Anzeigen des Fensters: Das Hauptfenster und das Balken-Diagramm wurden mit 'window.show()' angezeigt.
+   * **Anzeigen des Fensters:** Das Hauptfenster und das Balken-Diagramm wurden mit 'window.show()' angezeigt.
 
-   * Starten der Anwendungsschleife: Schließlich wurde die Anwendungsschleife mit app.exec() gestartet, um die Benutzerinteraktion zu ermöglichen.
+   * **Starten der Anwendungsschleife:** Schließlich wurde die Anwendungsschleife mit app.exec() gestartet, um die Benutzerinteraktion zu ermöglichen.
 
-   * Der Code erstellt ein schickes Balken-Diagramm, das die Umsatzzahlen für verschiedene Monate anschaulich darstellt. Die zukünftigen Kunden werden 
-     begeistert sein, wenn sie sehen, wie gut man Eiscreme verkauft!
 
 ### Schwere Aufgabe
 Erstelle eine GUI-Anwendung, die zwei Linien-Diagramme zeigt: eines für die Verkaufszahlen von Autos und eines für die Verkaufszahlen von Fahrrädern im Verlauf von fünf Jahren.
@@ -145,5 +143,32 @@ window.show()
 
 app.exec()
 ```
+**Erklärung:**
+
+   * **Import von Bibliotheken:** Du hast die benötigten Bibliotheken importiert, nämlich 'QApplication, QMainWindow' aus PyQt5 und 'pg' (die pyqtgraph- 
+       Bibliothek für die Diagrammerstellung).
+
+   * **Erstellen der Anwendung:** Du hast eine Anwendung mit 'QApplication([])' erstellt.
+
+   * **Erstellen des Hauptfensters:** Du hast ein Hauptfenster ('QMainWindow') erstellt und ihm den Titel "Auto vs. Fahrrad Verkäufe" gegeben. Die 
+       Abmessungen wurden mit 'setGeometry' festgelegt.
+
+   * **Erstellen des Plot-Widgets:** Ein Plot-Widget ('pg.PlotWidget') wurde erstellt, das später das Linien-Diagramm anzeigen wird. Seine Abmessungen 
+       wurden ebenfalls festgelegt.
+
+   * **Daten vorbereiten:** Du hast drei Listen erstellt: 'jahre' enthält die Jahre und 'auto_verkauf' sowie 'fahrrad_verkauf' enthalten die 
+       entsprechenden Verkaufszahlen.
+
+   * **Linien-Diagramme erstellen:** Du hast zwei Linien-Diagramme erstellt, eins für Autoverkäufe (plot_widget.plot(jahre, auto_verkauf, pen='r', 
+       symbol='s', name='Auto Verkäufe')) und eins für Fahrradverkäufe (plot_widget.plot(jahre, fahrrad_verkauf, pen='b', symbol='o', name='Fahrrad 
+       Verkäufe')). Die Linien sind rot bzw. blau, und die Symbole sind Quadrate (s) bzw. Kreise (o). Die Namen werden für die Legende verwendet.
+
+   * **Legende hinzufügen:** Du hast eine Legende zu deinem Diagramm hinzugefügt, um die Linien zu erklären und deinem Werk zusätzliches Flair zu 
+       verleihen (plot_widget.addLegend()).
+
+   * **Anzeigen des Fensters:** Das Hauptfenster und das Linien-Diagramm wurden mit 'window.show()' angezeigt.
+
+   * **Starten der Anwendungsschleife:** Schließlich wurde die Anwendungsschleife mit 'app.exec()' gestartet, um die Benutzerinteraktion zu ermöglichen.
+
 ## Fazit
 Herzlichen Glückwunsch! Du hast gerade die bunte Welt der Graphen-Darstellung mit PyQt5 erkundet. Von Linien-Diagrammen bis hin zu lebendigen Balken-Diagrammen – du kannst jetzt Daten auf eine visuell ansprechende Weise präsentieren. Bringe deine Informationen zum Strahlen und vergiss nicht, dass Graphen nicht nur Mathe-Kram sind, sondern auch große Geschichten erzählen können!
