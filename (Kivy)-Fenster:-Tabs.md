@@ -4,7 +4,7 @@ Willkommen zu einem aufregenden Abenteuer in der Welt der grafischen Benutzerobe
 In diesem Tutorial lernst du, wie du in deinen Anwendungen verschiedene Bereiche organisiert, indem du Tabs verwendest. Tabs sind wie Registerkarten in einem Ordner, sie helfen uns, den Überblick über die Dinge zu behalten, ohne in einem Chaos aus Fenstern zu ertrinken.
 
 ## Theorie
-**Tabs - Warum sie großartig sind**
+**Tabs - Warum sie großartig sind?**
 
 Tabs sind wie die Fächer in einer Magierrobe - sie halten unsere Tricks geordnet und leicht zugänglich. Stell dir vor, du entwickelst eine App mit verschiedenen Funktionen: Einstellungen, Nutzerprofile und Katzenfotos. Mit Tabs kannst du jede Funktion in einem eigenen Tab organisieren, sodass die Nutzer problemlos zwischen ihnen wechseln können.
 
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
    * **App-Klasse und build-Methode:** Die MyApp-Klasse und die build-Methode sind auch gleich, sie erstellen ein MeinTabbedPanel-Objekt.
 
-   * Main-Bereich und App starten: Dieser Teil des Codes ist genau wie zuvor, er startet die Kivy-Anwendung.
+   * **Main-Bereich und App starten**: Dieser Teil des Codes ist genau wie zuvor, er startet die Kivy-Anwendung.
 
    In diesem Beispiel hast du eine App mit drei Tabs erstellt: Der erste Tab zeigt ein Bild an, der zweite Tab eine Liste von Einträgen und der dritte Tab ein Eingabefeld und einen Button. 
 
