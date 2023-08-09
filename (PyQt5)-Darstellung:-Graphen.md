@@ -88,24 +88,24 @@ window.show()
 
 app.exec()
 ```
-** Erklärung:**
-    * Import von Bibliotheken: Du hast die benötigten Bibliotheken importiert, nämlich **'QApplication', 'QMainWindow'** aus PyQt5 und **'pg'** (die 
-    **'pyqtgraph**'-Bibliothek für die Diagrammerstellung).
+** Erklärung: **
+    * Import von Bibliotheken: Du hast die benötigten Bibliotheken importiert, nämlich 'QApplication', 'QMainWindow' aus PyQt5 und 'pg' (die 
+     'pyqtgraph'-Bibliothek für die Diagrammerstellung).
 
-    * Erstellen der Anwendung: Du hast eine Anwendung mit **'QApplication([])'** erstellt.
+    * Erstellen der Anwendung: Du hast eine Anwendung mit 'QApplication([])' erstellt.
 
-    * Erstellen des Hauptfensters: Du hast ein Hauptfenster (**'QMainWindow**') erstellt und ihm einen Titel "Eiscreme-Umsatz" gegeben. Die 
-    Abmessungen wurden mit **'setGeometry'** festgelegt.
+    * Erstellen des Hauptfensters: Du hast ein Hauptfenster ('QMainWindow') erstellt und ihm einen Titel "Eiscreme-Umsatz" gegeben. Die 
+    Abmessungen wurden mit 'setGeometry' festgelegt.
 
-    * Erstellen des Plot-Widgets: Ein Plot-Widget (**'pg.PlotWidget'**) wurde erstellt, das später das Balken-Diagramm anzeigen wird. Seine 
+    * Erstellen des Plot-Widgets: Ein Plot-Widget ('pg.PlotWidget') wurde erstellt, das später das Balken-Diagramm anzeigen wird. Seine 
     Abmessungen wurden ebenfalls festgelegt.
 
-    * Daten vorbereiten: Du hast zwei Listen erstellt: **'monate'** enthält die Monate und **'umsatz'** enthält die zugehörigen Umsatzzahlen.
+    * Daten vorbereiten: Du hast zwei Listen erstellt: 'monate' enthält die Monate und 'umsatz' enthält die zugehörigen Umsatzzahlen.
 
-    * Balken-Diagramm erstellen: Das Balken-Diagramm wurde mit **'plot_widget.plot'**('monate', 'umsatz', pen='b', symbol='o') erstellt. Dabei wurde 
+    * Balken-Diagramm erstellen: Das Balken-Diagramm wurde mit 'plot_widget.plot' ('monate', 'umsatz', pen='b', symbol='o') erstellt. Dabei wurde 
     monate auf der x-Achse und umsatz auf der y-Achse platziert. Die Balken werden in Blau (blue) gezeichnet und als Kreise (circles) dargestellt.
 
-    * Anzeigen des Fensters: Das Hauptfenster und das Balken-Diagramm wurden mit **'window.show()**' angezeigt.
+    * Anzeigen des Fensters: Das Hauptfenster und das Balken-Diagramm wurden mit 'window.show()' angezeigt.
 
     * Starten der Anwendungsschleife: Schließlich wurde die Anwendungsschleife mit app.exec() gestartet, um die Benutzerinteraktion zu ermöglichen.
 
