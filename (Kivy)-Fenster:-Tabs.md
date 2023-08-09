@@ -5,6 +5,7 @@ In diesem Tutorial lernst du, wie du in deinen Anwendungen verschiedene Bereiche
 
 ## Theorie
 **Tabs - Warum sie großartig sind**
+
 Tabs sind wie die Fächer in einer Magierrobe - sie halten unsere Tricks geordnet und leicht zugänglich. Stell dir vor, du entwickelst eine App mit verschiedenen Funktionen: Einstellungen, Nutzerprofile und Katzenfotos. Mit Tabs kannst du jede Funktion in einem eigenen Tab organisieren, sodass die Nutzer problemlos zwischen ihnen wechseln können.
 
 ### Allgemeines Code-Beispiel
