@@ -134,17 +134,17 @@ if __name__ == '__main__':
   Dieser Code ist eine Erweiterung deines vorherigen Beispiels und zeigt, wie man die Titelleiste eines Kivy-Fensters mit einer Hintergrundgrafik und 
   einer benutzerdefinierten Schriftart gestaltet:
 
-   * Der Code verwendet die gleiche Struktur wie zuvor, aber nun ist das Label für die Titelleiste anspruchsvoller gestaltet.
+   - Der Code verwendet die gleiche Struktur wie zuvor, aber nun ist das Label für die Titelleiste anspruchsvoller gestaltet.
 
-   * Das background_normal-Attribut im Label-Widget wird auf 'background_image.png' gesetzt, um eine Hintergrundgrafik für die Titelleiste festzulegen. 
+   - Das background_normal-Attribut im Label-Widget wird auf 'background_image.png' gesetzt, um eine Hintergrundgrafik für die Titelleiste festzulegen. 
       Beachte, dass die Datei background_image.png im selben Verzeichnis wie das Skript vorhanden sein muss.
 
-   * Das font_name-Attribut wird auf 'fonts/cool_font.ttf' gesetzt, um eine benutzerdefinierte Schriftart für den Text in der Titelleiste zu verwenden. 
+   - Das font_name-Attribut wird auf 'fonts/cool_font.ttf' gesetzt, um eine benutzerdefinierte Schriftart für den Text in der Titelleiste zu verwenden. 
       Stelle sicher, dass die Schriftart-Datei cool_font.ttf im Unterverzeichnis fonts relativ zum Ort des Skripts liegt.
 
-   * Das font_size-Attribut wird auf 36 gesetzt, um die Schriftgröße des Textes in der Titelleiste anzupassen.
+   - Das font_size-Attribut wird auf 36 gesetzt, um die Schriftgröße des Textes in der Titelleiste anzupassen.
 
-   * Ansonsten bleibt die Struktur des Codes gleich, und es wird immer noch die MyApp-Klasse erstellt und die Kivy-Anwendung ausgeführt.
+   - Ansonsten bleibt die Struktur des Codes gleich, und es wird immer noch die MyApp-Klasse erstellt und die Kivy-Anwendung ausgeführt.
 
 ## Fazit
 Voilà! Du hast es geschafft, deine Python-Kenntnisse in die Welt der GUI-Programmierung mit Kivy einzubringen. Mit den Fähigkeiten, die du in diesem Tutorial erworben hast, kannst du nun fabelhafte Titelleisten erstellen und damit deine Anwendungen auf das nächste Level heben. Mach weiter so und bleib neugierig, denn die Welt der Programmierung hat noch viele Abenteuer für dich bereit!
