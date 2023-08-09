@@ -88,7 +88,7 @@ window.show()
 
 app.exec()
 ```
-** Erklärung: **
+**Erklärung:**
 
    * Import von Bibliotheken: Du hast die benötigten Bibliotheken importiert, nämlich 'QApplication', 'QMainWindow' aus PyQt5 und 'pg' (die 
      'pyqtgraph'-Bibliothek für die Diagrammerstellung).
