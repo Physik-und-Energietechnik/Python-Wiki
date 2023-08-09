@@ -3,8 +3,8 @@ Willkommen zum aufregenden Abenteuer der GUI-Programmierung in Python mit PyQt5!
 
 In diesem Tutorial wirst du lernen, wie du mit der PyQt5-Bibliothek beeindruckende Graphen und Diagramme erstellen kannst. Du wirst in der Lage sein, Daten auf eine Art und Weise zu visualisieren, die nicht nur informativ, sondern auch ansprechend ist. Also schnall dich an, denn wir werden bunte Linien und Balken zum Tanzen bringen!
 
-### Theorie
-## Einführung in die Graphen-Darstellung:
+## Theorie
+### Einführung in die Graphen-Darstellung:
 Graphen sind großartig. Sie nehmen Daten und machen sie visuell, damit du auf den ersten Blick verstehen kannst, was los ist. Hier sind zwei Haupttypen von Graphen, die wir erforschen werden:
 
 1. Linien-Diagramme: Diese zeigen Datenpunkte auf einer Linie, die sich über den Bildschirm erstreckt. Perfekt, um Trends und Veränderungen im Laufe der Zeit zu erkennen.
@@ -58,11 +58,11 @@ window.show()
 
 app.exec()
 ```
-### Praxis
-## Leichte Aufgabe
+## Praxis
+### Leichte Aufgabe
 Erstelle eine GUI-Anwendung mit PyQt5, die ein Balken-Diagramm mit den Umsatzzahlen verschiedener Monate für dein imaginäres Eiscreme-Geschäft zeigt.
 
-## Musterlösung - Leichte Aufgabe:
+### Musterlösung - Leichte Aufgabe:
 
 ```python
 from PyQt5.QtWidgets import QApplication, QMainWindow
@@ -88,10 +88,10 @@ window.show()
 
 app.exec()
 ```
-## Schwere Aufgabe
+### Schwere Aufgabe
 Erstelle eine GUI-Anwendung, die zwei Linien-Diagramme zeigt: eines für die Verkaufszahlen von Autos und eines für die Verkaufszahlen von Fahrrädern im Verlauf von fünf Jahren.
 
-## Musterlösung - Schwere Aufgabe:
+### Musterlösung - Schwere Aufgabe:
 ```python
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import pyqtgraph as pg
@@ -120,5 +120,5 @@ window.show()
 
 app.exec()
 ```
-### Fazit
+## Fazit
 Herzlichen Glückwunsch! Du hast gerade die bunte Welt der Graphen-Darstellung mit PyQt5 erkundet. Von Linien-Diagrammen bis hin zu lebendigen Balken-Diagrammen – du kannst jetzt Daten auf eine visuell ansprechende Weise präsentieren. Bringe deine Informationen zum Strahlen und vergiss nicht, dass Graphen nicht nur Mathe-Kram sind, sondern auch große Geschichten erzählen können!
