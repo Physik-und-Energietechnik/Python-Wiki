@@ -78,7 +78,9 @@ if __name__ == '__main__':
     fenster = MeinFenster()
     app.exec_()
 ```
-Der Code erstellt in der Lösung ein GUI-Fenster mit dem Titel "Mein zweites Fenster" und einer Größe von 500x300 Pixeln. Es verwendet die PyQt5-Bibliothek und die Klassen QApplication und QWidget. Das Fenster wird erstellt, angezeigt und läuft, solange die Anwendung aktiv ist.
+**Erklärung:**
+
+Der Code erstellt in der Lösung ein GUI-Fenster mit dem Titel "Mein zweites Fenster" und einer Größe von 500x300 Pixeln. Es verwendet die PyQt5-Bibliothek und die Klassen **'QApplication'** und **'QWidget'**. Das Fenster wird erstellt, angezeigt und läuft, solange die Anwendung aktiv ist.
 
 Aber lass uns noch eine Schippe drauflegen und eine etwas anspruchsvollere Aufgabe angehen:
 
@@ -86,6 +88,7 @@ Aber lass uns noch eine Schippe drauflegen und eine etwas anspruchsvollere Aufga
 Erstelle ein neues Fenster mit dem Titel "Mein drittes Fenster" und einer Größe von 800x600 Pixeln. Füge außerdem eine Schaltfläche mit dem Text "Klick mich!" hinzu.
 
 Hier ist eine Musterlösung für die schwierigere Aufgabe:
+
 ```python
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
 
@@ -106,7 +109,8 @@ if __name__ == '__main__':
     fenster = MeinFenster()
     app.exec_()
 ```
-In dieser Lösung haben wir ein neues Widget hinzugefügt: QPushButton. Mit den Parametern ("Klick mich!", self) erstellen wir eine Schaltfläche mit dem Text "Klick mich!" und fügen sie dem Fenster hinzu. Die Methode setGeometry legt die Position und Größe der Schaltfläche fest.
+**Erklärung:**
+In dieser Lösung haben wir ein neues Widget hinzugefügt: **'QPushButton'**. Mit den Parametern ("Klick mich!", self) erstellen wir eine Schaltfläche mit dem Text "Klick mich!" und fügen sie dem Fenster hinzu. Die Methode setGeometry legt die Position und Größe der Schaltfläche fest.
 
 ## Fazit
 Herzlichen Glückwunsch! In diesem Tutorial hast du gelernt, wie man mit Hilfe der PyQt5-Bibliothek GUI-Fenster in Python erstellt. Du hast erfahren, dass GUIs eine großartige Möglichkeit sind, deine Programme ansprechender zu gestalten und eine bessere Benutzererfahrung zu bieten.
