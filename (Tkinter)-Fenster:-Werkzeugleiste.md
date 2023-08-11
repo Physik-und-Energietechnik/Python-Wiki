@@ -98,7 +98,7 @@ speichern_button.pack(side=tk.LEFT)
 fenster.mainloop()
 ```
 **Erklärung:**
-In dieser Aufgabe haben wir eine Werkzeugleiste erstellt und zwei Schaltflächen (Buttons) "Button 1" und "Button 2" hinzugefügt. Die Schaltflächen sind so konfiguriert, dass die Funktion button_click aufgerufen wird, wenn sie geklickt werden. Hier wurde eine einfache Ausgabe "Button wurde geklickt!" implementiert, aber du kannst diese Funktion nach Belieben anpassen.
+In dieser Aufgabe haben wir eine Werkzeugleiste erstellt und zwei Schaltflächen (Buttons) "Button 1" und "Button 2" hinzugefügt. Die Schaltflächen sind so konfiguriert, dass die Funktion **'button_click'** aufgerufen wird, wenn sie geklickt werden. Hier wurde eine einfache Ausgabe "Button wurde geklickt!" implementiert, aber du kannst diese Funktion nach Belieben anpassen.
 
 ## Fazit
 
