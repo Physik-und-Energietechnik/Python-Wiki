@@ -52,11 +52,15 @@ import tkinter as tk
 window = tk.Tk()
 window.title("Hello World GUI")
 
-# GUI-Code hier einfügen
+# Label-Widget erstellen
+label = tk.Label(window, text="Hello, World!")
+label.pack()
 
 # Fenster ausführen
 window.mainloop()
 ```
+**Erklärung:**
+In dieser Aufgabe haben wir ein Label-Widget erstellt und es mit dem Text "Hello, World!" gefüllt. Das pack()-Methodenaufruf wird verwendet, um das Widget im Fenster anzuordnen
 
 ### Aufgabe 2
 Jetzt wird es etwas kniffliger! Ändere den Titel des Fensters in deinen eigenen Namen und füge eine persönliche Botschaft hinzu. Führe dann den Code aus und bewundere dein individuell gestaltetes Fenster!
@@ -68,12 +72,18 @@ import tkinter as tk
 # Fenster erstellen
 window = tk.Tk()
 window.title("Mein individuelles Fenster")
-window.title("Willkommen, [Dein Name]!")
 
-# GUI-Code hier einfügen
+# Begrüßungsnachricht erstellen
+name = "Max Mustermann"  # Dein Name hier eintragen
+welcome_message = f"Willkommen, {name}!"
+label = tk.Label(window, text=welcome_message)
+label.pack()
 
 # Fenster ausführen
 window.mainloop()
 ```
+**Erklärung:**
+In dieser Aufgabe haben wir eine Begrüßungsnachricht erstellt, indem wir deinen Namen (ersetze "Max Mustermann" durch deinen tatsächlichen Namen) in die Nachricht eingefügt haben. Die f-Zeichenfolge (f-string) ermöglicht die Formatierung der Nachricht mit der Variablen name. Das Label-Widget wird verwendet, um die Begrüßungsnachricht im Fenster anzuzeigen.
+
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie du die Titelleiste eines GUI-Fensters in Python anpassen kannst. Du kannst nun deiner Kreativität freien Lauf lassen und individuelle Titel für deine Anwendungen erstellen. Dies ist nur der Anfang deiner spannenden Python-Reise, also bleib dran und lass uns gemeinsam weiterentdecken!
