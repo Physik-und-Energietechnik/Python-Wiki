@@ -68,6 +68,7 @@ fenster.mainloop()
 ```
 
 **Musterlösung:**
+````python
 import tkinter as tk
 
 def button_click():
@@ -90,6 +91,7 @@ button2.pack(side=tk.LEFT)
 
 # Fenster ausführen
 fenster.mainloop()
+```
 
 **Erklärung:**
 In dieser Aufgabe haben wir eine Werkzeugleiste erstellt und zwei Schaltflächen (Buttons) "Button 1" und "Button 2" hinzugefügt. Die Schaltflächen sind so konfiguriert, dass die Funktion **'button_click'** aufgerufen wird, wenn sie geklickt werden. Hier wurde eine einfache Ausgabe "Button wurde geklickt!" implementiert, aber du kannst diese Funktion nach Belieben anpassen.
@@ -120,7 +122,9 @@ speichern_button.pack(side=tk.LEFT)
 
 fenster.mainloop()
 ```
+
 **Müsterlösung:**
+
 
 ```python
 import tkinter as tk
@@ -150,6 +154,7 @@ speichern_button.pack(side=tk.LEFT)
 
 fenster.mainloop()
 ```
+
 **Erklärung:**
 In diesem aktualisierten Code wurde für die Schaltflächen "Drucken" und "Speichern" die entsprechenden Funktionen drucken und speichern als command angegeben. Diese Funktionen werden aufgerufen, wenn die Schaltflächen geklickt werden. Hier habe ich sie einfach implementiert, um eine Nachricht in der Konsole auszugeben, aber du kannst sie nach Bedarf anpassen, um die gewünschte Funktionalität zu erreichen.
 
