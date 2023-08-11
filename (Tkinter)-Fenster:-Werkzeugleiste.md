@@ -54,9 +54,7 @@ In diesem Beispiel haben wir eine Funktion `beenden()` definiert, die aufgerufen
 
 ### Aufgabe 1
 
-Deine Aufgabe besteht darin, ein Fenster zu erstellen und diesem eine Werkzeugleiste hinzuzufügen!
-
-**Musterlösung:**
+Deine Aufgabe besteht darin, ein Fenster zu erstellen und diesem eine Werkzeugleiste hinzuzufügen: 
 
 ```python
 import tkinter as tk
@@ -69,11 +67,36 @@ werkzeugleiste.pack(side=tk.TOP, fill=tk.X)
 fenster.mainloop()
 ```
 
+**Musterlösung:**
+import tkinter as tk
+
+def button_click():
+    print("Button wurde geklickt!")
+
+# Fenster erstellen
+fenster = tk.Tk()
+fenster.title("Werkzeugleiste Beispiel")
+
+# Werkzeugleiste erstellen
+werkzeugleiste = tk.Frame(fenster)
+werkzeugleiste.pack(side=tk.TOP, fill=tk.X)
+
+# Schaltflächen (Buttons) zur Werkzeugleiste hinzufügen
+button1 = tk.Button(werkzeugleiste, text="Button 1", command=button_click)
+button1.pack(side=tk.LEFT)
+
+button2 = tk.Button(werkzeugleiste, text="Button 2", command=button_click)
+button2.pack(side=tk.LEFT)
+
+# Fenster ausführen
+fenster.mainloop()
+
+**Erklärung:**
+In dieser Aufgabe haben wir eine Werkzeugleiste erstellt und zwei Schaltflächen (Buttons) "Button 1" und "Button 2" hinzugefügt. Die Schaltflächen sind so konfiguriert, dass die Funktion **'button_click'** aufgerufen wird, wenn sie geklickt werden. Hier wurde eine einfache Ausgabe "Button wurde geklickt!" implementiert, aber du kannst diese Funktion nach Belieben anpassen.
+
 ### Aufgabe 2
 
-Deine Aufgabe besteht darin, zwei Schaltflächen zur Werkzeugleiste hinzuzufügen: eine zum Drucken und eine zum Speichern. Verwende die vorhandenen Code-Beispiele als Ausgangspunkt und experimentiere ein wenig!
-
-**Musterlösung:**
+Deine Aufgabe besteht darin, zwei Schaltflächen zur Werkzeugleiste hinzuzufügen: eine zum Drucken und eine zum Speichern. Verwende die vorhandenen Code-Beispiele als Ausgangspunkt und experimentiere ein wenig:
 
 ```python
 import tkinter as tk
@@ -97,8 +120,38 @@ speichern_button.pack(side=tk.LEFT)
 
 fenster.mainloop()
 ```
+**Müsterlösung:**
+
+```python
+import tkinter as tk
+
+def beenden():
+    fenster.quit()
+
+def drucken():
+    print("Drucken wurde ausgelöst!")
+
+def speichern():
+    print("Speichern wurde ausgelöst!")
+
+fenster = tk.Tk()
+
+werkzeugleiste = tk.Frame(fenster)
+werkzeugleiste.pack(side=tk.TOP, fill=tk.X)
+
+beenden_button = tk.Button(werkzeugleiste, text="Beenden", command=beenden)
+beenden_button.pack(side=tk.LEFT)
+
+drucken_button = tk.Button(werkzeugleiste, text="Drucken", command=drucken)
+drucken_button.pack(side=tk.LEFT)
+
+speichern_button = tk.Button(werkzeugleiste, text="Speichern", command=speichern)
+speichern_button.pack(side=tk.LEFT)
+
+fenster.mainloop()
+```
 **Erklärung:**
-In dieser Aufgabe haben wir eine Werkzeugleiste erstellt und zwei Schaltflächen (Buttons) "Button 1" und "Button 2" hinzugefügt. Die Schaltflächen sind so konfiguriert, dass die Funktion **'button_click'** aufgerufen wird, wenn sie geklickt werden. Hier wurde eine einfache Ausgabe "Button wurde geklickt!" implementiert, aber du kannst diese Funktion nach Belieben anpassen.
+In diesem aktualisierten Code wurde für die Schaltflächen "Drucken" und "Speichern" die entsprechenden Funktionen drucken und speichern als command angegeben. Diese Funktionen werden aufgerufen, wenn die Schaltflächen geklickt werden. Hier habe ich sie einfach implementiert, um eine Nachricht in der Konsole auszugeben, aber du kannst sie nach Bedarf anpassen, um die gewünschte Funktionalität zu erreichen.
 
 ## Fazit
 
