@@ -84,6 +84,8 @@ plt.ylabel("Y-Achse")
 plt.title("Mein erster Graph")
 plt.show()
 ```
+**Erklärung:**
+Der obige Code erstellt einen einfachen Linien-Graphen, in dem die Werte aus den Listen **'x'** und **'y'** als Punkte verbunden werden. Die **'plt.xlabel()'**, **'plt.ylabel()'** und **'plt.title()'** Funktionen werden verwendet, um die Achsenbeschriftungen und den Titel des Graphen festzulegen. Schließlich wird **'plt.show()'** aufgerufen, um den Graphen anzuzeigen.
 
 ### Schwierigere Aufgabe: Erstelle einen interaktiven Graphen
 
@@ -110,5 +112,10 @@ canvas.bind("<Button-1>", add_node)
 
 root.mainloop()  # Das Fenster anzeigen
 ```
+
+**Erklärung:**
+
+Mit diesem Code erstellst du ein Tkinter-Fenster mit einem Canvas-Widget. Wenn du auf das Canvas klickst, wird die Funktion add_node aufgerufen, um einen neuen Knoten (in diesem Fall ein lila Kreis) an der Mausposition hinzuzufügen.
+
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie du mit Python und Tkinter Graphen in einer grafischen Benutzeroberfläche darstellen kannst. Wir haben die Grundlagen von Tkinter kennengelernt und sowohl einfache als auch interaktive Graphen erstellt. Du kannst dieses Wissen nutzen, um beeindruckende Datenvisualisierungen, Spiele oder andere spannende Anwendungen zu entwickeln. Lass deiner Kreativität freien Lauf und hab Spaß beim Programmieren!
