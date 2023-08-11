@@ -1,174 +1,189 @@
 ## Einführung
-Willkommen zum aufregenden Abenteuer der GUI-Programmierung in Python mit PyQt5! Dieses Tutorial wird dich in die zauberhafte Welt der Graphen entführen, nicht die Art von Graphen, die in Mathebüchern auftauchen, sondern hübsche visuelle Darstellungen von Daten.
+Willkommen, wagemutige Python-Entdecker, zu einer neuen Episode des epischen Abenteuers in die wunderbare Welt der GUI-Programmierung mit PyQt5! Heute werden wir nicht nur Knöpfe und Texte bewundern, sondern auch die Mysterien der Graphen-Darstellung enthüllen.
 
-In diesem Tutorial wirst du lernen, wie du mit der PyQt5-Bibliothek beeindruckende Graphen und Diagramme erstellen kannst. Du wirst in der Lage sein, Daten auf eine Art und Weise zu visualisieren, die nicht nur informativ, sondern auch ansprechend ist. Also schnall dich an, denn wir werden bunte Linien und Balken zum Tanzen bringen!
+In diesem Tutorial wirst du lernen, wie man mithilfe der Kraft von PyQt5 und Matplotlib atemberaubende Graphen erstellt. Von einfachen Linien bis hin zu farbenfrohen Balkendiagrammen - du wirst die Macht der Visualisierung in deinen Händen halten!
 
 ## Theorie
-### Einführung in die Graphen-Darstellung:
-Graphen sind großartig. Sie nehmen Daten und machen sie visuell, damit du auf den ersten Blick verstehen kannst, was los ist. Hier sind zwei Haupttypen von Graphen, die wir erforschen werden:
 
-1. Linien-Diagramme: Diese zeigen Datenpunkte auf einer Linie, die sich über den Bildschirm erstreckt. Perfekt, um Trends und Veränderungen im Laufe der Zeit zu erkennen.
+**Matplotlib - Dein Grafik-Zauberstab**
 
-2. Balken-Diagramme: Diese verwenden Balken unterschiedlicher Längen, um Werte zu vergleichen. Sie sind wie Schokoriegel der Information – je größer der Balken, desto wichtiger ist der Wert!
+Matplotlib ist wie ein Pinsel in der Hand eines Künstlers - es erlaubt uns, Diagramme, Graphen und Visualisierungen zu erstellen. Es ist so, als ob du Daten in eine magische Leinwand verwandelst!
 
 ### Allgemeines Code-Beispiel
-Bevor wir in die spezifischen Beispiele eintauchen, lass uns kurz einen allgemeinen Code anschauen, der das Skelett für unsere graphischen Meisterwerke bereitstellt:
+Lass uns zuerst einen schnellen Blick auf ein allgemeines Code-Beispiel werfen, um deine Graphenreise zu beginnen:
+
 ```python
-# Zuerst importieren wir die magische PyQt5-Bibliothek
-from PyQt5.QtWidgets import QApplication, QMainWindow
+import matplotlib.pyplot as plt
 
-# Dann erstellen wir eine Anwendung
-app = QApplication([])
-
-# Und ein Hauptfenster für unsere Kunstwerke
-window = QMainWindow()
-window.setWindowTitle('Meine fantastische Graphen-Anwendung')
-window.setGeometry(100, 100, 800, 600)  # x, y, Breite, Höhe
-
-# Jetzt zeigen wir alles an
-window.show()
-
-# Und starten die Anwendungsschleife
-app.exec()
-```
-### Explizites Code-Beispiel - Linien-Diagramm
-Hier ist ein Beispiel für ein einfaches Linien-Diagramm:
-```python
-from PyQt5.QtWidgets import QApplication, QMainWindow
-import pyqtgraph as pg  # Spezialzauber für Graphen
-
-app = QApplication([])
-
-window = QMainWindow()
-window.setWindowTitle('Linien-Diagramm')
-window.setGeometry(100, 100, 800, 600)
-
-# Erstelle ein PlotWidget für unser Diagramm
-plot_widget = pg.PlotWidget(window)
-plot_widget.setGeometry(50, 50, 700, 500)
-
-# Fügen wir ein bisschen Magie hinzu - einige Testdaten
 x = [1, 2, 3, 4, 5]
-y = [10, 6, 8, 4, 7]
+y = [10, 15, 7, 12, 9]
 
-# Fügen wir die Daten zum Diagramm hinzu
-plot_widget.plot(x, y, pen='r')  # 'r' für rot, wir sind kreativ!
+plt.plot(x, y)
+plt.xlabel('X-Achse')
+plt.ylabel('Y-Achse')
+plt.title('Mein erster Graph')
+plt.show()
+```
+### Explizites Code-Beispiel - Balkendiagramm
+Hier ist ein Beispiel für ein schickes Balkendiagramm, das wir mit Matplotlib und PyQt5 erstellen können:
+```python
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.figure import Figure
 
-window.show()
+class BalkenDiagrammApp(QMainWindow):
+    def __init__(self):
+        super().__init__()
 
-app.exec()
+        self.setWindowTitle('Balkendiagramm')
+        self.setGeometry(100, 100, 600, 400)
+
+        layout = QVBoxLayout()
+
+        canvas = FigureCanvas(Figure(figsize=(5, 3)))
+        layout.addWidget(canvas)
+
+        self.setCentralWidget(QWidget(self))
+        self.centralWidget().setLayout(layout)
+
+        self.plot_balkendiagramm(canvas.figure)
+
+    def plot_balkendiagramm(self, figure):
+        ax = figure.add_subplot(111)
+        categories = ['Äpfel', 'Bananen', 'Kirschen', 'Trauben']
+        counts = [23, 17, 35, 29]
+        ax.bar(categories, counts)
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = BalkenDiagrammApp()
+    window.show()
+    sys.exit(app.exec_())
 ```
 ## Praxis
 ### Leichte Aufgabe
-Erstelle eine GUI-Anwendung mit PyQt5, die ein Balken-Diagramm mit den Umsatzzahlen verschiedener Monate für dein imaginäres Eiscreme-Geschäft zeigt.
+Erstelle eine GUI-Anwendung mit PyQt5, die einen einfachen Liniengraphen darstellt. Verwende die Daten [1, 2, 3, 4, 5] für die x-Achse und [10, 15, 7, 12, 9] für die y-Achse.
 
 ### Musterlösung - Leichte Aufgabe:
 
 ```python
-from PyQt5.QtWidgets import QApplication, QMainWindow
-import pyqtgraph as pg
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.figure import Figure
 
-app = QApplication([])
+class LinienGraphApp(QMainWindow):
+    def __init__(self):
+        super().__init__()
 
-window = QMainWindow()
-window.setWindowTitle('Eiscreme-Umsatz')
-window.setGeometry(100, 100, 800, 600)
+        self.setWindowTitle('Liniengraph')
+        self.setGeometry(100, 100, 600, 400)
 
-plot_widget = pg.PlotWidget(window)
-plot_widget.setGeometry(50, 50, 700, 500)
+        layout = QVBoxLayout()
 
-# Unsere fantasievollen Eiscreme-Umsatzzahlen
-monate = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun']
-umsatz = [1500, 1800, 2200, 1900, 2400, 2100]
+        canvas = FigureCanvas(Figure(figsize=(5, 3)))
+        layout.addWidget(canvas)
 
-# Zeigen wir sie im Balken-Diagramm
-plot_widget.plot(monate, umsatz, pen='b', symbol='o')
+        self.setCentralWidget(QWidget(self))
+        self.centralWidget().setLayout(layout)
 
-window.show()
+        self.plot_liniengraph(canvas.figure)
 
-app.exec()
+    def plot_liniengraph(self, figure):
+        ax = figure.add_subplot(111)
+        x = [1, 2, 3, 4, 5]
+        y = [10, 15, 7, 12, 9]
+        ax.plot(x, y)
+        ax.set_xlabel('X-Achse')
+        ax.set_ylabel('Y-Achse')
+        ax.set_title('Mein erster Liniengraph')
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = LinienGraphApp()
+    window.show()
+    sys.exit(app.exec_())
 ```
 **Erklärung:**
 
-   * **Import von Bibliotheken**: Du hast die benötigten Bibliotheken importiert, nämlich 'QApplication', 'QMainWindow' aus PyQt5 und 'pg' (die 
-     'pyqtgraph'-Bibliothek für die Diagrammerstellung).
+   * Du importierst die benötigten Module, einschließlich PyQt5 und Matplotlib.
+  
+   * Du erstellst eine Klasse LinienGraphApp, die von QMainWindow erbt und die GUI-Anwendung repräsentiert.
 
-   * **Erstellen der Anwendung:** Du hast eine Anwendung mit 'QApplication([])' erstellt.
+   * Im Konstruktor der Klasse stellst du das Fensterlayout ein und legst den Fenstertitel und die Größe fest.
 
-   * **Erstellen des Hauptfensters:** Du hast ein Hauptfenster ('QMainWindow') erstellt und ihm einen Titel "Eiscreme-Umsatz" gegeben. Die 
-     Abmessungen wurden mit 'setGeometry' festgelegt.
+   * Du erstellst ein FigureCanvas, das das Matplotlib-Figure-Objekt verwendet. Dieses Canvas wird dem Layout hinzugefügt.
 
-   * **Erstellen des Plot-Widgets:** Ein Plot-Widget ('pg.PlotWidget') wurde erstellt, das später das Balken-Diagramm anzeigen wird. Seine 
-     Abmessungen wurden ebenfalls festgelegt.
+   * Das Hauptlayout (VBoxLayout) des Fensters wird erstellt, und das FigureCanvas wird diesem Layout hinzugefügt.
 
-   * **Daten vorbereiten: Du hast zwei Listen erstellt:** 'monate' enthält die Monate und 'umsatz' enthält die zugehörigen Umsatzzahlen.
+   * Du erstellst die Methode plot_liniengraph, die den eigentlichen Liniengraphen mit Matplotlib erstellt. Du verwendest die gegebenen Daten für die x- 
+     und y-Achsenwerte und stellst das Achsenbeschriftungen und Titel ein.
 
-   * **Balken-Diagramm erstellen:** Das Balken-Diagramm wurde mit 'plot_widget.plot' ('monate', 'umsatz', pen='b', symbol='o') erstellt. Dabei wurde 
-     monate auf der x-Achse und umsatz auf der y-Achse platziert. Die Balken werden in Blau (blue) gezeichnet und als Kreise (circles) dargestellt.
+   * Schließlich erstellst du die QApplication, die LinienGraphApp-Instanz und zeigst das Fenster an, um die GUI-Anwendung auszuführen.
 
-   * **Anzeigen des Fensters:** Das Hauptfenster und das Balken-Diagramm wurden mit 'window.show()' angezeigt.
-
-   * **Starten der Anwendungsschleife:** Schließlich wurde die Anwendungsschleife mit app.exec() gestartet, um die Benutzerinteraktion zu ermöglichen.
-
+ Mit diesem Code hast du erfolgreich einen Liniengraphen erstellt und in einer PyQt5-basierten GUI-Anwendung dargestellt. Das ist ein großer Schritt, um Daten visuell ansprechend darzustellen!
 
 ### Schwere Aufgabe
-Erstelle eine GUI-Anwendung, die zwei Linien-Diagramme zeigt: eines für die Verkaufszahlen von Autos und eines für die Verkaufszahlen von Fahrrädern im Verlauf von fünf Jahren.
+Erstelle eine GUI-Anwendung mit PyQt5, die ein gestapeltes Balkendiagramm darstellt. Verwende die Daten [23, 17, 35, 29] für die verschiedenen Kategorien "Äpfel", "Bananen", "Kirschen" und "Trauben".
 
 ### Musterlösung - Schwere Aufgabe:
 ```python
-from PyQt5.QtWidgets import QApplication, QMainWindow
-import pyqtgraph as pg
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.figure import Figure
 
-app = QApplication([])
+class GestapeltesBalkendiagrammApp(QMainWindow):
+    def __init__(self):
+        super().__init__()
 
-window = QMainWindow()
-window.setWindowTitle('Auto vs. Fahrrad Verkäufe')
-window.setGeometry(100, 100, 800, 600)
+        self.setWindowTitle('Gestapeltes Balkendiagramm')
+        self.setGeometry(100, 100, 600, 400)
 
-plot_widget = pg.PlotWidget(window)
-plot_widget.setGeometry(50, 50, 700, 500)
+        layout = QVBoxLayout()
 
-jahre = ['2018', '2019', '2020', '2021', '2022']
-auto_verkauf = [1200, 1300, 1100, 1350, 1250]
-fahrrad_verkauf = [800, 950, 900, 1000, 1100]
+        canvas = FigureCanvas(Figure(figsize=(5, 3)))
+        layout.addWidget(canvas)
 
-# Zeigen wir sie im Linien-Diagramm
-plot_widget.plot(jahre, auto_verkauf, pen='r', symbol='s', name='Auto Verkäufe')
-plot_widget.plot(jahre, fahrrad_verkauf, pen='b', symbol='o', name='Fahrrad Verkäufe')
+        self.setCentralWidget(QWidget(self))
+        self.centralWidget().setLayout(layout)
 
-# Zeigen wir eine Legende für das extra Flair
-plot_widget.addLegend()
+        self.plot_gestapeltes_balkendiagramm(canvas.figure)
 
-window.show()
+    def plot_gestapeltes_balkendiagramm(self, figure):
+        ax = figure.add_subplot(111)
+        categories = ['Äpfel', 'Bananen', 'Kirschen', 'Trauben']
+        data = [[23, 17, 35, 29]]
+        ax.bar(categories, data[0])
+        ax.set_xlabel('Kategorien')
+        ax.set_ylabel('Anzahl')
+        ax.set_title('Gestapeltes Balkendiagramm')
 
-app.exec()
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = GestapeltesBalkendiagrammApp()
+    window.show()
+    sys.exit(app.exec_())
 ```
+
 **Erklärung:**
+   * Du importierst die notwendigen Module, darunter PyQt5 und Matplotlib.
 
-   * **Import von Bibliotheken:** Du hast die benötigten Bibliotheken importiert, nämlich 'QApplication, QMainWindow' aus PyQt5 und 'pg' (die pyqtgraph- 
-       Bibliothek für die Diagrammerstellung).
+   * Du erstellst die Klasse GestapeltesBalkendiagrammApp, die von QMainWindow erbt und die GUI-Anwendung repräsentiert.
 
-   * **Erstellen der Anwendung:** Du hast eine Anwendung mit 'QApplication([])' erstellt.
+   * Im Konstruktor der Klasse stellst du das Fensterlayout ein und legst den Fenstertitel und die Größe fest.
 
-   * **Erstellen des Hauptfensters:** Du hast ein Hauptfenster ('QMainWindow') erstellt und ihm den Titel "Auto vs. Fahrrad Verkäufe" gegeben. Die 
-       Abmessungen wurden mit 'setGeometry' festgelegt.
+   * Du erstellst ein FigureCanvas, das das Matplotlib-Figure-Objekt verwendet. Dieses Canvas wird dem Layout hinzugefügt.
 
-   * **Erstellen des Plot-Widgets:** Ein Plot-Widget ('pg.PlotWidget') wurde erstellt, das später das Linien-Diagramm anzeigen wird. Seine Abmessungen 
-       wurden ebenfalls festgelegt.
+   * Das Hauptlayout (VBoxLayout) des Fensters wird erstellt, und das FigureCanvas wird diesem Layout hinzugefügt.
 
-   * **Daten vorbereiten:** Du hast drei Listen erstellt: 'jahre' enthält die Jahre und 'auto_verkauf' sowie 'fahrrad_verkauf' enthalten die 
-       entsprechenden Verkaufszahlen.
+   * Du erstellst die Methode plot_gestapeltes_balkendiagramm, die das gestapelte Balkendiagramm mit Matplotlib erstellt. Du verwendest die gegebenen 
+     Daten für die Kategorien und die Datenwerte, um gestapelte Balken zu erzeugen.
 
-   * **Linien-Diagramme erstellen:** Du hast zwei Linien-Diagramme erstellt, eins für Autoverkäufe (plot_widget.plot(jahre, auto_verkauf, pen='r', 
-       symbol='s', name='Auto Verkäufe')) und eins für Fahrradverkäufe (plot_widget.plot(jahre, fahrrad_verkauf, pen='b', symbol='o', name='Fahrrad 
-       Verkäufe')). Die Linien sind rot bzw. blau, und die Symbole sind Quadrate (s) bzw. Kreise (o). Die Namen werden für die Legende verwendet.
+   * Schließlich erstellst du die QApplication, die GestapeltesBalkendiagrammApp-Instanz und zeigst das Fenster an, um die GUI-Anwendung auszuführen.
 
-   * **Legende hinzufügen:** Du hast eine Legende zu deinem Diagramm hinzugefügt, um die Linien zu erklären und deinem Werk zusätzliches Flair zu 
-       verleihen (plot_widget.addLegend()).
-
-   * **Anzeigen des Fensters:** Das Hauptfenster und das Linien-Diagramm wurden mit 'window.show()' angezeigt.
-
-   * **Starten der Anwendungsschleife:** Schließlich wurde die Anwendungsschleife mit 'app.exec()' gestartet, um die Benutzerinteraktion zu ermöglichen.
+   Du hast erfolgreich ein gestapeltes Balkendiagramm mit PyQt5 und Matplotlib erstellt. Du kannst jetzt Daten auf anschauliche Weise visualisieren und darstellen. Großartige Arbeit!
 
 ## Fazit
-Herzlichen Glückwunsch! Du hast gerade die bunte Welt der Graphen-Darstellung mit PyQt5 erkundet. Von Linien-Diagrammen bis hin zu lebendigen Balken-Diagrammen – du kannst jetzt Daten auf eine visuell ansprechende Weise präsentieren. Bringe deine Informationen zum Strahlen und vergiss nicht, dass Graphen nicht nur Mathe-Kram sind, sondern auch große Geschichten erzählen können!
+Du hast es geschafft, oh furchtloser Python-Pionier! Du hast gelernt, wie man Graphen mit PyQt5 und Matplotlib erstellt. Jetzt kannst du Daten in lebendige Diagramme und Graphen verwandeln. Ganz gleich, ob du einen einfachen Liniengraph oder ein komplexes Balkendiagramm erstellen möchtest, du besitzt die Fähigkeiten, um deine Daten auf kreative Weise darzustellen. Also zeig der Welt, wie cool du als Grafik-Künstler bist!
