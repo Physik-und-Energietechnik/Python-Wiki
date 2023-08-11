@@ -1,115 +1,118 @@
 ## Einführung
-Willkommen zu einem aufregenden Python-Abenteuer, bei dem wir in die Welt der GUI-Programmierung mit Kivy eintauchen werden! Keine Sorge, wir werden nicht in den Dschungel gehen, sondern in den Dschungel der graphischen Benutzeroberflächen, um wunderschöne Graphen zu erstellen. In diesem Tutorial lernst du, wie du mit Kivy beeindruckende visuelle Darstellungen erzeugen kannst, um Daten in Form von Graphen und Diagrammen auf eine Weise zu präsentieren, die sogar deine Katze beeindrucken wird.
+Willkommen in der schillernden Welt der GUI-Programmierung mit Python und Kivy! Heute tauchen wir in die faszinierende Kunst der Graphen-Darstellung ein. Stell dir vor, du malst nicht nur Zahlen, sondern ganze Geschichten, und der Bildschirm ist deine Leinwand!
 
-In diesem Tutorial wirst du Schritt für Schritt lernen, wie man Balkendiagramme, Liniendiagramme und Kreisdiagramme erstellt. Du wirst erstaunt sein, wie leicht es ist, die Daten deiner Anwendung auf stilvolle Weise darzustellen und dabei ein echter GUI-Zauberer zu werden!
+In diesem Tutorial wirst du lernen, wie man mit Kivy atemberaubende Graphen erstellt. Wir werden Linien tanzen lassen, Kurven zaubern und Datenpunkte jonglieren. Kivy ist unser magischer Pinsel, mit dem wir die spannende Welt der Datenvisualisierung erforschen werden!
 
 ## Theorie
-**Grundlagen von Kivy und Graphen**
+Die Zaubertricks der Graphen-Darstellung
+Graphen sind wie Fenster zu Datenwelten. Du kannst Trends sehen, Muster erkennen und Zusammenhänge verstehen. In unserem magischen Handbuch verwenden wir Graph und MeshLinePlot.
 
-Kivy ist eine Python-Bibliothek, mit der du atemberaubende, plattformübergreifende Benutzeroberflächen erstellen kannst. In diesem Tutorial konzentrieren wir uns auf die Erstellung von verschiedenen Arten von Graphen, um Daten zu visualisieren. Wir werden uns auf folgende Typen von Graphen konzentrieren:
+* **Graph:** Unser magisches Portal. Hier lassen sich Achsen und Raster erstellen, um den Graphen zu organisieren.
 
-1. **Balkendiagramme:** Diese Diagramme zeigen Daten als Balken an, wobei die Länge der Balken den Wert repräsentiert.
+* **MeshLinePlot:** Die magischen Pinselstriche. Damit verbindest du die Datenpunkte und zeichnest Kurven.
 
-2. **Liniendiagramme:** Hier werden Datenpunkte mit Linien verbunden, um Trends und Muster zu zeigen.
-
-3.** Kreisdiagramme:** Diese Diagramme teilen die Daten in Sektoren auf, um die prozentuale Verteilung darzustellen.
-
-### Allgemeines Code-Beispiel
-Bevor wir in die spezifischen Python-Beispiele für Kivy eintauchen, werfen wir einen Blick auf das Grundgerüst für unsere GUI-Anwendung:
-
+## Allgemeines Code-Beispiel
+Hier ist ein Beispiel, um dein erstes magisches Kunstwerk zu erschaffen:
 ```python
-# Importiere die Kivy-Bibliothek
-import kivy
 from kivy.app import App
-from kivy.uix.label import Label
+from kivy.uix.boxlayout import BoxLayout
+from kivy.garden.graph import Graph, MeshLinePlot
 
-# Definiere die Hauptanwendungsklasse
-class MyApp(App):
+class MagicGraphApp(App):
     def build(self):
-        return Label(text='Willkommen zu Kivy Graphen!')
+        layout = BoxLayout(orientation='vertical')
+        graph = Graph(xlabel='X-Achse', ylabel='Y-Achse', x_ticks_minor=5, y_ticks_minor=5,
+                      x_ticks_major=25, y_ticks_major=1)
+        plot = MeshLinePlot(color=[1, 0, 0, 1])  # Rote Magie
+        plot.points = [(0, 0), (1, 2), (2, 1), (3, 3), (4, 2)]  # Datenpunkte
+        graph.add_plot(plot)
+        layout.add_widget(graph)
+        return layout
 
-# Erstelle eine Instanz der Anwendungsklasse und starte die Anwendung
 if __name__ == '__main__':
-    MyApp().run()
-
+    MagicGraphApp().run()
 ```
-### Explizites Code-Beispiel - Balkendiagramm
-Hier ist ein einfaches Beispiel, wie man ein Balkendiagramm mit Kivy erstellt:
+
+### Explizites Code-Beispiel - Ein Sinus-Kunstwerk
+Hier ist ein Beispiel, wie du mit Kivy eine Sinus-Kurve malst:
 
 ```python
-import kivy
 from kivy.app import App
-from kivy.uix.bar import Bar
+from kivy.uix.boxlayout import BoxLayout
+from kivy.garden.graph import Graph, MeshLinePlot
+import math
 
-class BarChartApp(App):
+class SinusArtApp(App):
     def build(self):
-        data = [5, 10, 3, 7, 2]  # Daten für die Balken
-        chart = Bar(values=data)
-        return chart
+        layout = BoxLayout(orientation='vertical')
+        graph = Graph(xlabel='X-Achse', ylabel='Y-Achse', x_ticks_minor=2, y_ticks_minor=0.1,
+                      x_ticks_major=10, y_ticks_major=1)
+        plot = MeshLinePlot(color=[0, 1, 0, 1])  # Grüner Pinsel
+        plot.points = [(x, math.sin(x / 10)) for x in range(0, 100)]  # Sinus-Datenpunkte
+        graph.add_plot(plot)
+        layout.add_widget(graph)
+        return layout
 
 if __name__ == '__main__':
-    BarChartApp().run()
+    SinusArtApp().run()
+
 ```
 ## Praxis
 ### Leichte Aufgabe
-Erstelle eine Kivy-Anwendung, die ein Liniendiagramm mit den Daten [10, 20, 15, 25, 30] darstellt.
+Male einen Graphen mit einigen Fantasiedaten, die du dir ausdenkst. Zeige deine kreative Seite!
 
 ### Musterlösung - Leichte Aufgabe:
-```python
-import kivy
-from kivy.app import App
-from kivy.uix.lineplot import LinePlot
 
-class LineChartApp(App):
+```python
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.garden.graph import Graph, MeshLinePlot
+
+class CreativeGraphApp(App):
     def build(self):
-        data = [10, 20, 15, 25, 30]
-        chart = LinePlot(line_width=2, points=data)
-        return chart
+        layout = BoxLayout(orientation='vertical')
+        graph = Graph(xlabel='X-Achse', ylabel='Y-Achse', x_ticks_minor=2, y_ticks_minor=0.1,
+                      x_ticks_major=10, y_ticks_major=1)
+        plot = MeshLinePlot(color=[0, 0, 1, 1])  # Blauer Pinsel
+        plot.points = [(0, 0), (1, 1), (2, 4), (3, 2), (4, 3)]  # Deine Fantasiedaten
+        graph.add_plot(plot)
+        layout.add_widget(graph)
+        return layout
 
 if __name__ == '__main__':
-    LineChartApp().run()
+    CreativeGraphApp().run()
 ```
-**Erklärung**
 
-   * **import kivy:** Hier importierst du die Kivy-Bibliothek, um ihre Funktionen nutzen zu können.
+**Erklärung:**
+Wenn du dieses Programm ausführst, öffnet sich eine GUI-Anwendung mit einem Graphen. Die x-Achse ist beschriftet mit "X-Achse" und die y-Achse mit "Y-Achse". Auf dem Graphen sind Datenpunkte miteinander verbunden, die eine wunderschöne blaue Kurve ergeben. Du hast erfolgreich gelernt, wie man mit Kivy eine einfache Graphen-Darstellung erstellt!
 
-   * **from kivy.app import App:** Du importierst die App-Klasse aus Kivy, die die Grundlage für deine Anwendung bildet.
+### Schwere Aufgabe
+Male einen Graphen, der sowohl eine Sinus-Kurve als auch eine Cosinus-Kurve zeigt. Lass die Linien im Takt der Musik tanzen!
 
-   * **from kivy.uix.lineplot import LinePlot:** Hier importierst du die LinePlot-Klasse, die es dir ermöglicht, Liniendiagramme zu erstellen.
+### Musterlösung - Schwere Aufgabe:
 
-       Du definierst deine eigene Anwendungsklasse LineChartApp, die von der App-Klasse erbt.
-
-   * In der Methode build(self) wird der Hauptteil deiner Anwendung erstellt. Du legst data fest, eine Liste von Datenwerten für das Liniendiagramm.
-
-   * Du erstellst ein LinePlot-Objekt namens chart und übergibst die Daten mit points=data. Du kannst auch line_width verwenden, um die Dicke der Linie 
-     anzupassen.
-
-   * Am Ende der build-Methode gibst du das erstellte chart-Objekt zurück.
-
-   * **if __name__ == '__main__':** wird verwendet, um sicherzustellen, dass dieser Code nur ausgeführt wird, wenn die Datei direkt ausgeführt wird, 
-    nicht wenn sie importiert wird.
-
-   * **LineChartApp().run():** Hier wird eine Instanz deiner LineChartApp erstellt und die run()-Methode aufgerufen, um die Anwendung zu starten.
-
-   Die Aufgabe zeigt ein einfaches Liniendiagramm mit den gegebenen Daten [10, 20, 15, 25, 30]. Du könntest jetzt weiter experimentieren und die Daten anpassen oder weitere Anpassungen am Diagramm vornehmen, um deine kreativen Fähigkeiten auszuleben!
-
-## Schwere Aufgabe
-Erstelle eine Kivy-Anwendung mit einem Kreisdiagramm, das die prozentuale Verteilung von Werten [30, 20, 10, 40] anzeigt.
-
-## Musterlösung - Schwere Aufgabe:
 ```python
-import kivy
 from kivy.app import App
-from kivy.uix.piechart import PieChart
+from kivy.uix.boxlayout import BoxLayout
+from kivy.garden.graph import Graph, MeshLinePlot
+import math
 
-class PieChartApp(App):
+class DanceGraphApp(App):
     def build(self):
-        data = [30, 20, 10, 40]
-        chart = PieChart(data=data)
-        return chart
+        layout = BoxLayout(orientation='vertical')
+        graph = Graph(xlabel='X-Achse', ylabel='Y-Achse', x_ticks_minor=2, y_ticks_minor=0.1,
+                      x_ticks_major=10, y_ticks_major=1)
+        plot_sin = MeshLinePlot(color=[1, 0, 0, 1])  # Rote Sinus-Linie
+        plot_cos = MeshLinePlot(color=[0, 1, 0, 1])  # Grüne Cosinus-Linie
+        plot_sin.points = [(x, math.sin(x / 10)) for x in range(0, 100)]  # Sinus-Datenpunkte
+        plot_cos.points = [(x, math.cos(x / 10)) for x in range(0, 100)]  # Cosinus-Datenpunkte
+        graph.add_plot(plot_sin)
+        graph.add_plot(plot_cos)
+        layout.add_widget(graph)
+        return layout
 
 if __name__ == '__main__':
-    PieChartApp().run()
+    DanceGraphApp().run()
 ```
 ## Fazit
-Herzlichen Glückwunsch! Du hast soeben eine Schatzkarte in die Welt der GUI-Programmierung mit Kivy erhalten, die dich zu wunderschönen Graphen und Diagrammen führt. Du hast gelernt, wie man Daten visuell beeindruckend präsentiert und sie mithilfe von Kivy in eine ansprechende Benutzeroberfläche einbettet. Wage dich in die Welt der Datenvisualisierung und sei bereit, die Augen deiner Freunde mit deinem Kivy-Zauber zu beeindrucken!
+Herzlichen Glückwunsch, du hast soeben den Klang der Datenvisualisierung erlebt! Du hast gelernt, wie man mit Kivy Graph und MeshLinePlot einsetzt, um datenreiche Kunstwerke zu erschaffen. Du bist jetzt bereit, deine eigenen Daten in lebendige Graphen zu verwandeln und der Welt deine Geschichten zu erzählen. Setze deine kreativen Kräfte ein und male mit den Farben der Zahlen - du bist der wahre Künstler der GUI-Programmierung!
