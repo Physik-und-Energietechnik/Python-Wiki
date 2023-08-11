@@ -57,7 +57,7 @@ In diesem Beispiel haben wir eine Funktion `beenden()` definiert, die aufgerufen
 Deine Aufgabe besteht darin, ein Fenster zu erstellen und diesem eine Werkzeugleiste hinzuzufügen
 
 **Musterlösung:**
-````python
+```python
 import tkinter as tk
 
 def button_click():
