@@ -54,18 +54,7 @@ In diesem Beispiel haben wir eine Funktion `beenden()` definiert, die aufgerufen
 
 ### Aufgabe 1
 
-Deine Aufgabe besteht darin, ein Fenster zu erstellen und diesem eine Werkzeugleiste hinzuzufügen: 
-
-```python
-import tkinter as tk
-
-fenster = tk.Tk()
-
-werkzeugleiste = tk.Frame(fenster)
-werkzeugleiste.pack(side=tk.TOP, fill=tk.X)
-
-fenster.mainloop()
-```
+Deine Aufgabe besteht darin, ein Fenster zu erstellen und diesem eine Werkzeugleiste hinzuzufügen
 
 **Musterlösung:**
 ````python
@@ -100,6 +89,8 @@ In dieser Aufgabe haben wir eine Werkzeugleiste erstellt und zwei Schaltflächen
 
 Deine Aufgabe besteht darin, zwei Schaltflächen zur Werkzeugleiste hinzuzufügen: eine zum Drucken und eine zum Speichern. Verwende die vorhandenen Code-Beispiele als Ausgangspunkt und experimentiere ein wenig:
 
+**Müsterlösung:**
+
 ```python
 import tkinter as tk
 
@@ -118,38 +109,6 @@ drucken_button = tk.Button(werkzeugleiste, text="Drucken")
 drucken_button.pack(side=tk.LEFT)
 
 speichern_button = tk.Button(werkzeugleiste, text="Speichern")
-speichern_button.pack(side=tk.LEFT)
-
-fenster.mainloop()
-```
-
-**Müsterlösung:**
-
-
-```python
-import tkinter as tk
-
-def beenden():
-    fenster.quit()
-
-def drucken():
-    print("Drucken wurde ausgelöst!")
-
-def speichern():
-    print("Speichern wurde ausgelöst!")
-
-fenster = tk.Tk()
-
-werkzeugleiste = tk.Frame(fenster)
-werkzeugleiste.pack(side=tk.TOP, fill=tk.X)
-
-beenden_button = tk.Button(werkzeugleiste, text="Beenden", command=beenden)
-beenden_button.pack(side=tk.LEFT)
-
-drucken_button = tk.Button(werkzeugleiste, text="Drucken", command=drucken)
-drucken_button.pack(side=tk.LEFT)
-
-speichern_button = tk.Button(werkzeugleiste, text="Speichern", command=speichern)
 speichern_button.pack(side=tk.LEFT)
 
 fenster.mainloop()
