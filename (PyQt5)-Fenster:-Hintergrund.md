@@ -57,8 +57,8 @@ window.setPalette(palette)
 window.show()
 sys.exit(app.exec_())
 ```
-**Erklärung:**
 
+**Erklärung:**
 In dieser Lösung haben wir die RGB-Werte (255, 192, 203) verwendet, um einen zarten Rosa-Ton einzustellen. Aber keine Sorge, wenn dir die Farbe nicht gefällt, probiere ruhig andere aus!
 
 ### Schwierigere Aufgabe
@@ -100,6 +100,7 @@ button.clicked.connect(set_background)
 window.show()
 sys.exit(app.exec_())
 ```
+
 **Erklärung:**
 In dieser Lösung haben wir Eingabefelder für die RGB-Werte hinzugefügt und einen Button, der den Hintergrund basierend auf den eingegebenen Werten ändert. Die Funktion set_background() wird aufgerufen, wenn der Button geklickt wird, und nimmt die eingegebenen Werte, wandelt sie in Ganzzahlen um und setzt die Hintergrundfarbe entsprechend.
 
