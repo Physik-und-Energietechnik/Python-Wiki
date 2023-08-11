@@ -75,6 +75,8 @@ entry.pack(side="top", pady=10)
 
 window.mainloop()
 ```
+**Erklärung:**
+Der obige Code erstellt ein Tkinter-Fenster mit einer Schaltfläche ("Klick mich!") und einem Eingabefeld. Die **'pack()'**-Methode wird verwendet, um die Widgets im Fenster zu platzieren. Das Argument side legt die Ausrichtung der Widgets fest ("top" für oben) und pady fügt einen vertikalen Abstand zwischen den Widgets hinzu.
 
 ### Aufgabe 2: Fortgeschrittenes Layout
 Erstelle ein GUI-Fenster mit drei Schaltflächen ("Ja", "Nein", "Vielleicht") in einer 2x2-Rasteranordnung. Verwende den grid-Layout-Manager, um die Schaltflächen anzuordnen. Füge außerdem ein Textfeld hinzu, das die ausgewählte Schaltfläche anzeigen soll. Wenn eine Schaltfläche angeklickt wird, soll der Text im Textfeld entsprechend aktualisiert werden.
@@ -105,6 +107,7 @@ label.grid(row=2, column=0, columnspan=2)
 
 window.mainloop()
 ```
+**Erklärung:**
 In dieser Lösung verwenden wir den grid-Layout-Manager, um die Schaltflächen in einem Raster anzuordnen. Die Funktion update_text wird aufgerufen, wenn eine Schaltfläche angeklickt wird, und aktualisiert den Text im Textfeld entsprechend.
 
 ## Fazit
