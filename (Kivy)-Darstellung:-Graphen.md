@@ -114,5 +114,10 @@ class DanceGraphApp(App):
 if __name__ == '__main__':
     DanceGraphApp().run()
 ```
+
+**Erklärung:**
+
+Wenn du dieses Programm ausführst, wird eine GUI-Anwendung gestartet, die einen Graphen mit zwei Kurven anzeigt. Die x-Achse ist mit "X-Achse" beschriftet, und die y-Achse ist mit "Y-Achse" beschriftet. Auf dem Graphen tanzen die rote Sinus-Kurve und die grüne Cosinus-Kurve im Gleichklang, während sie die mathematischen Geheimnisse der Welt enthüllen.
+
 ## Fazit
 Herzlichen Glückwunsch, du hast soeben den Klang der Datenvisualisierung erlebt! Du hast gelernt, wie man mit Kivy Graph und MeshLinePlot einsetzt, um datenreiche Kunstwerke zu erschaffen. Du bist jetzt bereit, deine eigenen Daten in lebendige Graphen zu verwandeln und der Welt deine Geschichten zu erzählen. Setze deine kreativen Kräfte ein und male mit den Farben der Zahlen - du bist der wahre Künstler der GUI-Programmierung!
