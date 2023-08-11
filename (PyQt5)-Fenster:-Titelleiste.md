@@ -101,6 +101,10 @@ window.setWindowTitle("Hallo Welt")
 window.setWindowIcon(QIcon("my_icon.png"))
 window.show()
 sys.exit(app.exec_())
+
+**Erklärung:**
+Der obige Code erstellt ein einfaches PyQt5-Hauptfenster. Die **'setWindowTitle()'**-Methode wird verwendet, um den Fenstertitel festzulegen, und die **'setWindowIcon()'**-Methode wird verwendet, um das Fenster-Icon zu setzen. Stelle sicher, dass die Datei "my_icon.png" im gleichen Verzeichnis wie dein Skript vorhanden ist.
+
 ```
 ### Schwere Aufgabe
 Erstelle einen benutzerdefinierten Schalter in der Titelleiste, der den Text "Klick mich!" anzeigt und eine Funktion my_function() aufruft, wenn er geklickt wird.
@@ -140,6 +144,7 @@ window.show()
 
 sys.exit(app.exec_())
 ```
+**Erklärung:**
 Wir haben eine Funktion 'my_function()' definiert, die beim Klicken des benutzerdefinierten Schalters aufgerufen wird und eine einfache Ausgabe erzeugt. Stelle sicher, dass du den Code ausführst und den Schalter in der Titelleiste testest!
 
 ## Fazit
