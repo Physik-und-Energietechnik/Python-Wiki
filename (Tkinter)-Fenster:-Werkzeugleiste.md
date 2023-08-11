@@ -87,7 +87,7 @@ In dieser Aufgabe haben wir eine Werkzeugleiste erstellt und zwei Schaltflächen
 
 ### Aufgabe 2
 
-Deine Aufgabe besteht darin, zwei Schaltflächen zur Werkzeugleiste hinzuzufügen: eine zum Drucken und eine zum Speichern. Verwende die vorhandenen Code-Beispiele als Ausgangspunkt und experimentiere ein wenig:
+Deine Aufgabe besteht darin, zwei Schaltflächen zur Werkzeugleiste hinzuzufügen: eine zum Drucken und eine zum Speichern
 
 **Müsterlösung:**
 
@@ -97,6 +97,12 @@ import tkinter as tk
 def beenden():
     fenster.quit()
 
+def drucken():
+    print("Drucken wurde ausgelöst!")
+
+def speichern():
+    print("Speichern wurde ausgelöst!")
+
 fenster = tk.Tk()
 
 werkzeugleiste = tk.Frame(fenster)
@@ -105,10 +111,10 @@ werkzeugleiste.pack(side=tk.TOP, fill=tk.X)
 beenden_button = tk.Button(werkzeugleiste, text="Beenden", command=beenden)
 beenden_button.pack(side=tk.LEFT)
 
-drucken_button = tk.Button(werkzeugleiste, text="Drucken")
+drucken_button = tk.Button(werkzeugleiste, text="Drucken", command=drucken)
 drucken_button.pack(side=tk.LEFT)
 
-speichern_button = tk.Button(werkzeugleiste, text="Speichern")
+speichern_button = tk.Button(werkzeugleiste, text="Speichern", command=speichern)
 speichern_button.pack(side=tk.LEFT)
 
 fenster.mainloop()
