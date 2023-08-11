@@ -116,7 +116,6 @@ if __name__ == '__main__':
 ```
 
 **Erklärung:**
-
 Wenn du dieses Programm ausführst, wird eine GUI-Anwendung gestartet, die einen Graphen mit zwei Kurven anzeigt. Die x-Achse ist mit "X-Achse" beschriftet, und die y-Achse ist mit "Y-Achse" beschriftet. Auf dem Graphen tanzen die rote Sinus-Kurve und die grüne Cosinus-Kurve im Gleichklang, während sie die mathematischen Geheimnisse der Welt enthüllen.
 
 ## Fazit
