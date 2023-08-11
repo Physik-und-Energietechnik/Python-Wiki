@@ -2,46 +2,8 @@
 Willkommen zu unserem Python-Tutorial für unerfahrene Nutzer! In diesem Tutorial werden wir uns mit der GUI-Darstellung von Graphen beschäftigen. Aber was genau bedeutet das? Nun, GUI steht für Graphical User Interface, also eine grafische Benutzeroberfläche. Ein Graph ist hierbei eine Darstellung von Datenpunkten, die durch Knoten und Kanten verbunden sind. In diesem Tutorial lernst du, wie du mithilfe der Tkinter-Bibliothek in Python Graphen erstellen und anzeigen kannst. Das erlangte Wissen ermöglicht es dir, ansprechende und interaktive grafische Darstellungen in deinen Python-Programmen zu erstellen. Das ist nicht nur praktisch, sondern auch ziemlich cool!
 
 ## Theorie
-### Grundlagen von Tkinter
-Tkinter ist eine Python-Bibliothek, die es uns ermöglicht, GUI-Anwendungen zu erstellen. Es bietet eine Vielzahl von Widgets (grafische Elemente) wie Buttons, Textfelder, Labels und mehr. Um Tkinter zu verwenden, müssen wir es zuerst importieren:
 
-```python
-
-import tkinter as tk
-
-´´´
-## Erstellen eines Fensters
-Um ein Fenster zu erstellen, benötigen wir ein sogenanntes root-Widget. Das ist das Hauptfenster unserer Anwendung. Hier ist ein Beispielcode, der ein einfaches Fenster erstellt:
-
-´´´python
-import tkinter as tk
-
-root = tk.Tk()  # Das Hauptfenster erstellen
-root.mainloop()  # Das Fenster anzeigen
-```
-
-## Erstellen eines Graphen
-Nun, da wir ein Fenster haben, möchten wir einen Graphen darin anzeigen. Glücklicherweise bietet Tkinter das Canvas-Widget, das uns dabei hilft. Hier ist ein Beispielcode, der einen einfachen Graphen erstellt:
-
-```python
-
-import tkinter as tk
-
-root = tk.Tk()  # Das Hauptfenster erstellen
-
-canvas = tk.Canvas(root, width=400, height=300)  # Ein Canvas-Widget erstellen
-canvas.pack()
-
-# Einen roten Kreis als Knoten zeichnen
-canvas.create_oval(100, 100, 200, 200, fill="red")
-
-# Eine Linie als Kante zeichnen
-canvas.create_line(100, 100, 200, 200)
-
-root.mainloop()  # Das Fenster anzeigen
-```
-
-## Darstellung von Graphen mit Mathplotlib
+### Darstellung von Graphen mit Mathplotlib
 
 Mathplotlib ist eine mächtige Python-Bibliothek für die Erstellung von Grafiken und Diagrammen. Mit Mathplotlib können wir verschiedene Arten von Graphen, wie Linien-, Balken- oder Kreisdiagramme, erstellen und anpassen.
 
