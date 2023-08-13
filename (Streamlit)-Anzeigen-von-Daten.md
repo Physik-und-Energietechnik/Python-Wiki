@@ -68,7 +68,7 @@ st.markdown(m._repr_html_(), unsafe_allow_html=True)
 Jetzt lass uns das Gelernte in die Praxis umsetzen. Du bist bereit für eine kleine Aufgabe!
 
 ### Aufgabe
-Lade eine CSV-Datei mit deinen eigenen Daten und zeige sie in einer Tabelle und einem Diagramm mit Streamlit an. Verwende anschließend eine Karte, um die geografischen Daten zu visualisieren.
+Zeige mithilfe einer Karte eine beliebige Stadt an.
 
 #### Musterlösung
 Schau dir die Musterlösung an, um zu sehen, wie man die Aufgabe lösen kann:
@@ -76,21 +76,7 @@ Schau dir die Musterlösung an, um zu sehen, wie man die Aufgabe lösen kann:
 ```python
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import folium
-
-# Text anzeigen
-st.title("Meine Datenvisualisierung")
-
-# Daten laden
-data = pd.read_csv("deine_daten.csv")
-
-# Tabelle anzeigen
-st.table(data)
-
-# Diagramm anzeigen
-plt.plot(data["X"], data["Y"])
-st.pyplot()
 
 # Karte erstellen
 m = folium.Map(location=[51.5074, -0.1278], zoom_start=12)
