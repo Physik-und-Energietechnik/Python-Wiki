@@ -49,35 +49,29 @@ plt.show()
 **Erklärung:**
 Der obige Code erstellt einen einfachen Linien-Graphen, in dem die Werte aus den Listen **'x'** und **'y'** als Punkte verbunden werden. Die **'plt.xlabel()'**, **'plt.ylabel()'** und **'plt.title()'** Funktionen werden verwendet, um die Achsenbeschriftungen und den Titel des Graphen festzulegen. Schließlich wird **'plt.show()'** aufgerufen, um den Graphen anzuzeigen.
 
-### Schwierigere Aufgabe: Erstelle einen interaktiven Graphen
+### Schwierigere Aufgabe:
 
-Jetzt wird es etwas anspruchsvoller! Deine Aufgabe besteht darin, einen interaktiven Graphen zu erstellen, der es dem Benutzer ermöglicht, Knoten hinzuzufügen, zu verschieben und zu löschen. Du kannst dabei die Mausereignisse verwenden, um die Interaktion umzusetzen.
+Erstelle ein Balkendiagramm, das die Anzahl der verkauften Äpfel, Bananen und Orangen für einen Monat darstellt.
 
-Hier ist eine Musterlösung, um dich zu inspirieren:
+## Müsterlösung:
 
 ```python
-import tkinter as tk
+import matplotlib.pyplot as plt
 
-# Funktion zum Hinzufügen eines neuen Knotens
-def add_node(event):
-    x = event.x
-    y = event.y
-    canvas.create_oval(x-25, y-25, x+25, y+25, fill="purple")
+fruits = ['Äpfel', 'Bananen', 'Orangen']
+quantity = [50, 80, 30]
 
-root = tk.Tk()  # Das Hauptfenster erstellen
+plt.bar(fruits, quantity, color=['red', 'yellow', 'orange'])
+plt.xlabel('Früchte')
+plt.ylabel('Anzahl')
+plt.title('Verkauf von Früchten')
+plt.show()
 
-canvas = tk.Canvas(root, width=400, height=300)  # Ein Canvas-Widget erstellen
-canvas.pack()
-
-# Mausereignis zum Hinzufügen eines neuen Knotens binden
-canvas.bind("<Button-1>", add_node)
-
-root.mainloop()  # Das Fenster anzeigen
 ```
 
 **Erklärung:**
 
-Mit diesem Code erstellst du ein Tkinter-Fenster mit einem Canvas-Widget. Wenn du auf das Canvas klickst, wird die Funktion add_node aufgerufen, um einen neuen Knoten (in diesem Fall ein lila Kreis) an der Mausposition hinzuzufügen.
+Dieser Code erstellt ein Balkendiagramm, das die Anzahl der verkauften Äpfel, Bananen und Orangen für einen Monat darstellt. Die bar-Funktion von Matplotlib wird verwendet, um die Balken für jede Frucht entsprechend ihrer Verkaufszahlen zu zeichnen. Die 'xlabel','ylabel' und 'title' Funktionen fügen Beschriftungen zum Diagramm hinzu.
 
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie du mit Python und Tkinter Graphen in einer grafischen Benutzeroberfläche darstellen kannst. Wir haben die Grundlagen von Tkinter kennengelernt und sowohl einfache als auch interaktive Graphen erstellt. Du kannst dieses Wissen nutzen, um beeindruckende Datenvisualisierungen, Spiele oder andere spannende Anwendungen zu entwickeln. Lass deiner Kreativität freien Lauf und hab Spaß beim Programmieren!
