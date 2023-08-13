@@ -52,7 +52,38 @@ if __name__ == '__main__':
     GraphApp().run()
 ```
 ## Praxis
-## Aufgabe: Interaktiver Kivy-Graph
+## Aufgabe 1: Kivy-Graph
+Erstelle eine Kivy-Anwendung, welche einen Graph angezeigt, der die Sinus-Funktion darstellt.
+
+### Musterlösung:
+
+```python
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.button import Button
+from kivy.garden.matplotlib import FigureCanvasKivyAgg
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+class InteractiveGraphApp(App):
+    def build(self):
+        x = np.linspace(0, 2 * np.pi, 100)
+        y = np.sin(x)
+
+        plt.plot(x, y)
+        plt.xlabel('X-Achse')
+        plt.ylabel('Y-Achse')
+        plt.title('Sinus-Graph')
+        
+        graph = FigureCanvasKivyAgg(plt.gcf())
+        return graph
+        
+if __name__ == '__main__':
+    InteractiveGraphApp().run()
+```
+
+## Aufgabe 2: Interaktiver Kivy-Graph
 Erstelle eine Kivy-Anwendung, die einen Button enthält. Beim Drücken des Buttons wird ein Graph angezeigt, der die Sinus-Funktion darstellt.
 
 ### Musterlösung:
@@ -61,7 +92,7 @@ Erstelle eine Kivy-Anwendung, die einen Button enthält. Beim Drücken des Butto
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
-from kivy.garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
+from kivy.garden.matplotlib import FigureCanvasKivyAgg
 
 import matplotlib.pyplot as plt
 import numpy as np
