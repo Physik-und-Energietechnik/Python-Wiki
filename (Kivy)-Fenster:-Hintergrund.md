@@ -57,82 +57,56 @@ Erstelle eine Kivy-Anwendung, die ein Fenster mit einem grünen Hintergrund enth
 ```python
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
+from kivy.core.window import Window
 
 class GrueneApp(App):
     def build(self):
+        
         layout = BoxLayout(orientation='vertical', padding=10)
         
         # Ändere die Hintergrundfarbe auf Grün (0, 1, 0, 1)
-        layout.background_color = (0, 1, 0, 1)
+        Window.clearcolor = (0, 1, 0, 1)
         
         return layout
 
 if __name__ == '__main__':
     GrueneApp().run()
 ```
-**Erklärung:**
-
-   Der Code verwendet die Kivy-Bibliothek, um eine einfache App zu erstellen:
-
-   * **Importe:** Zuerst werden die notwendigen Klassen aus der Kivy-Bibliothek importiert, nämlich die App-Klasse und die BoxLayout-Klasse.
-
-   * **App-Klasse erstellen:** Du erstellst eine eigene Klasse, die von der App-Klasse erbt. Das ist sozusagen der Kern deiner App.
-
-   * **build-Methode:** Innerhalb deiner eigenen App-Klasse definierst du die build-Methode. Diese Methode wird aufgerufen, um das Hauptlayout deiner App 
-       zu erstellen.
-
-   * **BoxLayout:** Du erstellst ein vertikales BoxLayout, das als das Hauptlayout deiner App fungiert. BoxLayout ist eine Containerklasse, die ihre 
-       Kinder-Widgets (oder andere Layouts) in einer horizontalen oder vertikalen Richtung anordnet.
-
-   * **Hintergrundfarbe ändern:** Hier änderst du die Hintergrundfarbe deines Layouts auf ein sattes Grün. Das verwendete Farbformat ist RGBA (Rot, Grün, 
-     Blau, Alpha). Da wir Grün wollen, setzen wir den Grün-Wert auf 1, während die anderen Farbkanäle auf 0 bleiben.
-
-   * **Rückgabe des Layouts:** Die build-Methode gibt das erstellte Layout zurück, das dann von Kivy als Hauptlayout der App verwendet wird.
-
-   * **App ausführen:** Der Codeblock if __name__ == '__main__': stellt sicher, dass die App nur ausgeführt wird, wenn das Skript direkt gestartet wird 
-    (nicht importiert).
 
 ### Schwere Aufgabe
-Erstelle eine Kivy-Anwendung mit einem Fenster, das einen Farbverlauf als Hintergrund hat. Zum Beispiel von Blau (oben) nach Weiß (unten).
+Erstelle eine Kivy-Anwendung mit einem Fenster, das einen Farbverlauf als Hintergrund hat. Zum Beispiel von Schwarz (links) nach Blau (rechts).
 
 ### Musterlösung - Schwere Aufgabe:
 ```python
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
+from kivy.graphics import Line, Color
+from kivy.core.window import Window
+
+class Background(BoxLayout):
+    def __init__(self):
+        super(Background, self).__init__()
+        self.width = Window.size[0]
+        self.height = Window.size[1]
+        self.add_gradient()
+
+    def add_gradient(self):
+        alpha_channel_rate = 0
+        increase_rate = 1 / self.width
+
+        for sep in range(self.width):
+            self.canvas.add(Color(rgba=(0, 0, 1, alpha_channel_rate)))
+            self.canvas.add(Line(points=[sep, 0, sep, self.height], width=1))
+            alpha_channel_rate += increase_rate
 
 class FarbverlaufApp(App):
     def build(self):
-        layout = BoxLayout(orientation='vertical', padding=10)
-        
-        # Verlauf von Blau (0.6, 0.8, 1, 1) nach Weiß (1, 1, 1, 1)
-        layout.background = (0.6, 0.8, 1, 1), (1, 1, 1, 1)
-        
-        return layout
+        background = Background()
+        return background
 
 if __name__ == '__main__':
     FarbverlaufApp().run()
 ```
-**Erklärung:**
-
-   Der Code verwendet die Kivy-Bibliothek, um eine einfache App zu erstellen:
-
-   * **Importe:** Zuerst werden die notwendigen Klassen aus der Kivy-Bibliothek importiert, nämlich die App-Klasse und die BoxLayout-Klasse.
-
-   * **App-Klasse erstellen:** Du erstellst eine eigene Klasse, die von der App-Klasse erbt. Das ist sozusagen der Kern deiner App.
-
-   * **build-Methode:** Innerhalb deiner eigenen App-Klasse definierst du die build-Methode. Diese Methode wird aufgerufen, um das Hauptlayout deiner App 
-       zu erstellen.
-
-   * **BoxLayout:** Du erstellst ein vertikales BoxLayout, das als das Hauptlayout deiner App fungiert. BoxLayout ist eine Containerklasse, die ihre 
-       Kinder-Widgets (oder andere Layouts) in einer horizontalen oder vertikalen Richtung anordnet.
-
-   * **Hintergrundfarbe ändern:** Hier änderst du die Hintergrundfarbe deines Layouts auf ein sattes Grün. Das verwendete Farbformat ist RGBA (Rot, Grün, 
-       Blau, Alpha). Da wir Grün wollen, setzen wir den Grün-Wert auf 1, während die anderen Farbkanäle auf 0 bleiben.
-
-   * **Rückgabe des Layouts:** Die build-Methode gibt das erstellte Layout zurück, das dann von Kivy als Hauptlayout der App verwendet wird.
-
-   * **App ausführen:** Der Codeblock if __name__ == '__main__': stellt sicher, dass die App nur ausgeführt wird, wenn das Skript direkt gestartet wird 
-      (nicht importiert).
 
 ## Fazit
 Das war's! Du hast nun gelernt, wie du in Kivy Fenster erstellst und sie mit Hintergrundfarben gestaltest. Von nun an kannst du deine Anwendungen nicht nur funktional, sondern auch optisch ansprechend gestalten. Spiele mit Farben herum und lass deiner Kreativität freien Lauf! Deine Anwendungen werden garantiert so strahlen wie ein Regenbogen.
