@@ -9,20 +9,7 @@ Kivy ist eine Python-Bibliothek, die es dir ermöglicht, plattformübergreifende
 ### Matplotlib - Dein Werkzeug für Graphen
 Matplotlib ist eine beliebte Python-Bibliothek zur Erstellung von Grafiken und Diagrammen. Du kannst damit verschiedenste Arten von Graphen erstellen, angefangen bei einfachen Linien- und Balkendiagrammen bis hin zu komplexen 3D-Plots.
 
-### Allgemeines Code-Beispiel
-```python
-import matplotlib.pyplot as plt
-
-x = [1, 2, 3, 4, 5]
-y = [10, 15, 7, 12, 9]
-
-plt.plot(x, y)
-plt.xlabel('X-Achse')
-plt.ylabel('Y-Achse')
-plt.title('Einfacher Graph')
-plt.show()
-```
-### Explizites Code-Beispiel mit Kivy und Matplotlib:
+### Code-Beispiel mit Kivy und Matplotlib:
 
 ```python
 from kivy.app import App
