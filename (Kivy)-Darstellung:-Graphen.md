@@ -52,46 +52,7 @@ if __name__ == '__main__':
     GraphApp().run()
 ```
 ## Praxis
-### Aufgabe 1: Einfacher Graph
-Erstelle einen einfachen Graphen mit den x-Werten von 1 bis 10 und den y-Werten als Quadratzahlen der x-Werte.
-
-### Musterlösung:
-
-```python
-import matplotlib.pyplot as plt
-
-x = list(range(1, 11))
-y = [val**2 for val in x]
-
-plt.plot(x, y)
-plt.xlabel('X-Achse')
-plt.ylabel('Y-Achse')
-plt.title('Quadratischer Graph')
-plt.show()
-```
-
-**Eklärung:**
-
-   * import 'matplotlib.pyplot' as 'plt' : Diese Zeile importiert die Matplotlib-Bibliothek, die für die Erstellung von Grafiken und Diagrammen verwendet 
-     wird.
-
-   * 'x = list(range(1, 11))' : Hier wird eine Liste x erstellt, die die Werte von 1 bis 10 enthält.
-
-   * 'y = [val**2 for val in x]' : Die Liste y wird mithilfe einer List Comprehension erstellt, wobei für jede Zahl in x das Quadrat dieser Zahl in y 
-      eingefügt wird.
-
-   * 'plt.plot(x, y)' : Mit dieser Zeile wird der eigentliche Graph erstellt, indem die Werte aus x auf der X-Achse und die Werte aus y auf der Y-Achse 
-      platziert werden.
-
-   * 'plt.xlabel('X-Achse')' und 'plt.ylabel('Y-Achse')' : Hier werden die Beschriftungen für die X- und Y-Achsen festgelegt.
-
-   * 'plt.title('Quadratischer Graph')': Diese Zeile setzt den Titel des Graphen.
-
-   * 'plt.show()' : Schließlich wird mit dieser Zeile der erstellte Graph angezeigt.
-
- Der Code erstellt bereits einen einfachen quadratischen Graphen mit Matplotlib. Dieser Graph zeigt die Quadrate der Zahlen von 1 bis 10 auf der Y-Achse. Die X-Achse repräsentiert die Zahlen selbst.
-
-## Aufgabe 2: Interaktiver Kivy-Graph
+## Aufgabe: Interaktiver Kivy-Graph
 Erstelle eine Kivy-Anwendung, die einen Button enthält. Beim Drücken des Buttons wird ein Graph angezeigt, der die Sinus-Funktion darstellt.
 
 ### Musterlösung:
