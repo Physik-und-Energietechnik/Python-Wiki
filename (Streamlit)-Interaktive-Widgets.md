@@ -74,6 +74,52 @@ if button_clicked:
     st.write("Der Button wurde geklickt!")
 ```
 
+- Multiselect: Ermöglicht es Benutzern, mehrere Optionen aus einer Liste auszuwählen.
+```python
+import streamlit as st
+
+# Multiselect definieren
+selected_options = st.multiselect("Wähle mehrere Optionen", ["Option 1", "Option 2", "Option 3"])
+
+# Ausgabe der ausgewählten Optionen
+st.write("Du hast folgende Optionen ausgewählt:", selected_options)
+```
+
+- Checkbox: Ermöglicht es Benutzern, eine oder mehrere Checkboxen auszuwählen.
+```python
+import streamlit as st
+
+# Checkbox definieren
+checked = st.checkbox("Ich stimme den Nutzungsbedingungen zu")
+
+# Ausgabe basierend auf dem Zustand der Checkbox
+if checked:
+    st.write("Vielen Dank für deine Zustimmung!")
+```
+
+- Number Input: Ermöglicht es Benutzern, numerische Werte einzugeben.
+```python
+import streamlit as st
+
+# Number Input definieren
+number = st.number_input("Gib eine Zahl ein", min_value=0, max_value=100, value=50)
+
+# Ausgabe des eingegebenen Werts
+st.wrte("Du hast die Zahl", number, "eingegeben.")
+```
+
+- File Uploader: Ermöglicht es Benutzern, Dateien hochzuladen.
+```python
+import streamlit as st
+
+# File Uploader definieren
+uploaded_file = st.file_uploader("Lade eine Datei hoch")
+
+# Ausgabe basierend auf der hochgeladenen Datei
+if uploaded_file is not None:
+    st.write("Du hast folgende Datei hochgeladen:", uploaded_file.name)
+```
+
 ## Praxis
 
 ### Leichte Aufgabe: BMI-Rechner
