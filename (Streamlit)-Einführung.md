@@ -10,7 +10,7 @@ In diesem Tutorial werden wir Schritt für Schritt lernen, wie man Streamlit ver
 
 Bevor wir richtig loslegen, lass uns kurz über einige grundlegende Konzepte sprechen, die du verstehen musst, um Streamlit zu nutzen. 
 
-Streamlit basiert auf dem Konzept von "Scripts". Ein Streamlit-Skript ist ein einfaches Python-Skript, in dem du deine App erstellst. Es folgt einem einfachen sequentiellen Ablauf, in dem du den Code von oben nach unten schreibst.
+Streamlit basiert auf dem Konzept von "Scripts". Ein Streamlit-Skript ist ein einfaches Python-Skript, in dem du deine App erstellst. Es folgt einem einfachen sequentiellen Ablauf, in dem du den Code von oben nach unten schreibst. Zusätzlich können noch mehrere Seiten erstellt werden, welche in Form von Python-Skripts in einem "pages"-Ordner hinterlegt werden. Zwischen den Seiten kann auf der linken Seite der Streamlit-App gewechselt werden.
 
 Hier ist ein allgemeines Code-Beispiel, das dir eine Vorstellung davon gibt, wie ein Streamlit-Skript aussieht:
 
