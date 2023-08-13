@@ -57,13 +57,21 @@ def greet(name):
 def goodbye(name):
     return f"Auf Wiedersehen, {name}!"
 
-iface = gr.Interface(
-    fn=[greet, goodbye],
-    inputs="text",
-    outputs=["text", "text"],
-    title=["Begrüßung", "Verabschiedung"]  # Titel für die Tabs festlegen
+iface_1 = gr.Interface(
+    fn=greet,
+    inputs=gr.inputs.Textbox(label="Name"),
+    outputs="text",
+    title="Begrüßung"
 )
-iface.launch()
+
+iface_2 = gr.Interface(
+    fn=goodbye,
+    inputs=gr.inputs.Textbox(label="Name"),
+    outputs="text",
+    title="Verabschiedung"
+)
+
+gr.Interface.Tabbed([iface_1, iface_2]).launch()
 ```
 
 In der obigen Musterlösung haben wir zwei Funktionen `greet` und `goodbye`, die jeweils einen Gruß und eine Verabschiedung zurückgeben. Indem wir die Funktionen als Liste an die `fn`-Eigenschaft übergeben und die entsprechenden Titel für die Tabs angeben, erstellen wir eine Benutzeroberfläche mit zwei Tabs. Sie können weitere Funktionen und Tabs hinzufügen, um Ihre Anwendung weiter anzupassen.
@@ -90,13 +98,28 @@ def joke_2(name):
 def joke_3(name):
     return f"Hallo {name}! Warum hat der Informatiker immer eine Brille auf? Weil er nicht C#!"
 
-iface = gr.Interface(
-    fn=[joke_1, joke_2, joke_3],
-    inputs="text",
+iface_1 = gr.Interface(
+    fn=joke_1,
+    inputs=gr.inputs.Textbox(label="Name"),
     outputs="text",
-    title=["Witz 1", "Witz 2", "Witz 3"]
+    title="Witz 1"
 )
-iface.launch()
+
+iface_2 = gr.Interface(
+    fn=joke_2,
+    inputs=gr.inputs.Textbox(label="Name"),
+    outputs="text",
+    title="Witz 2"
+)
+
+iface_3 = gr.Interface(
+    fn=joke_3,
+    inputs=gr.inputs.Textbox(label="Name"),
+    outputs="text",
+    title="Witz 3"
+)
+
+gr.TabbedInterface([iface_1, iface_2, iface_3], title="Witzmaschine").launch()
 ```
 
 ## Fazit
