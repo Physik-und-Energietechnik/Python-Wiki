@@ -112,8 +112,7 @@ def convert_temperature(celsius_temperature):
     fahrenheit_temperature = celsius_temperature * 9/5 + 32
     return f"Die Temperatur in Fahrenheit beträgt: {fahrenheit_temperature}°F"
 
-iface = gr.Interface(fn=convert_temperature, inputs="slider", outputs="text", title="Temperaturumrechner")
-iface.launch()
+gr.Interface(fn=convert_temperature, inputs="slider", outputs="text", title="Temperaturumrechner").launch()
 ```
 
 ### Aufgabe 2
@@ -130,8 +129,7 @@ def calculate_discounted_price(original_price, discount, is_percentage):
         discounted_price = original_price - discount
     return f"Der reduzierte Preis beträgt: {discounted_price}$"
 
-iface = gr.Interface(fn=calculate_discounted_price, inputs=["number", "text", "checkbox"], outputs="text", title="Preisrechner")
-iface.launch()
+gr.Interface(fn=calculate_discounted_price, inputs=["number", "number", "checkbox"], outputs="text", title="Preisrechner").launch()
 ```
 
 ## Fazit
