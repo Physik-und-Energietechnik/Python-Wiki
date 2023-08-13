@@ -84,7 +84,7 @@ Hier müssen wir den Code für die Verarbeitung des Videos einfügen. Wir könne
 
 Jetzt ist es an der Zeit, das erlernte Wissen in der Praxis anzuwenden! Hier sind zwei Aufgaben, eine leichte und eine schwerere, um deine Fähigkeiten zu testen.
 
-### Aufgabe 1
+### Aufgabe
 
 Lese ein Bild ein und geben das Bild mit umgekehrten Farben wieder aus. Das bedeutet, dass jedes Pixel im Bild seine Farbe umgekehrt haben sollte. 
 
@@ -105,29 +105,6 @@ input_image = gr.inputs.Image(type='filepath')
 output_image = gr.outputs.Image(type='numpy')
 
 gr.Interface(fn=invert_colors, inputs=input_image, outputs=output_image).launch()
-```
-
-### Aufgabe 2
-
-Lese ein Video und wandle es in Schwarz-Weiß um. 
-
-Nutze für das umwandeln der Farben auf Schwarz-Weiß für jeden Frame die `cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)`-Funktion der Open-CV (`cv2`) Library.
-
-```python
-import gradio as gr
-import cv2
-
-def convert_to_grayscale(video):
-    grayscale_video = []
-    for frame in video:
-        grayscale_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        grayscale_video.append(grayscale_frame)
-    return grayscale_video
-
-input_video = gr.inputs.Video(type='filepath')
-output_video = gr.outputs.Video(type='numpy')
-
-gr.Interface(fn=convert_to_grayscale, inputs=input_video, outputs=output_video).launch()
 ```
 
 ## Fazit
