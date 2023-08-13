@@ -106,6 +106,8 @@ class FarbverlaufApp(App):
 
 if __name__ == '__main__':
     FarbverlaufApp().run()
+
+# Quelle: https://stackoverflow.com/a/65401770
 ```
 
 ## Fazit
