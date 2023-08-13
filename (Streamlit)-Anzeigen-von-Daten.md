@@ -68,7 +68,7 @@ folium_static(m)
 Jetzt lass uns das Gelernte in die Praxis umsetzen. Du bist bereit für eine kleine Aufgabe!
 
 ### Aufgabe
-Zeige mithilfe einer Karte eine beliebige Stadt an.
+Zeige eine Karte an, welche einen Marker auf Lemgo gesetzt hat.
 
 #### Musterlösung
 Schau dir die Musterlösung an, um zu sehen, wie man die Aufgabe lösen kann:
@@ -80,8 +80,8 @@ import folium
 from streamlit_folium import folium_static
 
 # Karte erstellen
-m = folium.Map(location=[51.5074, -0.1278], zoom_start=12)
-folium.Marker([51.5074, -0.1278], popup="London").add_to(m)
+m = folium.Map(location=[52.02786, 8.89901], zoom_start=12)
+folium.Marker([52.02786, 8.89901], popup="Lemgo").add_to(m)
 
 # Karte anzeigen
 folium_static(m)
