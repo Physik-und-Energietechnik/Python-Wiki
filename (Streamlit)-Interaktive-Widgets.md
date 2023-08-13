@@ -119,6 +119,8 @@ uploaded_file = st.file_uploader("Lade eine Datei hoch")
 if uploaded_file is not None:
     st.write("Du hast folgende Datei hochgeladen:", uploaded_file.name)
 ```
+### Hinweis
+Beachte, dass es noch weitere Widgets für Streamlit gibt, welche hier nicht aufgelistet wurden.
 
 ## Praxis
 
