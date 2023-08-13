@@ -28,8 +28,7 @@ import gradio as gr
 def slider_example(value):
     return f"Ausgewählter Wert: {value}"
 
-iface = gr.Interface(fn=slider_example, inputs="slider", outputs="text")
-iface.launch()
+gr.Interface(fn=slider_example, inputs="slider", outputs="text").launch()
 ```
 
 Führe den Code aus und sieh dir die Schieberegler-Benutzeroberfläche an! Du kannst den Wert anpassen und die Ausgabe beobachten.
@@ -63,10 +62,7 @@ def checkbox_example(option1, option2):
         return "Option 2 ist aktiviert!"
     return "Keine Option ausgewählt."
 
-iface = gr.Interface(fn=checkbox_example, inputs=["checkbox", "checkbox"], outputs="text")
-iface.launch
-
-()
+gr.Interface(fn=checkbox_example, inputs=["checkbox", "checkbox"], outputs="text").launch()
 ```
 
 Führe den Code aus und sieh dir die Checkboxen-Benutzeroberfläche an! Du kannst die Optionen an- oder abwählen und die Ausgabe überprüfen.
@@ -93,8 +89,7 @@ import gradio as gr
 def dropdown_example(option):
     return f"Ausgewählte Option: {option}"
 
-iface = gr.Interface(fn=dropdown_example, inputs="dropdown", outputs="text", choices=["Option 1", "Option 2", "Option 3"])
-iface.launch()
+gr.Interface(fn=dropdown_example, inputs="dropdown", outputs="text", choices=["Option 1", "Option 2", "Option 3"]).launch()
 ```
 
 Führe den Code aus und sieh dir die Dropdown-Menü-Benutzeroberfläche an! Du kannst eine Option auswählen und die Ausgabe überprüfen.
