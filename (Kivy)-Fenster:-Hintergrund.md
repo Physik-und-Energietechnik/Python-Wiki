@@ -16,17 +16,14 @@ Schauen wir uns an, wie man die Hintergrundfarbe eines Kivy-Fensters ändert:
 ```python
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.label import Label
+from kivy.core.window import Window
 
-class FarbigeApp(App):
+class GrueneApp(App):
     def build(self):
         layout = BoxLayout(orientation='vertical', padding=10)
         
         # Ändere die Hintergrundfarbe auf Hellblau (0.6, 0.8, 1, 1)
-        layout.background_color = (0.6, 0.8, 1, 1)
-        
-        label = Label(text="Ich habe einen coolen Hintergrund!", font_size=20)
-        layout.add_widget(label)
+        Window.clearcolor = (0.6, 0.8, 1, 1)
         
         return layout
 
