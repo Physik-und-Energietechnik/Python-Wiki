@@ -52,16 +52,16 @@ Wenn du geografische Daten hast, kannst du sie mit Streamlit auf interaktiven Ka
 
 ```python
 import streamlit as st
+import pandas as pd
 import folium
+from streamlit_folium import folium_static
 
 # Karte erstellen
 m = folium.Map(location=[51.5074, -0.1278], zoom_start=12)
-
-# Marker hinzufügen
 folium.Marker([51.5074, -0.1278], popup="London").add_to(m)
 
 # Karte anzeigen
-st.markdown(m._repr_html_(), unsafe_allow_html=True)
+folium_static(m)
 ```
 
 ## Praxis
@@ -77,13 +77,14 @@ Schau dir die Musterlösung an, um zu sehen, wie man die Aufgabe lösen kann:
 import streamlit as st
 import pandas as pd
 import folium
+from streamlit_folium import folium_static
 
 # Karte erstellen
 m = folium.Map(location=[51.5074, -0.1278], zoom_start=12)
 folium.Marker([51.5074, -0.1278], popup="London").add_to(m)
 
 # Karte anzeigen
-st.markdown(m._repr_html_(), unsafe_allow_html=True)
+folium_static(m)
 ```
 
 Hinweis: Stelle sicher, dass du deine eigene CSV-Datei mit dem richtigen Dateinamen in den Code einfügst.
