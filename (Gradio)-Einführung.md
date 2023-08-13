@@ -68,8 +68,7 @@ import gradio as gr
 def greet(name):
     return f"Hallo, {name}! Willkommen bei Gradio."
 
-iface = gr.Interface(fn=greet, inputs="text", outputs="text")
-iface.launch()
+gr.Interface(fn=greet, inputs="text", outputs="text").launch()
 ```
 
 ### Aufgabe 2
@@ -91,8 +90,7 @@ def calculate(x, y, operator):
     elif operator == "/":
         return x / y
 
-iface = gr.Interface(fn=calculate, inputs=["number", "number", "text"], outputs="number")
-iface.launch()
+gr.Interface(fn=calculate, inputs=["number", "number", "text"], outputs="number").launch()
 ```
 
 ## Fazit
