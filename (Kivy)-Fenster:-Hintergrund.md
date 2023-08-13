@@ -10,22 +10,7 @@ In der Welt von Kivy sind Fenster deine Leinwand, auf der du deine kreativen Ide
 
 2. **Hintergrundfarben:** Du kannst die Hintergrundfarbe eines Fensters leicht ändern, um deiner Anwendung eine persönliche Note zu verleihen.
 
-### Allgemeines Code-Beispiel
-Bevor wir uns die spezifischen Beispiele ansehen, werfen wir einen Blick auf einen allgemeinen Code, der dir das Erstellen eines Kivy-Fensters zeigt:
-
-```python
-from kivy.app import App
-from kivy.uix.boxlayout import BoxLayout
-
-class MeinApp(App):
-    def build(self):
-        layout = BoxLayout(orientation='vertical')
-        return layout
-
-if __name__ == '__main__':
-    MeinApp().run()
-```
-### Explizites Code-Beispiel - Hintergrundfarbe ändern
+### Code-Beispiel - Hintergrundfarbe ändern
 Schauen wir uns an, wie man die Hintergrundfarbe eines Kivy-Fensters ändert:
 
 ```python
