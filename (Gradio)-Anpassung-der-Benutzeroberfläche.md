@@ -72,24 +72,7 @@ In der obigen Musterlösung haben wir zwei Funktionen `greet` und `goodbye`, die
 
 Jetzt, da Sie die Grundlagen der Farbanpassung, Layout-Anpassung und Tab-Erstellung kennen, ist es Zeit, Ihr Wissen in die Praxis umzusetzen!
 
-### Aufgabe 1
-
-Erstellen Sie eine Benutzeroberfläche, die den Namen des Benutzers entgegennimmt und ihn mit einem lustigen Spruch begrüßt. Passen Sie dabei die Hintergrundfarbe auf die Farbe `neon` an.
-
-**Musterlösung:**
-
-```python
-import gradio as gr
-
-def greet(name):
-    return f"Hallo {name}! Warum hat der Python-Entwickler die Kobra nicht benutzt? Weil sie Python war!"
-
-iface = gr.Interface(fn=greet, inputs="text", outputs="text")
-iface.interface_style = "bricks"
-iface.launch()
-```
-
-### Aufgabe 2
+### Aufgabe
 
 Erstellen Sie eine Benutzeroberfläche mit drei Tabs, die verschiedene Funktionen für lustige Sprüche enthält. Jeder Tab soll einen anderen Spruch anzeigen, wenn der Benutzer seinen Namen eingibt.
 
