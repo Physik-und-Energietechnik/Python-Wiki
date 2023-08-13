@@ -96,12 +96,13 @@ Nutze für das umkehren der Farben die Funktion `cv2.bitwise_not(image)`-Funktio
 import gradio as gr
 import cv2
 
-def invert_colors(image):
+def invert_colors(image_path):
+    image = cv2.imread(image_path)
     inverted_image = cv2.bitwise_not(image)
     return inverted_image
 
-input_image = gr.inputs.Image()
-output_image = gr.outputs.Image()
+input_image = gr.inputs.Image(type='filepath')
+output_image = gr.outputs.Image(type='numpy')
 
 gr.Interface(fn=invert_colors, inputs=input_image, outputs=output_image).launch()
 ```
@@ -123,8 +124,8 @@ def convert_to_grayscale(video):
         grayscale_video.append(grayscale_frame)
     return grayscale_video
 
-input_video = gr.inputs.Video()
-output_video = gr.outputs.Video()
+input_video = gr.inputs.Video(type='filepath')
+output_video = gr.outputs.Video(type='numpy')
 
 gr.Interface(fn=convert_to_grayscale, inputs=input_video, outputs=output_video).launch()
 ```
