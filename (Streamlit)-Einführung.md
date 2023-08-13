@@ -21,11 +21,8 @@ import streamlit as st
 # Erstelle eine Überschrift
 st.title("Meine erste Streamlit-App")
 
-# Eingabe einer Zahl
-number = st.number_input("Gib eine Zahl ein:")
-
-# Zahl ausgeben
-st.write(f"Deine Zahl: {number:.2f}")
+# Erstelle ein Textfeld
+st.write("Willkommen zu meiner Streamlit-App!")
 ```
 Dieses Beispiel soll dir einen ersten Eindruck davon geben, wie Streamlit funktioniert. Nun lass uns weitermachen und einige praktische Übungen machen!
 
@@ -33,9 +30,9 @@ In Streamlit kannst du verschiedene Widgets verwenden, um mit deinen Benutzern z
 
 ## Praxis
 
-### Aufgabe: BMI-Rechner
+### Aufgabe: App mit Überschrift und Text
 
-Für unsere erste Übung werden wir einen einfachen BMI-Rechner erstellen. Du wirst in der Lage sein, dein Gewicht und deine Größe einzugeben, und Streamlit wird deinen BMI berechnen. Versuche, diesen Code in deinem Streamlit-Skript auszuführen und spiele mit verschiedenen Gewichts- und Größenwerten herum, um den BMI zu berechnen.
+Für unsere erste Übung werden wir eine einfache App erstellen, die eine Überschrift und einen Text enthält. Verwende die Streamlit-Dokumentation, um herauszufinden, wie du eine Überschrift und einen Text in deiner App erstellen kannst. Experimentiere mit verschiedenen Textformatierungen und Überschriften, um zu sehen, wie sie sich auf die Darstellung auswirken.
 
 **Musterlösung:**
 
@@ -44,17 +41,11 @@ Für unsere erste Übung werden wir einen einfachen BMI-Rechner erstellen. Du wi
 import streamlit as st
 
 # Erstelle eine Überschrift
-st.title("BMI-Rechner")
+st.title("Meine erste Streamlit-App")
 
-# Frage den Benutzer nach Gewicht und Größe
-weight = st.number_input("Gib dein Gewicht in kg ein:")
-height = st.number_input("Gib deine Größe in cm ein:")
-
-# Berechne den BMI
-bmi = weight / ((height/100) ** 2)
-
-# Zeige den berechneten BMI an
-st.write(f"Dein BMI beträgt: {bmi:.2f}")
+# Füge Text hinzu
+st.write("Willkommen zu meiner Streamlit-App! Hier kannst du ...")
+st.write("Diese App wurde mit Streamlit erstellt, um ...")
 ```
 
 ## Fazit
