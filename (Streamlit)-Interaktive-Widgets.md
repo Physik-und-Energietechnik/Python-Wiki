@@ -129,11 +129,12 @@ Lass uns dein erlerntes Wissen über interaktive Widgets in die Praxis umsetzen!
 
 Hier ist eine Musterlösung für den BMI-Rechner:
 ```python
+# Importiere das Streamlit-Modul
 import streamlit as st
 
 # Gewicht und Körpergröße eingeben
-weight = st.number_input("Gib dein Gewicht in kg ein:")
-height = st.number_input("Gib deine Körpergröße in cm ein:")
+weight = st.number_input("Gib dein Gewicht in kg ein:", min_value=75.0, step=0.1, format="%.1f")
+height = st.number_input("Gib deine Körpergröße in cm ein:", min_value=180)
 
 # BMI berechnen
 bmi = weight / ((height / 100) ** 2)
@@ -152,12 +153,13 @@ Bist du bereit für eine etwas anspruchsvollere Aufgabe? Versuche einen Kreditre
 
 Hier ist eine Musterlösung für den Kreditrechner:
 ```python
+# Importiere das Streamlit-Modul
 import streamlit as st
 
 # Kreditbetrag, Zinssatz und Laufzeit eingeben
-loan_amount = st.number_input("Gib den Kreditbetrag ein:")
-interest_rate = st.slider("Wähle den Zinssatz (%)", 0.0, 10.0, 5.0)
-loan_term = st.number_input("Gib die Laufzeit in Jahren ein:")
+loan_amount = st.number_input("Gib den Kreditbetrag ein:", format="%.2f", value=1000.00, step=100.00, min_value=100.00, max_value=10000.00)
+interest_rate = st.slider("Wähle den Zinssatz (%)", 0.1, 10.0, 5.0, format="%.1f")
+loan_term = st.number_input("Gib die Laufzeit in Jahren ein:", format="%.1f", value=5.0, step=0.5, min_value=0.5, max_value=30.0)
 
 # Zinssatz in Dezimalzahl umwandeln
 interest_rate = interest_rate / 100
@@ -171,8 +173,8 @@ monthly_payment = (loan_amount * monthly_interest_rate) / (1 - (1 + monthly_inte
 total_payment = monthly_payment * num_payments
 
 # Ergebnisse anzeigen
-st.write("Monatliche Rate:", monthly_payment)
-st.write("Gesamtzahlung:", total_payment)
+st.write("Monatliche Rate:", f'{monthly_payment:.2f} €')
+st.write("Gesamtzahlung:", f'{total_payment:.2f} €')
 ```
 
 ## Fazit
