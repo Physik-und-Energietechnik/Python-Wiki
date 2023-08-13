@@ -133,8 +133,8 @@ Hier ist eine Musterlösung für den BMI-Rechner:
 import streamlit as st
 
 # Gewicht und Körpergröße eingeben
-weight = st.number_input("Gib dein Gewicht in kg ein:", min_value=75.0, step=0.1, format="%.1f")
-height = st.number_input("Gib deine Körpergröße in cm ein:", min_value=180)
+weight = st.number_input("Gib dein Gewicht in kg ein:", value=75.0, step=0.1, format="%.1f", min_value=0.1)
+height = st.number_input("Gib deine Körpergröße in cm ein:", value=180, min_value=1)
 
 # BMI berechnen
 bmi = weight / ((height / 100) ** 2)
