@@ -44,6 +44,8 @@ Jetzt bist du dran! Verwende den Code aus dem vorherigen Beispiel, um den Hinter
 Hier ist eine mögliche Musterlösung für die leichte Aufgabe:
 
 ```python
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtGui import QPalette, QColor
 
