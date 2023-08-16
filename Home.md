@@ -22,7 +22,7 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Python.math]] | Grundlegende mathematische Funktionen und Variablen, die bereits in Python integriert sind|
-| [[NumPy]] | Beschreibung... |
+| [[NumPy]] | Routinen und n-dimensionale Arrays|
 | [[SciPy]] | Beschreibung... |
 | [[SymPy]] | Beschreibung... |
 
