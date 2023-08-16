@@ -85,9 +85,7 @@ Datenbanken
 | [[Datenbankadministration]] | Grundlagen der Datenbankadministration: Aufgaben, Verantwortlichkeiten und bewährte Verfahren bei der Verwaltung einer Datenbank. |
 | [[Datenbankadministration - Vertiefung]] | Vertieftes Wissen über Datenbankadministration: Fortgeschrittene Konzepte und Techniken zur effektiven Verwaltung und Wartung von Datenbanken. |
 | [[Datenbankdesign]] | Grundlagen des Datenbankdesigns: Planung, Entwurf und Umsetzung einer effizienten und gut strukturierten Datenbank. |
-|
-
- [[Schlüssel in Datenbanken]] | Verwendung von Schlüsseln in Datenbanken: Primärschlüssel, Fremdschlüssel und deren Bedeutung für die Datenintegrität und -beziehungen. |
+| [[Schlüssel in Datenbanken]] | Verwendung von Schlüsseln in Datenbanken: Primärschlüssel, Fremdschlüssel und deren Bedeutung für die Datenintegrität und -beziehungen. |
 | [[Datenbankoptimierung]] | Grundlagen der Datenbankoptimierung: Techniken und Methoden zur Verbesserung der Leistung und Effizienz von Datenbankabfragen. |
 | [[Datenbankoptimierung - Vertiefung]] | Vertieftes Wissen zur Datenbankoptimierung: Fortgeschrittene Optimierungstechniken und Best Practices für komplexe Datenbankumgebungen. |
 | [[Skalierbarkeit]] | Skalierbarkeit von Datenbanken: Konzepte und Strategien zur Bewältigung von steigenden Datenmengen und Anfragen. |
@@ -104,8 +102,6 @@ Datenbanken
 | [[Datenbank-Performance-Monitoring]] | Überwachung der Datenbankleistung: Methoden und Werkzeuge zur kontinuierlichen Überwachung und Optimierung der Datenbankleistung. |
 | [[Datenbank-Partitionierung]] | Datenbankpartitionierung: Aufteilung großer Datenbanken in kleinere Teile zur Verbesserung der Leistung und Verwaltung. |
 | [[Datenbank-Auditierung]] | Datenbank-Auditierung: Überprüfung und Überwachung von Datenbankaktivitäten zur Sicherstellung der Datenintegrität und Compliance. |
-| [[Datenbank-
-
-Integration mit externen Systemen]] | Integration von Datenbanken mit externen Systemen: Kommunikation und Datenaustausch zwischen Datenbanken und anderen Anwendungen oder Diensten. |
+| [[Datenbank-Integration mit externen Systemen]] | Integration von Datenbanken mit externen Systemen: Kommunikation und Datenaustausch zwischen Datenbanken und anderen Anwendungen oder Diensten. |
 | [[Datenbank-Testing und Qualitätssicherung]] | Datenbank-Testing und Qualitätssicherung: Methoden und Praktiken zur Gewährleistung der Zuverlässigkeit und Qualität von Datenbankanwendungen. |
 
