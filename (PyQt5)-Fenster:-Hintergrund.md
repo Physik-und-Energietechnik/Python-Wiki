@@ -70,6 +70,8 @@ Jetzt machen wir einen Schritt weiter. Ändere den Hintergrund in deinem Fenster
 Hier ist eine mögliche Musterlösung für die schwierigere Aufgabe:
 
 ```python
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit, QPushButton
 from PyQt5.QtGui import QPalette, QColor
 
