@@ -21,7 +21,7 @@
 ## Wissenschaftliches Rechnen
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Python.math]] | Beschreibung... |
+| [[Python.math]] | Grundlegende mathematische Funktionen und Variablen, die bereits in Python integriert sind|
 | [[NumPy]] | Beschreibung... |
 | [[SciPy]] | Beschreibung... |
 | [[SymPy]] | Beschreibung... |
