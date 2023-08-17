@@ -128,7 +128,7 @@ image2 = QPixmap('bild2.png')
 # Initialisiere Labels mit Bildern
 image_label1 = QLabel(window)
 image_label1.setPixmap(image1)
-image_label1.setGeometry(50, 50, image1.width(), image1.height())
+image_label1.setGeometry(200, 50, image1.width(), image1.height())
 
 image_label2 = QLabel(window)
 image_label2.setPixmap(image2)
