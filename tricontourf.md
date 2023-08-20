@@ -99,4 +99,3 @@ plt.show()
 ```
 
 Herzlichen Glückwunsch! Du hast soeben eine Reise in die wunderbare Welt von `tricontourf` unternommen. Jetzt kannst du Daten nicht nur visualisieren, sondern auch mit Farben spielen wie ein wahrer Künstler - oder vielleicht wie ein verrückter Wissenschaftler. Keep coding!
-```
