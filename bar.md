@@ -177,5 +177,8 @@ In dieser Musterlösung verwenden wir die `numpy`-Bibliothek, um die Positionen 
 Das war's für den Bar Plot mit Matplotlib! Du hast jetzt die Grundlagen, um Daten in Balkenform darzustellen und sie farbenfroh zu gestalten. Viel Spaß beim Erkunden weiterer Möglichkeiten und beeindrucke deine Freunde mit deinen fantastischen Datenvisualisierungskünsten!
 
 ## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/plot_types/basic/bar.html
 ### W3Schools
+https://www.w3schools.com/python/matplotlib_bars.asp
 ### YouTube
