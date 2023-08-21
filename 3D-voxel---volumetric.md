@@ -184,7 +184,7 @@ plt.show()
 
 Führe den Code aus, und du wirst ein zufälliges Volumen mit grünen Voxels sehen. Fantastische Arbeit! Du hast gerade gezeigt, dass du mit Matplotlib die faszinierende Welt der 3D-Daten beherrschen kannst!
 
-## Fazit
+##Fazit
 
 Herzlichen Glückwunsch, Python-Newbie! Du hast erfolgreich die Grundlagen der 3D-Voxel- und Volumetrik-Visualisierung mit Matplotlib gelernt. Du kennst jetzt die Theorie hinter Voxels und Volumendaten, wie man sie in Matplotlib darstellt und wie man einfache und komplexe Volumen erstellt.
 
