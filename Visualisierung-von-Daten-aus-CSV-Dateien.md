@@ -1,7 +1,7 @@
 # Matplotlib - Visualisierung von Daten aus CSV-Dateien
 
 ## Einführung
-Willkommen zu unserem Python-Tutorial über die Visualisierung von Daten aus CSV-Dateien mit Matplotlib! In diesem Tutorial lernst du, wie du Daten aus einer CSV-Datei lesen und sie mithilfe der Matplotlib-Bibliothek in Diagrammen darstellen kannst. 
+Willkommen zu unserem Python-Tutorial über die Visualisierung von Daten aus CSV-Dateien mit Matplotlib! In diesem Abschnitt lernst du, wie du Daten aus einer CSV-Datei lesen und sie mithilfe der Matplotlib-Bibliothek in Diagrammen darstellen kannst. 
 
 Visualisierung ist ein mächtiges Werkzeug, um Daten zu verstehen und Muster oder Trends zu erkennen. Mit Matplotlib kannst du Diagramme wie Linien-, Balken- und Streudiagramme erstellen, um deine Daten visuell darzustellen. Dieses Wissen kann in vielen Bereichen nützlich sein, wie z.B. der Analyse von Finanzdaten, dem Verständnis von Klimatrends oder der Visualisierung von Ergebnissen wissenschaftlicher Studien.
 
@@ -64,9 +64,7 @@ preise = [0.5, 0.3, 0.4]
 
 plt.bar(obstsorten, preise)
 plt.xlabel('Obstsorte')
-plt.ylabel('Preis
-
-')
+plt.ylabel('Preis')
 plt.title('Preise von Obstsorten')
 
 plt.show()
@@ -74,7 +72,7 @@ plt.show()
 
 ## Praxis
 
-### Leichte Aufgabe
+###  Aufgabe 1
 Lass uns mit einer einfachen Aufgabe beginnen. Angenommen, du hast eine CSV-Datei mit dem Namen "temperatur.csv", die die monatlichen Durchschnittstemperaturen eines Jahres enthält. Deine Aufgabe besteht darin, die Temperaturen in einem Linienplot mit Matplotlib zu visualisieren.
 
 Musterlösung:
@@ -104,7 +102,7 @@ plt.title('Monatliche Durchschnittstemperaturen')
 plt.show()
 ```
 
-### Schwierige Aufgabe
+### Aufgabe 2
 Für die schwierigere Aufgabe nehmen wir an, dass wir eine CSV-Datei mit dem Namen "aktien.csv" haben, die die Schlusskurse verschiedener Aktien für jeden Tag enthält. Deine Aufgabe besteht darin, die Schlusskurse von zwei Aktien in einem Streudiagramm mit Matplotlib darzustellen.
 
 Musterlösung:
