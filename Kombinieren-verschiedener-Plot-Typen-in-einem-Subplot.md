@@ -50,9 +50,7 @@ fig, axes = plt.subplots(nrows=1, ncols=2)
 
 # Erstes Plot-Element: Balkendiagramm der Verkaufszahlen
 products = ['Produkt A', 'Produkt B', 'Produkt C']
-sales = [50, 80, 
-
-120]
+sales = [50, 80, 120]
 axes[0].bar(products, sales)
 
 # Zweites Plot-Element: Liniendiagramm der Umsätze
@@ -80,7 +78,7 @@ In diesem Beispiel haben wir zwei Plot-Elemente hinzugefügt: ein Balkendiagramm
 
 Jetzt ist es Zeit, das erlernte Wissen in die Praxis umzusetzen! Wir werden zwei Aufgaben haben: eine leichte und eine schwerere. Du kannst deine Lösungen mit den Musterlösungen vergleichen, die am Ende angegeben sind.
 
-### Leichte Aufgabe
+### Aufgabe 1
 
 Erstelle einen Subplot mit einem Balkendiagramm und einem Liniendiagramm. Das Balkendiagramm soll die Anzahl der verkauften Einheiten pro Tag zeigen, und das Liniendiagramm soll den Umsatz pro Tag anzeigen. Verwende die folgenden Daten:
 
@@ -90,7 +88,7 @@ units_sold = [30, 40, 25, 55, 35]
 revenue = [500, 700, 400, 900, 600]
 ```
 
-### Schwere Aufgabe
+### Aufgabe 2
 
 Erweitere den Subplot aus der leichten Aufgabe, indem du einen Scatterplot hinzufügst. Der Scatterplot soll das Verhältnis zwischen den verkauften Einheiten und dem Umsatz pro Tag zeigen. Verwende weiterhin die oben genannten Daten.
 
@@ -100,7 +98,7 @@ Viel Spaß beim Codieren!
 
 Hier sind die Musterlösungen für die leichte und die schwere Aufgabe:
 
-**Leichte Aufgabe:**
+**Aufgabe 1:**
 
 ```python
 import matplotlib.pyplot as plt
@@ -133,7 +131,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-**Schwere Aufgabe:**
+**Aufgabe 2:**
 
 ```python
 import matplotlib.pyplot as plt
