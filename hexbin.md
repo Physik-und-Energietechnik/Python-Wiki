@@ -1,7 +1,5 @@
-# Matplotlib - Der hexbin Plot
-
 ## Einführung
-Willkommen zurück, ihr Python-Abenteurer! Heute begeben wir uns auf eine abenteuerliche Reise in die Welt des hexbin Plots mit Matplotlib. Aber Moment mal, was zur Hölle ist ein hexbin Plot überhaupt? Nun, lasst mich es euch erklären. Der hexbin Plot ist ein mächtiges Werkzeug, das uns dabei hilft, große Datenmengen zu visualisieren und Muster in den Daten zu entdecken. Es ist wie ein Schatzkartenleser für eure Daten! In diesem Tutorial werdet ihr lernen, wie man diesen geheimnisvollen Plot erstellt und wie man ihn in eure eigenen Projekte einbindet.
+Heute begeben wir uns auf eine abenteuerliche Reise in die Welt des hexbin Plots mit Matplotlib. Aber Moment mal, was zur Hölle ist ein hexbin Plot überhaupt? Nun, lasst mich es euch erklären. Der hexbin Plot ist ein mächtiges Werkzeug, das uns dabei hilft, große Datenmengen zu visualisieren und Muster in den Daten zu entdecken. Es ist wie ein Schatzkartenleser für eure Daten! In diesem Tutorial werdet ihr lernen, wie man diesen geheimnisvollen Plot erstellt und wie man ihn in eure eigenen Projekte einbindet.
 
 ## Theorie
 ### Grundlagen des hexbin Plots
@@ -60,7 +58,7 @@ plt.ylabel('Y-Achse')
 plt.show()
 ```
 
-### Musterlösung 1
+Musterlösung 1
 Hier ist eine mögliche Lösung für Aufgabe 1. Die `gridsize` wurde auf 15 gesetzt, aber ihr könnt sie anpassen, um verschiedene Effekte zu erzielen.
 
 ```python
@@ -81,7 +79,7 @@ plt.show()
 ```
 
 ### Aufgabe 2
-Gut gemacht, ihr abenteuerlustigen Python-Neulinge! Ihr habt die erste Aufgabe gemeistert. Jetzt ist es Zeit, euch einer etwas anspruchsvolleren Aufgabe zu stellen. Eure Mission besteht darin, einen hexbin Plot für zwei Datenarrays zu erstellen: `x_data` und `y_data`. Experimentiert mit verschiedenen `gridsize`-Werten und findet heraus, welcher Wert die besten Einblicke in eure Daten bietet.
+Gut gemacht, ihr habt die erste Aufgabe gemeistert. Jetzt ist es Zeit, euch einer etwas anspruchsvolleren Aufgabe zu stellen. Eure Mission besteht darin, einen hexbin Plot für zwei Datenarrays zu erstellen: `x_data` und `y_data`. Experimentiert mit verschiedenen `gridsize`-Werten und findet heraus, welcher Wert die besten Einblicke in eure Daten bietet.
 
 ```python
 import matplotlib.pyplot as plt
@@ -101,7 +99,7 @@ plt.ylabel('Y-Achse')
 plt.show()
 ```
 
-### Musterlösung 2
+Musterlösung 2
 Hier ist eine mögliche Lösung für Aufgabe 2. Wir haben die `gridsize` auf 20 gesetzt, aber probiert verschiedene Werte aus, um verschiedene Effekte zu erzielen.
 
 ```python
@@ -121,5 +119,9 @@ plt.ylabel('Y-Achse')
 # Plot anzeigen
 plt.show()
 ```
-
+## Fazit
 Gute Arbeit, ihr wackeren Python-Abenteurer! Ihr habt nun die faszinierende Welt des hexbin Plots mit Matplotlib erkundet. Ihr könnt jetzt Daten visualisieren und Muster aufspüren wie echte Daten-Detektive. Macht euch bereit für weitere aufregende Abenteuer in der Python-Welt!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
