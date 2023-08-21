@@ -2,7 +2,7 @@
 
 ### Einführung
 
-Herzlich willkommen zum Python-Tutorial über das Erstellen von benutzerdefinierten Plot-Typen mit Matplotlib! In diesem Tutorial werden wir lernen, wie wir über die Standardplots hinausgehen können, um unsere eigenen einzigartigen Diagramme zu erstellen. 
+Herzlich willkommen zum Python-Tutorial über das Erstellen von benutzerdefinierten Plot-Typen mit Matplotlib! In diesem Abschnitt werden wir lernen, wie wir über die Standardplots hinausgehen können, um unsere eigenen einzigartigen Diagramme zu erstellen. 
 
 Neben den bereits vorhandenen Plot-Typen bietet Matplotlib auch die Möglichkeit, eigene benutzerdefinierte Plot-Typen zu erstellen, die unseren spezifischen Anforderungen entsprechen.
 
@@ -62,11 +62,9 @@ In diesem Beispiel erstellen wir eine Klasse namens `HupenPlot`, die von `plt.pl
 
 ### Praxis
 
-Jetzt ist es Zeit, unser erlangtes Wissen in die Praxis umzusetzen
+Jetzt ist es Zeit, unser erlangtes Wissen in die Praxis umzusetzen!
 
-!
-
-#### Leichte Aufgabe
+#### Aufgabe 1
 
 Erstellen Sie einen benutzerdefinierten Plot-Typ namens "WackelPlot", der die gegebenen x- und y-Koordinaten durch eine wackelnde Linie verbindet. Die Wackelbewegung soll einen humorvollen Effekt erzeugen. Führen Sie dann den Plot aus.
 
@@ -99,7 +97,7 @@ wp.plot()
 plt.show()
 ```
 
-#### Schwere Aufgabe
+#### Aufgabe 2
 
 Erstellen Sie einen benutzerdefinierten Plot-Typ namens "Farbenexplosion", der die gegebenen x- und y-Koordinaten als Punkte darstellt. Jeder Punkt soll eine zufällige Farbe haben, um eine spannende und farbenfrohe Visualisierung zu erzeugen. Führen Sie dann den Plot aus.
 
