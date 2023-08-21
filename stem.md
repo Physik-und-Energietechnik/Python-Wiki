@@ -80,5 +80,11 @@ plt.ylabel('Temperaturen')
 plt.title('Temperaturverlauf')
 plt.show()
 ```
-
+## Fazit
 Viel Spaß beim Experimentieren mit dem stem Plot! Lass deiner Kreativität freien Lauf und entdecke die vielfältigen Möglichkeiten der Datenvisualisierung.
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/plot_types/basic/stem.html
+### W3Schools
+### YouTube
