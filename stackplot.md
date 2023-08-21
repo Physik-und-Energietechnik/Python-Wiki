@@ -63,7 +63,8 @@ In diesem Beispiel haben wir die Umsätze für drei verschiedene Kategorien übe
 
 Nun, da Sie die Theorie hinter dem `stackplot` Plot kennen, ist es Zeit, Ihr neu erworbenes Wissen in die Praxis umzusetzen. Machen Sie sich bereit für ein paar Übungen!
 
-**Aufgabe 1:** Stellen Sie sich vor, Sie haben Daten über die Verkaufszahlen von drei verschiedenen Produkten in den Monaten Januar bis Mai. Erstellen Sie ein `stackplot` Diagramm, das die Verkaufszahlen für jedes Produkt darstellt. Vergessen Sie nicht, eine geeignete Legende und Achsentitel hinzuzufügen.
+### Aufgabe 1
+Stellen Sie sich vor, Sie haben Daten über die Verkaufszahlen von drei verschiedenen Produkten in den Monaten Januar bis Mai. Erstellen Sie ein `stackplot` Diagramm, das die Verkaufszahlen für jedes Produkt darstellt. Vergessen Sie nicht, eine geeignete Legende und Achsentitel hinzuzufügen.
 
 ```python
 import matplotlib.pyplot as plt
@@ -90,7 +91,8 @@ plt.ylabel('Verkaufszahlen')
 plt.show()
 ```
 
-**Aufgabe 2:** Stellen Sie sich vor, Sie haben Daten über die Verteilung der Niederschläge in drei verschiedenen Regionen (A, B, C) über die vier Jahreszeiten (Frühling, Sommer, Herbst, Winter). Erstellen Sie ein `stackplot` Diagramm, das die Verteilung der Niederschläge in jeder Region zeigt. Fügen Sie eine geeignete Legende und Achsentitel hinzu.
+### Aufgabe 2
+Stellen Sie sich vor, Sie haben Daten über die Verteilung der Niederschläge in drei verschiedenen Regionen (A, B, C) über die vier Jahreszeiten (Frühling, Sommer, Herbst, Winter). Erstellen Sie ein `stackplot` Diagramm, das die Verteilung der Niederschläge in jeder Region zeigt. Fügen Sie eine geeignete Legende und Achsentitel hinzu.
 
 ```python
 import matplotlib.pyplot as plt
@@ -120,8 +122,8 @@ plt.show()
 ## Fazit
 Herzlichen Glückwunsch! Sie haben gerade den `stackplot` Plot gemeistert. Mit diesem Wissen können Sie nun beeindruckende stapelbasierte Diagramme erstellen und Ihre Daten zum Leben erwecken. Gehen Sie raus und setzen Sie Ihre Python-Künste ein, um die Welt der Datenvisualisierung zu erobern!
 
-Happy Coding!
-
 ## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/plot_types/basic/stackplot.html
 ### W3Schools
 ### YouTube
