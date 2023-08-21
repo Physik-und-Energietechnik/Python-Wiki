@@ -123,6 +123,8 @@ Führe den Code aus, um den Bereich zwischen den beiden Kurven zu sehen!
 Das war's schon für den `fill_between` Plot in Matplotlib. Du hast jetzt gelernt, wie du Bereiche zwischen Linien oder Kurven einfärben kannst, um deine Visualisierungen aufzupeppen. Experimentiere mit verschiedenen Farben und Daten, um einzigartige und aussagekräftige Plots zu erstellen. Viel Spaß beim Programmieren und bis zum nächsten Tutorial!
 
 ## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/plot_types/basic/fill_between.html
 ### W3Schools
 ### YouTube
 
