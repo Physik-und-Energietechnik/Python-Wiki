@@ -1,12 +1,10 @@
-## Matplotlib - 3D Surface
+## Einführung
 
-### Einführung
-
-Willkommen zurück, werte Python-Pioniere! In diesem Abschnitt unseres epischen Python-Tutorials werden wir uns mit einer fantastischen Funktion von Matplotlib befassen: 3D-Oberflächen! Stellt euch vor, ihr könnt eure Daten in den dreidimensionalen Raum teleportieren und sie dort visualisieren. Klingt cool, oder? Lasst uns eintauchen und lernen, wie wir diese beeindruckende Fähigkeit nutzen können.
+In diesem Abschnitt unseres Python-Tutorials werden wir uns mit einer fantastischen Funktion von Matplotlib befassen: 3D-Oberflächen! Stellt euch vor, ihr könnt eure Daten in den dreidimensionalen Raum teleportieren und sie dort visualisieren. Klingt cool, oder? Lasst uns eintauchen und lernen, wie wir diese beeindruckende Fähigkeit nutzen können.
 
 Nachdem wir dieses Kapitel abgeschlossen haben, werdet ihr in der Lage sein, eure Daten in lebendigen 3D-Oberflächendiagrammen darzustellen. Ihr werdet die Kraft haben, die Höhen und Tiefen eurer Daten zu erforschen und könnt sie anschaulich und fesselnd präsentieren. Egal, ob ihr Wissenschaftler, Datenanalysten oder einfach nur neugierige Entdecker seid, 3D-Oberflächen werden euch helfen, eure Datenreisen auf ein neues Niveau zu bringen!
 
-### Theorie
+## Theorie
 
 Lasst uns einen Blick auf die Theorie hinter den 3D-Oberflächen werfen. Grundsätzlich repräsentieren 3D-Oberflächen Daten, die in einem dreidimensionalen Koordinatensystem angeordnet sind. Denkt an eine Berglandschaft, bei der die x- und y-Koordinaten die Position auf der Karte darstellen und die z-Koordinate die Höhe des Geländes angibt. Genau das werden wir mit unseren Daten machen!
 
@@ -72,11 +70,11 @@ plt.show()
 
 Dieser Code erzeugt eine 3D-Oberfläche, indem er Punkte im dreidimensionalen Raum mit den x-, y- und z-Koordinaten verwendet. In diesem Beispiel generieren wir eine Sinusfunktion, um die z-Koordinate zu berechnen, und erstellen dann den atemberaubenden 3D-Oberflächengraphen. Mit der Verwendung von `cmap='viridis'` fügen wir sogar etwas Farbe hinzu, um das Ganze noch aufregender zu gestalten.
 
-### Praxis
+## Praxis
 
 Lasst uns nun euer frisch erlerntes Wissen auf die Probe stellen! Wir haben zwei Herausforderungen für euch vorbereitet. Die erste ist ein einfacher Einstieg, während die zweite etwas herausfordernder ist. Keine Sorge, wir werden euch durch beide Aufgaben führen und am Ende die Musterlösungen präsentieren.
 
-#### Leichte Aufgabe
+### Aufgabe 1
 
 Erzeugt eine 3D-Oberfläche eines beliebigen mathematischen Ausdrucks eurer Wahl und visualisiert sie. Experimentiert mit verschiedenen Funktionen und entdeckt die wundersamen Welten, die ihr erschaffen könnt!
 
@@ -108,7 +106,7 @@ plt.show()
 
 Lasst eure Vorstellungskraft wild werden und erschafft euer eigenes 3D-Meisterwerk!
 
-#### Schwere Aufgabe
+### Aufgabe 2
 
 Für die mutigen Python-Abenteurer unter euch haben wir eine anspruchsvollere Aufgabe. Erzeugt eine 3D-Oberfläche, die aus realen Daten besteht. Nutzt zum Beispiel Daten aus einer CSV-Datei oder generiert sie mithilfe von Algorithmen. Lasst eurer Kreativität freien Lauf und erschafft etwas, das die Welt noch nie zuvor gesehen hat!
 
@@ -129,8 +127,13 @@ import numpy as np
 
 ```
 
+## Fazit
 Nun liegt es an euch, eure Datenreisen in den dreidimensionalen Raum zu lenken! Beeindruckt uns mit euren einzigartigen 3D-Oberflächendiagrammen.
 
 Das war's für diesen Teil unseres Abenteuers durch die faszinierende Python-Welt der 3D-Oberflächen. Ihr habt jetzt das Wissen, um eure Daten auf eine beeindruckende und immersive Weise darzustellen. Spielt herum, experimentiert und erschafft atemberaubende visuelle Meisterwerke. Möge eure Reise durch die Python-Lande stets voller Freude und Inspiration sein!
 
-Wir sehen uns im nächsten Kapitel, wo wir weitere aufregende Python-Geheimnisse lüften werden. Bis dahin, happy coding! 🐍💻
+Wir sehen uns im nächsten Kapitel, wo wir weitere aufregende Python-Geheimnisse lüften werden. Bis dahin, happy coding!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
