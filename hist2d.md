@@ -1,8 +1,6 @@
-# Matplotlib - Der hist2d Plot
-
 ## Einführung
 
-Willkommen zurück! In diesem Teil des Tutorials werden wir uns mit dem "hist2d Plot" in Matplotlib beschäftigen. Aber Moment mal, was zur Hölle ist ein "hist2d Plot"? Keine Sorge, das ist kein verrückter Geheimcode oder so. Es ist einfach eine coole Möglichkeit, zweidimensionale Daten auf eine anschauliche Weise darzustellen.
+In diesem Teil des Tutorials werden wir uns mit dem "hist2d Plot" in Matplotlib beschäftigen. Aber Moment mal, was zur Hölle ist ein "hist2d Plot"? Keine Sorge, das ist kein verrückter Geheimcode oder so. Es ist einfach eine coole Möglichkeit, zweidimensionale Daten auf eine anschauliche Weise darzustellen.
 
 In diesem Tutorial lernst du, wie du den hist2d Plot in Matplotlib erstellst und wie du ihn für deine eigenen Daten nutzen kannst. Dieses Wissen kann dir helfen, deine Daten besser zu verstehen und interessante Muster oder Zusammenhänge zu entdecken. Außerdem wirst du in der Lage sein, beeindruckende Visualisierungen zu erstellen und deine Freunde mit deinem neuen Python-Superpower zu beeindrucken!
 
@@ -74,7 +72,7 @@ plt.show()
 
 Jetzt ist es Zeit, dein neu erlerntes Wissen in die Praxis umzusetzen! Wir haben zwei Aufgaben für dich vorbereitet - eine leichte und eine schwerere. Probiere sie aus und schau, wie gut du den hist2d Plot beherrschst.
 
-### Aufgabe 1: Leicht
+### Aufgabe 1
 
 Erstelle einen hist2d Plot für die folgenden Daten:
 
@@ -83,7 +81,7 @@ x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 y = [1, 1, 2, 2, 3, 4, 5, 6, 9, 10]
 ```
 
-### Musterlösung 1
+Musterlösung 1
 
 ```python
 import matplotlib.pyplot as plt
@@ -107,7 +105,7 @@ plt.colorbar(label='Anzahl')
 plt.show()
 ```
 
-### Aufgabe 2: Schwerer
+### Aufgabe 2
 
 Erstelle einen hist2d Plot für die folgenden Daten:
 
@@ -116,7 +114,7 @@ mathepunkte = [85, 90, 70, 65, 80, 75, 95, 85, 90, 80]
 englischpunkte = [70, 75, 60, 80, 85, 90, 75, 85, 80, 95]
 ```
 
-### Musterlösung 2
+Musterlösung 2
 
 ```python
 import matplotlib.pyplot as plt
@@ -142,4 +140,9 @@ plt.colorbar(label='Anzahl')
 plt.show()
 ```
 
+## Fazit
 Herzlichen Glückwunsch! Du hast den hist2d Plot gemeistert. Jetzt kannst du diese coole Visualisierungstechnik in deinen eigenen Projekten einsetzen. Viel Spaß beim Erkunden und Experimentieren mit Matplotlib!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
