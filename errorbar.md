@@ -1,14 +1,12 @@
-## Matplotlib - Der errorbar Plot
+## Einführung
 
-### Einführung
-
-Willkommen zurück, wissbegierige Python-Pioniere! In diesem Abschnitt werden wir uns mit einem weiteren spannenden Aspekt von Matplotlib beschäftigen - dem errorbar Plot. Klingt beeindruckend, oder? Aber keine Sorge, wir werden diesen Begriff Schritt für Schritt erkunden und dabei jede Menge Spaß haben!
+In diesem Abschnitt werden wir uns mit einem weiteren spannenden Aspekt von Matplotlib beschäftigen - dem errorbar Plot. Klingt beeindruckend, oder? Aber keine Sorge, wir werden diesen Begriff Schritt für Schritt erkunden und dabei hoffentlich jede Menge Spaß haben!
 
 Der errorbar Plot ist eine großartige Möglichkeit, um Fehlerbalken zu visualisieren, die uns Informationen über die Genauigkeit oder Unsicherheit von Daten geben. Mit Matplotlib können wir diese Fehlerbalken ganz einfach in unsere Plots einbauen und somit unsere Daten noch aussagekräftiger machen.
 
 In diesem Tutorial werden wir lernen, wie man den errorbar Plot in Matplotlib erstellt, was er uns über unsere Daten verrät und wie wir damit beeindruckende visuelle Darstellungen erstellen können. Egal, ob du Wissenschaftler, Datenanalyst oder einfach nur ein Python-Enthusiast bist, dieses Wissen wird dir helfen, deine Daten mit Stil zu präsentieren!
 
-### Theorie
+## Theorie
 
 Bevor wir in die Praxis übergehen, werfen wir einen Blick auf die Theorie hinter dem errorbar Plot. Hier lernen wir die Konzepte kennen und sehen, wie sie in Code umgesetzt werden können.
 
@@ -41,9 +39,7 @@ plt.show()
 
 In diesem Beispiel haben wir eine Liste `x`, die die Koffeindosen repräsentiert, eine Liste `y`, die die Produktivitätswerte enthält, und eine Liste `error`, die die Unsicherheit dieser Werte angibt. Die `errorbar`-Funktion erzeugt dann den Plot mit den Fehlerbalken, die unsere Datenpunkte umgeben.
 
-Lass uns nun das Ganze mit einem konkreten Beispiel in Python sehen. Angenommen, du hast eine Umfrage durchgeführt
-
- und die folgenden Daten über die Beliebtheit von Eiscreme-Sorten gesammelt:
+Lass uns nun das Ganze mit einem konkreten Beispiel in Python sehen. Angenommen, du hast eine Umfrage durchgeführt und die folgenden Daten über die Beliebtheit von Eiscreme-Sorten gesammelt:
 
 | Eiscreme-Sorte | Beliebtheit | Fehler |
 | -------------- | ----------- | ------ |
@@ -76,11 +72,13 @@ plt.title('Beliebtheit von Eiscreme-Sorten')
 plt.show()
 ```
 
-### Praxis
+## Praxis
 
 Nun ist es Zeit für etwas Praxis! Lass uns unser erlangtes Wissen über den errorbar Plot auf die Probe stellen. Wir werden zwei Aufgaben angehen - eine leichte und eine schwierigere.
 
-**Leichte Aufgabe:** Stelle die Temperaturwerte eines Tagesverlaufs dar und verwende dabei den errorbar Plot, um die Unsicherheit der Messungen anzuzeigen.
+### Aufgabe 1
+
+Stelle die Temperaturwerte eines Tagesverlaufs dar und verwende dabei den errorbar Plot, um die Unsicherheit der Messungen anzuzeigen.
 
 Hier ist eine Musterlösung für diese Aufgabe:
 
@@ -105,7 +103,8 @@ plt.title('Tagesverlauf der Temperatur')
 plt.show()
 ```
 
-**Schwierigere Aufgabe:** Du hast Daten über die monatlichen Einnahmen eines Geschäfts gesammelt und möchtest den errorbar Plot verwenden, um sowohl die durchschnittlichen Einnahmen als auch die Schwankungen von Monat zu Monat zu visualisieren.
+### Aufgabe 2
+Du hast Daten über die monatlichen Einnahmen eines Geschäfts gesammelt und möchtest den errorbar Plot verwenden, um sowohl die durchschnittlichen Einnahmen als auch die Schwankungen von Monat zu Monat zu visualisieren.
 
 Hier ist eine Musterlösung für diese Aufgabe:
 
@@ -121,9 +120,7 @@ einnahmen = [10000, 12000, 11000, 13000, 11500]
 # Schwankungen der monatlichen Einnahmen
 schwankungen = [800, 1000, 900, 1200, 950]
 
-plt.errorbar(mon
-
-ate, einnahmen, yerr=schwankungen, fmt='o')
+plt.errorbar(monate, einnahmen, yerr=schwankungen, fmt='o')
 
 plt.xlabel('Monat')
 plt.ylabel('Einnahmen')
@@ -132,4 +129,9 @@ plt.title('Monatliche Einnahmen')
 plt.show()
 ```
 
+## Fazit
 Herzlichen Glückwunsch! Du hast den errorbar Plot gemeistert und kannst jetzt beeindruckende visuelle Darstellungen mit Matplotlib erstellen. Nutze dieses mächtige Werkzeug, um Daten zu präsentieren und Einblicke zu gewinnen.
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
