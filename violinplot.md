@@ -1,7 +1,5 @@
-# Matplotlib - Der violinplot Plot
-
 ## Einführung
-Willkommen zum aufregenden Teil der Matplotlib-Tutorial-Serie! In diesem Abschnitt werden wir uns mit dem faszinierenden *violinplot* Plot befassen. Aber was ist ein *violinplot* überhaupt? Nun, stellen wir uns vor, wir hätten eine Gruppe von Musikinstrumenten und möchten ihre Verteilung der Tonhöhen darstellen. Genau das macht ein *violinplot* - er zeigt uns die Verteilung und die Dichte der Daten in einem eleganten und informativen Diagramm.
+In diesem Abschnitt werden wir uns mit dem faszinierenden *violinplot* Plot befassen. Aber was ist ein *violinplot* überhaupt? Nun, stellen wir uns vor, wir hätten eine Gruppe von Musikinstrumenten und möchten ihre Verteilung der Tonhöhen darstellen. Genau das macht ein *violinplot* - er zeigt uns die Verteilung und die Dichte der Daten in einem eleganten und informativen Diagramm.
 
 Aber warum sollte dich das interessieren? Nun, stell dir vor, du analysierst Daten über Musikpräferenzen und möchtest herausfinden, ob es einen Unterschied in den Tonhöhen zwischen verschiedenen Genres gibt. Ein *violinplot* ermöglicht es dir, diese Unterschiede auf einen Blick zu erkennen und vielleicht sogar ein paar lustige Erkenntnisse zu gewinnen.
 
@@ -73,7 +71,7 @@ Hier haben wir bereits realistischere Daten und einige zusätzliche Anpassungen 
 ## Praxis
 Jetzt, da wir die Theorie und die Beispiele besprochen haben, lass uns deine neu gewonnenen Fähigkeiten in die Praxis umsetzen!
 
-### Leichte Aufgabe
+### Aufgabe 1
 Erstelle einen *violinplot* für eine Liste von Altersgruppen und ihren dazugehörigen Gewichten. Vergiss nicht, Achsentitel und einen Titel hinzuzufügen. Verwende die folgenden Beispielwerte:
 
 ```python
@@ -82,8 +80,7 @@ weights = [[68, 72, 78, 74, 70], [72, 76, 80, 82, 75], [78, 82, 85, 88, 92],
            [76, 80, 84, 88, 92], [70, 72, 75, 78, 80]]
 ```
 
-### Musterlösung (leichte Aufgabe)
-Hier ist eine mögliche Lösung für die leichte Aufgabe:
+Hier ist eine mögliche Lösung für die Aufgabe 1:
 
 ```python
 import matplotlib.pyplot as plt
@@ -102,7 +99,7 @@ plt.title('Verteilung des Gewichts in verschiedenen Altersgruppen')
 plt.show()
 ```
 
-### Schwerere Aufgabe
+### Aufgabe 2
 Erstelle einen *violinplot* für zwei verschiedene Gruppen von Daten: "Männer" und "Frauen". Jede Gruppe sollte eine eigene Geige haben, um die Verteilung der Daten zu zeigen. Füge auch einen Text hinzu, der angibt, welche Gruppe eine höhere Tonhöhe hat. Verwende die folgenden Beispielwerte:
 
 ```python
@@ -110,9 +107,6 @@ men_data = [60, 65, 70, 72, 75, 77, 80, 85, 88, 90]
 women_data = [55, 58, 62, 66, 68, 70, 72, 74, 76, 78]
 ```
 
-### Musterlösung
-
-ung (schwere Aufgabe)
 Hier ist eine mögliche Lösung für die schwere Aufgabe:
 
 ```python
@@ -135,6 +129,11 @@ plt.text(1.2, 83, 'Frauen haben höhere Tonhöhe', fontsize=10, ha='center')
 plt.show()
 ```
 
+## Fazit
 Herzlichen Glückwunsch, du hast erfolgreich *violinplots* erstellt und deine Daten analysiert! Du bist jetzt bereit, in der Welt der Datenvisualisierung zu glänzen.
 
 Keep calm and plot on!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
