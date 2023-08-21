@@ -1,7 +1,5 @@
-# Matplotlib - Der eventplot Plot
-
 ## Einführung
-Willkommen zurück zu unserem Python-Tutorial für absolute Anfänger! In diesem Abschnitt werden wir uns mit dem eventplot Plot in Matplotlib beschäftigen. Wenn du dich fragst, was das überhaupt ist, dann bist du hier genau richtig!
+In diesem Abschnitt werden wir uns mit dem eventplot Plot in Matplotlib beschäftigen. Wenn du dich fragst, was das überhaupt ist, dann bist du hier genau richtig!
 
 Mit Matplotlib kannst du nicht nur einfache Linien- und Balkendiagramme erstellen, sondern auch spezielle Arten von Diagrammen wie den eventplot Plot. Dieser Plot ist ideal, um diskrete Ereignisse oder Zustände über einen Zeitraum hinweg darzustellen. Du kannst ihn zum Beispiel verwenden, um den Verlauf von Ereignissen in einem Zeitplan, die Aktivität von Neuronen in einem Gehirn oder sogar das Vorhandensein von Keksen in einem Glas zu visualisieren - und das ist immer ein wichtiges Thema!
 
@@ -73,7 +71,7 @@ plt.show()
 
 Jetzt kommt der lustige Teil! Lass uns das erlernte Wissen in die Praxis umsetzen und eine leichte und eine schwierigere Aufgabe lösen.
 
-**Leichte Aufgabe:**
+### Aufgabe 1
 Erstelle einen Eventplot, der die Anzahl der Stunden zeigt, die du jeden Tag mit Schlafen verbracht hast. Die Anzahl der Stunden pro Tag sind: Montag - 7, Dienstag - 8, Mittwoch - 6, Donnerstag - 7, Freitag - 6, Samstag - 9, Sonntag - 8. Vergiss nicht, die Achsen zu beschriften und einen aussagekräftigen Titel hinzuzufügen!
 
 ```python
@@ -91,7 +89,7 @@ plt.title('Mein Schlafplan')
 plt.show()
 ```
 
-**Schwere Aufgabe:**
+### Aufgabe 2
 Jetzt wird es etwas kniffliger! Erstelle einen Eventplot, der die Anzahl der E-Mails darstellt, die du jede Stunde an einem Tag erhalten hast. Die Anzahl der E-Mails pro Stunde sind: 2, 4, 6, 3, 5, 1, 7, 0, 2, 1, 3, 5, 4, 1, 0, 0, 6, 2, 1, 3, 2, 0, 4, 5, 3, 2, 1, 0. Füge wieder Achsenbeschriftungen hinzu und gib dem Plot einen passenden Titel!
 
 ```python
@@ -120,4 +118,9 @@ plt.title('Mein E-Mail-Verkehr')
 plt.show()
 ```
 
+## Fazit
 Ich hoffe, du hattest Spaß bei dieser kleinen Einführung in den eventplot Plot von Matplotlib! Du hast jetzt das Wissen, um deine eigenen kreativen Eventplots zu erstellen und Daten auf eine neue und unterhaltsame Weise zu visualisieren. Probiere verschiedene Variationen aus und finde heraus, welche Art von Ereignissen du darstellen kannst. Viel Spaß beim Plotten!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
