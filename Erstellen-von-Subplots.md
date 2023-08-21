@@ -2,9 +2,9 @@
 
 ### Einführung
 
-Willkommen zu unserem Python Tutorial! In diesem Abschnitt werden wir uns mit dem Erstellen von Subplots in Matplotlib beschäftigen. Aber was sind Subplots überhaupt? Stell dir vor, du möchtest mehrere Diagramme oder Grafiken nebeneinander darstellen, um sie leichter vergleichen zu können. Genau das ermöglichen uns Subplots!
+In diesem Abschnitt werden wir uns mit dem Erstellen von Subplots in Matplotlib beschäftigen. Aber was sind Subplots überhaupt? Stell dir vor, du möchtest mehrere Diagramme oder Grafiken nebeneinander darstellen, um sie leichter vergleichen zu können. Genau das ermöglichen uns Subplots!
 
-In diesem Tutorial lernst du, wie du mit Matplotlib Subplots erstellen kannst. Du wirst verstehen, wie sie aufgebaut sind und wie du sie an deine Bedürfnisse anpassen kannst. Das Wissen, das du hier erlangst, wird dir dabei helfen, professionell aussehende Visualisierungen zu erstellen und deine Daten auf eine anschauliche Art und Weise darzustellen.
+Du wirst verstehen, wie Subplots aufgebaut sind und wie du sie an deine Bedürfnisse anpassen kannst. Das Wissen, das du hier erlangst, wird dir dabei helfen, professionell aussehende Visualisierungen zu erstellen und deine Daten auf eine anschauliche Art und Weise darzustellen.
 
 ### Theorie
 
@@ -45,11 +45,9 @@ In diesem Beispiel erstellen wir ein 2x2-Subplot-Raster mit insgesamt 4 Subplots
 
 Jetzt wird es Zeit, das erlangte Wissen in die Praxis umzusetzen! Lass uns eine leichte und eine schwerere Aufgabe lösen, um sicherzustellen, dass du alles verstanden hast.
 
-**Leichte Aufgabe:**
+**Aufgabe 1:**
 
-Erstelle ein 2x1-Subplot-Raster und plotte in jedem Subplot eine einfache Linienkurve. Bes
-
-chrifte die Subplots mit den Titeln "Kurve 1" und "Kurve 2".
+Erstelle ein 2x1-Subplot-Raster und plotte in jedem Subplot eine einfache Linienkurve. Beschrifte die Subplots mit den Titeln "Kurve 1" und "Kurve 2".
 
 **Musterlösung:**
 
@@ -74,7 +72,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-**Schwere Aufgabe:**
+**Aufgabe 2:**
 
 Erstelle ein 2x2-Subplot-Raster und plotte in jedem Subplot ein Streudiagramm. Beschrifte die Subplots mit den Titeln "Daten 1", "Daten 2", "Daten 3" und "Daten 4".
 
