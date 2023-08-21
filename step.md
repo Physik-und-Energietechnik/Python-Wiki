@@ -1,5 +1,5 @@
 ## Einführung
-Willkommen zurück! In diesem Abschnitt unseres Python-Tutorials werden wir uns mit einem interessanten Aspekt von Matplotlib befassen - dem step Plot.
+In diesem Abschnitt unseres Python-Tutorials werden wir uns mit einem interessanten Aspekt von Matplotlib befassen - dem step Plot.
 
 Der step Plot ist ein nützliches Werkzeug in der Datenvisualisierung, das uns hilft, diskrete Datenpunkte zu visualisieren, als wären sie durch Schritte miteinander verbunden. Es ist wie das Hüpfen von Punkt zu Punkt, um die Daten zu präsentieren. Klingt spaßig, oder?
 
@@ -89,5 +89,7 @@ plt.show()
 Jetzt bist du in der Lage, deine Datenpunkte mit Stil zu visualisieren und andere mit deinen schicken Diagrammen zu beeindrucken. Denke daran, dass der step Plot ein hilfreiches Werkzeug ist, um diskrete Datenpunkte auf eine interessante Art und Weise darzustellen. Viel Spaß beim Experimentieren und viel Erfolg in deinen zukünftigen Python-Projekten!
 
 ## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/plot_types/basic/step.html
 ### W3Schools
 ### YouTube
