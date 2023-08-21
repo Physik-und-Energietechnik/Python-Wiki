@@ -1,8 +1,6 @@
-# Matplotlib - 3D Wireframe
-
 ## Einführung
 
-Willkommen zurück, ihr tapferen Python-Pioniere! In diesem Abschnitt werden wir uns mit einem faszinierenden Feature von Matplotlib auseinandersetzen: dem 3D Wireframe. Aber was genau ist ein 3D Wireframe? Nun, lasst uns eine aufregende Reise in die dreidimensionale Welt der Datenvisualisierung antreten!
+In diesem Abschnitt werden wir uns mit einem faszinierenden Feature von Matplotlib auseinandersetzen: dem 3D Wireframe. Aber was genau ist ein 3D Wireframe? Nun, lasst uns eine aufregende Reise in die dreidimensionale Welt der Datenvisualisierung antreten!
 
 Mit dem 3D Wireframe können wir Daten in einer spannenden neuen Dimension darstellen. Stellt euch vor, ihr könntet eure Daten in einem magischen Raum betrachten, in dem sie sich nicht nur nach links und rechts bewegen, sondern auch nach oben und unten schweben können. Klingt cool, oder? Matplotlib macht das möglich!
 
@@ -45,15 +43,15 @@ In diesem Beispiel erzeugen wir zunächst eine Menge von x- und y-Werten mithilf
 
 Als nächstes erstellen wir eine `figure` und eine `axis` mit `projection='3d'`, um unsere 3D-Umgebung vorzubereiten. Mit `ax.plot_wireframe` zeichnen wir schließlich unseren 3D Wireframe.
 
-Um das Ganze noch ansprechender zu machen, fügen wir Achsenbeschriftungen und einen Titel hinzu. Und voilà
-
-! Wir haben unseren eigenen beeindruckenden 3D Wireframe erstellt.
+Um das Ganze noch ansprechender zu machen, fügen wir Achsenbeschriftungen und einen Titel hinzu. Und voilà! Wir haben unseren eigenen beeindruckenden 3D Wireframe erstellt.
 
 ## Praxis
 
 Nun ist es an der Zeit, euer frisch erlerntes Wissen in die Praxis umzusetzen. Wir werden euch zwei Aufgaben geben, eine leichte und eine etwas herausforderndere. Aber keine Sorge, ihr habt das drauf!
 
-**Aufgabe 1**: Erstellt einen 3D Wireframe einer Kugel. Verwendet dazu die folgenden Code-Vorlagen:
+### Aufgabe 1
+
+Erstellt einen 3D Wireframe einer Kugel. Verwendet dazu die folgenden Code-Vorlagen:
 
 ```python
 import matplotlib.pyplot as plt
@@ -105,7 +103,8 @@ ax.set_title('Eine kugelrunde Kugel')
 plt.show()
 ```
 
-**Aufgabe 2**: Erstellt einen 3D Wireframe einer schwingenden Funktion, wie beispielsweise einer Sinuswelle oder einer Exponentialfunktion.
+### Aufgabe 2
+Erstellt einen 3D Wireframe einer schwingenden Funktion, wie beispielsweise einer Sinuswelle oder einer Exponentialfunktion.
 
 **Musterlösung 2**:
 
@@ -135,7 +134,10 @@ ax.set_title('Eine wunderschöne schwingende Funktion')
 # Anzeigen
 plt.show()
 ```
-
+## Fazit
 Herzlichen Glückwunsch, ihr habt es geschafft! Ihr könnt nun eure eigenen beeindruckenden 3D Wireframes erstellen. Feiert euren Erfolg und bewundert eure Daten in ihrer ganzen räumlichen Pracht!
 
-Das war's für diesen Abschnitt, liebe Python-Pioniere. Macht euch bereit für neue Abenteuer und spannende Möglichkeiten, eure Daten zu visualisieren. Bis bald!
+Das war's für diesen Abschnitt. Macht euch bereit für neue Abenteuer und spannende Möglichkeiten, eure Daten zu visualisieren.
+## Links / Weiteres Material
+### W3Schools
+### YouTube
