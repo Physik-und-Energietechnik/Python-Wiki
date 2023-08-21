@@ -1,5 +1,3 @@
-# Matplotlib - Tricontourf
-
 ## Einführung
 
 Willkommen zum spannenden Abenteuer in die Welt von Matplotlib und dem `tricontourf`-Plot! In diesem Tutorial werden wir uns mit einer speziellen Art von Konturbereichsfüllungsdiagrammen befassen. Keine Sorge, wenn das erstmal wie ein Zungenbrecher klingt - wir werden alles Schritt für Schritt erklären.
@@ -51,7 +49,7 @@ plt.show()
 
 Genug der Theorie! Lass uns sehen, ob du das Gelernte anwenden kannst.
 
-### Leichte Aufgabe
+### Aufgabe 1
 
 Erstelle ein `tricontourf`-Diagramm mit den folgenden Daten:
 
@@ -61,7 +59,7 @@ y = [4, 5, 6, 7, 8]
 z = [0.2, 0.4, 0.6, 0.8, 1.0]
 ```
 
-### Musterlösung für die leichte Aufgabe
+Musterlösung für die Aufgabe 1:
 
 ```python
 import matplotlib.pyplot as plt
@@ -76,11 +74,11 @@ plt.title("Einfaches Konturbereichsfüllungsdiagramm")
 plt.show()
 ```
 
-### Schwierige Aufgabe
+### Aufgabe 2
 
 Versuche nun, ein `tricontourf`-Diagramm mit komplexeren Daten zu erstellen. Nutze die Funktion `np.meshgrid` aus NumPy, um die Datenpunkte zu generieren.
 
-### Musterlösung für die schwierige Aufgabe
+Musterlösung für die Aufgabe 2
 
 ```python
 import matplotlib.pyplot as plt
@@ -97,5 +95,9 @@ plt.colorbar()
 plt.title("Kniffliges Konturbereichsfüllungsdiagramm")
 plt.show()
 ```
-
+## Fazit
 Herzlichen Glückwunsch! Du hast soeben eine Reise in die wunderbare Welt von `tricontourf` unternommen. Jetzt kannst du Daten nicht nur visualisieren, sondern auch mit Farben spielen wie ein wahrer Künstler - oder vielleicht wie ein verrückter Wissenschaftler. Keep coding!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
