@@ -2,7 +2,7 @@
 
 ### Einführung
 
-Willkommen zum Python-Tutorial über das Hinzufügen von Hintergrundbildern und Gatterlinien in Matplotlib! In diesem Tutorial werden wir lernen, wie wir mit Matplotlib, einer Python-Bibliothek zur Visualisierung von Daten, Hintergrundbilder und Gatterlinien in Diagrammen hinzufügen können.
+Willkommen zum Python-Tutorial über das Hinzufügen von Hintergrundbildern und Gatterlinien in Matplotlib! In diesem Abschnitt werden wir lernen, wie wir mit Matplotlib, einer Python-Bibliothek zur Visualisierung von Daten, Hintergrundbilder und Gatterlinien in Diagrammen hinzufügen können.
 
 Durch das Hinzufügen von Hintergrundbildern und Gatterlinien können wir unsere Diagramme noch interessanter gestalten und wichtige Informationen betonen.
 
@@ -64,7 +64,6 @@ plt.show()
 Gatterlinien sind horizontale und vertikale Linien, die das Diagramm in regelmäßige Gitterzellen unterteilen. Sie helfen uns, die Daten im Diagramm leichter abzulesen und zu interpretieren. Matplotlib ermöglicht es uns, Gatterlinien hinzuzufügen und sie an unsere Bedürfnisse anzupassen.
 
 Um Gatterlinien hinzuzufügen, verwenden wir die `grid()`-Funktion von Matplotlib. Diese Funktion akzeptiert verschiedene Parameter, mit denen wir das Erscheinungsbild der Gatterlinien steuern können. Hier ist ein allgemeines Code-Beispiel:
-
 
 
 ```python
