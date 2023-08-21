@@ -2,7 +2,7 @@
 
 ### Einführung
 
-Willkommen zu unserem Python Tutorial! In diesem speziellen Abschnitt werden wir uns darauf konzentrieren, wie man große Datenmengen plottet, um wertvolle Erkenntnisse aus ihnen zu gewinnen.
+Willkommen zu unserem Python-Tutorial! In diesem speziellen Abschnitt werden wir uns darauf konzentrieren, wie man große Datenmengen plottet, um wertvolle Erkenntnisse aus ihnen zu gewinnen.
 
 Aber Moment mal, warum ist das überhaupt wichtig? Stell dir vor, du hast eine riesige Menge an Daten, und du möchtest daraus Muster erkennen oder Zusammenhänge verstehen. Das ist, als ob du versuchst, in einem überfüllten Supermarkt das beste Schokoladeneis zu finden. Du kannst nicht einfach alle Schokoladeneissorten aus dem Regal nehmen und probieren, oder? Stattdessen würdest du wahrscheinlich die Etiketten und Informationen nutzen, um deine Auswahl einzugrenzen. Genau das können wir mit Matplotlib machen – wir visualisieren die Daten, um schneller und einfacher die Informationen zu finden, die wir benötigen.
 
@@ -34,9 +34,9 @@ print(data.head())
 
 In diesem Beispiel verwenden wir die Pandas-Bibliothek, um die Daten einzulesen. Pandas ist eine mächtige Bibliothek für Datenanalyse in Python, die uns viele hilfreiche Funktionen bietet.
 
-#### Line Plot erstellen
+#### Line-Plot erstellen
 
-Ein Line Plot ist ein einfacher und nützlicher Plot, um Daten zu visualisieren. Hier ist ein allgemeines Beispiel für das Erstellen eines Line Plots:
+Ein Line-Plot ist ein einfacher und nützlicher Plot, um Daten zu visualisieren. Hier ist ein allgemeines Beispiel für das Erstellen eines Line-Plots:
 
 ```python
 import matplotlib.pyplot as plt
@@ -62,8 +62,6 @@ Und hier ist ein spezifisches Beispiel mit unseren vorbereiteten Daten:
 import matplotlib.pyplot as plt
 
 # Daten vorbereiten
-
-
 x = data['x']
 y = data['y']
 
@@ -84,7 +82,7 @@ In diesem Beispiel verwenden wir die Matplotlib-Bibliothek, um den Line Plot zu 
 
 Jetzt ist es an der Zeit, dein Wissen in die Praxis umzusetzen! Hier sind zwei Aufgaben für dich:
 
-1. **Leichte Aufgabe:** Erstelle einen Scatter Plot mit den Spalten 'x' und 'y' aus der geladenen Datenmenge.
+1. **Aufgabe 1:** Erstelle einen Scatter-Plot mit den Spalten 'x' und 'y' aus der geladenen Datenmenge.
 
    Musterlösung:
    ```python
@@ -105,7 +103,7 @@ Jetzt ist es an der Zeit, dein Wissen in die Praxis umzusetzen! Hier sind zwei A
    plt.show()
    ```
 
-2. **Schwere Aufgabe:** Erstelle einen Histogramm-Plot mit der Spalte 'x' aus der geladenen Datenmenge.
+2. **Aufgabe 2:** Erstelle einen Histogramm-Plot mit der Spalte 'x' aus der geladenen Datenmenge.
 
    Musterlösung:
    ```python
