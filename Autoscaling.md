@@ -1,7 +1,7 @@
 # Matplotlib - Autoscaling
 
 ## Einführung
-Willkommen zu diesem Python-Tutorial über Autoscaling in Matplotlib! In diesem Tutorial wirst du lernen, wie du mithilfe von Matplotlib deine Diagramme automatisch an die Daten anpassen kannst. Aber was bedeutet das eigentlich? Stell dir vor, du hast Daten, die über einen bestimmten Bereich verteilt sind, und du möchtest ein Diagramm erstellen, das diese Daten optimal darstellt, ohne unnötig viel Platz zu verschwenden. Autoscaling hilft dir dabei, die Achsen deines Diagramms so anzupassen, dass die Daten gut sichtbar sind und gleichzeitig der verfügbare Platz effizient genutzt wird.
+Willkommen zu diesem Python-Tutorial über Autoscaling in Matplotlib! In diesem Abschnitt wirst du lernen, wie du mithilfe von Matplotlib deine Diagramme automatisch an die Daten anpassen kannst. Aber was bedeutet das eigentlich? Stell dir vor, du hast Daten, die über einen bestimmten Bereich verteilt sind, und du möchtest ein Diagramm erstellen, das diese Daten optimal darstellt, ohne unnötig viel Platz zu verschwenden. Autoscaling hilft dir dabei, die Achsen deines Diagramms so anzupassen, dass die Daten gut sichtbar sind und gleichzeitig der verfügbare Platz effizient genutzt wird.
 
 Autoscaling ist eine der vielen nützlichen Funktionen, die Matplotlib bietet, um die Darstellung von Daten zu optimieren. Indem du Autoscaling beherrscht, kannst du deine Diagramme professionell gestalten und deine Daten effektiv präsentieren.
 
@@ -53,7 +53,7 @@ In diesem Beispiel wird die Funktion `plt.axis('scaled')` verwendet, um das Auto
 ## Praxis
 Jetzt ist es an der Zeit, dein neu erlerntes Wissen in die Praxis umzusetzen! Probieren wir es mit zwei Aufgaben aus:
 
-### Leichte Aufgabe
+### Aufgabe 1
 Erstelle ein Liniendiagramm, das die folgenden Daten darstellt:
 
 ```python
@@ -69,9 +69,7 @@ Aktiviere das Autoscaling, um sicherzustellen, dass die Achsen des Diagramms opt
 import matplotlib.pyplot as plt
 
 # Datenpunkte erstellen
-x = [1, 2, 3, 
-
-4]
+x = [1, 2, 3, 4]
 y = [2, 4, 6, 8]
 
 # Diagramm erstellen
@@ -84,7 +82,7 @@ plt.autoscale()
 plt.show()
 ```
 
-### Schwere Aufgabe
+### Aufgabe 2
 Erstelle ein Streudiagramm, das die folgenden Daten darstellt:
 
 ```python
