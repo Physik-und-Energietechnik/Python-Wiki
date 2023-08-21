@@ -65,9 +65,7 @@ fig, axes = plt.subplots(nrows=2, ncols=2)
 plt.tight_layout()
 ```
 
-Das Modul `gridspec` bietet eine flexiblere Möglichkeit, die Größe und Anordnung der Subplots anzupassen. Du kannst benutzerdefinierte Raster und Zellen erstellen, um die Sub
-
-plots genau zu positionieren.
+Das Modul `gridspec` bietet eine flexiblere Möglichkeit, die Größe und Anordnung der Subplots anzupassen. Du kannst benutzerdefinierte Raster und Zellen erstellen, um die Subplots genau zu positionieren.
 
 Hier ist ein Beispiel, das `gridspec` verwendet:
 
@@ -90,7 +88,7 @@ plt.show()
 ## Praxis
 Lass uns das gelernte Wissen in die Praxis umsetzen! Wir werden eine leichte und eine schwerere Aufgabe haben, um dein Verständnis zu überprüfen.
 
-**Leichte Aufgabe:**
+**Aufgabe 1:**
 Erstelle ein Diagramm mit zwei Subplots nebeneinander. Das erste Diagramm soll eine Sinus-Kurve und das zweite Diagramm eine Cosinus-Kurve enthalten.
 
 ```python
@@ -108,7 +106,7 @@ axes[1].plot(x, y2)
 plt.show()
 ```
 
-**Schwere Aufgabe:**
+**Aufgabe 2:**
 Erstelle ein Diagramm mit drei Subplots. Das erste Diagramm soll eine Sinus-Kurve enthalten, das zweite Diagramm eine Cosinus-Kurve und das dritte Diagramm eine Tangens-Kurve.
 
 ```python
