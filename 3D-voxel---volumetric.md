@@ -1,8 +1,6 @@
-# Matplotlib - 3D Voxel / Volumetric
-
 ## Einführung
 
-Hey, Python-Newbie! Bist du bereit, in die wunderbare Welt der dreidimensionalen Voxels und Volumetrik einzutauchen? Wirf deine 3D-Brille an und lass uns loslegen!
+Hey! Bist du bereit, in die wunderbare Welt der dreidimensionalen Voxels und Volumetrik einzutauchen? Wirf deine 3D-Brille an und lass uns loslegen!
 
 In diesem Tutorial wirst du lernen, wie du mit Matplotlib beeindruckende 3D-Darstellungen von Voxel- und Volumendaten erstellen kannst. Aber Moment mal, was zum Teufel sind Voxels und Volumen? Nun, Voxels sind wie kleine Lego-Steine, die den Raum füllen und ein dreidimensionales Raster bilden. Und Volumen ist einfach ein Stapel von Voxels, die zusammenarbeiten, um ein Objekt in 3D darzustellen. Stell dir vor, du könntest mit virtuellen Lego-Steinen coole Dinge bauen - das ist so ähnlich!
 
@@ -68,7 +66,7 @@ Das ist doch ziemlich cool, oder? Du kannst nun deine eigenen Voxels erschaffen 
 
 ## Praxis
 
-### Leichte Aufgabe
+### Aufgabe 1
 
 Okay, genug Theorie für den Moment! Lass uns unser Wissen praktisch anwenden. Deine Aufgabe besteht darin, ein einfaches Volumen zu erstellen und mit Matplotlib zu visualisieren. Hier ist ein Beispielvolumen, das du verwenden kannst:
 
@@ -132,7 +130,7 @@ plt.show()
 
 Führe den Code aus, und du wirst unser einfaches Volumen mit orangefarbenen Voxels sehen. Gratulation, du hast gerade deine erste 3D-Voxel-Darstellung erstellt!
 
-### Schwerere Aufgabe
+### Aufgabe 2
 
 Bist du bereit für eine größere Herausforderung? Deine Aufgabe besteht darin, ein komplexeres Volumen zu erstellen und zu visualisieren. Hier ist ein Beispielvolumen, das du verwenden kannst:
 
@@ -186,12 +184,14 @@ plt.show()
 
 Führe den Code aus, und du wirst ein zufälliges Volumen mit grünen Voxels sehen. Fantastische Arbeit! Du hast gerade gezeigt, dass du mit Matplotlib die faszinierende Welt der 3D-Daten beherrschen kannst!
 
-##
-
- Fazit
+## Fazit
 
 Herzlichen Glückwunsch, Python-Newbie! Du hast erfolgreich die Grundlagen der 3D-Voxel- und Volumetrik-Visualisierung mit Matplotlib gelernt. Du kennst jetzt die Theorie hinter Voxels und Volumendaten, wie man sie in Matplotlib darstellt und wie man einfache und komplexe Volumen erstellt.
 
 Es gibt noch so viel mehr zu entdecken und zu lernen in der Welt der 3D-Visualisierung! Experimentiere mit verschiedenen Volumenformen, Farben und Effekten, um deine eigenen beeindruckenden 3D-Darstellungen zu erstellen. Denke daran, dass die einzige Grenze deine Vorstellungskraft ist!
 
 Vielen Dank, dass du an diesem Tutorial teilgenommen hast. Du bist auf dem besten Weg, ein Python-Meister zu werden. Viel Spaß beim Erkunden der 3D-Welt mit Matplotlib!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
