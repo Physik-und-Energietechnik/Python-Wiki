@@ -1,12 +1,7 @@
-# Matplotlib Tutorial: tripcolor
+## Einführung
+In diesem Tutorial werden wir uns auf eine farbenfrohe Reise begeben, um das spannende Thema "tripcolor" in Matplotlib zu erkunden. Doch was ist das überhaupt? Keine Sorge, wir erklären es dir Schritt für Schritt!
 
-## 1. Titel
-### Entdecke die Farben der Trips mit Matplotlib's tripcolor!
-
-## 2. Einführung
-Willkommen, neugieriger Python-Entdecker! In diesem Tutorial werden wir uns auf eine farbenfrohe Reise begeben, um das spannende Thema "tripcolor" in Matplotlib zu erkunden. Doch was ist das überhaupt? Keine Sorge, wir erklären es dir Schritt für Schritt!
-
-## 3. Theorie
+## Theorie
 ### Was ist tripcolor?
 
 Beim "tripcolor" in Matplotlib handelt es sich um eine Methode zum Darstellen von dreiecksbasierten Bildern oder Daten. Stell dir vor, du hast eine Fläche, die in winzige Dreiecke unterteilt ist. Jedes dieser Dreiecke hat eine bestimmte Farbe, basierend auf den Daten, die du hast.
@@ -46,10 +41,10 @@ plt.title('Bunte Dreiecke!')
 plt.show()
 ```
 
-## 4. Praxis
-### Übung macht den Meister!
+## Praxis
 
-**Leichte Aufgabe:** Erstelle eine tripcolor-Darstellung von drei Dreiecken in verschiedenen Farben.
+### Aufgabe 1
+Erstelle eine tripcolor-Darstellung von drei Dreiecken in verschiedenen Farben.
 
 ```python
 import matplotlib.pyplot as plt
@@ -65,8 +60,8 @@ plt.tripcolor(vertices[:, 0], vertices[:, 1], triangles=[0, 1, 2], facecolors=co
 plt.title('Drei farbige Dreiecke')
 plt.show()
 ```
-
-**Schwierigere Aufgabe:** Erzeuge eine tripcolor-Darstellung von zufällig generierten Dreiecksdaten mit einer Farbskala.
+### Aufgabe 2
+Erzeuge eine tripcolor-Darstellung von zufällig generierten Dreiecksdaten mit einer Farbskala.
 
 ```python
 import matplotlib.pyplot as plt
@@ -82,5 +77,9 @@ plt.colorbar()
 plt.title('Zufällige bunte Welt der Dreiecke')
 plt.show()
 ```
-
+## Fazit
 Herzlichen Glückwunsch, du hast erfolgreich die Farben der Trips mit Matplotlib's tripcolor entdeckt! Du bist jetzt bereit, die Welt der visuellen Darstellungen zu erobern. Spaß haben und weitermachen!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
