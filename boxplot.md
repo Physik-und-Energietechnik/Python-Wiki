@@ -1,12 +1,10 @@
-## Matplotlib - Der boxplot Plot
+## Einführung
 
-### Einführung
-
-Willkommen zurück, liebe Python-Neulinge! In diesem Abschnitt werden wir uns mit einem spannenden Aspekt von Matplotlib beschäftigen - dem boxplot Plot. Du fragst dich vielleicht, was das überhaupt ist und wofür man ihn benutzt. Keine Sorge, wir werden dir alles erklären!
+In diesem Abschnitt werden wir uns mit einem spannenden Aspekt von Matplotlib beschäftigen - dem boxplot Plot.
 
 Der boxplot Plot ist ein mächtiges Werkzeug zur Visualisierung von Daten. Er hilft uns dabei, die Verteilung und statistische Eigenschaften eines Datensatzes auf einen Blick zu erfassen. Mit diesem Wissen können wir interessante Erkenntnisse gewinnen und Muster in unseren Daten entdecken.
 
-### Theorie
+## Theorie
 
 Bevor wir jedoch direkt in die Praxis eintauchen, lassen uns zunächst die Theorie hinter dem boxplot Plot verstehen. Keine Sorge, wir werden es so verständlich wie möglich erklären!
 
@@ -51,11 +49,11 @@ plt.show()
 
 In diesem Beispiel erzeugen wir drei Gruppen von zufälligen Daten und erstellen einen boxplot, der uns die Verteilung dieser Gruppen zeigt. Beachte, dass wir auch Labels für die Gruppen hinzufügen, damit wir die einzelnen Boxen besser identifizieren können.
 
-### Praxis
+## Praxis
 
 Nun, da wir die Theorie hinter dem boxplot Plot kennen, wird es Zeit, unser Wissen in die Praxis umzusetzen! Lass uns mit einer leichten Aufgabe beginnen:
 
-**Auf
+### Aufgabe 1
 
 gabe:** Du hast eine Liste von Noten für einen Test erhalten. Erstelle einen boxplot, um die Verteilung der Noten zu visualisieren.
 
@@ -78,7 +76,8 @@ Und voilà! Du hast erfolgreich einen boxplot erstellt, der dir die Verteilung d
 
 Für diejenigen unter euch, die eine größere Herausforderung suchen, haben wir hier eine schwierigere Aufgabe:
 
-**Aufgabe:** Du hast Daten über die Verkaufszahlen von drei verschiedenen Produkten. Erstelle einen boxplot, um die Verteilung der Verkaufszahlen pro Produkt zu vergleichen. Vergiss nicht, Labels für die Produkte hinzuzufügen.
+### Aufgabe 2
+Du hast Daten über die Verkaufszahlen von drei verschiedenen Produkten. Erstelle einen boxplot, um die Verteilung der Verkaufszahlen pro Produkt zu vergleichen. Vergiss nicht, Labels für die Produkte hinzuzufügen.
 
 Musterlösung:
 
@@ -102,8 +101,11 @@ plt.boxplot(data, labels=['Produkt 1', 'Produkt 2', 'Produkt 3'])
 plt.show()
 ```
 
+## Fazit
 Fantastisch! Du hast es geschafft, einen boxplot zu erstellen, der die Verkaufszahlen der drei Produkte vergleicht. Jetzt kannst du leicht erkennen, ob es Unterschiede in den Verteilungen gibt und wie die Verkaufszahlen für jedes Produkt variieren.
 
 Das war's für den Abschnitt über den boxplot Plot in Matplotlib! Wir hoffen, dass du jetzt ein besseres Verständnis dafür hast, wie dieser Plot funktioniert und wie du ihn für deine eigenen Daten verwenden kannst. Also, schnapp dir deine Daten und lass uns an die Arbeit gehen!
 
-Happy plotting! 📊
+## Links / Weiteres Material
+### W3Schools
+### YouTube
