@@ -2,9 +2,7 @@
 
 ## Einführung
 
-Willkommen zum Matplotlib-Tutorial! In diesem Tutorial wirst du in die faszinierende Welt der Datenvisualisierung mit Matplotlib eingeführt. Hast du dich jemals gefragt, wie du Daten in anschauliche Diagramme verwandeln kannst? Nun, Matplotlib ist dein Zauberstab für diese Aufgabe!
-
-Du wirst lernen, wie du Zeitreihen und Trends mithilfe von Matplotlib visualisieren kannst. Das ist besonders nützlich, wenn du Daten hast, die sich über die Zeit erstrecken, wie zum Beispiel Aktienkurse, Wetterdaten oder Social-Media-Trends. Mit Matplotlib kannst du diese Daten in anschauliche Grafiken verwandeln und Muster und Trends leichter erkennen.
+Willkommen zum Matplotlib-Tutorial! In diesem Abschnitt wirst du lernen, wie du Zeitreihen und Trends mithilfe von Matplotlib visualisieren kannst. Das ist besonders nützlich, wenn du Daten hast, die sich über die Zeit erstrecken, wie zum Beispiel Aktienkurse, Wetterdaten oder Social-Media-Trends. Mit Matplotlib kannst du diese Daten in anschauliche Grafiken verwandeln und Muster und Trends leichter erkennen.
 
 ## Theorie
 
@@ -44,7 +42,7 @@ plt.show()
 
 ## Praxis
 
-### Leichte Aufgabe
+### Aufgabe 1
 
 Zeit für eine kleine Übung! Du hast monatliche Besucherzahlen deiner Website gesammelt. Erstelle eine Linienvisualisierung, um diese Daten darzustellen. Vergiss nicht, Achsenbeschriftungen und einen Titel hinzuzufügen!
 
@@ -61,7 +59,7 @@ plt.title('Monatliche Website-Besucher')
 plt.show()
 ```
 
-### Schwere Aufgabe
+### Aufgabe 2
 
 Jetzt der ultimative Test! Du hast Daten über den Verlauf von Social-Media-Followern gesammelt. Erstelle eine Linienvisualisierung, um den Trend über die Zeit zu zeigen. Verleihe deiner Grafik mit verschiedenen Farben und Linienstilen den letzten Schliff!
 
