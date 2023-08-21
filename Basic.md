@@ -1,6 +1,5 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[plot]] | Beschreibung... |
 | [[scatter]] | Beschreibung... |
 | [[bar]] | Beschreibung... |
 | [[stem]] | Beschreibung... |
