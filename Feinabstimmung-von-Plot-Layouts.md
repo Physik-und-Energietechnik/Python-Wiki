@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Willkommen zu unserem Python-Tutorial über die Feinabstimmung von Plot Layouts mit Matplotlib! In diesem Tutorial werden wir uns damit beschäftigen, wie wir unsere Diagramme und Plots in Python so gestalten können, dass sie nicht nur informativ, sondern auch ästhetisch ansprechend sind. Wir werden lernen, wie wir die Größe, den Abstand und die Positionierung von Diagrammelementen anpassen können, um professionell aussehende Grafiken zu erstellen.
+Willkommen zu unserem Python-Tutorial über die Feinabstimmung von Plot Layouts mit Matplotlib! In diesem Abschnitt werden wir uns damit beschäftigen, wie wir unsere Diagramme und Plots in Python so gestalten können, dass sie nicht nur informativ, sondern auch ästhetisch ansprechend sind. Wir werden lernen, wie wir die Größe, den Abstand und die Positionierung von Diagrammelementen anpassen können, um professionell aussehende Grafiken zu erstellen.
 
 Nachdem du dieses Tutorial durchgearbeitet hast, wirst du in der Lage sein, deine eigenen maßgeschneiderten Diagramme zu erstellen und diese in deinen Projekten einzusetzen. Egal, ob du Daten visualisieren möchtest, um Erkenntnisse zu gewinnen oder einfach nur beeindruckende Grafiken erstellen möchtest, dieses Tutorial wird dir helfen, die Grundlagen zu verstehen und deine Python-Fähigkeiten zu erweitern.
 
@@ -63,8 +63,6 @@ Die Positionierung von Achsentiteln und Legenden kann dazu beitragen, dass unser
 import matplotlib.pyplot as plt
 
 # Diagramm erstellen
-
-
 fig, ax = plt.subplots()
 
 # Achsentitel hinzufügen
