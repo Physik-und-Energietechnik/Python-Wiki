@@ -1,11 +1,10 @@
-# Matplotlib - 3D Scatterplot
-
 ## Einführung
-Hey du Python-Abenteurer! Bist du bereit, deine Daten in die dritte Dimension zu katapultieren? In diesem Tutorial dreht sich alles um den 3D Scatterplot mit Matplotlib. Aber Moment, was ist ein Scatterplot überhaupt? Nun, es ist im Grunde genommen ein Diagramm, das Punkte in einem Koordinatensystem darstellt. Stell dir vor, du hast Daten über die Größe von Dinosauriern und deren Gehgeschwindigkeit. Mit einem 2D Scatterplot kannst du sie auf eine Fläche projizieren und schauen, ob es da draußen einen schnellen und riesigen T-Rex gab. Doch was ist, wenn du eine zusätzliche Dimension hast, wie zum Beispiel das Gewicht? Hier kommt der 3D Scatterplot ins Spiel!
+In diesem Tutorial dreht sich alles um den 3D Scatterplot mit Matplotlib. Aber Moment, was ist ein Scatterplot überhaupt? Nun, es ist im Grunde genommen ein Diagramm, das Punkte in einem Koordinatensystem darstellt. Stell dir vor, du hast Daten über die Größe von Dinosauriern und deren Gehgeschwindigkeit. Mit einem 2D Scatterplot kannst du sie auf eine Fläche projizieren und schauen, ob es da draußen einen schnellen und riesigen T-Rex gab. Doch was ist, wenn du eine zusätzliche Dimension hast, wie zum Beispiel das Gewicht? Hier kommt der 3D Scatterplot ins Spiel!
 
 In diesem Tutorial werden wir lernen, wie wir mit Matplotlib beeindruckende 3D Scatterplots erstellen können. Du wirst lernen, wie du Datenpunkte in einem dreidimensionalen Raum visualisierst, um komplexe Zusammenhänge zu entdecken. Außerdem wirst du sehen, wie vielseitig diese Art der Darstellung ist, sei es für wissenschaftliche Visualisierungen, Datenanalyse oder einfach nur zum Spaß!
 
 ## Theorie
+
 ### Grundlagen des 3D Scatterplots
 Um einen 3D Scatterplot zu erstellen, benötigen wir drei Dimensionen: x, y und z. Stell dir diese Dimensionen als die Achsen eines Würfels vor. Die x- und y-Achsen repräsentieren die horizontale und vertikale Position eines Punktes, während die z-Achse die Höhe darstellt. Jeder Punkt im Scatterplot hat also eine eindeutige x-, y- und z-Koordinate.
 
@@ -71,7 +70,7 @@ plt.show()
 In diesem Beispiel haben wir den 3D Scatterplot mit individuellen Punktgrößen, zufälligen Farben und einem dunklen Hintergrund angepasst. Du kannst diese Anpassungen nach Belieben ändern, um deinen eigenen einzigartigen Plot zu erstellen!
 
 ## Praxis
-### Leichte Aufgabe
+### Aufgabe 1
 Okay, genug Theorie! Lass uns dein Wissen in die Tat umsetzen. Deine Aufgabe besteht darin, einen 3D Scatterplot zu erstellen, der die Temperatur, den Luftdruck und die Windgeschwindigkeit an verschiedenen Orten darstellt. Hier sind die Daten für dich:
 
 ```python
@@ -99,7 +98,7 @@ plt.show()
 
 Führe den Code aus und bewundere deinen eigenen 3D Scatterplot mit Wetterdaten! Verändere die Blickwinkel und erkunde, ob du irgendwelche Zusammenhänge entdecken kannst.
 
-### Schwerere Aufgabe
+### Aufgabe 2
 Du hast die leichte Aufgabe gemeistert? Bravo! Jetzt wird es etwas schwieriger. Deine nächste Herausforderung besteht darin, einen 3D Scatterplot zu erstellen, der die Beziehung zwischen Alter, Einkommen und Ausgaben darstellt. Hier sind die Daten:
 
 ```python
@@ -124,9 +123,11 @@ ax.set_zlabel('Ausgaben (USD)')
 # Plot anzeigen
 plt.show()
 ```
+Versuche, die Beziehung zwischen Alter, Einkommen und Ausgaben zu erkennen. Gibt es vielleicht einen bestimmten Lebensabschnitt, in dem die Ausgaben höher sind als das Einkommen? Experimentiere mit verschiedenen Blickwinkeln und finde es heraus!
 
-Versuche, die Beziehung zwischen Alter, Einkommen und Ausgaben zu erkennen. Gibt es vielleicht einen bestimmten Lebensabschnitt, in dem die
-
- Ausgaben höher sind als das Einkommen? Experimentiere mit verschiedenen Blickwinkeln und finde es heraus!
-
+## Fazit
 Herzlichen Glückwunsch, du hast gerade die magische Welt der 3D Scatterplots mit Matplotlib betreten! Mit diesem mächtigen Werkzeug kannst du Daten auf eine ganz neue Art und Weise visualisieren und versteckte Muster enthüllen. Es gibt noch viel mehr zu entdecken, also erkunde weiter und habe Spaß beim Programmieren!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
