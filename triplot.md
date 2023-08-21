@@ -1,8 +1,6 @@
-# Matplotlib - Triplot Tutorial
-
 ## Einführung
 
-Willkommen zu unserem Python-Tutorial über Matplotlib's `triplot`! Hast du dich jemals gefragt, wie du beeindruckende Dreiecksvisualisierungen erstellen kannst? Nun, das ist dein Glückstag! In diesem Tutorial wirst du lernen, wie du mit Matplotlib Dreiecksplots erstellst, um deine Daten auf eine dreieckige Reise zu schicken. Egal, ob du wissenschaftliche Daten visualisierst oder einfach nur coole Muster erstellen möchtest, `triplot` ist dein Begleiter.
+Hast du dich jemals gefragt, wie du beeindruckende Dreiecksvisualisierungen erstellen kannst? Nun, das ist dein Glückstag! In diesem Tutorial wirst du lernen, wie du mit Matplotlib Dreiecksplots erstellst, um deine Daten auf eine dreieckige Reise zu schicken. Egal, ob du wissenschaftliche Daten visualisierst oder einfach nur coole Muster erstellen möchtest, `triplot` ist dein Begleiter.
 
 ## Theorie
 
@@ -51,7 +49,7 @@ plt.show()
 
 ## Praxis
 
-### Aufgabe 1: Einfacher Dreiecksplot
+### Aufgabe 1
 
 Erstelle einen einfachen Dreiecksplot mit den Eckpunkten (0, 0), (1, 0) und (0.5, 0.7).
 
@@ -69,11 +67,11 @@ plt.triplot(x, y)
 plt.show()
 ```
 
-### Musterlösung 1
+Musterlösung zu Aufgabe 1
 
 Schau dir deine atemberaubende Dreiecksvisualisierung an!
 
-### Aufgabe 2: Farbenfroher Dreiecksplot
+### Aufgabe 2
 
 Nun, lass uns wild werden! Erstelle einen Dreiecksplot, bei dem jeder Eckpunkt eine andere Farbe hat.
 
@@ -95,10 +93,15 @@ plt.triplot(x, y, color=colors)
 plt.show()
 ```
 
-### Musterlösung 2
+Musterlösung zu Aufgabe 2
 
 Dein Dreieck ist jetzt so farbenfroh wie ein Regenbogen!
 
+## Fazit
 Und das war's! Du hast jetzt einen Einblick in die wunderbare Welt von `triplot` in Matplotlib erhalten. Experimentiere weiter mit Anpassungen und lass deiner Kreativität freien Lauf!
 
 Keep on triangulating!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
