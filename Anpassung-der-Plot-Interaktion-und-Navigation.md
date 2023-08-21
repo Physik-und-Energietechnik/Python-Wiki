@@ -2,7 +2,7 @@
 
 ## Einführung
 
-Herzlich willkommen zum Python Tutorial über die Anpassung der Plot Interaktion und Navigation mit Matplotlib! In diesem Tutorial lernst du, wie du deine Plots interaktiv gestalten und die Navigation in den Plots verbessern kannst.
+Herzlich willkommen zum Python-Tutorial über die Anpassung der Plot Interaktion und Navigation mit Matplotlib! In diesem Abschnitt lernst du, wie du deine Plots interaktiv gestalten und die Navigation in den Plots verbessern kannst.
 
 In diesem Tutorial werden wir uns darauf konzentrieren, wie du die Interaktion und Navigation in deinen Plots anpassen kannst. Du wirst lernen, wie du Zoomen, Verschieben und andere interaktive Funktionen in deine Plots einbaust.
 
@@ -66,13 +66,11 @@ plt.annotate('Hier ist ein interessanter Punkt!', xy=(3, 6), xytext=(4, 8),
 plt.show()
 ```
 
-Das obige Beispiel fügt eine Anmerkung zu einem bestimmten Punkt im Plot hinzu. Die
-
- Anmerkung enthält den Text "Hier ist ein interessanter Punkt!" und wird mit einem Pfeil markiert, der auf den Punkt zeigt.
+Das obige Beispiel fügt eine Anmerkung zu einem bestimmten Punkt im Plot hinzu. Die Anmerkung enthält den Text "Hier ist ein interessanter Punkt!" und wird mit einem Pfeil markiert, der auf den Punkt zeigt.
 
 ## Praxis
 
-### Leichte Aufgabe
+### Aufgabe 1
 
 Deine Aufgabe besteht darin, einen einfachen Plot zu erstellen und die Zoom- und Verschiebefunktionen zu aktivieren. Du kannst deine eigenen Daten verwenden oder die folgenden Daten verwenden:
 
@@ -118,7 +116,7 @@ plt.show()
 
 Du kannst den Plot vergrößern und den angezeigten Bereich verschieben, um verschiedene Aspekte der Daten genauer zu betrachten.
 
-### Schwierigere Aufgabe
+### Aufgabe 2
 
 Deine schwierigere Aufgabe besteht darin, einen Plot zu erstellen und eine Anmerkung hinzuzufügen, um einen bestimmten Punkt zu markieren. Verwende deine eigenen Daten oder die folgenden Daten:
 
