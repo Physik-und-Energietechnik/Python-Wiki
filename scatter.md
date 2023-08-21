@@ -131,5 +131,7 @@ Probier sie aus und schau dir die beeindruckenden Scatter Plots an, die du erste
 Viel Spaß beim Erkunden der faszinierenden Welt der Scatter Plots mit Matplotlib!
 
 ## Links / Weiteres Material
+### Documentation
+https://matplotlib.org/stable/plot_types/basic/scatter_plot.html#sphx-glr-plot-types-basic-scatter-plot-py
 ### W3Schools
 ### YouTube
