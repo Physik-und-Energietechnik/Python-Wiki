@@ -1,13 +1,10 @@
-Selbstverständlich, hier ist der Abschnitt für das Python-Tutorial zur Visualisierung geografischer Daten mit Matplotlib:
-
-```markdown
 # Matplotlib - Visualisierung geografischer Daten
 
 ## Einführung
 
 Willkommen zum aufregenden Abenteuer der geografischen Datenvisualisierung mit Matplotlib! Stell dir vor, du könntest Daten nicht nur langweilig in Tabellen betrachten, sondern sie auch auf Karten zum Leben erwecken. Genau das werden wir in diesem Tutorial lernen. Wir werden lernen, wie man mithilfe von Matplotlib verschiedene Arten von Karten und Diagrammen erstellt, um Daten auf eine Art und Weise darzustellen, die nicht nur informativ, sondern auch beeindruckend ist.
 
-In diesem Tutorial wirst du Folgendes lernen:
+In diesem Abschnitt wirst du Folgendes lernen:
 - Grundlegende Konzepte der geografischen Datenvisualisierung
 - Verwendung von Matplotlib, um Karten und Diagramme zu erstellen
 - Anpassung von Farben, Markierungen und Stilen für eine ansprechende Darstellung
@@ -18,7 +15,7 @@ Am Ende wirst du in der Lage sein, Daten auf Karten zu visualisieren, die nicht 
 
 ### Grundlagen der geografischen Visualisierung
 
-Die Visualisierung geografischer Daten beinhaltet das Darstellen von Informationen auf Karten. Dafür verwenden wir Matplotlib, eine Python-Bibliothek, die uns erlaubt, Diagramme, Grafiken und eben auch Karten zu erstellen.
+Die Visualisierung geografischer Daten beinhaltet das Darstellen von Informationen auf Karten.
 
 #### Beispiel: Einfache Weltkarte
 
