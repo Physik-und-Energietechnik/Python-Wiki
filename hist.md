@@ -1,8 +1,6 @@
-## Matplotlib - Der hist Plot
+## Einführung
 
-### Einführung
-
-Willkommen zurück, Python-Newbies! In diesem Abschnitt unseres Tutorials werden wir uns mit einem spannenden Thema befassen: dem hist Plot in Matplotlib. Aber was zur Hölle ist ein hist Plot, fragst du dich vielleicht? Keine Sorge, ich werde es dir auf eine Weise erklären, die sogar deinen Opa zum Lachen bringt!
+In diesem Abschnitt unseres Tutorials werden wir uns mit einem spannenden Thema befassen: dem hist Plot in Matplotlib. 
 
 Der hist Plot, oder wie ich ihn gerne nenne, der "Histinator", ist ein mächtiges Werkzeug in der Datenvisualisierung. Mit ihm kannst du deine Daten in Form von Histogrammen darstellen. Moment mal, Histogramm? Klingt wie ein gruseliger Kuchen, oder? Aber nein, das hat nichts mit Gebäck zu tun. Ein Histogramm ist einfach eine Art, Daten in verschiedene Gruppen einzuteilen und zu zeigen, wie viele Elemente in jede Gruppe fallen. Ganz ähnlich wie eine Ladung Gummibären, die in verschiedenen Farben in einer Schüssel verteilt sind.
 
@@ -10,7 +8,7 @@ Warum ist das wichtig? Nun, Histogramme helfen uns dabei, Datenmuster und Vertei
 
 In diesem Tutorial werden wir lernen, wie man den Histinator benutzt, um Daten zu visualisieren und interessante Erkenntnisse zu gewinnen. Also schnall dich an und lass uns loslegen!
 
-### Theorie
+## Theorie
 
 #### Die Grundlagen
 
@@ -62,17 +60,14 @@ Hier haben wir die Anzahl der Bins auf 5 reduziert. Dadurch werden die Daten in 
 
 Du kannst auch die Farbe der Säulen ändern, Beschriftungen hinzufügen und noch viele andere Anpassungen vornehmen. Die Möglichkeiten sind nahezu endlos!
 
-### Praxis
+## Praxis
 
 Jetzt bist du dran, deine neu gewonnenen Fähigkeiten unter Beweis zu stellen! Hier sind zwei Aufgaben für dich:
 
-1. **Leichte Aufgabe:** Gegeben ist eine Liste von Temperaturen an verschiedenen Tagen: `[24, 26, 22, 28, 27, 25, 23]`. Erstelle ein Histogramm, um die Verteilung der Temperaturen darzustellen.
+### Aufgabe 1
+Gegeben ist eine Liste von Temperaturen an verschiedenen Tagen: `[24, 26, 22, 28, 27, 25, 23]`. Erstelle ein Histogramm, um die Verteilung der Temperaturen darzustellen.
 
-2. **Schwere Aufgabe:** Du hast Zugriff auf eine Datei mit den Gehältern von 1000 Mitarbeitern eines Unternehmens. Lade die Gehaltsdaten aus der Datei und erstelle ein Histogramm, um die Gehaltsverteilung zu visualisieren.
-
-Hier sind die Musterlösungen:
-
-**Leichte Aufgabe:**
+Musterlösung:
 
 ```python
 temperaturen = [24, 26, 22, 28, 27, 25, 23]
@@ -86,7 +81,10 @@ plt.title('Verteilung der Temperaturen')
 plt.show()
 ```
 
-**Schwere Aufgabe:**
+### Aufgabe 2
+Du hast Zugriff auf eine Datei mit den Gehältern von 1000 Mitarbeitern eines Unternehmens. Lade die Gehaltsdaten aus der Datei und erstelle ein Histogramm, um die Gehaltsverteilung zu visualisieren.
+
+Musterlösung:
 
 ```python
 import pandas as pd
@@ -102,6 +100,11 @@ plt.title('Gehaltsverteilung')
 plt.show()
 ```
 
+## Fazit
 Du hast es geschafft! Du hast den Histinator gemeistert und kannst nun Daten wie ein echter Python-Profi visualisieren. Feiere deinen Erfolg mit einem Gummibärenfest – du hast es verdient!
 
 Das war's für den Abschnitt über den hist Plot. Wir hoffen, du hattest Spaß beim Lernen und bist jetzt bereit, deine Daten in beeindruckenden Histogrammen zum Leben zu erwecken. Bis zum nächsten Mal!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
