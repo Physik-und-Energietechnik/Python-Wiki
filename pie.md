@@ -1,8 +1,5 @@
-# Matplotlib - Der pie Plot
-
 ## Einführung
-
-Willkommen zurück zu unserem Python-Tutorial für absolute Anfänger! In diesem Abschnitt werden wir uns mit dem "pie Plot" in Matplotlib beschäftigen. Keine Sorge, es geht hier nicht um köstliche Obstkuchen, sondern um die Visualisierung von Daten in einem Kreisdiagramm. Mit dem pie Plot kannst du Datenprozentsätze auf unterhaltsame und ansprechende Weise präsentieren. Du wirst lernen, wie man das pie Plot-Diagramm erstellt und es für verschiedene Anwendungsfälle nutzt.
+In diesem Abschnitt werden wir uns mit dem "pie Plot" in Matplotlib beschäftigen. Keine Sorge, es geht hier nicht um köstliche Obstkuchen, sondern um die Visualisierung von Daten in einem Kreisdiagramm. Mit dem pie Plot kannst du Datenprozentsätze auf unterhaltsame und ansprechende Weise präsentieren. Du wirst lernen, wie man das pie Plot-Diagramm erstellt und es für verschiedene Anwendungsfälle nutzt.
 
 ## Theorie
 
@@ -42,7 +39,8 @@ Hier haben wir das gleiche Kreisdiagramm, aber mit einigen zusätzlichen Optione
 
 Jetzt ist es Zeit, dein Wissen in die Praxis umzusetzen! Wir haben zwei Aufgaben für dich vorbereitet: eine leichte und eine schwerere. Du kannst dir sicher sein, dass wir dir bei beiden helfen werden.
 
-**Leichte Aufgabe:** Erstelle ein Kreisdiagramm, das die Verteilung von Internetbrowsern darstellt. Verwende die folgenden Daten:
+### Aufgabe 1
+Erstelle ein Kreisdiagramm, das die Verteilung von Internetbrowsern darstellt. Verwende die folgenden Daten:
 
 - Chrome
 
@@ -65,7 +63,8 @@ plt.title('Internetbrowserverteilung')
 plt.show()
 ```
 
-**Schwierigere Aufgabe:** Erstelle ein Kreisdiagramm, das die Verteilung der Tierarten in einem Zoo darstellt. Verwende die folgenden Daten:
+### Aufgabe 2
+Erstelle ein Kreisdiagramm, das die Verteilung der Tierarten in einem Zoo darstellt. Verwende die folgenden Daten:
 
 - Löwen: 40%
 - Affen: 25%
@@ -86,5 +85,9 @@ plt.axis('equal')
 plt.title('Tierverteilung im Zoo')
 plt.show()
 ```
-
+## Fazit
 Das war's! Du hast erfolgreich den pie Plot in Matplotlib gemeistert. Ob du nun Fruchtverteilungen oder Zoo-Tierverteilungen darstellen möchtest, du kannst das pie Plot-Diagramm nutzen, um deine Daten auf unterhaltsame Weise zu präsentieren. Viel Spaß beim Experimentieren und Erkunden weiterer Funktionen von Matplotlib!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
