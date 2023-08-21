@@ -1,7 +1,7 @@
 # Matplotlib - Verwendung von Stilvorlagen und vorgefertigten Themes
 
 ## Einführung
-Willkommen zu unserem Python-Tutorial über die Verwendung von Stilvorlagen und vorgefertigten Themes in Matplotlib! In diesem Tutorial werden wir uns mit einem spannenden Aspekt von Matplotlib befassen - der Anpassung des Erscheinungsbilds unserer Diagramme mithilfe von Stilvorlagen und vorgefertigten Themes.
+Willkommen zu unserem Python-Tutorial über die Verwendung von Stilvorlagen und vorgefertigten Themes in Matplotlib! In diesem Abschnitt werden wir uns mit einem spannenden Aspekt von Matplotlib befassen - der Anpassung des Erscheinungsbilds unserer Diagramme mithilfe von Stilvorlagen und vorgefertigten Themes.
 
 Durch die Verwendung von Stilvorlagen und vorgefertigten Themes können wir einfach und effektiv das Aussehen unserer Diagramme ändern, ohne viel Code schreiben zu müssen. Wir werden lernen, wie wir verschiedene Stile anwenden können, um unsere Diagramme zu verbessern und ihnen eine persönliche Note zu verleihen.
 
