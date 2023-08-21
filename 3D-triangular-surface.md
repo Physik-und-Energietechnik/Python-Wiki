@@ -1,10 +1,8 @@
-## Matplotlib - 3D triangular surface
-
-### Einführung
+## Einführung
 
 Willkommen zum aufregenden Abenteuer der dreidimensionalen, dreieckigen Oberflächenvisualisierung mit Matplotlib! In diesem Tutorial werden wir uns anschauen, wie man mit Matplotlib atemberaubende 3D-Diagramme erstellen kann, die aus einer Ansammlung von dreieckigen Flächen bestehen. Keine Sorge, wenn du bisher noch keine Erfahrung mit Python oder Matplotlib hast - wir werden dich behutsam in diese aufregende Welt einführen.
 
-### Theorie
+## Theorie
 
 #### Was ist eine 3D dreieckige Oberfläche?
 
@@ -58,11 +56,11 @@ ax.plot_trisurf(x, y, z, triangles=triangles)
 plt.show()
 ```
 
-### Praxis
+## Praxis
 
 Jetzt wird es Zeit, dein neu erlangtes Wissen auf die Probe zu stellen! Wir haben zwei Aufgaben für dich vorbereitet - eine leichte und eine etwas kniffligere. Aber keine Sorge, wir haben auch Musterlösungen, falls du mal feststeckst.
 
-#### Aufgabe 1
+### Aufgabe 1
 
 Erzeuge eine dreidimensionale, dreieckige Oberfläche, die wie ein schickes Hügelpanorama aussieht. Verwende dafür eine geeignete Funktion, um die Z-Werte der Punkte zu berechnen. Experimentiere mit verschiedenen Funktionen, um das beste Ergebnis zu erzielen.
 
@@ -96,7 +94,7 @@ ax.plot_trisurf(X.flatten(), Y.flatten(), Z.flatten(), triangles=triangles)
 plt.show()
 ```
 
-#### Aufgabe 2
+### Aufgabe 2
 
 Erzeuge ein interessantes 3D-Diagramm, das aus einer zufälligen Anordnung von Punkten und Dreiecken besteht. Verwende dazu die NumPy-Funktionen `np.random.rand` und `np.random.choice`.
 
@@ -123,5 +121,9 @@ ax.plot_trisurf(x, y, z, triangles=triangles)
 # Zeige das Diagramm an
 plt.show()
 ```
-
+## Fazit
 Super! Du hast es geschafft! Du kannst jetzt beeindruckende dreidimensionale, dreieckige Oberflächen mit Matplotlib erstellen. Spiele weiter mit den verschiedenen Funktionen und experimentiere mit den Möglichkeiten, um noch faszinierendere Visualisierungen zu erschaffen. Viel Spaß beim Erkunden der fantastischen Welt der 3D-Grafiken!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
