@@ -1,8 +1,6 @@
-# Matplotlib - tricontour
-
 ## Einführung
 
-Willkommen zurück, Python-Pioniere! In diesem Abschnitt unseres Tutorials werden wir uns mit einer spannenden Funktion von Matplotlib auseinandersetzen: tricontour. Klingt mysteriös, oder? Aber keine Sorge, wir werden es gemeinsam erkunden!
+In diesem Abschnitt unseres Tutorials werden wir uns mit einer spannenden Funktion von Matplotlib auseinandersetzen: tricontour. Klingt mysteriös, oder? Aber keine Sorge, wir werden es gemeinsam erkunden!
 
 Tricontour ist ein leistungsstarkes Werkzeug zur Darstellung von dreieckigen Gitterdaten. Aber was bedeutet das überhaupt? Nun, stell dir vor, du hast Datenpunkte, die nicht auf einem regulären Raster liegen, sondern in einem unregelmäßigen dreieckigen Muster verteilt sind. Tricontour hilft uns dabei, diese Daten auf eine schöne und aussagekräftige Weise zu visualisieren.
 
@@ -63,7 +61,16 @@ y = np.array([0.0,
  1.0, 0.0, 1.0, 0.0, 1.0])
 z = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0])
 ```
+Musterlösung:
 
+```python
+plt.tricontour(x, y, z)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Höhenlinienplot')
+plt.colorbar()
+plt.show()
+```
 ### Aufgabe 2
 
 Du hast Datenpunkte erhalten, die auf einem unregelmäßigen dreieckigen Gitter verteilt sind. Erstelle einen tricontour-Plot, um diese Daten zu visualisieren:
@@ -74,11 +81,7 @@ y = np.array([0.0, 0.0, 0.0, 1.0, 1.0, 2.0, 2.5, 3.0, 2.5])
 z = np.array([0.2, 0.8, 0.5, 1.2, 2.0, 0.9, 1.5, 0.7, 1.3])
 ```
 
-Viel Spaß beim Experimentieren und lass deine Kreativität sprudeln!
-
-**Musterlösungen**
-
-Aufgabe 1:
+Musterlösung:
 
 ```python
 plt.tricontour(x, y, z)
@@ -89,17 +92,11 @@ plt.colorbar()
 plt.show()
 ```
 
-Aufgabe 2:
-
-```python
-plt.tricontour(x, y, z)
-plt.xlabel('x')
-plt.ylabel('y')
-plt.title('Höhenlinienplot')
-plt.colorbar()
-plt.show()
-```
-
+## Fazit
 Gut gemacht! Du hast erfolgreich tricontour verwendet, um diese erstaunlichen Höhenlinienplots zu erstellen. Du bist definitiv auf dem Weg zum Python-Meister!
 
 Das war's für diesen Abschnitt. Du hast viel erreicht, aber es gibt noch so viel mehr zu entdecken. Mach weiter so und erobere die Welt der Datenvisualisierung mit Python!
+
+## Links / Weiteres Material
+### W3Schools
+### YouTube
