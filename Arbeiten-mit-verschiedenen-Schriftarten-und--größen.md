@@ -65,9 +65,7 @@ plt.xlabel('Jahr')
 plt.ylabel('Umsatz')
 plt.title('Umsatzentwicklung')
 
-# Schriftart und
-
- -größe festlegen
+# Schriftart und -größe festlegen
 plt.rcParams['font.family'] = 'Roboto'
 plt.rcParams['font.size'] = 10
 plt.rcParams['axes.labelsize'] = 12
