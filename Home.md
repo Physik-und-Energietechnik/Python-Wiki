@@ -5,6 +5,8 @@ Dieses Verzeichnis stellt ein Python Tutorial dar, welches im Rahmen einer Proje
 Das Tutorial ist in mehrere Abschnitte gegliedert, welche durch die Teilnehmenden der Projektarbeit als am sinnvollsten und für die meisten Studiengänge am nützlichsten eingestuft wurden. Die einzelnen Abschnitte können wiederum weitere Unterabschnitte enthalten. Die als Grundlagen bezeichneten Themen dienen dazu, die Grundbegriffe und Basistechniken der Programmiersprache Python zu erlernen und eine Übersicht über die Struktur der objektorientierten Programmierung zu geben. Dieser Abschnitt richtet sich also insbesondere an alle, die ohne Vorerfahrung in die Programmiersprache Python einsteigen wollen. Es wird empfohlen, diesen Abschnitt als erstes zu lesen und zu bearbeiten. Alle weiteren Abschnitte bauen auf diesen erlernten Techniken auf und einzelne Funktionen im Code, welche Grundwissen darstellen, werden nicht erneut vollständig erläutert werden. 
 
 Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg und Spaß!
+## Voraussetzungen
+| [[Installation Python und Pip]] | Installation von Python und Pip auf Windows, Linux & macOS |
 
 ## Grundlagen
 | Seite | Beschreibung |
@@ -45,7 +47,6 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 ## Darstellung
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Installation Python und Pip]] | Installation von Python und Pip auf Windows, Linux & macOS |
 | [[Einführung in Matplotlib]] | Installation und Einrichtung von Matplotlib |
 | [[Grundlagen des Plottings]] | Achsen, Legenden, Marker & Linienstile |
 | [[Plottypen]] | Basic, Statistiken, 3D etc. |
