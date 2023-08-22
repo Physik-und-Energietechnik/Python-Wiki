@@ -83,8 +83,12 @@ plt.title('Quadratische Funktion')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Erstellen_eines_einfachen_Linienplots/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Erstelle einen Linienplot für die Funktion f(x) = sin(x) im Intervall von 0 bis 2π. Hinweis: Du kannst die `numpy`-Bibliothek verwenden, um die Sinusfunktion zu berechnen.
+
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
@@ -99,6 +103,8 @@ plt.ylabel('y-Werte')
 plt.title('Sinusfunktion')
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Erstellen_eines_einfachen_Linienplots/ms_aufgabe2.png)
 
 Viel Erfolg bei den Aufgaben!
 
