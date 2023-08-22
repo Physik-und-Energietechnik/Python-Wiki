@@ -56,9 +56,9 @@ plt.plot(x, y)
 
 # Speichere den Plot als JPEG-Datei
 plt.savefig('mein_plot.jpg')
-
-
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Exportieren_von_Plots/ms_aufgabe1.png)
 
 ### Aufgabe 2
 
@@ -83,6 +83,9 @@ plt.legend()
 plt.savefig('fortgeschrittener_plot.svg')
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Exportieren_von_Plots/ms_aufgabe2.png)
+
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man Plots mit Matplotlib in Python speichert und exportiert. Jetzt kannst du deine Visualisierungen auf verschiedene Weise nutzen und sie mit anderen teilen.
 
 Viel Spaß beim Plotten und Teilen deiner Kreationen!
