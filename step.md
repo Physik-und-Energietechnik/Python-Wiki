@@ -61,6 +61,8 @@ plt.step(x, y)
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/step/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Stell dir vor, du verfolgst die Anzahl der Seiten, die du in verschiedenen Büchern pro Tag gelesen hast. Erstelle ein step Plot-Diagramm, um diese Datenpunkte darzustellen:
 
@@ -84,6 +86,7 @@ plt.title("Mein Lesefortschritt")
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/step/ms_aufgabe2.png)
 
 ## Fazit
 Jetzt bist du in der Lage, deine Datenpunkte mit Stil zu visualisieren und andere mit deinen schicken Diagrammen zu beeindrucken. Denke daran, dass der step Plot ein hilfreiches Werkzeug ist, um diskrete Datenpunkte auf eine interessante Art und Weise darzustellen. Viel Spaß beim Experimentieren und viel Erfolg in deinen zukünftigen Python-Projekten!
