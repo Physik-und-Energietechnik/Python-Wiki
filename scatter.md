@@ -93,6 +93,8 @@ plt.title("Beziehung zwischen Videospielzeit und Pizzaverzehr")
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/scatter/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Du bist ein echter Datenanalyse-Ninja! Erstelle einen Scatter Plot, der die Beziehung zwischen der Anzahl der Stunden, die du für die Vorbereitung auf deine Prüfungen aufwendest, und deinen Noten zeigt. Verwende die folgenden Daten:
 
