@@ -3,7 +3,7 @@
 | [[hist]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_hist_plot.png) |
 | [[boxplot]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_boxplot_plot.png) |
 | [[errorbar]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_errorbar_plot.png) |
-| [[violinplot]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_violinplot_plot.png) |
+| [[violinplot]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_violin_plot.png) |
 | [[eventplot]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_eventplot_plot.png) |
 | [[hist2d]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_hist2d_plot.png) |
 | [[hexbin]] | ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/menu/menu_hexbin_plot.png) |
