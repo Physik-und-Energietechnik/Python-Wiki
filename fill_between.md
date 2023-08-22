@@ -80,8 +80,7 @@ plt.plot(x, y2, color='red', label='Line 2')
 plt.legend()
 plt.show()
 ```
-
-Führe den Code aus, um die Fläche zwischen den beiden Linien zu sehen!
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/fill_between/ms_aufgabe1.png)
 
 ### Aufgabe 2
 
@@ -116,7 +115,7 @@ plt.legend()
 plt.show()
 ```
 
-Führe den Code aus, um den Bereich zwischen den beiden Kurven zu sehen!
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/fill_between/ms_aufgabe2.png)
 
 ## Fazit
 
