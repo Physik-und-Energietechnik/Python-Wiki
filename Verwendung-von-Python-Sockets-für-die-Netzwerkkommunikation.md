@@ -1,5 +1,3 @@
-# Python Tutorial: Verwendung von Python Sockets für die Netzwerkkommunikation
-
 ## Einführung
 Willkommen zu diesem aufregenden Python Tutorial! Heute tauchen wir in die faszinierende Welt der Netzwerkkommunikation ein und entdecken, wie Python Sockets uns dabei helfen können. Aber Moment mal, was sind eigentlich Sockets? Keine Sorge, ich werde es dir auf eine Weise erklären, dass selbst ein quakender Entchen es verstehen würde!
 
