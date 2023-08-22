@@ -73,6 +73,7 @@ plt.bar(monate, verkäufe)
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/bar/ms_aufgabe1.png)
 
 Hier ist eine mögliche Musterlösung für die leichte Aufgabe 1:
 
@@ -168,6 +169,8 @@ plt.legend()
 # Zeige das Diagramm an
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/bar/ms_aufgabe2.png)
 
 In dieser Musterlösung verwenden wir die `numpy`-Bibliothek, um die Positionen der Monate auf der x-Achse zu berechnen (`positionen = np.arange(len(monate))`). Dadurch können wir die Balken nebeneinander platzieren. Wir fügen auch Achsentitel und einen Diagrammtitel hinzu, um das Diagramm klarer zu gestalten.
 
