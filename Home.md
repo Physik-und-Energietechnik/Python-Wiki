@@ -108,7 +108,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Abstraktion: Vertiefung]] | Vertiefte Kenntnisse der Datenbank-Abstraktion: Fortgeschrittene Techniken und bewährte Verfahren zur Optimierung der Datenbankkommunikation in Anwendungen. |
 | [[XML]] | XML (Extensible Markup Language): Eine Einführung in die Verwendung von XML zur Speicherung und Übertragung von Daten. |
 | [[Data Warehousing]] | Data Warehousing: Konzepte und Techniken für die Organisation und Analyse großer Datenmengen in einem Data Warehouse. |
-| [[Datenbank-Performance-Monitoring]] | Überwachung der Datenbankleistung: Methoden und Werkzeuge zur kontinuierlichen Überwachung und Optimierung der Datenbankleistung. |
+| [[Performance-Monitoring]] | Überwachung der Datenbankleistung: Methoden und Werkzeuge zur kontinuierlichen Überwachung und Optimierung der Datenbankleistung. |
 | [[Partitionierung]] | Datenbankpartitionierung: Aufteilung großer Datenbanken in kleinere Teile zur Verbesserung der Leistung und Verwaltung. |
 | [[Auditierung]] | Datenbank-Auditierung: Überprüfung und Überwachung von Datenbankaktivitäten zur Sicherstellung der Datenintegrität und Compliance. |
 | [[Integration mit externen Systemen]] | Integration von Datenbanken mit externen Systemen: Kommunikation und Datenaustausch zwischen Datenbanken und anderen Anwendungen oder Diensten. |
