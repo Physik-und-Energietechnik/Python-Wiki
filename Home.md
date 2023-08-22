@@ -6,6 +6,8 @@ Das Tutorial ist in mehrere Abschnitte gegliedert, welche durch die Teilnehmende
 
 Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg und Spaß!
 ## Voraussetzungen
+| Seite | Beschreibung |
+| ----------- | ----------- |
 | [[Installation Python und Pip]] | Installation von Python und Pip auf Windows, Linux & macOS |
 
 ## Grundlagen
