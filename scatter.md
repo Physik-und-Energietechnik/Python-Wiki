@@ -127,6 +127,8 @@ plt.title("Beziehung zwischen Lernstunden und Noten")
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/scatter/ms_aufgabe2.png)
+
 Probier sie aus und schau dir die beeindruckenden Scatter Plots an, die du erstellt hast! Wenn du Fragen hast oder etwas nicht verstehst, stehe ich dir gerne zur Verfügung.
 
 ## Fazit
