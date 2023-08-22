@@ -44,9 +44,7 @@ plt.bar(kategorien, werte, color=['red', 'blue', 'orange', 'green'])
 plt.show()
 ```
 
-In diesem Beispiel haben wir die Farben der Balken geändert. Der Code `color=['red', 'blue', 'orange', 'green']` weist den Balk
-
-en jeweils eine Farbe zu.
+In diesem Beispiel haben wir die Farben der Balken geändert. Der Code `color=['red', 'blue', 'orange', 'green']` weist den Balken jeweils eine Farbe zu.
 
 Das war die kurze Theorie hinter dem Bar Plot. Nun lass uns etwas Praxis machen, um das Gelernte anzuwenden!
 
