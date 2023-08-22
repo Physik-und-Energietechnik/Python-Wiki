@@ -60,16 +60,16 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 ## Kommunikation
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[1.Einführung in Web APIs]] | Allgemeine Erklärung zur Funktion von Web-APIs |
-| [[2.Grundlagen der Netzwerkprogrammierung mit Python]] | Verschiedene Netztwerk-Protokolle und Umgang mit Python Sockets |
-| [[3.Aufbau eines einfachen HTTP-Servers in Python]] | Erstellung eines HTTP Servers, sowie verarbeiten und erstellen von HTTP-Anfragen |
-| [[4.Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Einführung in Flask |
-| [[5.Authentifizierung und Autorisierung in Web-APIs]] | Grundlagen der Authentifizierung in Python |
-| [[6.Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
-| [[7.Fortgeschrittene Konzepte in der API-Entwicklung]] | Paginierung, Filterung, Caching, Leistungsoptimierung, Webhooks |
-| [[8.API-Dokumentation und Testen]] | Erstellen von API-Dokumentation mit OpenAPI/Swagger sowie das Testen von APIs mit Python-Bibliotheken |
-| [[9.Deployment und Skalierung von Web-APIs]] | Bereitstellen von APIs, Skalierungstechniken und Fehlerbehebung |
-| [[10.Kommunikation über serielle Schnittstellen]] | Unterkapitel für serielle Schnittstellen |
+| [[Einführung in Web APIs]] | Allgemeine Erklärung zur Funktion von Web-APIs |
+| [[Grundlagen der Netzwerkprogrammierung mit Python]] | Verschiedene Netztwerk-Protokolle und Umgang mit Python Sockets |
+| [[Aufbau eines einfachen HTTP-Servers in Python]] | Erstellung eines HTTP Servers, sowie verarbeiten und erstellen von HTTP-Anfragen |
+| [[Entwicklung einer RESTful API mit Python und Flask (FastAPI)]] | Einführung in Flask |
+| [[Authentifizierung und Autorisierung in Web-APIs]] | Grundlagen der Authentifizierung in Python |
+| [[Verwendung von Datenformaten in Web-APIs]] | Verwendung von Datenformaten wie JSON,XML und YAML für die API-Kommunikation |
+| [[Fortgeschrittene Konzepte in der API-Entwicklung]] | Paginierung, Filterung, Caching, Leistungsoptimierung, Webhooks |
+| [[API-Dokumentation und Testen]] | Erstellen von API-Dokumentation mit OpenAPI/Swagger sowie das Testen von APIs mit Python-Bibliotheken |
+| [[Deployment und Skalierung von Web-APIs]] | Bereitstellen von APIs, Skalierungstechniken und Fehlerbehebung |
+| [[Kommunikation über serielle Schnittstellen]] | Unterkapitel für serielle Schnittstellen |
 | [[Messaging und Queueing in Python ]] | Beschreibung |
 
 
