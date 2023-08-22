@@ -1,5 +1,3 @@
-# Matplotlib - Verwendung verschiedener Marker und Linienstile
-
 ## Einführung
 Willkommen zu unserem Python-Tutorial über die Verwendung verschiedener Marker und Linienstile in Matplotlib! In diesem Tutorial werden wir lernen, wie wir unsere Diagramme mit verschiedenen Markern und Linienstilen aufpeppen können. Dieses Wissen wird dir helfen, beeindruckende und aussagekräftige Grafiken zu erstellen, sei es für Präsentationen, Berichte oder einfach nur zum Spaß!
 
@@ -79,7 +77,7 @@ Diese Liste ist nicht abschließend, sondern gibt dir eine gute Ausgangsbasis, u
 ## Praxis
 Jetzt, da wir die Theorie hinter uns haben, lass uns das erlangte Wissen in die Praxis umsetzen! Wir werden zwei Aufgaben durchführen - eine leichte und eine schwerere.
 
-### Leichte Aufgabe
+### Aufgabe 1
 Zeichne ein einfaches Liniendiagramm mit roten Kreuzmarkern und einer gestrichelten blauen Linie. Verwende die folgenden Datenpunkte:
 
 ```python
@@ -92,7 +90,9 @@ plt.plot(x, y, marker='x', color='red', linestyle='--', color='blue')
 plt.show()
 ```
 
-### Schwerere Aufgabe
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Verwendung_verschiedener_Marker_und_Linienstile/ms_aufgabe1.png)
+
+### Aufgabe 2
 Zeichne ein gestapeltes Säulendiagramm mit grünen Quadratmarkern und einer durchgezogenen schwarzen Linie. Verwende die folgenden Datenpunkte:
 
 ```python
@@ -108,4 +108,7 @@ plt.legend()
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Verwendung_verschiedener_Marker_und_Linienstile/ms_aufgabe2.png)
+
+## Fazit
 Super, du hast es geschafft! Du kannst nun verschiedene Marker und Linienstile in Matplotlib verwenden, um deine Diagramme zu verbessern und deine Daten ansprechend darzustellen. Viel Spaß beim Experimentieren und Erstellen beeindruckender Visualisierungen!
