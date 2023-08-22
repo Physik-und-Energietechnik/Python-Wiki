@@ -1,5 +1,3 @@
-# Matplotlib - Hinzufügen von Legenden
-
 ## Einführung
 
 Willkommen zum Tutorial über das Hinzufügen von Legenden in Matplotlib! In diesem Tutorial wirst du lernen, wie du Legenden zu deinen Diagrammen hinzufügen kannst, um sie besser verständlich und ansprechender zu machen. 
@@ -68,9 +66,7 @@ Zeichne ein einfaches Linien-Diagramm mit zwei Datenreihen: x = [1, 2, 3, 4] und
 
 #### Musterlösung
 
-```
-
-python
+```python
 import matplotlib.pyplot as plt
 
 # Daten für das Diagramm
@@ -88,6 +84,8 @@ plt.legend()
 # Diagramm anzeigen
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Hinzufuegen_von_Legenden/ms_aufgabe1.png)
 
 ### Aufgabe 2
 
@@ -112,5 +110,8 @@ plt.legend()
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Hinzufuegen_von_Legenden/ms_aufgabe2.png)
+
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man Legenden zu Diagrammen in Matplotlib hinzufügt. Jetzt kannst du deine Daten visualisieren und anderen zeigen, wie cool du bist!
 
