@@ -53,7 +53,6 @@ plt.ylabel('Koffeinkonsum')
 plt.title('Mein täglicher Koffeinkonsum')
 plt.show()
 ```
-[[https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen des Plottings/beispielcode_1.png|alt=Koffeinkonsum Plot]]
 
 Jetzt kannst du deine eigene Achterbahnfahrt des Koffeinkonsums visualisieren!
 
