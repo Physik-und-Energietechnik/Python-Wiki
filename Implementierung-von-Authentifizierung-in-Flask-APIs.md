@@ -1,5 +1,3 @@
-# Python Tutorial: Implementierung von Authentifizierung in Flask APIs
-
 ## Einführung
 Willkommen zu diesem aufregenden Python Tutorial! Heute werden wir uns damit beschäftigen, wie du Authentifizierung in deine Flask APIs integrieren kannst. Authentifizierung ist wie der Sicherheitsdienst deiner API, der sicherstellt, dass nur berechtigte Personen Zugriff auf bestimmte Ressourcen erhalten. In diesem Tutorial lernst du, wie du die Macht der Authentifizierung nutzt, um deine APIs zu schützen und unerwünschte Zugriffe zu verhindern.
 
