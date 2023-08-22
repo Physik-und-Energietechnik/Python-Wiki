@@ -9,5 +9,5 @@
 
 [[https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/menu/menu_scatter_plot.webp|alt=scatter]]
 
-[[https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array & Fields/menu/menu_pcolormesh_plot.png|alt=scatter]]
+[[https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array & Fields/menu/menu_barbs_plot.webp|alt=scatter]]
 
