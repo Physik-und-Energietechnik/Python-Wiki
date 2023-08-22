@@ -1,5 +1,3 @@
-# Matplotlib - Anpassen von Achsen
-
 ## Einführung
 Herzlich willkommen zum Tutorial über das Anpassen von Achsen in Matplotlib! In diesem Tutorial werden wir lernen, wie wir die Achsen eines Diagramms in Matplotlib anpassen können.
 
@@ -62,9 +60,7 @@ plt.show()
 In diesem Beispiel haben wir die Skalierung der y-Achse auf eine logarithmische Skala geändert, indem wir `plt.yscale('log')` verwendet haben. Dadurch werden große Zahlen auf der y-Achse komprimiert und besser sichtbar gemacht.
 
 ### Achsenlimits festlegen
-Manchmal möchten wir den Fokus auf einen bestimmten Bereich unserer Daten legen und den Rest ausblenden. Matplotlib ermöglicht es uns, die Achsenlimits festzulegen
-
-, um nur den gewünschten Bereich anzuzeigen.
+Manchmal möchten wir den Fokus auf einen bestimmten Bereich unserer Daten legen und den Rest ausblenden. Matplotlib ermöglicht es uns, die Achsenlimits festzulegen, um nur den gewünschten Bereich anzuzeigen.
 
 Hier ist ein Beispiel dafür, wie wir die Achsenlimits in Matplotlib festlegen können:
 
@@ -90,7 +86,7 @@ In diesem Beispiel haben wir die Achsenlimits für die x-Achse auf den Bereich v
 
 ## Praxis
 
-### Leichte Aufgabe
+### Aufgabe 1
 Versuche, die Achsenbeschriftungen in folgendem Diagramm anzupassen:
 
 ```python
@@ -129,7 +125,9 @@ plt.ylabel('Y-Achse')
 plt.show()
 ```
 
-### Schwierige Aufgabe
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Anpassen_von_Achsen/ms_aufgabe1.png)
+
+### Aufgabe 2
 Versuche, die Skalierung der y-Achse in folgendem Diagramm anzupassen:
 
 ```python
@@ -167,4 +165,8 @@ plt.yscale('log')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Anpassen_von_Achsen/ms_aufgabe1.png)
+
+
+## Fazit
 Viel Spaß beim Anpassen von Achsen in Matplotlib! Lass deiner Kreativität freien Lauf und erstelle beeindruckende Diagramme.
