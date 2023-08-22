@@ -59,6 +59,7 @@ plt.title('Mein erster stem Plot
 ')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/stem/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Erstelle einen stem Plot für die folgenden Daten:
@@ -80,6 +81,8 @@ plt.ylabel('Temperaturen')
 plt.title('Temperaturverlauf')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/stem/ms_aufgabe2.png)
+
 ## Fazit
 Viel Spaß beim Experimentieren mit dem stem Plot! Lass deiner Kreativität freien Lauf und entdecke die vielfältigen Möglichkeiten der Datenvisualisierung.
 
