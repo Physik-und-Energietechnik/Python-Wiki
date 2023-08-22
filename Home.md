@@ -79,7 +79,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | ----------- | ----------- |
 | [[Dateiformate]] | JSON und CSV: Eine Einführung in verschiedene Dateiformate, insbesondere JSON und CSV, und ihre Bedeutung für Datenbanken. |
 | [[Suche nach bestimmten Kriterien]] | Durchsuchen der JSON und CSV-Dateien: Grundlagen der Suche und Filterung von Daten in JSON und CSV-Dateien. |
-| [[Dateiformate ‐ Vertiefung]] | Vertieftes Wissen zu JSON: Detaillierte Untersuchung von JSON als Dateiformat und dessen fortgeschrittene Funktionen. |
+| [[Dateiformate - Vertiefung]] | Vertieftes Wissen zu JSON: Detaillierte Untersuchung von JSON als Dateiformat und dessen fortgeschrittene Funktionen. |
 | [[Zugänge für Erstellung einer Datenbank]] | Installation und Verbindung mit einer Datenbank: Erforderliche Schritte und Werkzeuge zur Installation und Verbindung mit einer Datenbank. |
 | [[Datenbanken: Einführung und Praxis in Python]] | Grundlagen von Datenbanken: Eine Einführung in Datenbanken, ihre Bedeutung und praktische Anwendung in Python. |
 | [[Abfragen]] | Erstellen von Abfragen: Erstellung und Ausführung von Abfragen in Python zur Extraktion spezifischer Informationen aus einer Datenbank. |
