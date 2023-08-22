@@ -165,7 +165,7 @@ plt.yscale('log')
 plt.show()
 ```
 
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Anpassen_von_Achsen/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Grundlagen_des_Plottings/Anpassen_von_Achsen/ms_aufgabe2.png)
 
 
 ## Fazit
