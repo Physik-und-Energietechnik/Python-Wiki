@@ -1,5 +1,3 @@
-# Python Tutorial: Was sind Web APIs?
-
 ## Einführung
 Willkommen zu diesem Python Tutorial! Heute gehen wir auf eine wunderbare Reise und entdecken das Geheimnis der Web APIs. Aber warte mal, was zum Kuckuck sind Web APIs? Keine Sorge, ich werde es dir auf eine Weise erklären, dass es selbst ein sprechendes Einhorn verstehen würde!
 
