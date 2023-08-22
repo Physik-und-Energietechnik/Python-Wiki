@@ -1,6 +1,6 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[scatter]] | Beschreibung... |
+| [[scatter]] | [[https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/menu/menu_scatter_plot.webp|alt=scatter]] |
 | [[bar]] | Beschreibung... |
 | [[stem]] | Beschreibung... |
 | [[step]] | Beschreibung... |
