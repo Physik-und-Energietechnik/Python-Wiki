@@ -1,12 +1,12 @@
-## 6.1 Konzepte von Messaging und Queueing
+## Konzepte von Messaging und Queueing
 
 Messaging und Queueing sind wichtige Konzepte in der Softwareentwicklung, um die Kommunikation zwischen verschiedenen Teilen einer Anwendung zu ermöglichen. Bei der Messaging-Kommunikation sendet ein Sender eine Nachricht an einen Empfänger, während bei der Queueing-Kommunikation Nachrichten in einer Warteschlange zwischengespeichert werden, bis sie von einem Empfänger abgeholt werden.
 
-## 6.2 Einführung in Message Brokers
+## Einführung in Message Brokers
 
 Message Brokers sind Middleware-Komponenten, die als Vermittler zwischen Sendern und Empfängern dienen. Sie übernehmen die Aufgabe des Nachrichtenversands und -empfangs sowie das Management von Warteschlangen. Einige beliebte Message Broker sind RabbitMQ, Apache Kafka und ActiveMQ.
 
-## 6.3 Kommunikation über Message Brokers mit Python
+## Kommunikation über Message Brokers mit Python
 
 Um mit einem Message Broker zu kommunizieren, benötigen wir eine passende Python-Bibliothek. In diesem Tutorial verwenden wir die Bibliothek "pika" für die Kommunikation mit RabbitMQ, einem häufig verwendeten Message Broker.
 
@@ -48,7 +48,7 @@ connection.close()
 
 In diesem Beispiel stellen wir eine Verbindung zum lokalen RabbitMQ-Server her, deklarieren eine Warteschlange namens "meine_warteschlange", senden eine Nachricht mit dem Text "Hallo, Welt!" und empfangen diese Nachricht. Beachte, dass der Message Broker bereits installiert und gestartet sein muss, damit das Beispiel funktioniert.
 
-## 6.4 Verwenden von Warteschlangen in Python-Anwendungen
+## Verwenden von Warteschlangen in Python-Anwendungen
 
 Warteschlangen sind nützlich, um Nachrichten zwischen verschiedenen Teilen einer Anwendung zu übertragen. Beispielsweise können wir eine Warteschlange verwenden, um eingehende Anfragen zu speichern und sie später von verschiedenen Verarbeitungseinheiten abholen zu lassen.
 
@@ -72,7 +72,7 @@ while not my_queue.empty():
 
 In diesem Beispiel erstellen wir eine Warteschlange mit `queue.Queue()`. Mit `put()` fügen wir Nachrichten zur Warteschlange hinzu, und mit `get()` können wir Nachrichten aus der Warteschlange abrufen. Die Schleife sorgt dafür, dass alle Elemente der Warteschlange verarbeitet werden, bis sie leer ist.
 
-## 6.5 Beliebte Python-Bibliotheken für Messaging und Queueing
+## Beliebte Python-Bibliotheken für Messaging und Queueing
 
 Es gibt verschiedene Python-Bibliotheken, die Messaging und Queueing unterstützen. Hier sind einige beliebte Bibliotheken:
 
