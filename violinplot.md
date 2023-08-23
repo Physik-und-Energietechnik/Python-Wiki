@@ -42,9 +42,7 @@ import numpy as np
 # Erstelle einige Beispieldaten
 np.random.seed(42)
 data1 = np.random.normal(0, 1, 200)
-data2 = np.random.normal(2, 0.5
-
-, 200)
+data2 = np.random.normal(2, 0.5, 200)
 data3 = np.random.normal(3, 1.5, 200)
 data4 = np.random.normal(1, 1, 200)
 data = [data1, data2, data3, data4]
