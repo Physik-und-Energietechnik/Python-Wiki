@@ -42,9 +42,7 @@ Jetzt ist es Zeit, dein Wissen in die Praxis umzusetzen! Wir haben zwei Aufgaben
 ### Aufgabe 1
 Erstelle ein Kreisdiagramm, das die Verteilung von Internetbrowsern darstellt. Verwende die folgenden Daten:
 
-- Chrome
-
-: 65%
+- Chrome: 65%
 - Firefox: 20%
 - Safari: 10%
 - Andere: 5%
