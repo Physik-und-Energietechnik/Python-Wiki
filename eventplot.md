@@ -40,9 +40,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Anzahl der Witze für jeden Wochentag (Montag bis Freitag)
-witze = [3, 2, 4, 1, 
-
-5]
+witze = [3, 2, 4, 1, 5]
 
 # Erstellen einer Liste von Tagen (0-4) und einer Liste von Nullen
 tage = np.arange(5)
@@ -101,9 +99,7 @@ emails = [2, 4, 6, 3, 5, 1, 7, 0, 2, 1, 3, 5, 4, 1, 0, 0, 6, 2, 1, 3, 2, 0, 4, 5
 
 # Erstellen einer Liste von Stunden (0-27) und einer Liste von Nullen
 stunden = np.arange(28)
-null
-
-en = np.zeros(28)
+nullen = np.zeros(28)
 
 # Eventplot erstellen
 plt.eventplot(emails, lineoffsets=0.1, linelengths=0.4, linewidths=2, colors='g')
