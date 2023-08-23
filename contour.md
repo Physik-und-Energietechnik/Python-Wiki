@@ -58,11 +58,9 @@ Hier erstellen wir einen detaillierteren contour Plot. Mit `plt.contour()` zeich
 
 Lasst uns das erlernte Wissen auf die Probe stellen! Hier sind zwei Aufgaben für euch:
 
-**Leichte Aufgabe:**
+**Aufgabe 1:**
 
-Erstellt einen contour Plot für die Funktion `Z = np.cos(X) + np.sin(Y)` im Bereich von -2π bis 2π für x und y. Verwendet eine geeignete Farbskala und f
-
-ügt Titel, Achsenbeschriftungen hinzu.
+Erstellt einen contour Plot für die Funktion `Z = np.cos(X) + np.sin(Y)` im Bereich von -2π bis 2π für x und y. Verwendet eine geeignete Farbskala und fügt Titel und Achsenbeschriftungen hinzu.
 
 ```python
 # Musterlösung für die leichte Aufgabe
@@ -83,7 +81,7 @@ plt.ylabel('Y-Achse')
 plt.show()
 ```
 
-**Schwere Aufgabe:**
+**Aufgabe 2:**
 
 Erstellt einen 3D contour Plot für die Funktion `Z = np.cos(X) * np.sin(Y)`. Verwendet unterschiedliche Ebenen für verschiedene Werte von Z und fügt eine geeignete Farbskala hinzu.
 
