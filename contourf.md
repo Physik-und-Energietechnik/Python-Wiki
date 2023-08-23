@@ -48,9 +48,7 @@ Wenn du diesen Code ausführst, solltest du einen Konturplot mit einem Quadrat s
 
 ### Code-Beispiel: Konturplot mit echten Daten
 
-Natürlich werden wir normalerweise mit komplexeren Daten arbeiten. Hier ist ein Beispiel, wie du einen Konturplot mit echten Daten erstellen kannst. Angenommen, du hast zwei NumPy-Arrays `X` und `Y`, die die Koordinaten der Punkte auf der X- und Y-Achse repräsentieren, sowie ein 2D-Array `Z`, das die zugehörigen Werte enth
-
-ält:
+Natürlich werden wir normalerweise mit komplexeren Daten arbeiten. Hier ist ein Beispiel, wie du einen Konturplot mit echten Daten erstellen kannst. Angenommen, du hast zwei NumPy-Arrays `X` und `Y`, die die Koordinaten der Punkte auf der X- und Y-Achse repräsentieren, sowie ein 2D-Array `Z`, das die zugehörigen Werte enthält:
 
 ```python
 import numpy as np
@@ -75,7 +73,7 @@ In diesem Beispiel verwenden wir die NumPy-Funktionen `linspace` und `meshgrid`,
 
 ## Praxis
 
-### Leichte Aufgabe
+### Aufgabe 1
 
 Deine erste Aufgabe besteht darin, einen Konturplot für die Funktion `f(x, y) = x^2 + y^2` zu erstellen. Verwende dazu die `linspace`-Funktion von NumPy, um Werte für `x` und `y` zu generieren, und berechne dann die Werte für `Z`. Erstelle den Konturplot mit einem geeigneten Farbverlauf und beschrifte die Achsen. Viel Erfolg!
 
@@ -104,7 +102,7 @@ plt.show()
 
 Wenn du den Code ausführst, solltest du einen Konturplot sehen, der eine konzentrische Kreisstruktur zeigt.
 
-### Schwierige Aufgabe
+### Aufgabe 2
 
 Jetzt wird es etwas herausfordernder! Deine Aufgabe besteht darin, einen Konturplot für die Funktion `f(x, y) = sin(x) * cos(y)` zu erstellen. Verwende NumPy, um Werte für `x` und `y` zu generieren, und berechne die entsprechenden `Z`-Werte. Stelle den Konturplot mit einem Farbverlauf deiner Wahl dar und gib ihm eine aussagekräftige Beschriftung.
 
@@ -126,9 +124,7 @@ Z = np.sin(X) * np.cos(Y)
 plt.contourf(X, Y, Z, cmap='seismic')
 plt.colorbar()
 plt.xlabel('X')
-plt.ylabel('
-
-Y')
+plt.ylabel('Y')
 plt.title('Konturplot von sin(x) * cos(y)')
 plt.show()
 ```
