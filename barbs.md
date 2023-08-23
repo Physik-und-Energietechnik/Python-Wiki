@@ -2,9 +2,7 @@
 
 ### Einführung
 
-Willkommen zurück, liebe Python-Abenteurer! In diesem Abschnitt werden wir uns mit einem faszinierenden Werkzeug namens Matplotlib beschäftigen und uns speziell den "barbs Plot" genauer anschauen. Aber was zur Hölle ist ein "barbs Plot"? Nun, keine Sorge, ich verspreche euch, dass es nichts mit merkwürdigen Schnurrbärten zu tun hat. 😄
-
-Matplotlib ist eine beliebte Python-Bibliothek, die uns dabei hilft, Daten in Form von Diagrammen und Grafiken zu visualisieren. Und der "barbs Plot" ist nur einer von vielen nützlichen Plots, die wir damit erstellen können. Aber warum sollte man überhaupt Daten visualisieren? Ganz einfach: Um unsere Zahlen und Fakten in schöne Bilder zu verwandeln, die uns helfen, Muster zu erkennen und Informationen besser zu verstehen. Denn wie wir alle wissen: Ein Bild sagt mehr als tausend Zahlen!
+Willkommen zurück, liebe Python-Abenteurer! In diesem Abschnitt werden wir uns den "barbs Plot" genauer anschauen. Aber was zur Hölle ist ein "barbs Plot"? Nun, keine Sorge, ich verspreche euch, dass es nichts mit merkwürdigen Schnurrbärten zu tun hat. 😄
 
 In diesem Tutorial werden wir gemeinsam lernen, wie man mit Matplotlib den "barbs Plot" erstellt. Du wirst sehen, dass es einfacher ist, als es sich anhört. Am Ende wirst du in der Lage sein, deine Daten mit Pfeilen, die Windrichtung und -geschwindigkeit darstellen, aufzubereiten. Klingt cool, oder?
 
@@ -49,15 +47,13 @@ plt.barbs(x, y, u, v)
 plt.show()
 ```
 
-In diesem Beispiel
-
- werden die x- und y-Koordinaten sowie die u- und v-Komponenten des Vektorfelds aus berechneten Daten erstellt. Es ist wichtig zu beachten, dass die Länge der Arrays für die Koordinaten und Komponenten übereinstimmen muss, damit der "barbs Plot" korrekt angezeigt wird.
+In diesem Beispiel werden die x- und y-Koordinaten sowie die u- und v-Komponenten des Vektorfelds aus berechneten Daten erstellt. Es ist wichtig zu beachten, dass die Länge der Arrays für die Koordinaten und Komponenten übereinstimmen muss, damit der "barbs Plot" korrekt angezeigt wird.
 
 ### Praxis
 
 Nun ist es an der Zeit, das erlangte Wissen in die Praxis umzusetzen! Wir werden zwei Aufgaben angehen: eine leichte und eine etwas herausforderndere. Keine Angst, ich werde dich nicht im Stich lassen. Hier sind die Aufgaben und die Musterlösungen:
 
-**Leichte Aufgabe:**
+**Aufgabe 1:**
 
 Erstelle einen "barbs Plot", der die Windrichtung und -geschwindigkeit für drei verschiedene Punkte darstellt. Verwende die folgenden Daten:
 
@@ -81,7 +77,7 @@ plt.barbs(0, 0, windrichtung, windgeschwindigkeit)
 plt.show()
 ```
 
-**Herausfordernde Aufgabe:**
+**Aufgabe 1:**
 
 Erstelle einen "barbs Plot", der ein komplexeres Vektorfeld darstellt. Verwende die folgenden Daten:
 
@@ -113,9 +109,7 @@ Das war's! Du hast erfolgreich den "barbs Plot" mit Matplotlib gemeistert. Gut g
 
 ### Fazit
 
-In diesem Abschnitt haben wir gelernt, wie man mit Matplotlib den faszinierenden "barbs Plot" erstellt. Wir haben die Theorie hinter dem Plot erklärt und verschiedene Code-Beispiele bereitgestellt. Außerdem haben wir unsere neuen Fähigkeiten in der Praxis angewendet, indem wir leichte und herausfordernde Auf
-
-gaben gelöst haben.
+In diesem Abschnitt haben wir gelernt, wie man mit Matplotlib den faszinierenden "barbs Plot" erstellt. Wir haben die Theorie hinter dem Plot erklärt und verschiedene Code-Beispiele bereitgestellt. Außerdem haben wir unsere neuen Fähigkeiten in der Praxis angewendet, indem wir leichte und herausfordernde Aufgaben gelöst haben.
 
 Matplotlib ist ein mächtiges Werkzeug, mit dem du Daten auf interessante und aussagekräftige Weise visualisieren kannst. Also los, experimentiere und finde heraus, welche anderen aufregenden Plots du erstellen kannst! Und denk immer daran: Die Welt der Datenvisualisierung ist deine Spielwiese, also habe Spaß dabei und zeige der Welt, was du drauf hast!
 
