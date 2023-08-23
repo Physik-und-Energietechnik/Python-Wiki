@@ -48,9 +48,7 @@ Hier ist ein explizites Code-Beispiel, das die Erstellung eines hist2d Plots anh
 import matplotlib.pyplot as plt
 
 # Daten für den hist2d Plot
-mathepunkte
-
- = [85, 90, 70, 65, 80, 75, 95, 85, 90, 80]
+mathepunkte = [85, 90, 70, 65, 80, 75, 95, 85, 90, 80]
 englischpunkte = [70, 75, 60, 80, 85, 90, 75, 85, 80, 95]
 
 # Erstelle den hist2d Plot
@@ -129,9 +127,7 @@ plt.hist2d(mathepunkte, englischpunkte, bins=5, cmap='Blues')
 # Beschriftungen und Titel hinzufügen
 plt.xlabel('Mathepunkte')
 plt.ylabel('Englischpunkte')
-plt.title('
-
-Verteilung der Testergebnisse')
+plt.title('Verteilung der Testergebnisse')
 
 # Farblegende hinzufügen
 plt.colorbar(label='Anzahl')
