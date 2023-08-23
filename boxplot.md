@@ -55,7 +55,7 @@ Nun, da wir die Theorie hinter dem boxplot Plot kennen, wird es Zeit, unser Wiss
 
 ### Aufgabe 1
 
-gabe:** Du hast eine Liste von Noten für einen Test erhalten. Erstelle einen boxplot, um die Verteilung der Noten zu visualisieren.
+Du hast eine Liste von Noten für einen Test erhalten. Erstelle einen boxplot, um die Verteilung der Noten zu visualisieren.
 
 Musterlösung:
 
