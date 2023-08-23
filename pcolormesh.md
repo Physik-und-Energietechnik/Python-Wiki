@@ -53,11 +53,9 @@ Schau dir das an! Du hast gerade deine Temperaturdaten auf einer Karte visualisi
 
 Jetzt ist es an der Zeit, dein erlangtes Wissen in die Praxis umzusetzen. Mach dir keine Sorgen, wir haben zwei Aufgaben für dich vorbereitet, eine leichte und eine schwerere. Du kannst gerne herumexperimentieren und deine Kreativität einfließen lassen!
 
-**Leichte Aufgabe:**
+**Aufgabe 1:**
 
-Erstelle eine 5x5-Matrix mit Zufallswerten zwischen
-
- 0 und 1 und visualisiere sie mit einem `pcolormesh` Plot.
+Erstelle eine 5x5-Matrix mit Zufallswerten zwischen 0 und 1 und visualisiere sie mit einem `pcolormesh` Plot.
 
 **Musterlösung:**
 
@@ -72,7 +70,7 @@ plt.colorbar()
 plt.show()
 ```
 
-**Schwere Aufgabe:**
+**Aufgabe 2:**
 
 Du hast eine CSV-Datei mit den Ergebnissen eines Spiels. Die CSV-Datei enthält eine 10x10-Matrix, wobei jeder Wert den Spielstand an einer bestimmten Position im Spiel repräsentiert. Lies die Daten aus der CSV-Datei ein und visualisiere sie mit einem `pcolormesh` Plot.
 
