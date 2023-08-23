@@ -43,9 +43,7 @@ y = np.linspace(-2, 2, 100)
 # Erstelle u- und v-Komponenten der Vektoren
 X, Y = np.meshgrid(x, y)
 u = -Y
-v
-
- = X
+v = X
 
 # Erstelle das Strömungsfeld
 plt.streamplot(X, Y, u, v)
@@ -57,6 +55,8 @@ plt.show()
 In diesem Beispiel haben wir eine Funktion definiert, die ein Wirbelfeld erzeugt. Die `np.meshgrid`-Funktion wird verwendet, um ein Gitter von Koordinaten zu erstellen. Dann haben wir die u- und v-Komponenten der Vektoren definiert, um das Wirbelfeld zu erzeugen. Schließlich haben wir `plt.streamplot` verwendet, um das Strömungsfeld zu erstellen, und `plt.show`, um das Diagramm anzuzeigen.
 
 ## Praxis
+
+##Aufgabe 1##
 Genug Theorie, lass uns mit der Praxis beginnen! Hier ist eine leichte Aufgabe für dich: Erstelle ein Strömungsfeld, das das Fließen eines Flusses darstellt. Verwende die folgenden Koordinaten und Vektoren:
 
 ```python
@@ -79,6 +79,8 @@ plt.show()
 
 Probier es aus und schau dir das erzeugte Strömungsfeld an. Beachte, wie die Vektoren die Richtung und Geschwindigkeit des Flusses anzeigen.
 
+
+##Aufgabe 2##
 Für diejenigen, die eine größere Herausforderung suchen, hier ist eine schwierigere Aufgabe: Erstelle ein Strömungsfeld, das die Bewegung eines Tornados darstellt. Verwende den folgenden Code:
 
 ```python
