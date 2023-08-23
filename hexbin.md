@@ -43,9 +43,7 @@ Nun, meine mutigen Python-Anfänger, es ist Zeit für die Praxis! Eure erste Auf
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = np.random
-
-.randn(1000)
+data = np.random.randn(1000)
 
 # Hexbin Plot erstellen
 # Fügt euren Code hier ein
