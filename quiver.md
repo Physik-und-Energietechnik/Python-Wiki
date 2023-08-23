@@ -52,9 +52,7 @@ y = np.random.rand(10)
 
 # Vektor-Komponenten generieren
 u = np.random.rand(10) - 0.5
-v = np.random.rand(10) - 
-
-0.5
+v = np.random.rand(10) - 0.5
 
 # Erstellung des "quiver plots" mit angepassten Parametern
 plt.quiver(x, y, u, v, color='purple', scale=10, width=0.01, headwidth=3, headlength=4)
@@ -69,7 +67,7 @@ In diesem Beispiel haben wir zufällige Startpunkt-Koordinaten und Vektor-Kompon
 
 Nun, da du die Theorie kennst, lass uns das Gelernte in die Praxis umsetzen. Ich werde dir zwei Aufgaben geben: eine leichte und eine etwas schwierigere. Aber keine Sorge, du wirst es schaffen!
 
-**Leichte Aufgabe:**
+**Aufgabe 1:**
 Erstelle einen "quiver plot" für die Vektoren (1, 1), (-1, 1) und (0, -1). Zeige sie als Pfeile mit einer Länge von 1 an und positioniere sie in den Punkten (0, 0), (1, 1) und (2, 2). Lass sie in einer atemberaubenden Farbe erstrahlen und gib den Pfeilspitzen eine Breite von 0.005.
 
 **Musterlösung:**
@@ -91,7 +89,7 @@ plt.quiver(x, y, u, v, color='magenta', scale=1, width=0.005)
 plt.show()
 ```
 
-**Schwierigere Aufgabe:**
+**Aufgabe 2:**
 Erstelle einen "quiver plot" für die Vektoren, die entlang eines Kreises mit einem Radius von 1 liegen. Verwende eine Schrittweite von 0.1, um die Vektoren gleichmäßig auf dem Kreis zu platzieren. Zeige sie als Pfeile mit einer Länge von 0.5 an und gib ihnen eine leuchtend blaue Farbe. Lass die Pfeilspitzen elegant schlank sein, indem du ihnen eine Breite von 0.002 gibst.
 
 **Musterlösung:**
@@ -115,8 +113,6 @@ plt.quiver(x, y, u, v, color='blue', scale=1, width=0.002)
 plt.show()
 ```
 
-Herzlichen Glückwunsch! Du hast den "quiver plot" gemeistert und bist nun ein wahrer Held der Datenvisualisierung! Es gibt noch so
-
- viele aufregende Möglichkeiten mit Matplotlib zu erkunden, aber das ist eine Geschichte für ein anderes Tutorial.
+Herzlichen Glückwunsch! Du hast den "quiver plot" gemeistert und bist nun ein wahrer Held der Datenvisualisierung! Es gibt noch so viele aufregende Möglichkeiten mit Matplotlib zu erkunden, aber das ist eine Geschichte für ein anderes Tutorial.
 
 Bis dahin, viel Spaß beim Pfeile schießen in der Welt der Daten!
