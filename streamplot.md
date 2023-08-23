@@ -56,7 +56,7 @@ In diesem Beispiel haben wir eine Funktion definiert, die ein Wirbelfeld erzeugt
 
 ## Praxis
 
-##Aufgabe 1##
+**Aufgabe 1**
 Genug Theorie, lass uns mit der Praxis beginnen! Hier ist eine leichte Aufgabe für dich: Erstelle ein Strömungsfeld, das das Fließen eines Flusses darstellt. Verwende die folgenden Koordinaten und Vektoren:
 
 ```python
@@ -80,7 +80,7 @@ plt.show()
 Probier es aus und schau dir das erzeugte Strömungsfeld an. Beachte, wie die Vektoren die Richtung und Geschwindigkeit des Flusses anzeigen.
 
 
-##Aufgabe 2##
+**Aufgabe 2**
 Für diejenigen, die eine größere Herausforderung suchen, hier ist eine schwierigere Aufgabe: Erstelle ein Strömungsfeld, das die Bewegung eines Tornados darstellt. Verwende den folgenden Code:
 
 ```python
