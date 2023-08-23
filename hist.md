@@ -38,9 +38,7 @@ plt.title('Verteilung der Noten')
 plt.show()
 ```
 
-Schau dir das an! Mit nur wenigen Zeilen Code haben wir ein schickes Histogramm unserer Noten erstellt
-
-. Die X-Achse zeigt die Noten an, während die Y-Achse die Anzahl der Schüler angibt, die diese Note erhalten haben. Das ist doch ziemlich cool, oder?
+Schau dir das an! Mit nur wenigen Zeilen Code haben wir ein schickes Histogramm unserer Noten erstellt. Die X-Achse zeigt die Noten an, während die Y-Achse die Anzahl der Schüler angibt, die diese Note erhalten haben. Das ist doch ziemlich cool, oder?
 
 #### Code-Beispiel: Angepasstes Histogramm
 
