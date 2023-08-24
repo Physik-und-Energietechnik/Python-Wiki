@@ -1,12 +1,10 @@
-## Matplotlib - Erstellen von Subplots
-
-### Einführung
+## Einführung
 
 In diesem Abschnitt werden wir uns mit dem Erstellen von Subplots in Matplotlib beschäftigen. Aber was sind Subplots überhaupt? Stell dir vor, du möchtest mehrere Diagramme oder Grafiken nebeneinander darstellen, um sie leichter vergleichen zu können. Genau das ermöglichen uns Subplots!
 
 Du wirst verstehen, wie Subplots aufgebaut sind und wie du sie an deine Bedürfnisse anpassen kannst. Das Wissen, das du hier erlangst, wird dir dabei helfen, professionell aussehende Visualisierungen zu erstellen und deine Daten auf eine anschauliche Art und Weise darzustellen.
 
-### Theorie
+## Theorie
 
 Bevor wir mit dem Spaß beginnen, lass uns einen kurzen Blick auf die Theorie werfen. Ein Subplot besteht aus einer Rasteranordnung von Achsen, auf denen wir unsere Diagramme platzieren können. Die Achsen bilden das Grundgerüst für unsere Grafiken und wir können sie individuell gestalten, um unsere Daten optimal darzustellen.
 
@@ -41,11 +39,11 @@ plt.show()
 
 In diesem Beispiel erstellen wir ein 2x2-Subplot-Raster mit insgesamt 4 Subplots. Wir plotten verschiedene Arten von Diagrammen in jedem Subplot und beschriften sie entsprechend. Durch die Verwendung von `tight_layout()` stellen wir sicher, dass die Diagramme ordentlich angeordnet werden.
 
-### Praxis
+## Praxis
 
 Jetzt wird es Zeit, das erlangte Wissen in die Praxis umzusetzen! Lass uns eine leichte und eine schwerere Aufgabe lösen, um sicherzustellen, dass du alles verstanden hast.
 
-**Aufgabe 1:**
+### Aufgabe 1
 
 Erstelle ein 2x1-Subplot-Raster und plotte in jedem Subplot eine einfache Linienkurve. Beschrifte die Subplots mit den Titeln "Kurve 1" und "Kurve 2".
 
@@ -72,7 +70,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-**Aufgabe 2:**
+### Aufgabe 2:
 
 Erstelle ein 2x2-Subplot-Raster und plotte in jedem Subplot ein Streudiagramm. Beschrifte die Subplots mit den Titeln "Daten 1", "Daten 2", "Daten 3" und "Daten 4".
 
@@ -109,6 +107,12 @@ plt.tight_layout()
 plt.show()
 ```
 
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich Subplots in Matplotlib erstellt. Mit diesem Wissen kannst du nun auf kreative Weise deine Daten visualisieren und beeindruckende Grafiken erstellen.
 
 Viel Spaß beim Experimentieren und Erkunden der wunderbaren Welt der Subplots!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
