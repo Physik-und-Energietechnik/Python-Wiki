@@ -1,8 +1,6 @@
-## Matplotlib - Der `imshow` Plot
+## Einführung
 
-### Einführung
-
-Willkommen zurück! In diesem Teil des Tutorials werden wir uns den `imshow` Plot in Matplotlib genauer anschauen. Keine Sorge, es klingt vielleicht ein bisschen nach einer geheimen Mission, aber ich verspreche dir, es ist alles andere als geheimnisvoll.
+In diesem Teil des Tutorials werden wir uns den `imshow` Plot in Matplotlib genauer anschauen. Keine Sorge, es klingt vielleicht ein bisschen nach einer geheimen Mission, aber ich verspreche dir, es ist alles andere als geheimnisvoll.
 
 Der `imshow` Plot ist ein mächtiges Werkzeug, mit dem du Daten visualisieren kannst. Du kannst damit beispielsweise Bilder anzeigen, Wärmekarten erstellen oder sogar geografische Karten darstellen. Aber bevor wir uns in die Details stürzen, lass uns einen kurzen Überblick geben, was du in diesem Tutorial lernen wirst und wie du das Gelernte einsetzen kannst.
 
@@ -13,9 +11,9 @@ In diesem Abschnitt wirst du lernen:
 
 Mit diesem Wissen bist du in der Lage, beeindruckende Visualisierungen zu erstellen und Daten auf eine unterhaltsame Art und Weise zu erkunden. Du kannst deine Forschungsergebnisse, deine Datenanalyse oder sogar deinen nächsten Vortrag aufpeppen. Also lass uns loslegen!
 
-### Theorie
+## Theorie
 
-#### Der `imshow` Plot - Eine visuelle Pracht!
+### Der `imshow` Plot - Eine visuelle Pracht!
 
 Der `imshow` Plot ist ein Werkzeug in Matplotlib, mit dem du eine Matrix von Daten als Bild darstellen kannst. Damit kannst du zum Beispiel ein Bild anzeigen oder eine Wärmekarte einer Tabelle erstellen. Die Möglichkeiten sind nahezu endlos!
 
@@ -54,11 +52,11 @@ plt.show()
 
 Voilà! Mit dem `imshow` Plot kannst du Fluffy der Welt präsentieren!
 
-### Praxis
+## Praxis
 
 Jetzt ist es Zeit, dein neues Wissen in die Tat umzusetzen. Wir haben zwei Aufgaben für dich vorbereitet: eine leichte und eine etwas kniffligere Aufgabe.
 
-**Aufgabe 1:** 
+### Aufgabe 1
 Du hast eine Tabelle mit Temperaturdaten. Stelle sie als Wärmekarte mit dem `imshow` Plot dar. Hier ist ein Beispiel für deine Daten:
 
 ```python
@@ -74,7 +72,8 @@ temperaturdaten = np.array([
 # TODO: Stelle die Temperaturdaten als Wärmekarte dar
 ```
 
-**Aufgabe 2:** Du hast ein Bild von deinem Lieblingskuchen und möchtest es mit dem `imshow` Plot anzeigen. Du findest das Bild unter dem Namen "kuchen.jpg". Zeige es der Welt und lass uns allen das Wasser im Mund zusammenlaufen!
+### Aufgabe 2
+Du hast ein Bild von deinem Lieblingskuchen und möchtest es mit dem `imshow` Plot anzeigen. Du findest das Bild unter dem Namen "kuchen.jpg". Zeige es der Welt und lass uns allen das Wasser im Mund zusammenlaufen!
 
 ```python
 import matplotlib.pyplot as plt
@@ -119,7 +118,7 @@ plt.axis('off')  # Achsen ausschalten
 plt.show()
 ```
 
-### Fazit
+## Fazit
 
 Herzlichen Glückwunsch! Du hast erfolgreich den `imshow` Plot in Matplotlib gemeistert. Du hast gelernt, wie du Daten als Bilder darstellen, Farbkarten anpassen und Bilder anzeigen kannst. Du bist nun in der Lage, atemberaubende Visualisierungen zu erstellen und deine Daten auf eine unterhaltsame Art und Weise zu präsentieren.
 
