@@ -80,6 +80,6 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Grundlagen von Datenverarbeitung und ‐speicherung]] | Grundlagen der Datenverarbeitung und -speicherung durch Einführung in Dateiformate wie JSON und CSV |
 | [[Datenbanken und ihre Anwendung ]] | Erstellung von Abfragen in Python,  Interaktion zwischen Datenbanken und Dateien, Unterschiede zwischen JSON und Datenbanken |
 | [[Fortgeschrittene Themen in Datenbanken]] | Datenbanktypen, die Geschichte der Datenbanken und Transaktionskonzepte|
-| [[Datenbankverwaltung und -optimierung ]] | Grundlagen der Datenbankverwaltung, Indexierung, Administration und Datenbankmigration|
+| [[Datenbankverwaltung und ‐optimierung]] | Grundlagen der Datenbankverwaltung, Indexierung, Administration und Datenbankmigration|
 | [[Sicherheit, Integration und Qualitätssicherung]] |  Datenbankintegration in Webanwendungen, Datenbank-Testing und Qualitätssicherung  |
 
