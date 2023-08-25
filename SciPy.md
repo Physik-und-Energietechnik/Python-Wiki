@@ -100,4 +100,4 @@ print("Lösung:", x)
 Herzlichen Glückwunsch! Du hast erfolgreich die Grundlagen von SciPy gelernt und bist bereit, tiefer in die wunderbare Welt des wissenschaftlichen Rechnens einzutauchen. Viel Spaß beim Entdecken und Experimentieren mit SciPy!
 
 ## Weiterführende Links
-### [scipy.org](https://docs.scipy.org/doc/scipy/tutorial/general.html)
+### [scipy.org](https://docs.scipy.org/doc/scipy/)
