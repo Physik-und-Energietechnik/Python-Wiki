@@ -33,8 +33,8 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | ----------- | ----------- |
 | [[Python.math]] | Grundlegende mathematische Funktionen und Variablen, die bereits in Python integriert sind|
 | [[NumPy]] | Routinen und n-dimensionale Arrays|
-| [[SciPy]] | Beschreibung... |
-| [[SymPy]] | Beschreibung... |
+| [[SciPy]] | NumPy-Extension|
+| [[SymPy]] | NumPy-Extension |
 
 
 ## Graphical User Interface
