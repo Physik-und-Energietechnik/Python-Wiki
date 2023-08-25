@@ -13,20 +13,20 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 ## Grundlagen
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[Arrays]] | Beschreibung... |
-| [[Dictionaries]] | Beschreibung... |
-| [[Ein und Ausgabe]] | Beschreibung... |
-| [[Funktionen]] | Beschreibung... |
-| [[Lambda]] | Beschreibung... |
-| [[Listen]] | Beschreibung... |
-| [[Modules]] | Beschreibung... |
-| [[Objekte]] | Beschreibung... |
-| [[Operatoren]] | Beschreibung... |
-| [[Schleifen]] | Beschreibung... |
-| [[Sets]] | Beschreibung... |
-| [[Strings]] | Beschreibung... |
-| [[Syntax, Comments]] | Beschreibung... |
-| [[Variablen, Datentypen und Casting]] | Beschreibung... |
+| [[Arrays]] | Geordnete Datensammlungen mit Indexzugriff |
+| [[Dictionaries]] | Schlüssel-Wert-Paare für flexible Datenverwaltung |
+| [[Ein und Ausgabe]] | Benutzerinteraktion durch Lesen und Anzeigen von Informationen |
+| [[Funktionen]] | Wiederverwendbare Code-Blöcke für spezifische Aufgaben |
+| [[Lambda]] | Kurze anonyme Funktionen für einfache Aufgaben |
+| [[Listen]] | Ordnete Datensammlungen für flexible Elemente |
+| [[Modules]] | Wiederverwendbare Code-Einheiten zur Organisation und Strukturierung |
+| [[Objekte]] | Instanzen von Klassen für Daten und Verhalten |
+| [[Operatoren]] |Ausführen von Aktionen auf Operanden |
+| [[Schleifen]] | Wiederholte Ausführung von Code basierend auf Bedingungen |
+| [[Sets]] | Ungeordnete Sammlungen eindeutiger Elemente |
+| [[Strings]] | Zeichenfolgen zur Darstellung und Verarbeitung von Text |
+| [[Syntax, Comments]] | Programmierregeln und -erklärungen für Lesbarkeit |
+| [[Variablen, Datentypen und Casting]] | Wertezuweisung, Datentypen und Konvertierung |
 
 ## Wissenschaftliches Rechnen
 | Seite | Beschreibung |
