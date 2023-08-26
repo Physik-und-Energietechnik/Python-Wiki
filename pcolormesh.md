@@ -69,6 +69,7 @@ plt.pcolormesh(data)
 plt.colorbar()
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/pcolormesh/ms_aufgabe1.png)
 
 **Aufgabe 2:**
 
@@ -92,6 +93,13 @@ data = np.array(data)
 plt.pcolormesh(data)
 plt.colorbar()
 plt.show()
+
+# Da sich die jeweilige CSV-Datei unterscheiden kann, gibt es natürlich keine konkrete Lösung als Bild.
 ```
 
+## Fazit
 Wir hoffen, du hattest Spaß beim Erkunden des `pcolormesh` Plots! Diese einfache, aber mächtige Visualisierungstechnik wird dir sicherlich dabei helfen, Daten auf eine völlig neue Art und Weise zu betrachten. Viel Erfolg beim Experimentieren und Erkunden weiterer Matplotlib-Plots!
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.pcolormesh.html
