@@ -54,7 +54,7 @@ Voilà! Mit dem `imshow` Plot kannst du Fluffy der Welt präsentieren!
 
 ## Praxis
 
-Jetzt ist es Zeit, dein neues Wissen in die Tat umzusetzen. Wir haben zwei Aufgaben für dich vorbereitet: eine leichte und eine etwas kniffligere Aufgabe.
+Jetzt ist es Zeit, dein neues Wissen in die Tat umzusetzen. Wir haben zwei Aufgaben für dich vorbereitet: eine leichte und eine etwas kniffligere Aufgabe. Keine Sorge, wenn du nicht sofort eine Lösung findest. Am Ende des Tutorials haben wir Musterlösungen für dich vorbereitet.
 
 ### Aufgabe 1
 Du hast eine Tabelle mit Temperaturdaten. Stelle sie als Wärmekarte mit dem `imshow` Plot dar. Hier ist ein Beispiel für deine Daten:
@@ -71,19 +71,6 @@ temperaturdaten = np.array([
 
 # TODO: Stelle die Temperaturdaten als Wärmekarte dar
 ```
-
-### Aufgabe 2
-Du hast ein Bild von deinem Lieblingskuchen und möchtest es mit dem `imshow` Plot anzeigen. Du findest das Bild unter dem Namen "kuchen.jpg". Zeige es der Welt und lass uns allen das Wasser im Mund zusammenlaufen!
-
-```python
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-
-# TODO: Lade das Bild "kuchen.jpg" und zeige es mit dem `imshow` Plot an
-```
-
-Keine Sorge, wenn du nicht sofort eine Lösung findest. Am Ende des Tutorials haben wir Musterlösungen für dich vorbereitet.
-
 **Musterlösung für die leichte Aufgabe:**
 
 ```python
@@ -102,6 +89,17 @@ plt.imshow(temperaturdaten, cmap='hot')
 plt.colorbar(label='Temperatur (°C)')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/imshow/ms_aufgabe1.png)
+
+### Aufgabe 2
+Du hast ein Bild von deinem Lieblingskuchen und möchtest es mit dem `imshow` Plot anzeigen. Du findest das Bild unter dem Namen "kuchen.jpg". Zeige es der Welt und lass uns allen das Wasser im Mund zusammenlaufen!
+
+```python
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+# TODO: Lade das Bild "kuchen.jpg" und zeige es mit dem `imshow` Plot an
+```
 
 **Musterlösung für die schwere Aufgabe:**
 
@@ -116,6 +114,8 @@ img = mpimg.imread('kuchen.jpg')
 plt.imshow(img)
 plt.axis('off')  # Achsen ausschalten
 plt.show()
+
+# Da sich das jeweilige Bild unterscheiden kann, gibt es natürlich keine konkrete Lösung als Bild.
 ```
 
 ## Fazit
