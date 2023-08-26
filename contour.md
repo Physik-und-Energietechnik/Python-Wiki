@@ -80,6 +80,7 @@ plt.xlabel('X-Achse')
 plt.ylabel('Y-Achse')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/contour/ms_aufgabe1.png)
 
 **Aufgabe 2:**
 
@@ -104,7 +105,13 @@ ax.set_zlabel('Z-Achse')
 plt.title('3D contour Plot für cos(X) * sin(Y)')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/contour/ms_aufgabe2.png)
 
+## Fazit
 Jetzt seid ihr bereit, eure eigenen contour Plots zu erstellen! Macht euch keine Sorgen, wenn es anfangs etwas verwirrend erscheint. Übung macht den Meister, und mit der Zeit werdet ihr zum Meister der Datenvisualisierung!
 
 Vielen Spaß beim Erkunden der wundersamen Welt des contour Plots mit Matplotlib!
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.contour.html
