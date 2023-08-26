@@ -99,6 +99,7 @@ plt.ylabel('Y')
 plt.title('Konturplot von x^2 + y^2')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/contourf/ms_aufgabe1.png)
 
 Wenn du den Code ausführst, solltest du einen Konturplot sehen, der eine konzentrische Kreisstruktur zeigt.
 
@@ -128,7 +129,13 @@ plt.ylabel('Y')
 plt.title('Konturplot von sin(x) * cos(y)')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/contourf/ms_aufgabe2.png)
 
 Wenn du den Code ausführst, solltest du einen Konturplot sehen, der die Oszillationen der Funktion `sin(x) * cos(y)` in verschiedenen Farben darstellt.
 
+## Fazit
 Herzlichen Glückwunsch zu deinen Fortschritten bei der Erstellung von Konturplots in Matplotlib! Du bist nun in der Lage, Daten auf neue und spannende Weise zu visualisieren. Keep up the good work!
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.contourf.html
