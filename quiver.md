@@ -88,6 +88,7 @@ plt.quiver(x, y, u, v, color='magenta', scale=1, width=0.005)
 # Diagramm anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/quiver/ms_aufgabe1.png)
 
 **Aufgabe 2:**
 Erstelle einen "quiver plot" für die Vektoren, die entlang eines Kreises mit einem Radius von 1 liegen. Verwende eine Schrittweite von 0.1, um die Vektoren gleichmäßig auf dem Kreis zu platzieren. Zeige sie als Pfeile mit einer Länge von 0.5 an und gib ihnen eine leuchtend blaue Farbe. Lass die Pfeilspitzen elegant schlank sein, indem du ihnen eine Breite von 0.002 gibst.
@@ -112,7 +113,13 @@ plt.quiver(x, y, u, v, color='blue', scale=1, width=0.002)
 # Diagramm anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/quiver/ms_aufgabe2.png)
 
+## Fazit
 Herzlichen Glückwunsch! Du hast den "quiver plot" gemeistert und bist nun ein wahrer Held der Datenvisualisierung! Es gibt noch so viele aufregende Möglichkeiten mit Matplotlib zu erkunden, aber das ist eine Geschichte für ein anderes Tutorial.
 
 Bis dahin, viel Spaß beim Pfeile schießen in der Welt der Daten!
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.quiver.html
