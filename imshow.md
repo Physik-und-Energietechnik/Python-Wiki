@@ -123,3 +123,7 @@ plt.show()
 Herzlichen Glückwunsch! Du hast erfolgreich den `imshow` Plot in Matplotlib gemeistert. Du hast gelernt, wie du Daten als Bilder darstellen, Farbkarten anpassen und Bilder anzeigen kannst. Du bist nun in der Lage, atemberaubende Visualisierungen zu erstellen und deine Daten auf eine unterhaltsame Art und Weise zu präsentieren.
 
 Im nächsten Teil des Tutorials werden wir uns mit weiteren spannenden Möglichkeiten in Matplotlib beschäftigen. Also bleib dran und lass uns die Welt der Datenvisualisierung weiter erkunden!
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html
