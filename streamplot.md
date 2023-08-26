@@ -102,7 +102,13 @@ plt.streamplot(X, Y, u, v)
 # Zeige das Diagramm an
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/streamplot/ms_aufgabe2.png)
 
 Versuche, das Strömungsfeld des Tornados zu interpretieren. Beachte die Drehbewegung und wie die Vektoren die Strömung anzeigen.
 
+## Fazit
 Super! Du hast es geschafft, streamplot zu meistern und bist nun in der Lage, Strömungsfelder in Python zu visualisieren. Das war nur ein kleiner Vorgeschmack auf die Möglichkeiten, die Matplotlib bietet. Also schnapp dir deine Daten und finde heraus, was noch alles mit streamplot möglich ist!
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.streamplot.html
