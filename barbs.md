@@ -77,7 +77,7 @@ plt.barbs(0, 0, windrichtung, windgeschwindigkeit)
 plt.show()
 ```
 
-**Aufgabe 1:**
+**Aufgabe 2:**
 
 Erstelle einen "barbs Plot", der ein komplexeres Vektorfeld darstellt. Verwende die folgenden Daten:
 
@@ -104,6 +104,7 @@ plt.barbs(x, y, u, v)
 # Diagramm anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/barbs/ms_aufgabe2.png)
 
 Das war's! Du hast erfolgreich den "barbs Plot" mit Matplotlib gemeistert. Gut gemacht, Python-Abenteurer! Nun kannst du deine Daten in Form von Pfeilen darstellen und die Welt der Datenvisualisierung weiter erkunden. Vergiss nicht, mit anderen Plots herumzuspielen und deiner Kreativität freien Lauf zu lassen!
 
@@ -114,3 +115,7 @@ In diesem Abschnitt haben wir gelernt, wie man mit Matplotlib den faszinierenden
 Matplotlib ist ein mächtiges Werkzeug, mit dem du Daten auf interessante und aussagekräftige Weise visualisieren kannst. Also los, experimentiere und finde heraus, welche anderen aufregenden Plots du erstellen kannst! Und denk immer daran: Die Welt der Datenvisualisierung ist deine Spielwiese, also habe Spaß dabei und zeige der Welt, was du drauf hast!
 
 Happy plotting! 📊🎉
+
+## Links / Weiteres Material
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.barbs.html
