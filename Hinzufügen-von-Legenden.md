@@ -115,3 +115,7 @@ plt.show()
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man Legenden zu Diagrammen in Matplotlib hinzufügt. Jetzt kannst du deine Daten visualisieren und anderen zeigen, wie cool du bist!
 
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
