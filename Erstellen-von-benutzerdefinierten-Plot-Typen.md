@@ -97,6 +97,8 @@ wp.plot()
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Erstellen_von_benutzerdefinierten_Plot-Typen/ms_aufgabe1.png)
+
 #### Aufgabe 2
 
 Erstellen Sie einen benutzerdefinierten Plot-Typ namens "Farbenexplosion", der die gegebenen x- und y-Koordinaten als Punkte darstellt. Jeder Punkt soll eine zufällige Farbe haben, um eine spannende und farbenfrohe Visualisierung zu erzeugen. Führen Sie dann den Plot aus.
@@ -136,6 +138,8 @@ fe.plot()
 # Plot anzeigen
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Erstellen_von_benutzerdefinierten_Plot-Typen/ms_aufgabe2.png)
 
 Herzlichen Glückwunsch! Sie haben erfolgreich eigene benutzerdefinierte Plot-Typen erstellt und Ihre Daten auf kreative und unterhaltsame Weise visualisiert.
 
