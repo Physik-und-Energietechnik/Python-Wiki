@@ -99,6 +99,7 @@ ax2.legend(loc='upper right')
 # Diagramm anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Arbeiten_mit_mehreren_Achsen/ms_aufgabe1.png)
 
 ### Aufgabe 2: Umsatzanalyse
 
@@ -137,4 +138,7 @@ ax3.legend()
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Arbeiten_mit_mehreren_Achsen/ms_aufgabe2.png)
+
+## Fazit
 Gut gemacht! Du hast nun gelernt, wie du mit Matplotlib mehrere Achsen verwenden kannst. Du bist bereit, beeindruckende Diagramme zu erstellen und deine Daten noch besser zu visualisieren. Experimentiere weiter, probiere neue Ideen aus und habe Spaß beim Erkunden der Möglichkeiten, die Matplotlib bietet!
