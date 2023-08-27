@@ -102,6 +102,8 @@ plt.title('Monatliche Durchschnittstemperaturen')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Visualisierung_von_Daten_aus_CSV-Dateien/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Für die schwierigere Aufgabe nehmen wir an, dass wir eine CSV-Datei mit dem Namen "aktien.csv" haben, die die Schlusskurse verschiedener Aktien für jeden Tag enthält. Deine Aufgabe besteht darin, die Schlusskurse von zwei Aktien in einem Streudiagramm mit Matplotlib darzustellen.
 
@@ -132,5 +134,6 @@ plt.title('Korrelation zwischen Aktie 1 und Aktie 2')
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Visualisierung_von_Daten_aus_CSV-Dateien/ms_aufgabe2.png)
 
 Das war's! Du hast gerade gelernt, wie du Daten aus CSV-Dateien einliest und sie mit Matplotlib visualisierst. Jetzt kannst du mit dieser neuen Fähigkeit Daten analysieren und präsentieren. Viel Spaß beim Erkunden der Welt der Datenvisualisierung mit Python und Matplotlib!
