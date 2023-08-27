@@ -1,15 +1,13 @@
-## Matplotlib - Hinzufügen von Hintergrundbildern und Gatterlinien
-
-### Einführung
+## Einführung
 
 Willkommen zum Python-Tutorial über das Hinzufügen von Hintergrundbildern und Gatterlinien in Matplotlib! In diesem Abschnitt werden wir lernen, wie wir mit Matplotlib, einer Python-Bibliothek zur Visualisierung von Daten, Hintergrundbilder und Gatterlinien in Diagrammen hinzufügen können.
 
 Durch das Hinzufügen von Hintergrundbildern und Gatterlinien können wir unsere Diagramme noch interessanter gestalten und wichtige Informationen betonen.
 
 
-### Theorie
+## Theorie
 
-#### Hintergrundbilder
+### Hintergrundbilder
 
 Ein Hintergrundbild ist ein Bild, das als Hintergrund in einem Diagramm angezeigt wird. Es kann beispielsweise ein Foto, eine Textur oder eine Grafik sein. Mit Matplotlib können wir ein Hintergrundbild hinzufügen, um unseren Diagrammen eine persönliche Note zu verleihen.
 
@@ -59,7 +57,7 @@ plt.bar(categories, values)
 plt.show()
 ```
 
-#### Gatterlinien
+### Gatterlinien
 
 Gatterlinien sind horizontale und vertikale Linien, die das Diagramm in regelmäßige Gitterzellen unterteilen. Sie helfen uns, die Daten im Diagramm leichter abzulesen und zu interpretieren. Matplotlib ermöglicht es uns, Gatterlinien hinzuzufügen und sie an unsere Bedürfnisse anzupassen.
 
@@ -105,11 +103,11 @@ plt.scatter(x, y)
 plt.show()
 ```
 
-### Praxis
+## Praxis
 
 Jetzt ist es Zeit, das erlernte Wissen in die Praxis umzusetzen! Lass uns zwei Aufgaben durchgehen - eine leichte und eine etwas schwierigere. Du kannst die Musterlösungen verwenden, um deine Ergebnisse zu überprüfen.
 
-#### Aufgabe 1: Hintergrundbild hinzufügen
+### Aufgabe 1
 
 Erstelle ein Liniendiagramm, das den Verlauf der Temperatur über eine Woche hinweg darstellt. Füge ein Hintergrundbild hinzu, das eine sonnige Landschaft zeigt.
 
@@ -144,7 +142,9 @@ plt.ylabel('Temperatur (°C)')
 plt.show()
 ```
 
-#### Aufgabe 2: Gatterlinien anpassen
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Hinzufuegen_von_Hintergrundbildern_und_Gatterlinien/ms_aufgabe1.png)
+
+### Aufgabe 2
 
 Erstelle ein gestapeltes Flächendiagramm, das den Anteil von Äpfeln, Bananen und Orangen am Gesamtobstverbrauch darstellt. Passe die Gatterlinien so an, dass sie gestrichelt und transparent sind.
 
@@ -174,4 +174,7 @@ plt.ylabel('Verbrauch (kg)')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Hinzufuegen_von_Hintergrundbildern_und_Gatterlinien/ms_aufgabe2.png)
+
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man Hintergrundbilder und Gatterlinien in Matplotlib verwendet. Experimentiere weiter und entdecke die vielfältigen Möglichkeiten, die Matplotlib bietet, um deine Diagramme zu verbessern und deine Daten zu visualisieren. Viel Spaß beim Coden!
