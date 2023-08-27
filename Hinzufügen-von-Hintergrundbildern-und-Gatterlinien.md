@@ -178,3 +178,8 @@ plt.show()
 
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man Hintergrundbilder und Gatterlinien in Matplotlib verwendet. Experimentiere weiter und entdecke die vielfältigen Möglichkeiten, die Matplotlib bietet, um deine Diagramme zu verbessern und deine Daten zu visualisieren. Viel Spaß beim Coden!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
