@@ -89,3 +89,8 @@ plt.savefig('fortgeschrittener_plot.svg')
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie man Plots mit Matplotlib in Python speichert und exportiert. Jetzt kannst du deine Visualisierungen auf verschiedene Weise nutzen und sie mit anderen teilen.
 
 Viel Spaß beim Plotten und Teilen deiner Kreationen!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
