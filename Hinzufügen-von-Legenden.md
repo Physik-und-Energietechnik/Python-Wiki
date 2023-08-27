@@ -1,6 +1,6 @@
 ## Einführung
 
-Willkommen zum Tutorial über das Hinzufügen von Legenden in Matplotlib! In diesem Tutorial wirst du lernen, wie du Legenden zu deinen Diagrammen hinzufügen kannst, um sie besser verständlich und ansprechender zu machen. 
+In diesem Tutorial wirst du lernen, wie du Legenden zu deinen Diagrammen hinzufügen kannst, um sie besser verständlich und ansprechender zu machen. 
 
 Eine Legende ist eine kurze Erklärung, die den Inhalt eines Diagramms erläutert. Sie zeigt, welche Linien oder Markierungen zu welchen Daten gehören. Das ist besonders hilfreich, wenn du mehrere Datenreihen in einem Diagramm darstellst.
 
