@@ -153,7 +153,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Kombinieren_verschiedener_Plot-Typen_in_einem_Subplot/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Kombinieren_verschiedener_Plot-Typen_in_einem_Subplot/ms_aufgabe2.png)
 
 
 ## Fazit
