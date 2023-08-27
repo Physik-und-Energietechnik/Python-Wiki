@@ -103,6 +103,8 @@ Jetzt ist es an der Zeit, dein Wissen in die Praxis umzusetzen! Hier sind zwei A
    plt.show()
    ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Plotting_von_großen_Datenmengen/ms_aufgabe1.png)
+
 2. **Aufgabe 2:** Erstelle einen Histogramm-Plot mit der Spalte 'x' aus der geladenen Datenmenge.
 
    Musterlösung:
@@ -122,6 +124,8 @@ Jetzt ist es an der Zeit, dein Wissen in die Praxis umzusetzen! Hier sind zwei A
    # Plot anzeigen
    plt.show()
    ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Plotting_von_großen_Datenmengen/ms_aufgabe2.png)
 
 Nun bist du bereit, deine eigenen Daten zu plotten und wertvolle Erkenntnisse zu gewinnen!
 
