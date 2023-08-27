@@ -105,3 +105,8 @@ plt.show()
 
 ## Fazit
 Viel Spaß beim Ausprobieren und Anpassen der Stilvorlagen und vorgefertigten Themes in Matplotlib! Experimentiere und finde deinen eigenen Stil, um deine Diagramme zum Leben zu erwecken.
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
