@@ -79,6 +79,12 @@ Jetzt, da wir die Theorie hinter uns haben, lass uns das erlangte Wissen in die 
 
 ### Aufgabe 1
 Zeichne ein einfaches Liniendiagramm mit roten Kreuzmarkern und einer gestrichelten blauen Linie. Verwende die folgenden Datenpunkte:
+```python
+x = [1, 2, 3, 4, 5]
+y = [10, 5, 8, 3, 6]
+```
+
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
@@ -94,6 +100,14 @@ plt.show()
 
 ### Aufgabe 2
 Zeichne ein gestapeltes Säulendiagramm mit grünen Quadratmarkern und einer durchgezogenen schwarzen Linie. Verwende die folgenden Datenpunkte:
+
+```python
+x = [1, 2, 3, 4, 5]
+y1 = [10, 5, 8, 3, 6]
+y2 = [5, 7, 4, 2, 9]
+```
+
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
