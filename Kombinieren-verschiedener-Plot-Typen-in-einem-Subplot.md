@@ -1,8 +1,6 @@
-# Matplotlib - Kombinieren verschiedener Plot-Typen in einem Subplot
-
 ## Einführung
 
-Willkommen zum Python-Tutorial über die Kombination verschiedener Plot-Typen in einem Subplot mit Matplotlib! In diesem Tutorial werden wir lernen, wie wir unsere Daten auf kreative und informative Weise visualisieren können.
+In diesem Tutorial werden wir lernen, wie wir unsere Daten auf kreative und informative Weise visualisieren können.
 
 Hast du jemals versucht, verschiedene Arten von Diagrammen nebeneinander darzustellen? Zum Beispiel einen Balken- und einen Liniendiagramm? Mit Matplotlib ist das ganz einfach! Wir werden lernen, wie man Subplots erstellt, um mehrere Plot-Typen auf einer einzigen Figure anzuzeigen. 
 
@@ -88,87 +86,72 @@ units_sold = [30, 40, 25, 55, 35]
 revenue = [500, 700, 400, 900, 600]
 ```
 
+Musterlösung:
+
+```python
+import matplotlib.pyplot as plt
+
+# Daten
+days = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag']
+units_sold = [30, 40, 25, 55, 35]
+revenue = [500, 700, 400, 900, 600]
+
+# Erstelle den Subplot
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8))
+
+# Balkendiagramm (Anzahl der verkauften Einheiten)
+ax1.bar(days, units_sold, color='blue')
+ax1.set_ylabel('Verkaufte Einheiten')
+ax1.set_title('Verkaufte Einheiten und Umsatz pro Tag')
+
+# Liniendiagramm (Umsatz)
+ax2.plot(days, revenue, marker='o', color='green', linestyle='-', linewidth=2)
+ax2.set_ylabel('Umsatz')
+ax2.set_xlabel('Tage')
+
+# Zeige den Plot
+plt.tight_layout()
+plt.show()
+```
+
 ### Aufgabe 2
 
 Erweitere den Subplot aus der leichten Aufgabe, indem du einen Scatterplot hinzufügst. Der Scatterplot soll das Verhältnis zwischen den verkauften Einheiten und dem Umsatz pro Tag zeigen. Verwende weiterhin die oben genannten Daten.
 
+Musterlösung:
+
+```python
+import matplotlib.pyplot as plt
+
+# Daten
+days = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag']
+units_sold = [30, 40, 25, 55, 35]
+revenue = [500, 700, 400, 900, 600]
+
+# Erstelle den Subplot
+fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(10, 12))
+
+# Balkendiagramm (Anzahl der verkauften Einheiten)
+ax1.bar(days, units_sold, color='blue')
+ax1.set_ylabel('Verkaufte Einheiten')
+ax1.set_title('Verkaufte Einheiten, Umsatz und Verhältnis pro Tag')
+
+# Liniendiagramm (Umsatz)
+ax2.plot(days, revenue, marker='o', color='green', linestyle='-', linewidth=2)
+ax2.set_ylabel('Umsatz')
+
+# Scatterplot (Verhältnis)
+ratio = [rev / units for rev, units in zip(revenue, units_sold)]
+ax3.scatter(days, ratio, color='red', marker='x')
+ax3.set_ylabel('Verhältnis (Umsatz/Verkaufte Einheiten)')
+ax3.set_xlabel('Tage')
+
+# Zeige den Plot
+plt.tight_layout()
+plt.show()
+```
+
+
 Viel Spaß beim Codieren!
-
-### Musterlösungen
-
-Hier sind die Musterlösungen für die leichte und die schwere Aufgabe:
-
-**Aufgabe 1:**
-
-```python
-import matplotlib.pyplot as plt
-
-# Erstelle den Subplot und die Axes-Objekte
-fig, axes = plt.subplots(nrows=1, ncols=2)
-
-# Erstes Plot-Element: Balkendiagramm der verkauften Einheiten pro Tag
-days = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag']
-units_sold = [30, 40, 25, 55, 35]
-axes[0].bar(days, units_sold)
-
-# Zweites Plot-Element: Liniendiagramm des Umsatzes pro Tag
-revenue = [500, 700, 400, 900, 600]
-axes[1].plot(days, revenue)
-
-# Titel und Beschriftungen hinzufügen
-axes[0].set_title('Verkaufte Einheiten pro Tag')
-axes[0
-
-].set_xlabel('Tage')
-axes[0].set_ylabel('Anzahl der verkauften Einheiten')
-
-axes[1].set_title('Umsatz pro Tag')
-axes[1].set_xlabel('Tage')
-axes[1].set_ylabel('Umsatz in Euro')
-
-# Zeige den Subplot an
-plt.tight_layout()
-plt.show()
-```
-
-**Aufgabe 2:**
-
-```python
-import matplotlib.pyplot as plt
-
-# Erstelle den Subplot und die Axes-Objekte
-fig, axes = plt.subplots(nrows=1, ncols=3)
-
-# Erstes Plot-Element: Balkendiagramm der verkauften Einheiten pro Tag
-days = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag']
-units_sold = [30, 40, 25, 55, 35]
-axes[0].bar(days, units_sold)
-
-# Zweites Plot-Element: Liniendiagramm des Umsatzes pro Tag
-revenue = [500, 700, 400, 900, 600]
-axes[1].plot(days, revenue)
-
-# Drittes Plot-Element: Scatterplot des Verhältnisses von verkauften Einheiten und Umsatz pro Tag
-axes[2].scatter(units_sold, revenue)
-
-# Titel und Beschriftungen hinzufügen
-axes[0].set_title('Verkaufte Einheiten pro Tag')
-axes[0].set_xlabel('Tage')
-axes[0].set_ylabel('Anzahl der verkauften Einheiten')
-
-axes[1].set_title('Umsatz pro Tag')
-axes[1].set_xlabel('Tage')
-axes[1].set_ylabel('Umsatz in Euro')
-
-axes[2].set_title('Verhältnis von verkauften Einheiten und Umsatz')
-axes[2].set_xlabel('Verkaufte Einheiten')
-axes[2].set_ylabel('Umsatz in Euro')
-
-# Zeige den Subplot an
-plt.tight_layout()
-plt.show()
-```
-
-Vergleiche deine Lösungen mit den Musterlösungen, um zu überprüfen, ob sie korrekt sind.
 
 Viel Erfolg!
