@@ -145,3 +145,8 @@ plt.show()
 ```
 
 Probier sie aus und schau dir an, wie die Grafiken mit verschiedenen Schriftarten und -größen aussehen!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
