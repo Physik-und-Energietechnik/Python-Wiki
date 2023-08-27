@@ -1,5 +1,5 @@
 ## Einführung
-Willkommen zu diesem Python-Tutorial über Autoscaling in Matplotlib! In diesem Abschnitt wirst du lernen, wie du mithilfe von Matplotlib deine Diagramme automatisch an die Daten anpassen kannst. Aber was bedeutet das eigentlich? Stell dir vor, du hast Daten, die über einen bestimmten Bereich verteilt sind, und du möchtest ein Diagramm erstellen, das diese Daten optimal darstellt, ohne unnötig viel Platz zu verschwenden. Autoscaling hilft dir dabei, die Achsen deines Diagramms so anzupassen, dass die Daten gut sichtbar sind und gleichzeitig der verfügbare Platz effizient genutzt wird.
+In diesem Abschnitt wirst du lernen, wie du mithilfe von Matplotlib deine Diagramme automatisch an die Daten anpassen kannst. Aber was bedeutet das eigentlich? Stell dir vor, du hast Daten, die über einen bestimmten Bereich verteilt sind, und du möchtest ein Diagramm erstellen, das diese Daten optimal darstellt, ohne unnötig viel Platz zu verschwenden. Autoscaling hilft dir dabei, die Achsen deines Diagramms so anzupassen, dass die Daten gut sichtbar sind und gleichzeitig der verfügbare Platz effizient genutzt wird.
 
 Autoscaling ist eine der vielen nützlichen Funktionen, die Matplotlib bietet, um die Darstellung von Daten zu optimieren. Indem du Autoscaling beherrscht, kannst du deine Diagramme professionell gestalten und deine Daten effektiv präsentieren.
 
