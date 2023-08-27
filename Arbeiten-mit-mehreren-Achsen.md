@@ -69,7 +69,9 @@ Jetzt ist es an der Zeit, das erlernte Wissen in die Praxis umzusetzen. Wir werd
 
 ### Aufgabe 1
 
-Erstelle ein Diagramm, das die Temperaturverläufe von zwei Städten vergleicht. Verwende dafür zwei Achsen, um die Temperaturen über die Zeit darzustellen. Hier ist ein Beispiel, wie du das machen könntest:
+Erstelle ein Diagramm, das die Temperaturverläufe von zwei Städten vergleicht. Verwende dafür zwei Achsen, um die Temperaturen über die Zeit darzustellen. 
+
+Musterlösung
 
 ```python
 import matplotlib.pyplot as plt
@@ -101,9 +103,11 @@ plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Arbeiten_mit_mehreren_Achsen/ms_aufgabe1.png)
 
-### Aufgabe 2: Umsatzanalyse
+### Aufgabe 2
 
-Erstelle ein Balkendiagramm, das den Umsatz von drei Produkten für verschiedene Monate darstellt. Verwende dafür drei Achsen, um die Umsätze getrennt darzustellen. Hier ist ein Beispiel, wie du das machen könntest:
+Erstelle ein Balkendiagramm, das den Umsatz von drei Produkten für verschiedene Monate darstellt. Verwende dafür drei Achsen, um die Umsätze getrennt darzustellen.
+
+Musterlösung
 
 ```python
 import matplotlib.pyplot as plt
@@ -142,3 +146,8 @@ plt.show()
 
 ## Fazit
 Gut gemacht! Du hast nun gelernt, wie du mit Matplotlib mehrere Achsen verwenden kannst. Du bist bereit, beeindruckende Diagramme zu erstellen und deine Daten noch besser zu visualisieren. Experimentiere weiter, probiere neue Ideen aus und habe Spaß beim Erkunden der Möglichkeiten, die Matplotlib bietet!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
