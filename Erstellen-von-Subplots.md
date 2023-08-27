@@ -70,6 +70,8 @@ plt.tight_layout()
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Erstellen_von_Subplots/ms_aufgabe1.png)
+
 ### Aufgabe 2:
 
 Erstelle ein 2x2-Subplot-Raster und plotte in jedem Subplot ein Streudiagramm. Beschrifte die Subplots mit den Titeln "Daten 1", "Daten 2", "Daten 3" und "Daten 4".
@@ -106,6 +108,8 @@ plt.tight_layout()
 # Grafik anzeigen
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Erstellen_von_Subplots/ms_aufgabe2.png)
 
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich Subplots in Matplotlib erstellt. Mit diesem Wissen kannst du nun auf kreative Weise deine Daten visualisieren und beeindruckende Grafiken erstellen.
