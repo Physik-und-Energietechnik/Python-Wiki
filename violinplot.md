@@ -96,6 +96,7 @@ plt.title('Verteilung des Gewichts in verschiedenen Altersgruppen')
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/violinplot/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Erstelle einen *violinplot* für zwei verschiedene Gruppen von Daten: "Männer" und "Frauen". Jede Gruppe sollte eine eigene Geige haben, um die Verteilung der Daten zu zeigen. Füge auch einen Text hinzu, der angibt, welche Gruppe eine höhere Tonhöhe hat. Verwende die folgenden Beispielwerte:
@@ -126,6 +127,7 @@ plt.text(1.2, 83, 'Frauen haben höhere Tonhöhe', fontsize=10, ha='center')
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/violinplot/ms_aufgabe2.png)
 
 ## Fazit
 Herzlichen Glückwunsch, du hast erfolgreich *violinplots* erstellt und deine Daten analysiert! Du bist jetzt bereit, in der Welt der Datenvisualisierung zu glänzen.
@@ -133,5 +135,5 @@ Herzlichen Glückwunsch, du hast erfolgreich *violinplots* erstellt und deine Da
 Keep calm and plot on!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.violinplot.html
