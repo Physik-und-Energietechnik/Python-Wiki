@@ -1,5 +1,3 @@
-# Matplotlib - Feinabstimmung von Plot Layouts
-
 ## Einführung
 
 Willkommen zu unserem Python-Tutorial über die Feinabstimmung von Plot Layouts mit Matplotlib! In diesem Abschnitt werden wir uns damit beschäftigen, wie wir unsere Diagramme und Plots in Python so gestalten können, dass sie nicht nur informativ, sondern auch ästhetisch ansprechend sind. Wir werden lernen, wie wir die Größe, den Abstand und die Positionierung von Diagrammelementen anpassen können, um professionell aussehende Grafiken zu erstellen.
@@ -140,4 +138,10 @@ plt.show()
 
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Feinabstimmung_von_Plot-Layouts/ms_aufgabe2.png)
 
+## Fazit
 Viel Spaß beim Experimentieren mit der Feinabstimmung von Plot Layouts in Matplotlib!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
