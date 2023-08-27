@@ -117,3 +117,8 @@ plt.show()
 Herzlichen Glückwunsch! Du hast erfolgreich Autoscaling in Matplotlib angewendet. Du bist nun in der Lage, deine Diagramme automatisch an deine Daten anzupassen und sie optimal zu präsentieren.
 
 Viel Spaß beim Erstellen beeindruckender Diagramme mit Matplotlib!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
