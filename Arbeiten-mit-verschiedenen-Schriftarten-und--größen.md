@@ -1,8 +1,6 @@
-# Matplotlib - Arbeiten mit verschiedenen Schriftarten und -größen
-
 ## Einführung
 
-Willkommen zu unserem Python Tutorial! In diesem Abschnitt werden wir lernen, wie wir verschiedene Schriftarten und -größen in unseren Grafiken verwenden können.
+In diesem Abschnitt werden wir lernen, wie wir verschiedene Schriftarten und -größen in unseren Grafiken verwenden können.
 
 Das Verständnis dieser Funktionen ist besonders nützlich, um ansprechende und gut lesbare Diagramme zu erstellen. Egal, ob du Daten präsentieren möchtest oder einfach nur deine Kreativität ausdrücken willst, mit Matplotlib und den verschiedenen Schriftarten und -größen wirst du in der Lage sein, deine Grafiken auf das nächste Level zu bringen.
 
