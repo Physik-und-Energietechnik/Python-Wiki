@@ -1,5 +1,3 @@
-# Matplotlib - Anpassung der Plot Interaktion und Navigation
-
 ## Einführung
 
 Herzlich willkommen zum Python-Tutorial über die Anpassung der Plot Interaktion und Navigation mit Matplotlib! In diesem Abschnitt lernst du, wie du deine Plots interaktiv gestalten und die Navigation in den Plots verbessern kannst.
@@ -166,4 +164,10 @@ plt.show()
 
 Die Anmerkung markiert den Punkt `(5, 25)` im Plot und enthält den Text "Maximaler Wert".
 
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, wie du die Interaktion und Navigation in deinen Plots mit Matplotlib anpassen kannst. Experimentiere weiter mit den verschiedenen Funktionen, um deine Plots noch interessanter und aussagekräftiger zu gestalten.
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
