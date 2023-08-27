@@ -159,4 +159,7 @@ plt.show()
 ## Fazit
 Viel Spaß beim Codieren!
 
-Viel Erfolg!
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
