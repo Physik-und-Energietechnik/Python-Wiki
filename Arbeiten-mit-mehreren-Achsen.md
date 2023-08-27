@@ -1,8 +1,6 @@
-# Matplotlib - Arbeiten mit mehreren Achsen
-
 ## Einführung
 
-Herzlich willkommen zum Tutorial über das Arbeiten mit mehreren Achsen in Matplotlib! In diesem Abschnitt werden wir uns mit einer wichtigen Funktion von Matplotlib beschäftigen, die es uns ermöglicht, mehrere Achsen in einem Diagramm zu verwenden. Dieses Wissen ist besonders nützlich, um komplexe Visualisierungen zu erstellen und unterschiedliche Datensätze miteinander zu vergleichen.
+In diesem Abschnitt werden wir uns mit einer wichtigen Funktion von Matplotlib beschäftigen, die es uns ermöglicht, mehrere Achsen in einem Diagramm zu verwenden. Dieses Wissen ist besonders nützlich, um komplexe Visualisierungen zu erstellen und unterschiedliche Datensätze miteinander zu vergleichen.
 
 Nachdem du dieses Tutorial abgeschlossen hast, wirst du in der Lage sein, mehrere Achsen in Matplotlib-Diagrammen zu erstellen und diese für verschiedene Zwecke einzusetzen. Du wirst lernen, wie du Diagramme mit verschiedenen Skalen, Einheiten und Ausrichtungen erstellen kannst, um deine Daten bestmöglich darzustellen.
 
@@ -69,7 +67,7 @@ plt.show()
 
 Jetzt ist es an der Zeit, das erlernte Wissen in die Praxis umzusetzen. Wir werden eine leichte und eine schwerere Aufgabe haben, um deine Fähigkeiten zu testen.
 
-### Aufgabe 1: Temperaturvergleich
+### Aufgabe 1
 
 Erstelle ein Diagramm, das die Temperaturverläufe von zwei Städten vergleicht. Verwende dafür zwei Achsen, um die Temperaturen über die Zeit darzustellen. Hier ist ein Beispiel, wie du das machen könntest:
 
@@ -126,9 +124,9 @@ ax3.bar(monate, produkt3_umsatz, label='Produkt 3')
 
 # Achsenbeschriftungen hinzufügen
 ax3.set_xlabel('Monate')
-ax1.set_ylabel('Umsatz (Produkt 1)')
-ax2.set_ylabel('Umsatz (Produkt 2)')
-ax3.set_ylabel('Umsatz (Produkt 3)')
+ax1.set_ylabel('Umsatz (Pro. 1)')
+ax2.set_ylabel('Umsatz (Pro. 2)')
+ax3.set_ylabel('Umsatz (Pro. 3)')
 
 # Legende hinzufügen
 ax1.legend()
