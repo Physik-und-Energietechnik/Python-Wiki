@@ -126,3 +126,8 @@ plt.show()
 
 ## Fazit
 Super, du hast es geschafft! Du kannst nun verschiedene Marker und Linienstile in Matplotlib verwenden, um deine Diagramme zu verbessern und deine Daten ansprechend darzustellen. Viel Spaß beim Experimentieren und Erstellen beeindruckender Visualisierungen!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
