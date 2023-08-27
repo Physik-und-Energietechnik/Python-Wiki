@@ -1,5 +1,3 @@
-# Matplotlib - Verwendung von Stilvorlagen und vorgefertigten Themes
-
 ## Einführung
 Willkommen zu unserem Python-Tutorial über die Verwendung von Stilvorlagen und vorgefertigten Themes in Matplotlib! In diesem Abschnitt werden wir uns mit einem spannenden Aspekt von Matplotlib befassen - der Anpassung des Erscheinungsbilds unserer Diagramme mithilfe von Stilvorlagen und vorgefertigten Themes.
 
@@ -48,7 +46,7 @@ plt.style.use('dark_background')
 Jetzt wollen wir unser erlangtes Wissen über Stilvorlagen und vorgefertigte Themes in die Praxis umsetzen. Hier sind zwei Aufgaben für dich:
 
 ### Aufgabe 1
-Verwende die 'seaborn'-Stilvorlage, um ein einfaches Liniendiagramm zu erstellen, das die Anzahl der verkauften Einheiten über einen Zeitraum von 10 Tagen darstellt. Du kannst fiktive Daten verwenden. Verleihe dem Diagramm eine Überschrift und benenne die Achsen.
+Verwende die 'seaborn-v0_8'-Stilvorlage, um ein einfaches Liniendiagramm zu erstellen, das die Anzahl der verkauften Einheiten über einen Zeitraum von 10 Tagen darstellt. Du kannst fiktive Daten verwenden. Verleihe dem Diagramm eine Überschrift und benenne die Achsen.
 
 Hier ist eine Musterlösung:
 
@@ -56,7 +54,7 @@ Hier ist eine Musterlösung:
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.style.use('seaborn')
+plt.style.use('seaborn-v0_8')
 
 # Daten generieren
 tage = np.arange(1, 11)
