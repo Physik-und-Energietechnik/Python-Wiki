@@ -75,6 +75,7 @@ plt.ylabel('Y-Achse')
 # Plot anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/hexbin/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Gut gemacht, ihr habt die erste Aufgabe gemeistert. Jetzt ist es Zeit, euch einer etwas anspruchsvolleren Aufgabe zu stellen. Eure Mission besteht darin, einen hexbin Plot für zwei Datenarrays zu erstellen: `x_data` und `y_data`. Experimentiert mit verschiedenen `gridsize`-Werten und findet heraus, welcher Wert die besten Einblicke in eure Daten bietet.
@@ -117,9 +118,11 @@ plt.ylabel('Y-Achse')
 # Plot anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/hexbin/ms_aufgabe2.png)
+
 ## Fazit
 Gute Arbeit, ihr wackeren Python-Abenteurer! Ihr habt nun die faszinierende Welt des hexbin Plots mit Matplotlib erkundet. Ihr könnt jetzt Daten visualisieren und Muster aufspüren wie echte Daten-Detektive. Macht euch bereit für weitere aufregende Abenteuer in der Python-Welt!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hexbin.html
