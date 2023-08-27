@@ -90,9 +90,7 @@ plt.pan(True)
 plt.show()
 ```
 
-### Musterlösung für die leichte Aufgabe
-
-Hier ist eine mögliche Musterlösung für die leichte Aufgabe:
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
@@ -138,7 +136,7 @@ plt.annotate('Maximaler Wert', xy=(5, 25), xytext=(3, 15),
 plt.show()
 ```
 
-### Musterlösung für die schwierigere Aufgabe
+Musterlösung:
 
 Hier ist eine mögliche Musterlösung für die schwierigere Aufgabe:
 
