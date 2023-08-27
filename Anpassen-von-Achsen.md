@@ -170,3 +170,8 @@ plt.show()
 
 ## Fazit
 Viel Spaß beim Anpassen von Achsen in Matplotlib! Lass deiner Kreativität freien Lauf und erstelle beeindruckende Diagramme.
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
