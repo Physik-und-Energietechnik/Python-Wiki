@@ -71,6 +71,8 @@ plt.plot(x, y, color='blue', linestyle='dashed')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassen_und_Stilisierung/Anpassen_von_Farben_und_Linienstilen/ms_aufgabe1.png)
+
 ### Aufgabe 2
 
 Erstellen Sie ein Balkendiagramm, das die folgenden Daten darstellt:
@@ -95,5 +97,7 @@ colors = ['red', 'green', 'blue', 'yellow']
 plt.bar(labels, values, color=colors, linestyle='solid')
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassen_und_Stilisierung/Anpassen_von_Farben_und_Linienstilen/ms_aufgabe2.png)
 
 Viel Spaß beim Experimentieren mit Farben und Linienstilen in Matplotlib! Nutzen Sie Ihr neues Wissen, um beeindruckende und einzigartige Diagramme zu erstellen.
