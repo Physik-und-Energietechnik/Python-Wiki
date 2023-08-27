@@ -126,7 +126,7 @@ axes[2].plot(x, y3)
 plt.show()
 ```
 
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Anpassen_von_Subplot-Anordnung_und_Groeße/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Anpassen_von_Subplot-Anordnung_und_Groeße/ms_aufgabe2.png)
 
 
 ## Fazit 
