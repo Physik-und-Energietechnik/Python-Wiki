@@ -72,6 +72,8 @@ plt.ylabel('Verkaufte Einheiten')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Verwendung_von_Stilvorlagen_und_vorgefertigten_Themes/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Verwende das 'ggplot'-Theme, um ein gestapeltes Säulendiagramm zu erstellen, das den Umsatz nach Produktkategorien für einen bestimmten Monat darstellt. Du kannst wieder fiktive Daten verwenden. Füge eine Legende hinzu, um die Produktkategorien zu kennzeichnen.
 
@@ -99,4 +101,7 @@ plt.legend(['Umsatz'])
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Verwendung_von_Stilvorlagen_und_vorgefertigten_Themes/ms_aufgabe2.png)
+
+## Fazit
 Viel Spaß beim Ausprobieren und Anpassen der Stilvorlagen und vorgefertigten Themes in Matplotlib! Experimentiere und finde deinen eigenen Stil, um deine Diagramme zum Leben zu erwecken.
