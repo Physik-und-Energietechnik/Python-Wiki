@@ -86,6 +86,7 @@ plt.title('Mein Schlafplan')
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/eventplot/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Jetzt wird es etwas kniffliger! Erstelle einen Eventplot, der die Anzahl der E-Mails darstellt, die du jede Stunde an einem Tag erhalten hast. Die Anzahl der E-Mails pro Stunde sind: 2, 4, 6, 3, 5, 1, 7, 0, 2, 1, 3, 5, 4, 1, 0, 0, 6, 2, 1, 3, 2, 0, 4, 5, 3, 2, 1, 0. Füge wieder Achsenbeschriftungen hinzu und gib dem Plot einen passenden Titel!
@@ -113,10 +114,11 @@ plt.title('Mein E-Mail-Verkehr')
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/eventplot/ms_aufgabe2.png)
 
 ## Fazit
 Ich hoffe, du hattest Spaß bei dieser kleinen Einführung in den eventplot Plot von Matplotlib! Du hast jetzt das Wissen, um deine eigenen kreativen Eventplots zu erstellen und Daten auf eine neue und unterhaltsame Weise zu visualisieren. Probiere verschiedene Variationen aus und finde heraus, welche Art von Ereignissen du darstellen kannst. Viel Spaß beim Plotten!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.eventplot.html
