@@ -1,5 +1,5 @@
 ## Einführung
-Herzlich willkommen zum Tutorial über das Anpassen von Achsen in Matplotlib! In diesem Tutorial werden wir lernen, wie wir die Achsen eines Diagramms in Matplotlib anpassen können.
+In diesem Tutorial werden wir lernen, wie wir die Achsen eines Diagramms in Matplotlib anpassen können.
 
 Nach Abschluss dieses Tutorials wirst du in der Lage sein:
 - Die Achsenbeschriftungen anzupassen, um sie besser lesbar zu machen.
