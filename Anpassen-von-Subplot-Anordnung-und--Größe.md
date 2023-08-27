@@ -89,6 +89,8 @@ Lass uns das gelernte Wissen in die Praxis umsetzen! Wir werden eine leichte und
 ### Aufgabe 1
 Erstelle ein Diagramm mit zwei Subplots nebeneinander. Das erste Diagramm soll eine Sinus-Kurve und das zweite Diagramm eine Cosinus-Kurve enthalten.
 
+Musterlösung
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -108,6 +110,8 @@ plt.show()
 
 ### Aufgabe 2
 Erstelle ein Diagramm mit drei Subplots. Das erste Diagramm soll eine Sinus-Kurve enthalten, das zweite Diagramm eine Cosinus-Kurve und das dritte Diagramm eine Tangens-Kurve.
+
+Musterlösung
 
 ```python
 import matplotlib.pyplot as plt
@@ -133,3 +137,8 @@ plt.show()
 Herzlichen Glückwunsch! Du hast erfolgreich Subplots erstellt und ihre Anordnung und Größe angepasst. Du bist auf dem besten Weg, beeindruckende Datenvisualisierungen mit Matplotlib zu erstellen!
 
 Ich hoffe, du hattest Spaß bei diesem Tutorial. Weiterhin viel Erfolg beim Python-Programmieren!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
