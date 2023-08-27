@@ -106,6 +106,8 @@ plt.ylabel('Y-Achse')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Feinabstimmung_von_Plot-Layouts/ms_aufgabe1.png)
+
 ### Aufgabe 2
 
 Deine zweite Aufgabe besteht darin, ein gestapeltes Balkendiagramm zu erstellen, das die Umsatzverteilung verschiedener Produkte zeigt. Passe das Layout des Diagramms an, indem du den Abstand zwischen den Balken und den Rand des Diagramms anpasst.
@@ -135,5 +137,7 @@ plt.ylabel('Umsatz')
 # Daten plotten
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Feinabstimmung_von_Plot-Layouts/ms_aufgabe2.png)
 
 Viel Spaß beim Experimentieren mit der Feinabstimmung von Plot Layouts in Matplotlib!
