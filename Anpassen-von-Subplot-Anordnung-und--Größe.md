@@ -1,7 +1,5 @@
-# Matplotlib - Anpassen von Subplot Anordnung und Größe
-
 ## Einführung
-Willkommen zu unserem Python-Tutorial über die Anpassung von Subplot-Anordnung und -Größe mit Matplotlib! In diesem Tutorial werden wir uns damit beschäftigen, wie man mehrere Diagramme in einem einzigen Fenster erstellt und anordnet. Dieses Wissen ist besonders nützlich, wenn du komplexe Daten visualisieren möchtest oder verschiedene Ansichten deiner Daten vergleichen möchtest.
+In diesem Tutorial werden wir uns damit beschäftigen, wie man mehrere Diagramme in einem einzigen Fenster erstellt und anordnet. Dieses Wissen ist besonders nützlich, wenn du komplexe Daten visualisieren möchtest oder verschiedene Ansichten deiner Daten vergleichen möchtest.
 
 Nachdem du dieses Tutorial abgeschlossen hast, wirst du in der Lage sein:
 - Mehrere Subplots zu erstellen und sie in verschiedenen Anordnungen anzuzeigen.
@@ -88,7 +86,7 @@ plt.show()
 ## Praxis
 Lass uns das gelernte Wissen in die Praxis umsetzen! Wir werden eine leichte und eine schwerere Aufgabe haben, um dein Verständnis zu überprüfen.
 
-**Aufgabe 1:**
+### Aufgabe 1
 Erstelle ein Diagramm mit zwei Subplots nebeneinander. Das erste Diagramm soll eine Sinus-Kurve und das zweite Diagramm eine Cosinus-Kurve enthalten.
 
 ```python
@@ -106,7 +104,7 @@ axes[1].plot(x, y2)
 plt.show()
 ```
 
-**Aufgabe 2:**
+### Aufgabe 2
 Erstelle ein Diagramm mit drei Subplots. Das erste Diagramm soll eine Sinus-Kurve enthalten, das zweite Diagramm eine Cosinus-Kurve und das dritte Diagramm eine Tangens-Kurve.
 
 ```python
