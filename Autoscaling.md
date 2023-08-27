@@ -1,5 +1,3 @@
-# Matplotlib - Autoscaling
-
 ## Einführung
 Willkommen zu diesem Python-Tutorial über Autoscaling in Matplotlib! In diesem Abschnitt wirst du lernen, wie du mithilfe von Matplotlib deine Diagramme automatisch an die Daten anpassen kannst. Aber was bedeutet das eigentlich? Stell dir vor, du hast Daten, die über einen bestimmten Bereich verteilt sind, und du möchtest ein Diagramm erstellen, das diese Daten optimal darstellt, ohne unnötig viel Platz zu verschwenden. Autoscaling hilft dir dabei, die Achsen deines Diagramms so anzupassen, dass die Daten gut sichtbar sind und gleichzeitig der verfügbare Platz effizient genutzt wird.
 
@@ -82,6 +80,8 @@ plt.autoscale()
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Autoscaling/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Erstelle ein Streudiagramm, das die folgenden Daten darstellt:
 
@@ -111,6 +111,9 @@ plt.xscale('log')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Autoscaling/ms_aufgabe2.png)
+
+## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich Autoscaling in Matplotlib angewendet. Du bist nun in der Lage, deine Diagramme automatisch an deine Daten anzupassen und sie optimal zu präsentieren.
 
 Viel Spaß beim Erstellen beeindruckender Diagramme mit Matplotlib!
