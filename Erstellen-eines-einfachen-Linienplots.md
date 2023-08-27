@@ -109,3 +109,8 @@ Viel Erfolg bei den Aufgaben!
 
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich Linienplots erstellt und bist bereit, deine Daten visuell ansprechend darzustellen.
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
