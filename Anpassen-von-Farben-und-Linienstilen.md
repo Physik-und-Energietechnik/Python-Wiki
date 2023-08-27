@@ -1,8 +1,6 @@
-# Matplotlib - Anpassen von Farben und Linienstilen
-
 ## Einführung
 
-Willkommen zu unserem Python-Tutorial über das Anpassen von Farben und Linienstilen in Matplotlib! In diesem Abschnitt werden wir lernen, wie wir unsere Diagramme in Matplotlib mit verschiedenen Farben und Linienstilen personalisieren können. 
+In diesem Abschnitt werden wir lernen, wie wir unsere Diagramme in Matplotlib mit verschiedenen Farben und Linienstilen personalisieren können. 
 
 Durch das Erlernen der Anpassung von Farben und Linienstilen können wir unsere Diagramme noch ansprechender gestalten und unseren eigenen Stil verleihen.
 
@@ -100,4 +98,10 @@ plt.show()
 
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Anpassen_von_Farben_und_Linienstilen/ms_aufgabe2.png)
 
+## Fazit
 Viel Spaß beim Experimentieren mit Farben und Linienstilen in Matplotlib! Nutzen Sie Ihr neues Wissen, um beeindruckende und einzigartige Diagramme zu erstellen.
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
