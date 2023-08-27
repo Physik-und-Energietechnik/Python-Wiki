@@ -104,6 +104,8 @@ axes[1].plot(x, y2)
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Anpassen_von_Subplot-Anordnung_und_Groeße/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Erstelle ein Diagramm mit drei Subplots. Das erste Diagramm soll eine Sinus-Kurve enthalten, das zweite Diagramm eine Cosinus-Kurve und das dritte Diagramm eine Tangens-Kurve.
 
@@ -124,6 +126,10 @@ axes[2].plot(x, y3)
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Subplots_und_mehrere_Achsen/Anpassen_von_Subplot-Anordnung_und_Groeße/ms_aufgabe1.png)
+
+
+## Fazit 
 Herzlichen Glückwunsch! Du hast erfolgreich Subplots erstellt und ihre Anordnung und Größe angepasst. Du bist auf dem besten Weg, beeindruckende Datenvisualisierungen mit Matplotlib zu erstellen!
 
 Ich hoffe, du hattest Spaß bei diesem Tutorial. Weiterhin viel Erfolg beim Python-Programmieren!
