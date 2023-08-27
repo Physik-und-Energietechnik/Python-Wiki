@@ -114,6 +114,8 @@ plt.pan(True)
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Anpassung_der_Plot-Interaktion_und_Navigation/ms_aufgabe1.png)
+
 Du kannst den Plot vergrößern und den angezeigten Bereich verschieben, um verschiedene Aspekte der Daten genauer zu betrachten.
 
 ### Aufgabe 2
@@ -159,6 +161,8 @@ plt.annotate('Maximaler Wert', xy=(5, 25), xytext=(3, 15),
 # Plot anzeigen
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Anpassung_der_Plot-Interaktion_und_Navigation/ms_aufgabe2.png)
 
 Die Anmerkung markiert den Punkt `(5, 25)` im Plot und enthält den Text "Maximaler Wert".
 
