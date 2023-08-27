@@ -1,7 +1,5 @@
-# Matplotlib - Visualisierung von Daten aus CSV-Dateien
-
 ## Einführung
-Willkommen zu unserem Python-Tutorial über die Visualisierung von Daten aus CSV-Dateien mit Matplotlib! In diesem Abschnitt lernst du, wie du Daten aus einer CSV-Datei lesen und sie mithilfe der Matplotlib-Bibliothek in Diagrammen darstellen kannst. 
+In diesem Abschnitt lernst du, wie du Daten aus einer CSV-Datei lesen und sie mithilfe der Matplotlib-Bibliothek in Diagrammen darstellen kannst. 
 
 Visualisierung ist ein mächtiges Werkzeug, um Daten zu verstehen und Muster oder Trends zu erkennen. Mit Matplotlib kannst du Diagramme wie Linien-, Balken- und Streudiagramme erstellen, um deine Daten visuell darzustellen. Dieses Wissen kann in vielen Bereichen nützlich sein, wie z.B. der Analyse von Finanzdaten, dem Verständnis von Klimatrends oder der Visualisierung von Ergebnissen wissenschaftlicher Studien.
 
@@ -136,4 +134,10 @@ plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Visualisierung_von_Daten_aus_CSV-Dateien/ms_aufgabe2.png)
 
+## Fazit
 Das war's! Du hast gerade gelernt, wie du Daten aus CSV-Dateien einliest und sie mit Matplotlib visualisierst. Jetzt kannst du mit dieser neuen Fähigkeit Daten analysieren und präsentieren. Viel Spaß beim Erkunden der Welt der Datenvisualisierung mit Python und Matplotlib!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
