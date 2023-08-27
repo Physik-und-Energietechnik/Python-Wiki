@@ -78,6 +78,7 @@ plt.title('Verteilung der Temperaturen')
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/hist/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Du hast Zugriff auf eine Datei mit den Gehältern von 1000 Mitarbeitern eines Unternehmens. Lade die Gehaltsdaten aus der Datei und erstelle ein Histogramm, um die Gehaltsverteilung zu visualisieren.
@@ -97,6 +98,7 @@ plt.title('Gehaltsverteilung')
 
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/hist/ms_aufgabe2.png)
 
 ## Fazit
 Du hast es geschafft! Du hast den Histinator gemeistert und kannst nun Daten wie ein echter Python-Profi visualisieren. Feiere deinen Erfolg mit einem Gummibärenfest – du hast es verdient!
@@ -104,5 +106,5 @@ Du hast es geschafft! Du hast den Histinator gemeistert und kannst nun Daten wie
 Das war's für den Abschnitt über den hist Plot. Wir hoffen, du hattest Spaß beim Lernen und bist jetzt bereit, deine Daten in beeindruckenden Histogrammen zum Leben zu erwecken. Bis zum nächsten Mal!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
