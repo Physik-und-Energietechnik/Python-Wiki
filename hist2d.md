@@ -102,7 +102,7 @@ plt.colorbar(label='Anzahl')
 # Zeige den Plot an
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/hist2d/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/hist2d/ms_aufgabe1.png)
 
 ### Aufgabe 2
 
@@ -136,7 +136,7 @@ plt.colorbar(label='Anzahl')
 # Zeige den Plot an
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/hist2d/ms_aufgabe2.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/hist2d/ms_aufgabe2.png)
 
 ## Fazit
 Herzlichen Glückwunsch! Du hast den hist2d Plot gemeistert. Jetzt kannst du diese coole Visualisierungstechnik in deinen eigenen Projekten einsetzen. Viel Spaß beim Erkunden und Experimentieren mit Matplotlib!
