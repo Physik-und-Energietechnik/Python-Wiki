@@ -102,7 +102,7 @@ plt.title('Tagesverlauf der Temperatur')
 
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/errorbar/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/errorbar/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Du hast Daten über die monatlichen Einnahmen eines Geschäfts gesammelt und möchtest den errorbar Plot verwenden, um sowohl die durchschnittlichen Einnahmen als auch die Schwankungen von Monat zu Monat zu visualisieren.
@@ -129,7 +129,7 @@ plt.title('Monatliche Einnahmen')
 
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/errorbar/ms_aufgabe2.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/errorbar/ms_aufgabe2.png)
 
 ## Fazit
 Herzlichen Glückwunsch! Du hast den errorbar Plot gemeistert und kannst jetzt beeindruckende visuelle Darstellungen mit Matplotlib erstellen. Nutze dieses mächtige Werkzeug, um Daten zu präsentieren und Einblicke zu gewinnen.
