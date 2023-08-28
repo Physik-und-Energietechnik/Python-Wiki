@@ -28,8 +28,6 @@ plt.title('Pizza-Tagebuch')
 plt.show()
 ```
 
-![Pizza-Tagebuch Eventplot](https://example.com/pizza_eventplot.png)
-
 ### Ein spezifisches Beispiel
 Nun, da wir die Grundlagen kennen, schauen wir uns ein spezifisches Beispiel an, um das Ganze besser zu verstehen. Angenommen, du möchtest die Anzahl der Witze, die du während einer Woche gerissen hast, aufzeichnen. Jeder Tag wird als eine Spalte in einem Diagramm dargestellt, und jedes Mal, wenn du einen Witz gerissen hast, zeichnen wir ein kleines Lachgesicht - natürlich mit passendem Schnurrbart!
 
@@ -63,8 +61,6 @@ plt.figtext(0.5, 0.01, "Wochenende - keine Witze, nur schlechte Wortspiele!", ha
 plt.show()
 ```
 
-![Witzigkeit der Woche Eventplot](https://example.com/jokes_eventplot.png)
-
 ## Praxis
 
 Jetzt kommt der lustige Teil! Lass uns das erlernte Wissen in die Praxis umsetzen und eine leichte und eine schwierigere Aufgabe lösen.
@@ -86,7 +82,7 @@ plt.title('Mein Schlafplan')
 
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/eventplot/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/eventplot/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Jetzt wird es etwas kniffliger! Erstelle einen Eventplot, der die Anzahl der E-Mails darstellt, die du jede Stunde an einem Tag erhalten hast. Die Anzahl der E-Mails pro Stunde sind: 2, 4, 6, 3, 5, 1, 7, 0, 2, 1, 3, 5, 4, 1, 0, 0, 6, 2, 1, 3, 2, 0, 4, 5, 3, 2, 1, 0. Füge wieder Achsenbeschriftungen hinzu und gib dem Plot einen passenden Titel!
@@ -114,7 +110,7 @@ plt.title('Mein E-Mail-Verkehr')
 
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/eventplot/ms_aufgabe2.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/eventplot/ms_aufgabe2.png)
 
 ## Fazit
 Ich hoffe, du hattest Spaß bei dieser kleinen Einführung in den eventplot Plot von Matplotlib! Du hast jetzt das Wissen, um deine eigenen kreativen Eventplots zu erstellen und Daten auf eine neue und unterhaltsame Weise zu visualisieren. Probiere verschiedene Variationen aus und finde heraus, welche Art von Ereignissen du darstellen kannst. Viel Spaß beim Plotten!
