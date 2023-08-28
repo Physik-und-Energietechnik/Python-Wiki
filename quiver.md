@@ -1,8 +1,6 @@
-# Matplotlib - Quiver Plot
-
 ## Einführung
 
-Willkommen zum aufregenden Abenteuer des Datens visualisierens! In diesem Tutorial dreht sich alles um den "quiver plot" in Matplotlib. Aber keine Sorge, es ist keine Geschichte über Pfeilspitzen und mittelalterliche Waffen. Stattdessen werden wir uns damit beschäftigen, Vektoren auf eine humorvolle und Python-unerfahrene Weise zu visualisieren.
+In diesem Tutorial dreht sich alles um den "quiver plot" in Matplotlib. Aber keine Sorge, es ist keine Geschichte über Pfeilspitzen und mittelalterliche Waffen. Stattdessen werden wir uns damit beschäftigen, Vektoren auf eine humorvolle und Python-unerfahrene Weise zu visualisieren.
 
 Du fragst dich vielleicht, was ein "quiver plot" überhaupt ist? Nun, ein "quiver plot" ist eine Darstellung von Vektoren als Pfeile auf einem 2D-Diagramm. Es ist eine großartige Möglichkeit, Richtung und Intensität von Vektoren visuell zu veranschaulichen. Du kannst damit zum Beispiel den Windfluss, die Geschwindigkeit von Teilchen oder die Feldlinien eines Vektorfeldes anzeigen.
 
@@ -67,7 +65,7 @@ In diesem Beispiel haben wir zufällige Startpunkt-Koordinaten und Vektor-Kompon
 
 Nun, da du die Theorie kennst, lass uns das Gelernte in die Praxis umsetzen. Ich werde dir zwei Aufgaben geben: eine leichte und eine etwas schwierigere. Aber keine Sorge, du wirst es schaffen!
 
-**Aufgabe 1:**
+### Aufgabe 1
 Erstelle einen "quiver plot" für die Vektoren (1, 1), (-1, 1) und (0, -1). Zeige sie als Pfeile mit einer Länge von 1 an und positioniere sie in den Punkten (0, 0), (1, 1) und (2, 2). Lass sie in einer atemberaubenden Farbe erstrahlen und gib den Pfeilspitzen eine Breite von 0.005.
 
 **Musterlösung:**
@@ -90,7 +88,7 @@ plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/quiver/ms_aufgabe1.png)
 
-**Aufgabe 2:**
+### Aufgabe 2
 Erstelle einen "quiver plot" für die Vektoren, die entlang eines Kreises mit einem Radius von 1 liegen. Verwende eine Schrittweite von 0.1, um die Vektoren gleichmäßig auf dem Kreis zu platzieren. Zeige sie als Pfeile mit einer Länge von 0.5 an und gib ihnen eine leuchtend blaue Farbe. Lass die Pfeilspitzen elegant schlank sein, indem du ihnen eine Breite von 0.002 gibst.
 
 **Musterlösung:**
