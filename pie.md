@@ -60,7 +60,7 @@ plt.axis('equal')
 plt.title('Internetbrowserverteilung')
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/pie/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/pie/ms_aufgabe1.png)
 
 ### Aufgabe 2
 Erstelle ein Kreisdiagramm, das die Verteilung der Tierarten in einem Zoo darstellt. Verwende die folgenden Daten:
@@ -84,7 +84,7 @@ plt.axis('equal')
 plt.title('Tierverteilung im Zoo')
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/pie/ms_aufgabe2.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/pie/ms_aufgabe2.png)
 
 ## Fazit
 Das war's! Du hast erfolgreich den pie Plot in Matplotlib gemeistert. Ob du nun Fruchtverteilungen oder Zoo-Tierverteilungen darstellen möchtest, du kannst das pie Plot-Diagramm nutzen, um deine Daten auf unterhaltsame Weise zu präsentieren. Viel Spaß beim Experimentieren und Erkunden weiterer Funktionen von Matplotlib!
