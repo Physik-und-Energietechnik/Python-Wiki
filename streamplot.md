@@ -1,7 +1,5 @@
-# Matplotlib - streamplot
-
 ## Einführung
-Willkommen zum aufregenden Teil der Matplotlib-Bibliothek: streamplot! In diesem Tutorial werden wir uns mit streamplot vertraut machen und lernen, wie man mit diesem tollen Feature Strömungsfelder in Python visualisiert. Aber keine Sorge, wir werden uns nicht mit echten Flüssigkeiten herumschlagen müssen. Stattdessen werden wir uns auf eine einfache und lustige Weise mit den Konzepten vertraut machen.
+In diesem Tutorial werden wir uns mit streamplot vertraut machen und lernen, wie man mit diesem tollen Feature Strömungsfelder in Python visualisiert. Aber keine Sorge, wir werden uns nicht mit echten Flüssigkeiten herumschlagen müssen. Stattdessen werden wir uns auf eine einfache und lustige Weise mit den Konzepten vertraut machen.
 
 Streamplot ist ein mächtiges Werkzeug, das es uns ermöglicht, Vektorfelder grafisch darzustellen. Das hört sich kompliziert an, aber keine Sorge, ich werde es erklären. Du wirst lernen, wie man Strömungsmuster wie die Bewegung von Flüssigkeiten oder Gasen visuell darstellen kann. Klingt doch cool, oder?
 
@@ -56,7 +54,7 @@ In diesem Beispiel haben wir eine Funktion definiert, die ein Wirbelfeld erzeugt
 
 ## Praxis
 
-**Aufgabe 1**
+### Aufgabe 1
 Genug Theorie, lass uns mit der Praxis beginnen! Hier ist eine leichte Aufgabe für dich: Erstelle ein Strömungsfeld, das das Fließen eines Flusses darstellt. Verwende die folgenden Koordinaten und Vektoren:
 
 ```python
@@ -80,7 +78,7 @@ plt.show()
 Probier es aus und schau dir das erzeugte Strömungsfeld an. Beachte, wie die Vektoren die Richtung und Geschwindigkeit des Flusses anzeigen.
 
 
-**Aufgabe 2**
+### Aufgabe 2
 Für diejenigen, die eine größere Herausforderung suchen, hier ist eine schwierigere Aufgabe: Erstelle ein Strömungsfeld, das die Bewegung eines Tornados darstellt. Verwende den folgenden Code:
 
 ```python
