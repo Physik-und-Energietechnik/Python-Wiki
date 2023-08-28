@@ -1,10 +1,8 @@
-## Matplotlib - Der `pcolormesh` Plot
-
-### Einführung
+## Einführung
 
 Herzlich willkommen zum aufregenden Abenteuer in der wundervollen Welt von Matplotlib! In diesem Tutorial werden wir uns mit einem faszinierenden Plot-Typ namens `pcolormesh` beschäftigen. Du fragst dich vielleicht, was das überhaupt ist und wozu man es verwenden kann. Nun, stell dir vor, du könntest Daten auf einer Karte visualisieren oder eine Wärmekarte erstellen, um Muster und Trends zu erkennen. Genau das ermöglicht uns der `pcolormesh` Plot!
 
-### Theorie
+## Theorie
 
 Aber bevor wir uns in das bunte Treiben stürzen, lass uns etwas Theorie durchgehen. Der `pcolormesh` Plot ist eine großartige Möglichkeit, zweidimensionale Daten zu visualisieren. Er erstellt eine Gitterdarstellung, bei der jeder Punkt in diesem Gitter eine Farbe basierend auf dem Wert des entsprechenden Datenpunkts hat. Das klingt ein bisschen wie Malen nach Zahlen, oder?
 
@@ -49,11 +47,11 @@ plt.show()
 
 Schau dir das an! Du hast gerade deine Temperaturdaten auf einer Karte visualisiert. Das ist doch ziemlich cool, oder?
 
-### Praxis
+## Praxis
 
 Jetzt ist es an der Zeit, dein erlangtes Wissen in die Praxis umzusetzen. Mach dir keine Sorgen, wir haben zwei Aufgaben für dich vorbereitet, eine leichte und eine schwerere. Du kannst gerne herumexperimentieren und deine Kreativität einfließen lassen!
 
-**Aufgabe 1:**
+### Aufgabe 1
 
 Erstelle eine 5x5-Matrix mit Zufallswerten zwischen 0 und 1 und visualisiere sie mit einem `pcolormesh` Plot.
 
@@ -71,7 +69,7 @@ plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/pcolormesh/ms_aufgabe1.png)
 
-**Aufgabe 2:**
+### Aufgabe 2
 
 Du hast eine CSV-Datei mit den Ergebnissen eines Spiels. Die CSV-Datei enthält eine 10x10-Matrix, wobei jeder Wert den Spielstand an einer bestimmten Position im Spiel repräsentiert. Lies die Daten aus der CSV-Datei ein und visualisiere sie mit einem `pcolormesh` Plot.
 
