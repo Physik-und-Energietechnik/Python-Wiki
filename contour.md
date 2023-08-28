@@ -1,14 +1,12 @@
-## Matplotlib - Der contour Plot
+## Einführung
 
-### Einführung
-
-Willkommen zurück, ihr Python-Abenteurer! Heute begeben wir uns auf eine Reise in die wunderbare Welt des **contour Plots** mit Matplotlib. Stellt euch vor, ihr habt eine Karte vor euch, auf der die Höhen unterschiedlicher Gebirge mit wunderschönen Linien dargestellt werden. Das ist im Wesentlichen ein contour Plot! Mit diesem nützlichen Werkzeug könnt ihr Daten visualisieren, die als zweidimensionale Felder oder Gitter organisiert sind.
+Heute begeben wir uns auf eine Reise in die wunderbare Welt des **contour Plots** mit Matplotlib. Stellt euch vor, ihr habt eine Karte vor euch, auf der die Höhen unterschiedlicher Gebirge mit wunderschönen Linien dargestellt werden. Das ist im Wesentlichen ein contour Plot! Mit diesem nützlichen Werkzeug könnt ihr Daten visualisieren, die als zweidimensionale Felder oder Gitter organisiert sind.
 
 In diesem Tutorial werdet ihr lernen, wie ihr mit Matplotlib konturähnliche Grafiken erstellen könnt, um komplexe Datenmuster zu erkennen und zu präsentieren. Aber haltet euch fest! Bevor wir in die Praxis eintauchen, wollen wir uns ein wenig mit der Theorie beschäftigen.
 
-### Theorie
+## Theorie
 
-#### Was ist ein contour Plot?
+### Was ist ein contour Plot?
 
 Ein contour Plot ist eine Art Grafik, die uns dabei hilft, Daten zu analysieren und zu verstehen. Er basiert auf einer kontinuierlichen Farbskala oder Linien, die Höhenlinien auf einer topografischen Karte ähneln. Der Plot zeigt uns, wie Werte in einem zweidimensionalen Feld oder Gitter variieren.
 
@@ -54,16 +52,17 @@ plt.show()
 
 Hier erstellen wir einen detaillierteren contour Plot. Mit `plt.contour()` zeichnen wir die Konturlinien als schwarze Linien und mit `plt.contourf()` füllen wir den Bereich zwischen den Linien mit einer Farbskala, die wir mithilfe von `plt.colorbar()` anzeigen lassen können.
 
-### Praxis
+## Praxis
 
 Lasst uns das erlernte Wissen auf die Probe stellen! Hier sind zwei Aufgaben für euch:
 
-**Aufgabe 1:**
+### Aufgabe 1
 
 Erstellt einen contour Plot für die Funktion `Z = np.cos(X) + np.sin(Y)` im Bereich von -2π bis 2π für x und y. Verwendet eine geeignete Farbskala und fügt Titel und Achsenbeschriftungen hinzu.
 
+Musterlösung
+
 ```python
-# Musterlösung für die leichte Aufgabe
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -82,12 +81,13 @@ plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/contour/ms_aufgabe1.png)
 
-**Aufgabe 2:**
+### Aufgabe 2
 
 Erstellt einen 3D contour Plot für die Funktion `Z = np.cos(X) * np.sin(Y)`. Verwendet unterschiedliche Ebenen für verschiedene Werte von Z und fügt eine geeignete Farbskala hinzu.
 
+Musterlösung
+
 ```python
-# Musterlösung für die schwere Aufgabe
 import matplotlib.pyplot as plt
 import numpy as np
 
