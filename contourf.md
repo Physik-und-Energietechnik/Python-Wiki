@@ -1,8 +1,6 @@
-# Matplotlib - Der contourf Plot
-
 ## Einführung
 
-Herzlich willkommen zum aufregenden Abenteuer des contourf Plots in Matplotlib! In diesem Tutorial wirst du lernen, wie du schöne und informative Konturplots erstellst, die deine Daten zum Leben erwecken. Matplotlib ist eine mächtige Python-Bibliothek zur Visualisierung von Daten und mit dem contourf Plot kannst du komplexe Muster und Zusammenhänge in deinen Daten entdecken.
+In diesem Tutorial wirst du lernen, wie du schöne und informative Konturplots erstellst, die deine Daten zum Leben erwecken. Matplotlib ist eine mächtige Python-Bibliothek zur Visualisierung von Daten und mit dem contourf Plot kannst du komplexe Muster und Zusammenhänge in deinen Daten entdecken.
 
 Nach Abschluss dieses Tutorials wirst du in der Lage sein, atemberaubende Konturplots zu erstellen und verstehen, wie du sie zur Darstellung verschiedener Arten von Daten verwenden kannst. Du wirst lernen, wie du Farbverläufe nutzt, um die Intensität von Werten darzustellen, und wie du das Erscheinungsbild deiner Plots an deine Bedürfnisse anpasst.
 
