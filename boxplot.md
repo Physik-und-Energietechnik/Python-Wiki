@@ -71,7 +71,7 @@ plt.boxplot(grades)
 # Anzeigen des Plots
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/boxplot/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/boxplot/ms_aufgabe1.png)
 
 Und voilà! Du hast erfolgreich einen boxplot erstellt, der dir die Verteilung der Noten zeigt. Du kannst jetzt auf einen Blick sehen, ob die Noten konzentriert sind oder ob es Ausreißer gibt.
 
@@ -101,7 +101,7 @@ plt.boxplot(data, labels=['Produkt 1', 'Produkt 2', 'Produkt 3'])
 # Anzeigen des Plots
 plt.show()
 ```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/boxplot/ms_aufgabe2.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/boxplot/ms_aufgabe2.png)
 
 ## Fazit
 Fantastisch! Du hast es geschafft, einen boxplot zu erstellen, der die Verkaufszahlen der drei Produkte vergleicht. Jetzt kannst du leicht erkennen, ob es Unterschiede in den Verteilungen gibt und wie die Verkaufszahlen für jedes Produkt variieren.
