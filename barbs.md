@@ -69,11 +69,12 @@ windrichtung = [45, 135, 225]
 windgeschwindigkeit = [2, 3, 4]
 
 # Den "barbs Plot" erstellen
-plt.barbs(0, 0, windrichtung, windgeschwindigkeit)
+plt.barbs([0, 1, 2], [0, 0, 0], windrichtung, windgeschwindigkeit)  # Verwendete Startpositionen [0, 0, 0] für die Windvektoren
 
 # Diagramm anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/barbs/ms_aufgabe1.png)
 
 ### Aufgabe 2
 
