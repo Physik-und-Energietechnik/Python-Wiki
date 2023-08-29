@@ -46,7 +46,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Streamlit]] | GUI für Visualisierung und Analyse von Daten |
 | [[Gradio]] | GUI für ML Demos |
 
-## Darstellung
+## Darstellung (Jan-Philipp Homuth, Jan-Simon Schneider)
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Einführung in Matplotlib]] | Installation und Einrichtung von Matplotlib |
