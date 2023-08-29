@@ -1,8 +1,8 @@
 ## Einführung
 
-In diesem Teil des Tutorials werden wir uns den `imshow` Plot in Matplotlib genauer anschauen. Keine Sorge, es klingt vielleicht ein bisschen nach einer geheimen Mission, aber ich verspreche dir, es ist alles andere als geheimnisvoll.
+Willkommen im wunderbaren Wirrwarr der Welt von Python! Heute nehmen wir uns das Matplotlib-Modul vor und tauchen tief in die Magie von `imshow()` ein. Klingt nach einem Geheimcode aus einem Agentenfilm, oder? Aber mach dir keine Sorgen, wir werden diesen Code knacken und verstehen, wie man damit Daten in anschauliche Bilder verwandelt.
 
-Der `imshow` Plot ist ein mächtiges Werkzeug, mit dem du Daten visualisieren kannst. Du kannst damit beispielsweise Bilder anzeigen, Wärmekarten erstellen oder sogar geografische Karten darstellen. Aber bevor wir uns in die Details stürzen, lass uns einen kurzen Überblick geben, was du in diesem Tutorial lernen wirst und wie du das Gelernte einsetzen kannst.
+In diesem Tutorial werden wir lernen, wie man mit `imshow()` umgeht. Das ist wie Photoshop für Zahlen, nur viel cooler. Wir werden Daten in Bildern visualisieren und herausfinden, wie wir das in verschiedenen Situationen anwenden können. Am Ende kannst du deine Freunde mit fantastischen visuellen Darstellungen beeindrucken!
 
 In diesem Abschnitt wirst du lernen:
 - Wie man den `imshow` Plot in Matplotlib verwendet, um Daten zu visualisieren.
@@ -13,116 +13,67 @@ Mit diesem Wissen bist du in der Lage, beeindruckende Visualisierungen zu erstel
 
 ## Theorie
 
-### Der `imshow` Plot - Eine visuelle Pracht!
+### Was zur Hölle ist `imshow()`?
+Stell dir vor, du könntest Zahlen in Farben verwandeln und dadurch Muster und Strukturen sichtbar machen. Das ist im Grunde das, was `imshow()` tut. Es erlaubt uns, Matrizen von Zahlen als Bilder darzustellen. Und das Beste daran? Du musst kein Künstler sein, um das hinzubekommen.
 
-Der `imshow` Plot ist ein Werkzeug in Matplotlib, mit dem du eine Matrix von Daten als Bild darstellen kannst. Damit kannst du zum Beispiel ein Bild anzeigen oder eine Wärmekarte einer Tabelle erstellen. Die Möglichkeiten sind nahezu endlos!
-
-Aber lass uns zunächst ein allgemeines Beispiel betrachten, um das Konzept zu verstehen. Stell dir vor, du hast eine Matrix mit Zahlen, die eine Art Landkarte darstellt. Jede Zahl repräsentiert die Höhe eines bestimmten Geländepunkts. Mit dem `imshow` Plot kannst du diese Daten als beeindruckende visuelle Darstellung anzeigen.
-
-```python
-import matplotlib.pyplot as plt
-
-# Beispiel-Daten
-landkarte = [
-    [10, 20, 30],
-    [15, 25, 35],
-    [5, 10, 20]
-]
-
-plt.imshow(landkarte)
-plt.show()
-```
-
-Hier haben wir eine einfache Landkarte mit Höhenwerten. Der `imshow` Plot nimmt diese Matrix entgegen und zeigt sie als Bild an. Cool, oder?
-
-Jetzt wollen wir uns ein spezifisches Beispiel ansehen und ein Bild anzeigen. Stell dir vor, du hast ein Bild von einer entzückenden Katze mit dem Namen Fluffy. Und natürlich möchtest du dieses Bild in deinem Python-Programm anzeigen.
+### Code-Beispiel: Grundlegendes
+Hier ist ein einfaches Beispiel, um dir den Geschmack von `imshow()` zu geben:
 
 ```python
 import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+import numpy as np
 
-# Bild laden
-img = mpimg.imread('fluffy.jpg')
+data = np.random.random((10, 10))  # Erstelle eine zufällige 10x10 Matrix
 
-# Bild anzeigen
-plt.imshow(img)
-plt.axis('off')  # Achsen ausschalten
-plt.show()
+plt.imshow(data, cmap='viridis')  # Zeige die Daten als Bild an
+plt.colorbar()  # Zeige eine Farbskala zur Referenz an
+plt.show()  # Zeige das Bild an
 ```
 
-Voilà! Mit dem `imshow` Plot kannst du Fluffy der Welt präsentieren!
+### Explizites Code-Beispiel: Anpassungen
+Du kannst das Bild anpassen, um es episch aussehen zu lassen:
+
+```python
+plt.imshow(data, cmap='plasma', interpolation='bilinear')
+plt.title("Episches Bild")
+plt.xlabel("X-Achse")
+plt.ylabel("Y-Achse")
+plt.xticks([])  # Entferne x-Achsenbeschriftungen
+plt.yticks([])  # Entferne y-Achsenbeschriftungen
+plt.colorbar(label="Wertigkeit")
+plt.show()
+```
 
 ## Praxis
 
-Jetzt ist es Zeit, dein neues Wissen in die Tat umzusetzen. Wir haben zwei Aufgaben für dich vorbereitet: eine leichte und eine etwas kniffligere Aufgabe. Keine Sorge, wenn du nicht sofort eine Lösung findest. Am Ende des Tutorials haben wir Musterlösungen für dich vorbereitet.
-
 ### Aufgabe 1
-Du hast eine Tabelle mit Temperaturdaten. Stelle sie als Wärmekarte mit dem `imshow` Plot dar. Hier ist ein Beispiel für deine Daten:
+Zeige deine Macht, indem du eine Matrix mit aufsteigenden Werten von 0 bis 24 erstellst und sie als Bild anzeigst. Lass die Farben von cool nach warm verlaufen.
+
+**Musterlösung:**
 
 ```python
-import numpy as np
-
-# Beispiel-Daten
-temperaturdaten = np.array([
-    [20, 22, 25, 18],
-    [19, 24, 23, 17],
-    [21, 20, 22, 19]
-])
-
-# TODO: Stelle die Temperaturdaten als Wärmekarte dar
-```
-**Musterlösung für die leichte Aufgabe:**
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Beispiel-Daten
-temperaturdaten = np.array([
-    [20, 22, 25, 18],
-    [19, 24, 23, 17],
-    [21, 20, 22, 19]
-])
-
-# Wärmekarte anzeigen
-plt.imshow(temperaturdaten, cmap='hot')
-plt.colorbar(label='Temperatur (°C)')
+data_light = np.arange(25).reshape(5, 5)
+plt.imshow(data_light, cmap='coolwarm')
+plt.colorbar()
 plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/imshow/ms_aufgabe1.png)
 
 ### Aufgabe 2
-Du hast ein Bild von deinem Lieblingskuchen und möchtest es mit dem `imshow` Plot anzeigen. Du findest das Bild unter dem Namen "kuchen.jpg". Zeige es der Welt und lass uns allen das Wasser im Mund zusammenlaufen!
+Hier wird's kniffliger! Erstelle eine Matrix mit zufälligen Ganzzahlen zwischen 0 und 100 (5x5). Zeige sie als Bild an, aber lass nur die Werte über 50 in kräftigem Rot erscheinen.
+
+**Musterlösung:**
 
 ```python
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-
-# TODO: Lade das Bild "kuchen.jpg" und zeige es mit dem `imshow` Plot an
-```
-
-**Musterlösung für die schwere Aufgabe:**
-
-```python
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
-
-# Bild laden
-img = mpimg.imread('kuchen.jpg')
-
-# Bild anzeigen
-plt.imshow(img)
-plt.axis('off')  # Achsen ausschalten
+data_hard = np.random.randint(0, 101, (5, 5))
+masked_data = np.ma.masked_less_equal(data_hard, 50)  # Maske Werte <= 50
+plt.imshow(masked_data, cmap='Reds')
+plt.colorbar()
 plt.show()
-
-# Da sich das jeweilige Bild unterscheiden kann, gibt es natürlich keine konkrete Lösung als Bild.
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/imshow/ms_aufgabe2.png)
 
-## Fazit
-
-Herzlichen Glückwunsch! Du hast erfolgreich den `imshow` Plot in Matplotlib gemeistert. Du hast gelernt, wie du Daten als Bilder darstellen, Farbkarten anpassen und Bilder anzeigen kannst. Du bist nun in der Lage, atemberaubende Visualisierungen zu erstellen und deine Daten auf eine unterhaltsame Art und Weise zu präsentieren.
-
-Im nächsten Teil des Tutorials werden wir uns mit weiteren spannenden Möglichkeiten in Matplotlib beschäftigen. Also bleib dran und lass uns die Welt der Datenvisualisierung weiter erkunden!
+Herzlichen Glückwunsch, du hast gerade die Kunst der Datenvisualisierung mit `imshow()` gemeistert! Du bist jetzt offiziell ein Picasso der Programmierung. 🎨🐍
 
 ## Links / Weiteres Material
 ### Dokumentation
