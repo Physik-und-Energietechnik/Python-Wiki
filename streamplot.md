@@ -58,15 +58,24 @@ In diesem Beispiel haben wir eine Funktion definiert, die ein Wirbelfeld erzeugt
 Genug Theorie, lass uns mit der Praxis beginnen! Hier ist eine leichte Aufgabe für dich: Erstelle ein Strömungsfeld, das das Fließen eines Flusses darstellt. Verwende die folgenden Koordinaten und Vektoren:
 
 ```python
+import numpy as np
 import matplotlib.pyplot as plt
 
-# Erstelle x- und y-Koordinaten
-x = [1, 2, 3, 4, 5]
-y = [1, 2, 3, 4, 5]
+# Erstelle x- und y-Koordinaten als 2D-Gitter
+x, y = np.meshgrid(np.linspace(1, 5, 5), np.linspace(1, 5, 5))
 
-# Erstelle u- und v-Komponenten der Vektoren
-u = [1, 0, -1, 0, 1]
-v = [0, 1, 0, -1, 0]
+# Erstelle u- und v-Komponenten der Vektoren für jedes Gitterpunkt
+u = np.array([[1, 0, -1, 0, 1],
+              [1, 0, -1, 0, 1],
+              [1, 0, -1, 0, 1],
+              [1, 0, -1, 0, 1],
+              [1, 0, -1, 0, 1]])
+
+v = np.array([[0, 1, 0, -1, 0],
+              [0, 1, 0, -1, 0],
+              [0, 1, 0, -1, 0],
+              [0, 1, 0, -1, 0],
+              [0, 1, 0, -1, 0]])
 
 # Erstelle das Strömungsfeld
 plt.streamplot(x, y, u, v)
@@ -74,6 +83,7 @@ plt.streamplot(x, y, u, v)
 # Zeige das Diagramm an
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/streamplot/ms_aufgabe1.png)
 
 Probier es aus und schau dir das erzeugte Strömungsfeld an. Beachte, wie die Vektoren die Richtung und Geschwindigkeit des Flusses anzeigen.
 
