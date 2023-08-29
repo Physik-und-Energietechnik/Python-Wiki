@@ -81,21 +81,36 @@ plt.show()
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/hist/ms_aufgabe1.png)
 
 ### Aufgabe 2
-Du hast Zugriff auf eine Datei mit den Gehältern von 1000 Mitarbeitern eines Unternehmens. Lade die Gehaltsdaten aus der Datei und erstelle ein Histogramm, um die Gehaltsverteilung zu visualisieren.
+Erzeuge eine Liste von Zufallsdaten und erstelle ein Histogramm, das die Verteilung dieser Daten darstellt.
 
-Musterlösung:
+Generiere eine Liste von 1000 Zufallszahlen zwischen 0 und 100.
+Teile die Zahlen in 15 gleichgroße Bins auf.
+Erstelle ein Histogramm mit den generierten Daten.
+Verleihe den Balken des Histogramms eine ansprechende Farbe.
+Füge Achsenbeschriftungen, Titel und eine Legende hinzu.
+Hier ist die Musterlösung:
 
 ```python
-import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
-gehaelter = pd.read_csv('gehaelter.csv')['Gehalt']
+# Zufallsdaten generieren
+np.random.seed(42)  # Für Reproduzierbarkeit der Zufallsdaten
+random_data = np.random.randint(0, 100, size=1000)
 
-plt.hist(gehaelter, bins=20)
+# Histogramm erstellen
+plt.figure(figsize=(10, 6))
 
-plt.xlabel('Gehalt')
-plt.ylabel('Anzahl der Mitarbeiter')
-plt.title('Gehaltsverteilung')
+# Histogramm plotten
+plt.hist(random_data, bins=15, color='purple', edgecolor='black', alpha=0.7)
 
+# Beschriftungen und Titel hinzufügen
+plt.xlabel("Wert")
+plt.ylabel("Anzahl")
+plt.title("Verteilung von Zufallsdaten")
+plt.legend(["Zufallsdaten"])
+
+# Plot anzeigen
 plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Statistiken/hist/ms_aufgabe2.png)
