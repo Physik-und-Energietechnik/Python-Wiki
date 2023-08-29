@@ -71,29 +71,45 @@ plt.show()
 
 ### Aufgabe 2
 
-Du hast eine CSV-Datei mit den Ergebnissen eines Spiels. Die CSV-Datei enthält eine 10x10-Matrix, wobei jeder Wert den Spielstand an einer bestimmten Position im Spiel repräsentiert. Lies die Daten aus der CSV-Datei ein und visualisiere sie mit einem `pcolormesh` Plot.
+Angenommen, du bist ein Biologe, der die Verteilung von verschiedenen Pflanzenarten in einem bestimmten Ökosystem untersucht. Du hast Daten über die relative Häufigkeit dieser Pflanzenarten in verschiedenen Regionen des Ökosystems gesammelt. Deine Aufgabe ist es nun, diese Daten mithilfe von pcolormesh in Form einer Farbdarstellung zu visualisieren. Dabei soll jede Pflanzenart durch eine bestimmte Farbe repräsentiert werden, und die X- und Y-Koordinaten auf der Karte sollen die verschiedenen Regionen des Ökosystems darstellen.
+
+Hier ist eine beispielhafte Musterlösung, die du als Ausgangspunkt verwenden kannst:
 
 **Musterlösung:**
 
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
-import csv
 
-data = []
-with open('spielstand.csv', 'r') as csvfile:
-    csvreader = csv.reader(csvfile)
-    for row in csvreader:
-        data.append([float(value) for value in row])
+# Simulierte Pflanzenartendaten (Beispielwerte)
+# Zeilen repräsentieren Regionen, Spalten repräsentieren Pflanzenarten
+plant_data = np.array([
+    [0.1, 0.3, 0.5, 0.1],
+    [0.4, 0.2, 0.2, 0.2],
+    [0.2, 0.1, 0.6, 0.1],
+    [0.3, 0.4, 0.1, 0.2]
+])
 
-data = np.array(data)
+# Farbcodes für Pflanzenarten
+cmap = plt.get_cmap('tab20')  # Verwende eine vordefinierte Farbpalette
+colors = cmap(np.linspace(0, 1, plant_data.shape[1]))
 
-plt.pcolormesh(data)
-plt.colorbar()
+# Erstelle X- und Y-Koordinaten für die Regionen
+x_coords = np.arange(plant_data.shape[0])
+y_coords = np.arange(plant_data.shape[1])
+X, Y = np.meshgrid(x_coords, y_coords)
+
+# Verwende pcolormesh, um die Pflanzenartendaten darzustellen
+plt.pcolormesh(X, Y, plant_data, cmap=cmap)
+plt.colorbar(label='Relative Häufigkeit')
+plt.title('Verteilung von Pflanzenarten im Ökosystem')
+plt.xlabel('Region')
+plt.ylabel('Pflanzenart')
+plt.xticks(x_coords, ['Region 1', 'Region 2', 'Region 3', 'Region 4'])
+plt.yticks(y_coords, ['Art A', 'Art B', 'Art C', 'Art D'])
 plt.show()
-
-# Da sich die jeweilige CSV-Datei unterscheiden kann, gibt es natürlich keine konkrete Lösung als Bild.
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/pcolormesh/ms_aufgabe2.png)
 
 ## Fazit
 Wir hoffen, du hattest Spaß beim Erkunden des `pcolormesh` Plots! Diese einfache, aber mächtige Visualisierungstechnik wird dir sicherlich dabei helfen, Daten auf eine völlig neue Art und Weise zu betrachten. Viel Erfolg beim Experimentieren und Erkunden weiterer Matplotlib-Plots!
