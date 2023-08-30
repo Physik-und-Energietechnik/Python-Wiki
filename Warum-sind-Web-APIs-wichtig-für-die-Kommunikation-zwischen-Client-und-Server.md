@@ -39,6 +39,24 @@ else:
     print('Fehler beim Abrufen der Daten:', response.status_code)
 ```
 
+Dieser Python-Code demonstriert, wie man das `requests`-Modul verwendet, um eine GET-Anfrage an eine Web API zu senden und die empfangenen Daten zu verarbeiten. Hier ist eine allgemeine Erklärung des Codes:
+
+1. `import requests`: Hier wird das Python-Modul "requests" importiert, das die Möglichkeit bietet, HTTP-Anfragen an verschiedene Webressourcen zu senden und die entsprechenden Antworten zu verarbeiten.
+
+2. `response = requests.get('https://api.example.com/data')`: In dieser Zeile wird eine HTTP GET-Anfrage an die URL "https://api.example.com/data" gesendet. Die Antwort der Anfrage wird in der Variable `response` gespeichert.
+
+3. `if response.status_code == 200:`: Hier wird überprüft, ob der Statuscode der erhaltenen Antwort 200 ist, was auf eine erfolgreiche Anfrage hinweist. Ein Statuscode von 200 bedeutet "OK", was bedeutet, dass die Anfrage erfolgreich war.
+
+4. `data = response.json()`: Wenn die Anfrage erfolgreich war (Statuscode 200), wird die Methode `.json()` auf der Response aufgerufen, um die empfangenen Daten zu interpretieren und in ein Python-Datenformat umzuwandeln. Die konvertierten Daten werden in der Variable `data` gespeichert.
+
+5. `print(data)`: Die empfangenen und verarbeiteten Daten werden auf der Konsole ausgegeben.
+
+6. `else:`: Falls die Anfrage nicht erfolgreich war (Statuscode war nicht 200), wird dieser Zweig des Codes ausgeführt.
+
+7. `print('Fehler beim Abrufen der Daten:', response.status_code)`: In diesem Fall wird eine Fehlermeldung zusammen mit dem Statuscode der Antwort auf der Konsole ausgegeben. Der Statuscode gibt an, warum die Anfrage nicht erfolgreich war (z. B. 404 für "Not Found" oder 500 für "Internal Server Error").
+
+Zusammenfassend führt der Code eine GET-Anfrage an eine bestimmte API-URL durch, verarbeitet die Antwort und gibt entweder die empfangenen Daten aus, wenn die Anfrage erfolgreich war, oder gibt eine Fehlermeldung mit dem entsprechenden Statuscode aus, wenn die Anfrage nicht erfolgreich war.
+
 ## Praxis
 Jetzt ist es an der Zeit, das erlangte Wissen in die Praxis umzusetzen! Hier ist eine leichte Aufgabe, um dein Verständnis für Web APIs zu testen:
 
