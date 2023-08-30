@@ -107,6 +107,9 @@ ax.voxels(volume, facecolors='orange', edgecolors='k')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_voxels/ms_aufgabe1.png)
+
+
 Führe den Code aus, und du wirst unser einfaches Volumen mit orangefarbenen Voxels sehen. Gratulation, du hast gerade deine erste 3D-Voxel-Darstellung erstellt!
 
 ### Aufgabe 2
@@ -141,6 +144,8 @@ ax.voxels(volume, facecolors='green', edgecolors='k')
 # Zeige das Diagramm an
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_voxels/ms_aufgabe2.png)
 
 Führe den Code aus, und du wirst ein zufälliges Volumen mit grünen Voxels sehen. Fantastische Arbeit! Du hast gerade gezeigt, dass du mit Matplotlib die faszinierende Welt der 3D-Daten beherrschen kannst!
 
