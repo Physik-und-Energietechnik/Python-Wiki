@@ -2,7 +2,7 @@
 
 In diesem Abschnitt werden wir uns mit verschiedenen Datenbanktypen beschäftigen. Es gibt eine Vielzahl von Datenbanktypen, aber wir werden uns auf die gängigsten Typen konzentrieren und ihre Vorteile, Nachteile sowie Verwendungszwecke erklären.
 
-## 1. Relationale Datenbanken
+##  Relationale Datenbanken
 
 Relationale Datenbanken sind eine der am häufigsten verwendeten Datenbanktypen. Sie speichern Daten in Tabellenform, wobei jede Tabelle aus Spalten und Zeilen besteht. Diese Datenbanken verwenden das relationale Datenbankmodell, das auf Beziehungen (Relationen) zwischen Tabellen basiert.
 
@@ -21,7 +21,7 @@ Relationale Datenbanken sind eine der am häufigsten verwendeten Datenbanktypen.
 - Unternehmen: Relationale Datenbanken werden häufig in Unternehmensumgebungen eingesetzt, um Geschäftsdaten zu speichern und zu verwalten.
 - Transaktionsverarbeitung: Wenn Daten konsistent und ACID (Atomicity, Consistency, Isolation, Durability) konform sein müssen, sind relationale Datenbanken geeignet.
 
-## 2. Nicht-relationale Datenbanken (NoSQL)
+##  Nicht-relationale Datenbanken (NoSQL)
 
 Nicht-relationale Datenbanken, auch als NoSQL-Datenbanken bekannt, bieten eine alternative Herangehensweise an die Datenhaltung im Vergleich zu relationalen Datenbanken. Sie sind darauf ausgerichtet, flexible und skalierbare Lösungen für spezifische Anwendungsfälle zu bieten.
 
@@ -42,7 +42,7 @@ SQL-Datenbanken eignen sich gut für den Umgang mit großen Datenmengen und hori
 - Unstrukturierte Daten: Wenn die zu speichernden Daten flexibel und unstrukturiert sind, können NoSQL-Datenbanken von Vorteil sein.
 - Echtzeit-Anwendungen: NoSQL-Datenbanken werden oft für Echtzeit-Anwendungen verwendet, bei denen hohe Leistung und Skalierbarkeit erforderlich sind.
 
-## 3. Dokumentenorientierte Datenbanken
+##  Dokumentenorientierte Datenbanken
 
 Dokumentenorientierte Datenbanken sind eine spezielle Art von NoSQL-Datenbanken, die sich auf die Speicherung und Verwaltung von Dokumenten konzentrieren. Sie speichern Daten in flexiblen, schemafreien Dokumenten, die in einem bestimmten Format wie JSON oder XML vorliegen können.
 
