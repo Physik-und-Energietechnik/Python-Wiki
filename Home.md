@@ -57,8 +57,8 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Fortgeschrittene Plot-Techniken]] | Daten aus CSV-Dateien, Feinabstimmung Plot-Layouts & benutzerdefinierte Plot-Typen |
 | [[Praktische Anwendungen von Plots]] | Trends, wissenschaftliche Diagramme & interaktive Dashboards |
 
-## Kommunikation
-| Seite | Beschreibung | (Arvid, Lars)
+## Kommunikation (Arvid, Lars)
+| Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Einführung in Web APIs]] | Allgemeine Erklärung zur Funktion von Web-APIs |
 | [[Grundlagen der Netzwerkprogrammierung mit Python]] | Verschiedene Netztwerk-Protokolle und Umgang mit Python Sockets |
