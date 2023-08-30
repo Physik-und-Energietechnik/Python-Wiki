@@ -73,6 +73,23 @@ plt.show()
 ###  Aufgabe 1
 Lass uns mit einer einfachen Aufgabe beginnen. Angenommen, du hast eine CSV-Datei mit dem Namen "temperatur.csv", die die monatlichen Durchschnittstemperaturen eines Jahres enthält. Deine Aufgabe besteht darin, die Temperaturen in einem Linienplot mit Matplotlib zu visualisieren.
 
+Inhalt temperatur.csv:
+
+```csv
+Januar,5.3
+Februar,6.8
+März,10.2
+April,15.7
+Mai,20.5
+Juni,24.3
+Juli,26.8
+August,25.6
+September,21.4
+Oktober,15.9
+November,10.7
+Dezember,6.2
+```
+
 Musterlösung:
 
 ```python
@@ -82,7 +99,7 @@ import matplotlib.pyplot as plt
 monate = []
 temperaturen = []
 
-with open('temperatur.csv', 'r') as file:
+with open('temperaur.csv', 'r') as file:
     csv_reader = csv.reader(file)
     
     for row in csv_reader:
@@ -96,6 +113,9 @@ plt.plot(monate, temperaturen)
 plt.xlabel('Monat')
 plt.ylabel('Durchschnittstemperatur (°C)')
 plt.title('Monatliche Durchschnittstemperaturen')
+
+# Manuelle Anpassung der x-Achsenticks
+plt.xticks(rotation=45, ha='right')
 
 plt.show()
 ```
