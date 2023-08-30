@@ -39,24 +39,6 @@ else:
     print('Fehler beim Abrufen der Daten:', response.status_code)
 ```
 
-### Beispiel für ein explizites Code-Beispiel direkt in Python
-
-```python
-import requests
-
-# Eine POST-Anfrage an eine Web API senden
-payload = {'username': 'john', 'password': 'secretpassword'}
-response = requests.post('https://api.example.com/login', data=payload)
-
-# Überprüfen, ob die Anfrage erfolgreich war
-if response.status_code == 200:
-    # Die erhaltenen Daten anzeigen
-    data = response.json()
-    print(data)
-else:
-    print('Fehler beim Anmelden:', response.status_code)
-```
-
 ## Praxis
 Jetzt ist es an der Zeit, das erlangte Wissen in die Praxis umzusetzen! Hier ist eine leichte Aufgabe, um dein Verständnis für Web APIs zu testen:
 
