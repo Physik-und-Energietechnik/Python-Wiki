@@ -28,7 +28,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Syntax, Comments]] | Programmierregeln und -erklärungen für Lesbarkeit |
 | [[Variablen, Datentypen und Casting]] | Wertezuweisung, Datentypen und Konvertierung |
 
-## Wissenschaftliches Rechnen
+## Wissenschaftliches Rechnen (Philipp Kühne, Daniel Martin)
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Python.math]] | Grundlegende mathematische Funktionen und Variablen, die bereits in Python integriert sind|
