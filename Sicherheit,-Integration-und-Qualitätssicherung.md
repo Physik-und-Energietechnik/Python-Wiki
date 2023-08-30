@@ -2,6 +2,7 @@
 | ----------- | ----------- |
 | [[Skalierbarkeit]] | Skalierbarkeit von Datenbanken: Konzepte und Strategien zur Bewältigung von steigenden Datenmengen und Anfragen. |
 | [[Sicherheit]] | Sicherheit in Datenbanken: Maßnahmen und Best Practices zum Schutz von Datenbanken vor unbefugtem Zugriff und Datenverlust. |
+| [[Sicherheit und Datenschutz ‐ Vertiefung]] | Fortschrittliche Themen im Bezug auf Sicherheit bei den Datenbanken. |
 | [[Backups und Wiederherstellung]] | Datenbank-Backups und Wiederherstellung: Methoden und Verfahren zur Erstellung von Backups und Wiederherstellung von Datenbanken. |
 | [[Datenbankreplikation]] | Datenbankreplikation: Konzepte und Implementierung der Replikation zur Verbesserung der Verfügbarkeit und Ausfallsicherheit von Datenbanken. |
 | [[Migration]] | Datenbank-Migration: Planung und Durchführung des Umzugs von Datenbanken auf andere Plattformen oder Versionen. |
