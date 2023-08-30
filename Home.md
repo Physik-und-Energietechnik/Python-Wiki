@@ -72,7 +72,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Messaging und Queueing in Python ]] | Nachrichtenübermittlung und Warteschlangenmanagement |
 
 
-## Datenbanken (E. Bocharnikova)
+## Datenbanken (Elizaveta Bocharnikova)
 
 | Seite | Beschreibung |
 | ----------- | ----------- |
@@ -83,4 +83,4 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Sicherheit, Integration und Qualitätssicherung]] |  Datenbankintegration in Webanwendungen, Datenbank-Testing und Qualitätssicherung  |
 | [[Zukunfttrends]] |  Einige der Trends in Bereich der Datenbanken, die interessant sein könnten  |
 | [[MySQL Befehle Spickzettel]] |  Wichtigste Befehle mit Beispielen und Erklärungen auf einen Blick |
-| [[Multiple-Choice-Test]] |  Ein Multiple - Choice - Test mit Lösungen |
+| [[Multiple‐Choice‐Test]] |  Ein Multiple - Choice - Test mit Lösungen |
