@@ -62,13 +62,19 @@ z = [0.2, 0.4, 0.6, 0.8, 1.0]
 Musterlösung für die Aufgabe 1:
 
 ```python
+import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.tri import Triangulation
 
-x = [1, 2, 3, 4, 5]
-y = [4, 5, 6, 7, 8]
-z = [0.2, 0.4, 0.6, 0.8, 1.0]
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([4, 5, 6, 7, 8], dtype=float)  # Ändere den Datentyp zu float
+z = np.array([0.2, 0.4, 0.6, 0.8, 1.0])
 
-plt.tricontourf(x, y, z)
+# Verschiebe die y-Koordinaten leicht
+y += np.random.normal(0, 0.05, size=len(y))
+
+triang = Triangulation(x, y)
+plt.tricontourf(triang, z)
 plt.colorbar()
 plt.title("Einfaches Konturbereichsfüllungsdiagramm")
 plt.show()
