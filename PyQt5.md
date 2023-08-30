@@ -1,6 +1,6 @@
 | Seite | Beschreibung |
 | ----------- | ----------- |
-| [[(PyQt5) Fenster Erstellung]] | Erstellen von Fenstern |
+| [[(PyQt5) Fenster ‐ Erstellung]] | Erstellen von Fenstern |
 | [[(PyQt5) Fenster Hintergrund]] | Anpassung des Hintergrunds eines Fensters |
 | [[(PyQt5) Fenster Titelleiste]] | Anpassung der Titelleiste eines Fensters |
 | [[(PyQt5) Fenster Werkzeugleiste]] | Anpassung der Werkzeugleiste eines Fensters |
