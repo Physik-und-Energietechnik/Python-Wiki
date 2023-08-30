@@ -1,4 +1,3 @@
-```markdown
 # Messaging und Queueing in Python Tutorial
 
 ## Einführung
