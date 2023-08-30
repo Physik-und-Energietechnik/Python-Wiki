@@ -1,6 +1,6 @@
 Herzlichen Glückwunsch! Du hast bereits gelernt, wie man Daten aus JSON- und CSV-Dateien liest und schreibt. Jetzt ist es an der Zeit, diese Daten in einer Datenbank zu speichern, mit ihnen zu arbeiten und sie wieder in JSON- oder CSV-Dateien zu exportieren. In diesem Abschnitt werden wir uns damit beschäftigen, wie du Daten zwischen Datenbanken und JSON-Dateien hin- und herbewegen kannst. Los geht's!
 
-## 1. Daten in einer Datenbank speichern
+## Daten in einer Datenbank speichern
 
 Um Daten aus einer JSON- oder CSV-Datei in einer Datenbank zu speichern, musst du zuerst eine Verbindung zur Datenbank herstellen. Hier sind die grundlegenden Schritte, die du befolgen musst:
 
@@ -14,7 +14,7 @@ Um Daten aus einer JSON- oder CSV-Datei in einer Datenbank zu speichern, musst d
 
 5. Schließe die Verbindung zur Datenbank, sobald du mit dem Speichern der Daten fertig bist.
 
-## 2. Daten aus einer Datenbank abrufen
+## Daten aus einer Datenbank abrufen
 
 Um Daten aus einer Datenbank abzurufen und in JSON- oder CSV-Dateien zu exportieren, musst du die folgenden Schritte befolgen:
 
