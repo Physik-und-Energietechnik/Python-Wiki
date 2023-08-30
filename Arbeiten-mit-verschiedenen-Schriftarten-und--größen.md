@@ -71,7 +71,7 @@ plt.rcParams['axes.labelsize'] = 12
 plt.show()
 ```
 
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Arbeiten_mit verschiedenen_Schriftarten/ms_aufgabe1.png)
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Anpassungen_und_Stilisierung/Arbeiten_mit_verschiedenen_Schriftarten/ms_aufgabe1.png)
 
 ## Fazit
 Probier sie aus und schau dir an, wie die Grafiken mit verschiedenen Schriftarten und -größen aussehen!
