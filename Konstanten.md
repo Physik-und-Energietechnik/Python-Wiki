@@ -112,3 +112,6 @@ Herzlichen Glückwunsch! Du hast nun gelernt, wie du auf wichtige mathematische 
 Die Verwendung mathematischer Konstanten eröffnet dir neue Möglichkeiten, um faszinierende mathematische Operationen durchzuführen und spannende Ergebnisse zu erzielen. Du kannst sie in verschiedenen Bereichen wie Geometrie, Trigonometrie, Statistik und vielen anderen einsetzen.
 
 Jetzt bist du bereit, dein mathematisches Wissen in die Praxis umzusetzen und beeindruckende Python-Programme zu schreiben. Viel Spaß beim Programmieren und beim Entdecken der faszinierenden Welt der mathematischen Konstanten!
+
+## Links / Weiteres Material
+https://docs.python.org/3/library/math.html#constants
