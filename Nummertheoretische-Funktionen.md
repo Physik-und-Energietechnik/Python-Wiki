@@ -83,3 +83,6 @@ print(gcd)  # Ergebnis: 12
 ```
 
 Herzlichen Glückwunsch! Du hast nun gelernt, wie du mit diesen praktischen Funktionen in Python arbeiten kannst. Mit diesem Wissen kannst du Zahlen besser verarbeiten und mathematische Probleme elegant lösen.
+
+## Links / Weiteres Material
+https://docs.python.org/3/library/math.html
