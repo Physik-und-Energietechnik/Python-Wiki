@@ -10,6 +10,10 @@
 | [[NoSQL‐Datenbanken ‐ Vertiefung: Fortgeschrittene Konzepte]] | Vertiefter Umgang mit nicht-relationalen Datenbanken |
 | [[Serverlose Datenbankarchitektur]] |  Erklärung der serverlosen Datenbankarchitektur|
 | [[Continuous Integration und Continuous Deployment]] | Implementierung von automatisierten Tests und Bereitstellungsprozesse für Datenbanken |
+| [[Geodaten und Geografische Informationssysteme (GIS) in Verbindung mit Datenbanken]] | Integration von  geografischen Daten in Datenbanken |
+| [[Geodaten und Geografische Informationssysteme (GIS) ‐ Vertiefung]] | Analyse von  geografischen Daten in Datenbanken |
+| [[Graphdatenbanken und Soziale Netzwerkanalyse]] | Nutzung von Graphdatenbanken für die Speicherung und Analyse von datenbankbasierten Beziehungen  |
+| [[Big Data und Datenbanken]] | Datenbanken in Big-Data-Umgebungen  |
 
 
 
