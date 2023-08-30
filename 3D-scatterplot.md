@@ -96,6 +96,8 @@ ax.set_zlabel('Windgeschwindigkeit (km/h)')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_scatterplot/ms_aufgabe1.png)
+
 Führe den Code aus und bewundere deinen eigenen 3D Scatterplot mit Wetterdaten! Verändere die Blickwinkel und erkunde, ob du irgendwelche Zusammenhänge entdecken kannst.
 
 ### Aufgabe 2
@@ -123,6 +125,9 @@ ax.set_zlabel('Ausgaben (USD)')
 # Plot anzeigen
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_scatterplot/ms_aufgabe2.png)
+
 Versuche, die Beziehung zwischen Alter, Einkommen und Ausgaben zu erkennen. Gibt es vielleicht einen bestimmten Lebensabschnitt, in dem die Ausgaben höher sind als das Einkommen? Experimentiere mit verschiedenen Blickwinkeln und finde es heraus!
 
 ## Fazit
