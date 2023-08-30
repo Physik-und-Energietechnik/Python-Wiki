@@ -104,6 +104,7 @@ ax.set_zlabel('Z')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_surface/ms_aufgabe1.png)
 Lasst eure Vorstellungskraft wild werden und erschafft euer eigenes 3D-Meisterwerk!
 
 ### Aufgabe 2
@@ -142,6 +143,7 @@ ax.set_zlabel('Theta')
 # Diagramm anzeigen
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_surface/ms_aufgabe2.png)
 
 In diesem Beispiel verwenden wir die parametrischen Gleichungen der Rosenkurve, um die x-, y- und z-Koordinaten zu berechnen. Anschließend erstellen wir den 3D-Oberflächengraphen, der die Rosenkurve darstellt. Beachte, dass wir hier den Parameter \(n\) festlegen können, um die Anzahl der Blütenblätter der Rosenkurve anzupassen.
 
