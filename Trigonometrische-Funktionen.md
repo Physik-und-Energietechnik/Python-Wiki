@@ -83,3 +83,6 @@ print(f"Der Tangens von {angle} Grad ist {tan_value}")
 ```
 
 Herzlichen Glückwunsch! Du hast gerade gelernt, wie du trigonometrische Funktionen in Python verwendest. Mit diesen Funktionen kannst du Winkel berechnen, Dreiecke analysieren und viele andere interessante Probleme lösen. Nutze dieses Wissen, um die Welt der Trigonometrie zu erforschen und weiterhin lustige und faszinierende mathematische Abenteuer mit Python zu erleben!
+
+## Links / Weiteres Material
+https://docs.python.org/3/library/math.html#trigonometric-functions
