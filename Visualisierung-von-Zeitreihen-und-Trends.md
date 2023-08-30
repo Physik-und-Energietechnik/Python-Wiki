@@ -40,6 +40,8 @@ plt.title('Monatliche Website-Besucher')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Visualisierung_von_Zeitreihen_und_Trends/ms_aufgabe1.png)
+
 ### Aufgabe 2
 
 Jetzt der ultimative Test! Du hast Daten über den Verlauf von Social-Media-Followern gesammelt. Erstelle eine Linienvisualisierung, um den Trend über die Zeit zu zeigen. Verleihe deiner Grafik mit verschiedenen Farben und Linienstilen den letzten Schliff!
@@ -57,6 +59,8 @@ plt.title('Social-Media-Follower-Trends')
 plt.legend()
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Fortgeschrittene_Plot_Techniken/Visualisierung_von_Zeitreihen_und_Trends/ms_aufgabe2.png)
 
 ## Fazit
 Herzlichen Glückwunsch, du hast erfolgreich Zeitreihen und Trends mit Matplotlib visualisiert! Du bist nun bereit, Daten zum Leben zu erwecken und beeindruckende Visualisierungen zu erstellen.
