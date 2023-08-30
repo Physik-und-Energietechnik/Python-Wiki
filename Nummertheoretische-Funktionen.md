@@ -1,5 +1,3 @@
-# Python Tutorial: Number-theoretic and Representation Functions
-
 ## Einführung
 
 Hallo und herzlich willkommen zum Python-Tutorial über Number-theoretic and Representation Functions! In diesem Abschnitt werden wir uns mit Funktionen befassen, die uns helfen, mit Zahlen und deren Repräsentation in Python zu arbeiten. Du wirst lernen, wie du Zahlen runden kannst, wie du den größten gemeinsamen Teiler findest und wie du feststellst, ob Zahlen gleich oder nahe beieinander sind.
