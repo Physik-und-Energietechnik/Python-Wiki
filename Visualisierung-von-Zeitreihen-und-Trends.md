@@ -1,27 +1,8 @@
-# Matplotlib - Visualisierung von Zeitreihen und Trends
-
 ## Einführung
 
-Willkommen zum Matplotlib-Tutorial! In diesem Abschnitt wirst du lernen, wie du Zeitreihen und Trends mithilfe von Matplotlib visualisieren kannst. Das ist besonders nützlich, wenn du Daten hast, die sich über die Zeit erstrecken, wie zum Beispiel Aktienkurse, Wetterdaten oder Social-Media-Trends. Mit Matplotlib kannst du diese Daten in anschauliche Grafiken verwandeln und Muster und Trends leichter erkennen.
+In diesem Abschnitt wirst du lernen, wie du Zeitreihen und Trends mithilfe von Matplotlib visualisieren kannst. Das ist besonders nützlich, wenn du Daten hast, die sich über die Zeit erstrecken, wie zum Beispiel Aktienkurse, Wetterdaten oder Social-Media-Trends. Mit Matplotlib kannst du diese Daten in anschauliche Grafiken verwandeln und Muster und Trends leichter erkennen.
 
 ## Theorie
-
-### Grundlagen der Matplotlib
-
-Matplotlib ist eine Python-Bibliothek, die es dir ermöglicht, beeindruckende Grafiken zu erstellen. Stell dir Matplotlib wie einen Künstler vor, der auf Kommando deine Daten auf Leinwand zaubert. Hier ist eine einfache Vorstellung davon, wie das funktioniert:
-
-```python
-import matplotlib.pyplot as plt
-
-x = [1, 2, 3, 4, 5]
-y = [10, 8, 12, 6, 14]
-
-plt.plot(x, y)
-plt.xlabel('X-Achse')
-plt.ylabel('Y-Achse')
-plt.title('Einfache Datenvisualisierung')
-plt.show()
-```
 
 ### Visualisierung von Zeitreihen
 
@@ -77,6 +58,12 @@ plt.legend()
 plt.show()
 ```
 
+## Fazit
 Herzlichen Glückwunsch, du hast erfolgreich Zeitreihen und Trends mit Matplotlib visualisiert! Du bist nun bereit, Daten zum Leben zu erwecken und beeindruckende Visualisierungen zu erstellen.
 
 Viel Spaß beim Experimentieren und Erkunden der fabelhaften Welt der Datenvisualisierung!
+
+## Links / Weiteres Material
+### Dokumentation
+### W3Schools
+### YouTube
