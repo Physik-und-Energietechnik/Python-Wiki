@@ -96,8 +96,6 @@ else:
     print(f'Fehler beim Abrufen der Temperatur für {city}.')
 ```
 
-Selbstverständlich, dieser Python-Code zeigt, wie du die aktuelle Temperatur für eine bestimmte Stadt mithilfe einer Web API abrufen kannst. Hier ist eine Erklärung des Codes:
-
 1. `import requests`: Hier wird das Python-Modul "requests" importiert, das für das Senden von HTTP-Anfragen und das Empfangen von Antworten verwendet wird.
 
 2. `def get_current_temperature(city)`: Hier wird eine Funktion `get_current_temperature` definiert, die die aktuelle Temperatur für eine gegebene Stadt abruft.
