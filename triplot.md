@@ -71,24 +71,52 @@ plt.show()
 
 ### Aufgabe 2
 
-Nun, lass uns wild werden! Erstelle einen Dreiecksplot, bei dem jeder Eckpunkt eine andere Farbe hat.
+Du hast bereits gelernt, wie man statische Dreiecksplots erstellt. Aber wie wäre es mit einem interaktiven Plot, bei dem du die Eckpunkte des Dreiecks per Mausklick verschieben kannst? Verwende die Bibliothek matplotlib.widgets, um diese Interaktivität zu erreichen.
+
+Erstelle einen interaktiven Dreiecksplot, bei dem die Eckpunkte des Dreiecks initial auf den Koordinaten (0, 0), (1, 0) und (0.5, 0.7) platziert werden. Die Benutzer sollten in der Lage sein, die Eckpunkte des Dreiecks durch Klicken und Ziehen mit der Maus zu verschieben. Zeige außerdem die Koordinaten der Eckpunkte in Echtzeit an, während sie verschoben werden.
+
+Hinweis: Du musst die matplotlib.widgets-Bibliothek installieren, falls sie noch nicht installiert ist. Du kannst dies mit dem Befehl pip install matplotlib tun.
 
 Musterlösung zu Aufgabe 2:
 ```python
 import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider, Button
 import numpy as np
 
-# Deine Daten
-x = [0, 1, 0.5]
-y = [0, 0, 0.7]
+# Initialisierung der Eckpunkte
+x = np.array([0, 1, 0.5])
+y = np.array([0, 0, 0.7])
 
-# Zufällige Farben generieren
-colors = np.random.rand(3, 3)
+fig, ax = plt.subplots()
+plt.subplots_adjust(bottom=0.3)
 
-# Erstelle den farbenfrohen Dreiecksplot
-plt.triplot(x, y, color=colors)
+# Plot des initialen Dreiecks
+triplot, = plt.plot(x, y, 'ro-')
 
-# Zeige den Plot an
+# Text-Anzeige der Koordinaten
+coord_text = ax.text(0.5, -0.1, f'Punkte: ({x[0]:.2f}, {y[0]:.2f}), ({x[1]:.2f}, {y[1]:.2f}), ({x[2]:.2f}, {y[2]:.2f})',
+                      transform=ax.transAxes, fontsize=10, ha='center')
+
+# Interaktive Punkte
+point_hands = [ax.plot(x[i], y[i], 'go', markersize=10, alpha=0.7)[0] for i in range(3)]
+
+# Slider für Koordinaten
+x_slider = Slider(plt.axes([0.2, 0.15, 0.65, 0.03]), 'X-Koordinate', 0, 1)
+y_slider = Slider(plt.axes([0.2, 0.1, 0.65, 0.03]), 'Y-Koordinate', 0, 1)
+
+# Funktion zum Aktualisieren der Punkte
+def update(val):
+    idx = int(val)
+    x[idx] = x_slider.val
+    y[idx] = y_slider.val
+    point_hands[idx].set_data(x[idx], y[idx])
+    triplot.set_data(x, y)
+    coord_text.set_text(f'Punkte: ({x[0]:.2f}, {y[0]:.2f}), ({x[1]:.2f}, {y[1]:.2f}), ({x[2]:.2f}, {y[2]:.2f})')
+    plt.draw()
+
+x_slider.on_changed(update)
+y_slider.on_changed(update)
+
 plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/triplot/ms_aufgabe2.png)
