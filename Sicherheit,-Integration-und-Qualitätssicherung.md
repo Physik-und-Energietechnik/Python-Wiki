@@ -9,7 +9,7 @@
 | [[Datenbanken und Webanwendungen]] | Integration von Datenbanken in Webanwendungen: Verbindung und Interaktion zwischen Datenbanken und Webentwicklungstechnologien. |
 | [[Normalisierung von Datenbanken]] | Normalisierung von Datenbanken: Grundlagen und Verfahren zur Strukturierung von Datenbanken für Datenintegrität und Effizienz. |
 | [[Abstraktion]] | Datenbank-Abstraktion: Konzepte und Methoden zur Abstraktion von Datenbankzugriff und -operationen für eine effiziente Anwendungsentwicklung. |
-| [[Abstraktion: Vertiefung]] | Vertiefte Kenntnisse der Datenbank-Abstraktion: Fortgeschrittene Techniken und bewährte Verfahren zur Optimierung der Datenbankkommunikation in Anwendungen. |
+| [[Abstraktion Vertiefung]] | Vertiefte Kenntnisse der Datenbank-Abstraktion: Fortgeschrittene Techniken und bewährte Verfahren zur Optimierung der Datenbankkommunikation in Anwendungen. |
 | [[XML]] | XML (Extensible Markup Language): Eine Einführung in die Verwendung von XML zur Speicherung und Übertragung von Daten. |
 | [[Data Warehousing]] | Data Warehousing: Konzepte und Techniken für die Organisation und Analyse großer Datenmengen in einem Data Warehouse. |
 | [[Performance-Monitoring]] | Überwachung der Datenbankleistung: Methoden und Werkzeuge zur kontinuierlichen Überwachung und Optimierung der Datenbankleistung. |
