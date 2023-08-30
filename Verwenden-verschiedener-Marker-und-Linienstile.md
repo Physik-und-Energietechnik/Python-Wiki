@@ -92,7 +92,7 @@ import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [10, 5, 8, 3, 6]
 
-plt.plot(x, y, marker='x', color='red', linestyle='--', color='blue')
+plt.plot(x, y, marker='x', linestyle='--', color='blue')
 plt.show()
 ```
 
