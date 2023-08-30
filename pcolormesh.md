@@ -1,6 +1,6 @@
 ## Einführung
 
-Herzlich willkommen zum aufregenden Abenteuer in der wundervollen Welt von Matplotlib! In diesem Tutorial werden wir uns mit einem faszinierenden Plot-Typ namens `pcolormesh` beschäftigen. Du fragst dich vielleicht, was das überhaupt ist und wozu man es verwenden kann. Nun, stell dir vor, du könntest Daten auf einer Karte visualisieren oder eine Wärmekarte erstellen, um Muster und Trends zu erkennen. Genau das ermöglicht uns der `pcolormesh` Plot!
+In diesem Abschnitt werden wir uns mit einem faszinierenden Plot-Typ namens `pcolormesh` beschäftigen. Du fragst dich vielleicht, was das überhaupt ist und wozu man es verwenden kann. Nun, stell dir vor, du könntest Daten auf einer Karte visualisieren oder eine Wärmekarte erstellen, um Muster und Trends zu erkennen. Genau das ermöglicht uns der `pcolormesh` Plot!
 
 ## Theorie
 
