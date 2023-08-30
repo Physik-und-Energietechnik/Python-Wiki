@@ -82,4 +82,5 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Fortgeschrittene Themen in Datenbanken]] | Datenbanktypen, die Geschichte der Datenbanken und Transaktionskonzepte|
 | [[Datenbankverwaltung und ‐optimierung]] | Grundlagen der Datenbankverwaltung, Indexierung, Administration und Datenbankmigration|
 | [[Sicherheit, Integration und Qualitätssicherung]] |  Datenbankintegration in Webanwendungen, Datenbank-Testing und Qualitätssicherung  |
+| [[Zukunfttrends]] |  Einige der Trends in Bereich der Datenbanken, die interessant sein könnten  |
 
