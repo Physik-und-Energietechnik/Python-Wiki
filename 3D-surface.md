@@ -78,7 +78,7 @@ Lasst uns nun euer frisch erlerntes Wissen auf die Probe stellen! Wir haben zwei
 
 Erzeugt eine 3D-Oberfläche eines beliebigen mathematischen Ausdrucks eurer Wahl und visualisiert sie. Experimentiert mit verschiedenen Funktionen und entdeckt die wundersamen Welten, die ihr erschaffen könnt!
 
-Hier ist ein kleiner Anstoß, um euch den Einstieg zu erleichtern:
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
@@ -108,24 +108,42 @@ Lasst eure Vorstellungskraft wild werden und erschafft euer eigenes 3D-Meisterwe
 
 ### Aufgabe 2
 
-Für die mutigen Python-Abenteurer unter euch haben wir eine anspruchsvollere Aufgabe. Erzeugt eine 3D-Oberfläche, die aus realen Daten besteht. Nutzt zum Beispiel Daten aus einer CSV-Datei oder generiert sie mithilfe von Algorithmen. Lasst eurer Kreativität freien Lauf und erschafft etwas, das die Welt noch nie zuvor gesehen hat!
+### Alternative Aufgabe 2
 
-Nur Mut, ihr seid bereit für diese Herausforderung! Hier ist ein Anfang, um euch auf den richtigen Weg zu bringen:
+Für diejenigen, die eine noch anspruchsvollere Herausforderung suchen, können wir eine komplexere 3D-Oberfläche erstellen, die auf einer mathematischen Funktion basiert. In dieser Aufgabe werden wir eine Rosenkurve visualisieren. Die Rosenkurve ist eine parametrische Kurve, die durch die Gleichungen \(x = a \cdot \cos(n \cdot \theta)\) und \(y = a \cdot \sin(n \cdot \theta)\) beschrieben wird, wobei \(n\) die Anzahl der Blütenblätter und \(a\) ein Skalierungsfaktor ist.
+
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Daten aus CSV-Datei einlesen oder generieren
+# Parameter der Rosenkurve
+a = 1  # Skalierungsfaktor
+n = 6  # Anzahl der Blütenblätter
+
+# Erzeuge Theta-Werte
+theta = np.linspace(0, 2*np.pi, 1000)
+
+# Berechne x- und y-Koordinaten für die Rosenkurve
+x = a * np.cos(n * theta)
+y = a * np.sin(n * theta)
 
 # 3D-Oberfläche erstellen
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.plot(x, y, theta, linewidth=2)
 
 # Achsenbeschriftungen hinzufügen
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Theta')
 
 # Diagramm anzeigen
-
-
+plt.show()
 ```
+
+In diesem Beispiel verwenden wir die parametrischen Gleichungen der Rosenkurve, um die x-, y- und z-Koordinaten zu berechnen. Anschließend erstellen wir den 3D-Oberflächengraphen, der die Rosenkurve darstellt. Beachte, dass wir hier den Parameter \(n\) festlegen können, um die Anzahl der Blütenblätter der Rosenkurve anzupassen.
 
 ## Fazit
 Nun liegt es an euch, eure Datenreisen in den dreidimensionalen Raum zu lenken! Beeindruckt uns mit euren einzigartigen 3D-Oberflächendiagrammen.
