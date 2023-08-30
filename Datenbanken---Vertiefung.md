@@ -1,6 +1,6 @@
 Herzlichen Glückwunsch, du hast den Grundstein der Datenbanken gelegt! Wenn du bereit bist, noch tiefer in die faszinierende Welt der Datenbanken einzutauchen, dann bist du hier genau richtig. In diesem Abschnitt werden wir uns mit fortgeschritteneren Konzepten und Techniken befassen, um deine Datenbank-Skills auf das nächste Level zu bringen. Bereit für das Datenbanken-Abenteuer? Lass uns starten!
 
-## 1. Indizes
+##  Indizes
 
 Indizes sind wie das Inhaltsverzeichnis eines Buches. Sie helfen der Datenbank dabei, Informationen schneller zu finden. Wenn du eine Tabelle hast, die auf bestimmte Spalten häufig abgefragt wird, kannst du Indizes erstellen, um die Abfragegeschwindigkeit zu verbessern. Das ist wie ein Turbo-Boost für deine Datenbank!
 
@@ -19,7 +19,7 @@ cursor.execute("CREATE INDEX index_name ON meine_tabelle (spalte)")
 conn.close()
 ```
 
-## 2. Transaktionen
+## Transaktionen
 
 Transaktionen sind wie der Sicherheitsgurt deiner Datenbank. Sie helfen dabei, Datenänderungen atomar und konsistent durchzuführen. Mit Transaktionen kannst du sicherstellen, dass alle Änderungen entweder vollständig ausgeführt werden oder gar nicht. Wenn etwas schief geht, wird die Transaktion rückgängig gemacht, als wäre nichts passiert. Das ist wie Magie!
 
@@ -51,7 +51,7 @@ except:
 conn.close()
 ```
 
-## 3. Join-Abfragen
+##  Join-Abfragen
 
 Joins sind wie das Verbinden von Puzzleteilen in deiner Datenbank. Mit Joins kannst du Daten aus mehreren Tabellen zusammenführen und komplexe Abfragen durchführen. Du kannst Verknüpfungen zwischen Tabellen herstellen und Daten aus beiden Tabellen in einer Abfrage anzeigen. Das ist wie ein Tanz der Daten!
 
