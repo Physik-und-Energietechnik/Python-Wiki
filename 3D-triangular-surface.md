@@ -1,6 +1,6 @@
 ## Einführung
 
-Willkommen zum aufregenden Abenteuer der dreidimensionalen, dreieckigen Oberflächenvisualisierung mit Matplotlib! In diesem Tutorial werden wir uns anschauen, wie man mit Matplotlib atemberaubende 3D-Diagramme erstellen kann, die aus einer Ansammlung von dreieckigen Flächen bestehen. Keine Sorge, wenn du bisher noch keine Erfahrung mit Python oder Matplotlib hast - wir werden dich behutsam in diese aufregende Welt einführen.
+In diesem Abschnitt werden wir uns anschauen, wie man mit Matplotlib atemberaubende 3D-Diagramme erstellen kann, die aus einer Ansammlung von dreieckigen Flächen bestehen. Keine Sorge, wenn du bisher noch keine Erfahrung mit Python oder Matplotlib hast - wir werden dich behutsam in diese aufregende Welt einführen.
 
 ## Theorie
 
@@ -70,27 +70,31 @@ Musterlösung:
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Erzeuge eine 3
-
-D-Funktion
-def hill(x, y):
-    return np.sin(x) * np.sin(y)
-
-# Erzeuge die Datenpunkte
+# Erzeuge Gitterpunkte für x und y
 x = np.linspace(-5, 5, 100)
 y = np.linspace(-5, 5, 100)
 X, Y = np.meshgrid(x, y)
-Z = hill(X, Y)
 
-# Definiere die Dreiecke
-triangles = plt.tri.Triangulation(X.flatten(), Y.flatten()).triangles
+# Berechne die Z-Werte mit der Funktion Z = sin(X) * sin(Y)
+Z = np.sin(X) * np.sin(Y)
 
-# Erzeuge das 3D-Diagramm
+# Erstelle den 3D-Oberflächengraphen
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
-ax.plot_trisurf(X.flatten(), Y.flatten(), Z.flatten(), triangles=triangles)
+surf = ax.plot_surface(X, Y, Z, cmap='terrain', linewidth=0, antialiased=False)
 
-# Zeige das Diagramm an
+# Achsenbeschriftungen hinzufügen
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+
+# Titel hinzufügen
+plt.title('Hügelpanorama')
+
+# Farblegende hinzufügen
+fig.colorbar(surf, ax=ax, shrink=0.5, aspect=10)
+
+# Diagramm anzeigen
 plt.show()
 ```
 
