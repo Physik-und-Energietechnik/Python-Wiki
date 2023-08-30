@@ -96,6 +96,32 @@ else:
     print(f'Fehler beim Abrufen der Temperatur für {city}.')
 ```
 
+Selbstverständlich, dieser Python-Code zeigt, wie du die aktuelle Temperatur für eine bestimmte Stadt mithilfe einer Web API abrufen kannst. Hier ist eine Erklärung des Codes:
+
+1. `import requests`: Hier wird das Python-Modul "requests" importiert, das für das Senden von HTTP-Anfragen und das Empfangen von Antworten verwendet wird.
+
+2. `def get_current_temperature(city)`: Hier wird eine Funktion `get_current_temperature` definiert, die die aktuelle Temperatur für eine gegebene Stadt abruft.
+
+3. `api_key = 'dein_api_schlussel'`: Du musst deinen eigenen API-Schlüssel von OpenWeatherMap einsetzen, um auf deren Wetter-API zuzugreifen. Der API-Schlüssel ermöglicht es dir, dich bei der API zu authentifizieren und Daten abzurufen.
+
+4. `url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'`: Hier wird die URL für die API-Anfrage erstellt, indem der Stadtnamen und der API-Schlüssel in die URL eingefügt werden.
+
+5. `response = requests.get(url)`: Eine GET-Anfrage an die angegebene URL wird gesendet, um Wetterdaten für die angegebene Stadt zu erhalten.
+
+6. `if response.status_code == 200:`: Hier wird überprüft, ob die Antwort der Anfrage erfolgreich war (Statuscode 200).
+
+7. `data = response.json()`: Wenn die Anfrage erfolgreich war, werden die empfangenen Daten in JSON-Format umgewandelt und in der Variable `data` gespeichert.
+
+8. `temperature = data['main']['temp'] - 273.15`: Die Temperatur wird aus den empfangenen Daten extrahiert (in Kelvin) und dann in Celsius umgerechnet, indem 273.15 abgezogen wird.
+
+9. `return temperature`: Die berechnete Temperatur wird von der Funktion zurückgegeben.
+
+10. `else: return None`: Wenn die Anfrage nicht erfolgreich war, wird `None` zurückgegeben.
+
+11. Beispielaufruf: Hier wird die Funktion `get_current_temperature` mit der Stadt "Berlin" aufgerufen, und die zurückgegebene Temperatur wird ausgegeben. Wenn ein Fehler auftritt oder die Temperatur nicht abgerufen werden kann, wird eine entsprechende Meldung ausgegeben.
+
+Der Code verwendet die OpenWeatherMap-API, um Wetterdaten abzurufen, und die Funktion `get_current_temperature` vereinfacht den Prozess, um die aktuelle Temperatur einer Stadt zu erhalten.
+
 ## Fazit
 Herzlichen Glückwunsch! Du hast erfolgreich gelernt, warum Web APIs wichtig für die Kommunikation zwischen Client und Server sind. Wir haben gesehen, dass Web APIs es Anwendungen ermöglichen, nahtlos miteinander zu interagieren und Informationen auszutauschen. Python bietet eine Vielzahl von Bibliotheken, wie z.B. Requests, die die Arbeit mit Web APIs erleichtern.
 
