@@ -1,18 +1,7 @@
-# Messaging und Queueing in Python
 
 ## Einführung
 
-Willkommen zu diesem aufregenden Python Tutorial! Heute werden wir in die faszinierende Welt des Nachrichtenaustauschs und der Warteschlangen in Python eintauchen. Aber keine Sorge, wir werden es so erklären, dass auch Python-Neulinge den Spaß daran haben können.
-
-### Was du in diesem Tutorial lernen wirst
-
 In diesem Tutorial werden wir gemeinsam erkunden, wie du Nachrichten zwischen verschiedenen Teilen deiner Python-Anwendungen senden und empfangen kannst, ohne ins Schwitzen zu geraten. Wir werden verstehen, wie dieses Wissen dazu verwendet werden kann, um Aufgaben effizient zu organisieren und komplexe Workflows in deinen Projekten zu erstellen.
-
-### Wofür du das gelernte Wissen nutzen kannst
-
-Das Wissen über Messaging und Queueing in Python ist wie ein geheimer Zaubertrick, den du in deinen Projekten einsetzen kannst. Du kannst Nachrichten zwischen verschiedenen Prozessen oder sogar verschiedenen Rechnern in deinem Netzwerk senden, Aufgaben asynchron ausführen lassen und die Kommunikation zwischen verschiedenen Teilen deiner Anwendung koordinieren. Das ist besonders hilfreich, wenn du große Datenmengen verarbeiten oder aufwendige Berechnungen durchführen möchtest, ohne dass deine Anwendung langsamer wird.
-
-Also schnall dich an und lass uns in die faszinierende Welt des Messaging und der Queueing in Python eintauchen!
 
 ## Theorie
 
