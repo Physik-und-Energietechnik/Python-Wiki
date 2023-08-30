@@ -56,7 +56,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Anpassungen und Stilisierung]] | Hintergrundbilder, Gatterlinien, Schriftarten & Autoscaling |
 | [[Fortgeschrittene Plot-Techniken]] | Daten aus CSV-Dateien, Zeitreihen |
 
-## Kommunikation (Arvid, Lars)
+## Kommunikation (Arvid Wessel, Lars Eugster)
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Einführung in Web APIs]] | Allgemeine Erklärung zur Funktion von Web-APIs |
