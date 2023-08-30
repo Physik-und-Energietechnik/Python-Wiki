@@ -95,4 +95,3 @@ Herzlichen Glückwunsch, du hast erfolgreich die Grundlagen des Messaging und de
 Mit diesem Wissen kannst du leistungsstarke und effiziente Anwendungen erstellen, die Aufgaben asynchron verarbeiten können, ohne den Hauptfluss deiner Anwendung zu blockieren. Das ist ein mächtiges Werkzeug in deinem Python-Arsenal, das dir bei der Bewältigung komplexer Aufgaben und Workflows helfen wird.
 
 Also, viel Spaß beim Experimentieren mit Nachrichten und Warteschlangen in Python, und vergiss nicht, dass du jetzt ein kleines Zaubertrick-Repertoire in deinem Programmierer-Hut hast!
-```
