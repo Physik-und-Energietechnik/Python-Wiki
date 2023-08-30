@@ -1,6 +1,6 @@
 Herzlichen Glückwunsch! Du hast bereits einen soliden Grundstein im Umgang mit JSON, CSV und anderen Dateiformaten gelegt. Wenn du bereit bist, tiefer in die Materie einzutauchen und dein Wissen zu erweitern, dann bist du hier genau richtig. In diesem Abschnitt werden wir uns mit fortgeschrittenen Konzepten und Techniken rund um Dateiformate beschäftigen. Lass uns loslegen!
 
-## 1. Datenmanipulation
+## Datenmanipulation
 
 Neben dem Lesen und Schreiben von Dateien gibt es viele weitere Möglichkeiten, wie du Dateiformate manipulieren kannst. Hier sind einige fortgeschrittene Techniken, die dir dabei helfen, deine Daten optimal zu verwalten und zu verarbeiten:
 
@@ -10,7 +10,7 @@ Neben dem Lesen und Schreiben von Dateien gibt es viele weitere Möglichkeiten, 
 
 - **Datenaggregation:** Du kannst Daten zusammenfassen und aggregieren, um Informationen auf höherer Ebene zu erhalten. Du kannst zum Beispiel die Summe einer bestimmten Spalte berechnen oder den Durchschnitt von Werten ermitteln.
 
-## 2. Datenvalidierung und Fehlerbehandlung
+## Datenvalidierung und Fehlerbehandlung
 
 Die Qualität deiner Daten ist wichtig, daher ist es ratsam, Datenvalidierungstechniken zu verwenden, um sicherzustellen, dass deine Daten korrekt sind. Hier sind einige Methoden, die du anwenden kannst:
 
