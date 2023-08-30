@@ -56,9 +56,7 @@ Erstelle einen tricontour-Plot für die folgenden Datenpunkte:
 
 ```python
 x = np.array([0.0, 0.0, 1.0, 1.0, 2.0, 2.0])
-y = np.array([0.0,
-
- 1.0, 0.0, 1.0, 0.0, 1.0])
+y = np.array([0.0, 1.0, 0.0, 1.0, 0.0, 1.0])
 z = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0])
 ```
 Musterlösung:
@@ -71,6 +69,8 @@ plt.title('Höhenlinienplot')
 plt.colorbar()
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/tricontour/ms_aufgabe1.png)
+
 ### Aufgabe 2
 
 Du hast Datenpunkte erhalten, die auf einem unregelmäßigen dreieckigen Gitter verteilt sind. Erstelle einen tricontour-Plot, um diese Daten zu visualisieren:
@@ -91,6 +91,7 @@ plt.title('Höhenlinienplot')
 plt.colorbar()
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/tricontour/ms_aufgabe2.png)
 
 ## Fazit
 Gut gemacht! Du hast erfolgreich tricontour verwendet, um diese erstaunlichen Höhenlinienplots zu erstellen. Du bist definitiv auf dem Weg zum Python-Meister!
@@ -98,5 +99,5 @@ Gut gemacht! Du hast erfolgreich tricontour verwendet, um diese erstaunlichen H�
 Das war's für diesen Abschnitt. Du hast viel erreicht, aber es gibt noch so viel mehr zu entdecken. Mach weiter so und erobere die Welt der Datenvisualisierung mit Python!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tricontour.html
