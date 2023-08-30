@@ -5,3 +5,5 @@
 | [[Feinabstimmung von Plot-Layouts]] | Größen, Abstände, Positionierung |
 | [[Anpassung der Plot-Interaktion und Navigation]] | Beschreibung... |
 | [[Erstellen von benutzerdefinierten Plot-Typen]] | Beschreibung... |
+| [[Visualisierung von Zeitreihen und Trends]] | Beschreibung... |
+| [[Visualisierung geografischer Daten]] | Beschreibung... |
