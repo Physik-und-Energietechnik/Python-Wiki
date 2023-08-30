@@ -37,7 +37,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[SymPy]] | NumPy-Extension |
 
 
-## Graphical User Interface (Jan E. & Tram)
+## Graphical User Interface (Jan Ehlenbröker & Tram La)
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Tkinter]] | Simple GUI-Erstellung |
