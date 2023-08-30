@@ -6,3 +6,5 @@
 | [[Transaktionen]] | Transaktionen in Datenbanken: Konzepte, Eigenschaften und Handhabung von Transaktionen zur Sicherstellung der Datenkonsistenz. |
 | [[Indexierung]] | Indexierung in Datenbanken: Bedeutung, Vorteile und Implementierung von Indexen zur Beschleunigung von Abfragen. |
 | [[Indexierung - Vertiefung]] | Fortgeschrittene Indexierungstechniken und -strategien zur weiteren Optimierung der Datenbankleistung. |
+| [[NoSQL‐Datenbanken]] | Nicht - relationale Datenbanken und ihre Anwendung. |
+| [[NoSQL‐Datenbanken ‐ Vertiefung: Fortgeschrittene Konzepte]] | Vertiefter Umgang mit nicht-relationalen Datenbanken |
