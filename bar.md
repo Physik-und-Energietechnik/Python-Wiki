@@ -60,22 +60,8 @@ Deine leichte Aufgabe besteht darin, einen Bar Plot für die Anzahl der verkauft
 - April: 105
 
 Viel Erfolg! 
-Hier ist ein Beispiel, wie der Code aussehen könnte:
 
-```python
-import matplotlib.pyplot as plt
-
-monate = ['Januar', 'Februar', 'März', 'April']
-verkäufe = [100, 85, 120, 105]
-
-# Erstelle den Bar Plot
-plt.bar(monate, verkäufe)
-
-plt.show()
-```
-![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/bar/ms_aufgabe1.png)
-
-Hier ist eine mögliche Musterlösung für die leichte Aufgabe 1:
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
@@ -97,6 +83,8 @@ plt.title('Verkauf von Eistüten pro Monat')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Basic/bar/ms_aufgabe1.png)
+
 Dieser Code fügt Achsentitel (`plt.xlabel('Monat')`, `plt.ylabel('Anzahl der verkauften Eistüten')`) und einen Diagrammtitel (`plt.title('Verkauf von Eistüten pro Monat')`) hinzu, um das Diagramm aussagekräftiger zu machen.
 
 ### Aufgabe 2
@@ -106,35 +94,9 @@ Für die schwierigere Aufgabe erstelle einen Bar Plot, der die Anzahl der verkau
 - Jahr 2022: [120, 150, 100, 135]
 - Jahr 2023: [140, 160, 110, 145]
 
-Viel Erfolg! Hier ist ein Beispiel, wie der Code aussehen könnte:
+Viel Erfolg!
 
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-
-monate = ['Januar', 'Februar', 'März', 'April']
-verkäufe_2022 = [120, 150, 100, 135]
-verkäufe_2023 = [140, 160, 110, 145]
-
-# Die Breite der Balken
-breite = 0.35
-
-# Position der Monate auf der x-Achse
-positionen = np.arange(len(monate))
-
-# Erstelle den Bar Plot für 2022
-plt.bar(positionen - breite/2, verkäufe_2022, breite, label='2022')
-
-# Erstelle den Bar Plot für 2023
-plt.bar(positionen + breite/2, verkäufe_2023, breite, label='2023')
-
-# Füge die Legende hinzu
-plt.legend()
-
-plt.show()
-```
-
-Aufgabe 2 Musterlösung:
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
