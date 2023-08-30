@@ -54,7 +54,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Plottypen]] | Basic, Statistiken, 3D etc. |
 | [[Subplots und mehrere Achsen]] | Kombinieren verschiedener Plot-Typen und Arbeiten mit mehreren Achsen |
 | [[Anpassungen und Stilisierung]] | Hintergrundbilder, Gatterlinien, Schriftarten & Autoscaling |
-| [[Fortgeschrittene Plot-Techniken]] | Daten aus CSV-Dateien, Feinabstimmung Plot-Layouts & benutzerdefinierte Plot-Typen |
+| [[Fortgeschrittene Plot-Techniken]] | Daten aus CSV-Dateien, Zeitreihen |
 
 ## Kommunikation (Arvid, Lars)
 | Seite | Beschreibung |
