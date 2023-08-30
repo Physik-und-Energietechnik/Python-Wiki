@@ -1,4 +1,4 @@
-|Seite | Beschreibung|
-| ----------- | ----------- |
-| [[N-Dimensionale Arrays]]| Beschreibung... |
-| [[NumPy Routinen]]| Beschreibung... |
+|NumPy |
+| ----------- |
+| [[N-Dimensionale Arrays]]|
+| [[NumPy Routinen]]|
