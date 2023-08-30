@@ -7,7 +7,7 @@
 | [[Indexierung]] | Indexierung in Datenbanken: Bedeutung, Vorteile und Implementierung von Indexen zur Beschleunigung von Abfragen. |
 | [[Indexierung - Vertiefung]] | Fortgeschrittene Indexierungstechniken und -strategien zur weiteren Optimierung der Datenbankleistung. |
 | [[NoSQL‐Datenbanken]] | Nicht - relationale Datenbanken und ihre Anwendung. |
-| [[NoSQL‐Datenbanken ‐ Vertiefung: Fortgeschrittene Konzepte]] | Vertiefter Umgang mit nicht-relationalen Datenbanken |
+| [[NoSQL‐Datenbanken ‐ Vertiefung Fortgeschrittene Konzepte]] | Vertiefter Umgang mit nicht-relationalen Datenbanken |
 | [[Serverlose Datenbankarchitektur]] |  Erklärung der serverlosen Datenbankarchitektur|
 | [[Continuous Integration und Continuous Deployment]] | Implementierung von automatisierten Tests und Bereitstellungsprozesse für Datenbanken |
 | [[Geodaten und Geografische Informationssysteme (GIS) in Verbindung mit Datenbanken]] | Integration von  geografischen Daten in Datenbanken |
