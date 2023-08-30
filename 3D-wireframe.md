@@ -103,6 +103,8 @@ ax.set_title('Eine kugelrunde Kugel')
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_wireframe/ms_aufgabe1.png)
+
 ### Aufgabe 2
 Erstellt einen 3D Wireframe einer schwingenden Funktion, wie beispielsweise einer Sinuswelle oder einer Exponentialfunktion.
 
@@ -134,6 +136,10 @@ ax.set_title('Eine wunderschöne schwingende Funktion')
 # Anzeigen
 plt.show()
 ```
+
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_wireframe/ms_aufgabe2.png)
+
 ## Fazit
 Herzlichen Glückwunsch, ihr habt es geschafft! Ihr könnt nun eure eigenen beeindruckenden 3D Wireframes erstellen. Feiert euren Erfolg und bewundert eure Daten in ihrer ganzen räumlichen Pracht!
 
