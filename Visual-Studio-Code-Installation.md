@@ -1,4 +1,4 @@
-In diesem Tutorial zeigen wir dir, wie du Visual Studio Code (VS Code) installieren kannst und wie du die Python Extension für VS Code hinzufügst. Diese Werkzeuge werden dir helfen, effizient Python-Programme zu schreiben, zu bearbeiten und auszuführen.
+In diesem Tutorial zeigen wir dir, wie du Visual Studio Code (VS Code) installieren kannst und wie du die Python Extension für VS Code hinzufügst, die Entwicklungsumgebung unserer Wahl. Diese Werkzeuge werden dir helfen, effizient Python-Programme zu schreiben, zu bearbeiten und auszuführen.
 
 ## Schritt 1: Installation von Visual Studio Code
 
