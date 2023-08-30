@@ -50,7 +50,7 @@ Jetzt wollen wir das Gelernte in die Praxis umsetzen! Hier sind zwei Aufgaben f�
 
 Erstelle ein einfaches Linien-Diagramm mit Matplotlib, das die Umsatzentwicklung eines fiktiven Unternehmens über die letzten fünf Jahre darstellt. Verwende die Schriftart "Roboto" und eine Schriftgröße von 10 für den Text im Diagramm und eine Schriftgröße von 12 für die Achsenbeschriftungen.
 
-Hier ist ein Beispielcode, um dich zu inspirieren:
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
@@ -71,79 +71,7 @@ plt.rcParams['axes.labelsize'] = 12
 plt.show()
 ```
 
-### Aufgabe 2
-
-Erstelle ein gestapeltes Säulendiagramm mit Matplotlib, das den Anteil der verschiedenen Früchte in einem Obstkorb darstellt. Verwende die Schriftart "Comic Sans MS" und eine Schriftgröße von 14 für den Text im Diagramm und eine Schriftgröße von 16 für die Achsenbeschriftungen.
-
-Hier ist ein Beispielcode, um dich zu inspirieren:
-
-```python
-import matplotlib.pyplot as plt
-
-fruits = ['Apfel', 'Banane', 'Orange']
-percentages = [60, 30, 10]
-
-plt.bar(fruits, percentages)
-plt.xlabel('Früchte')
-plt.ylabel('Prozentsatz')
-plt.title('Anteil der Früchte im Obstkorb')
-
-# Schriftart und -größe festlegen
-plt.rcParams['font.family'] = 'Comic Sans MS'
-plt.rcParams['font.size'] = 14
-plt.rcParams['axes.labelsize'] = 16
-
-plt.show()
-```
-
-Vergiss nicht, deine eigenen Daten einzufügen, um die Grafiken anzupassen! Viel Spaß beim Experimentieren!
-
-## Musterlösungen
-
-Hier sind die Musterlösungen für die beiden Aufgaben:
-
-### Aufgabe 1 - Musterlösung
-
-```python
-import matplotlib.pyplot as plt
-
-years = [2017, 2018, 2019, 2020, 2021]
-revenue = [50000, 60000, 55000, 70000, 80000]
-
-plt.plot(years, revenue)
-plt.xlabel('Jahr')
-plt.ylabel('Umsatz')
-plt.title('Umsatzentwicklung')
-
-# Schriftart und -größe festlegen
-plt.rcParams['font.family'] = 'Roboto'
-plt.rcParams['font.size'] = 10
-plt.rcParams['axes.labelsize'] = 12
-
-plt.show()
-```
-
-### Aufgabe 2 - Musterlösung
-
-```python
-import matplotlib.pyplot as plt
-
-fruits = ['Apfel', 'Banane', 'Orange']
-percentages = [60, 30, 10]
-
-plt.bar(fruits, percentages)
-plt.xlabel('Früchte')
-plt.ylabel('Prozentsatz')
-plt.title('Anteil der Früchte im Obstkorb')
-
-# Schriftart und -größe festlegen
-plt.rcParams['font.family'] = 'Comic Sans MS'
-plt.rcParams['font.size'] = 14
-plt.rcParams['axes.labelsize'] = 16
-
-plt.show()
-```
-
+## Fazit
 Probier sie aus und schau dir an, wie die Grafiken mit verschiedenen Schriftarten und -größen aussehen!
 
 ## Links / Weiteres Material
