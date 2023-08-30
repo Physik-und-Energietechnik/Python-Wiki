@@ -98,6 +98,8 @@ fig.colorbar(surf, ax=ax, shrink=0.5, aspect=10)
 plt.show()
 ```
 
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_triangular_surface/ms_aufgabe1.png)
+
 ### Aufgabe 2
 
 Erzeuge ein interessantes 3D-Diagramm, das aus einer zufälligen Anordnung von Punkten und Dreiecken besteht. Verwende dazu die NumPy-Funktionen `np.random.rand` und `np.random.choice`.
@@ -125,6 +127,9 @@ ax.plot_trisurf(x, y, z, triangles=triangles)
 # Zeige das Diagramm an
 plt.show()
 ```
+
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/3D/3D_triangular_surface/ms_aufgabe2.png)
+
 ## Fazit
 Super! Du hast es geschafft! Du kannst jetzt beeindruckende dreidimensionale, dreieckige Oberflächen mit Matplotlib erstellen. Spiele weiter mit den verschiedenen Funktionen und experimentiere mit den Möglichkeiten, um noch faszinierendere Visualisierungen zu erschaffen. Viel Spaß beim Erkunden der fantastischen Welt der 3D-Grafiken!
 
