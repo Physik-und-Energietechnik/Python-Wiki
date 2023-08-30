@@ -73,6 +73,7 @@ plt.colorbar()
 plt.title("Einfaches Konturbereichsfüllungsdiagramm")
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/tricontourf/ms_aufgabe1.png)
 
 ### Aufgabe 2
 
@@ -95,9 +96,11 @@ plt.colorbar()
 plt.title("Kniffliges Konturbereichsfüllungsdiagramm")
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/tricontourf/ms_aufgabe2.png)
+
 ## Fazit
 Herzlichen Glückwunsch! Du hast soeben eine Reise in die wunderbare Welt von `tricontourf` unternommen. Jetzt kannst du Daten nicht nur visualisieren, sondern auch mit Farben spielen wie ein wahrer Künstler - oder vielleicht wie ein verrückter Wissenschaftler. Keep coding!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html
