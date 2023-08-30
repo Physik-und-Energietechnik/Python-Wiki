@@ -80,7 +80,9 @@ volume = np.array([
 
 Deine Aufgabe besteht darin, dieses Volumen in Matplotlib darzustellen und es in all seiner dreidimensionalen Pracht zu bewundern. Du kannst die Farben der Voxels anpassen, um deinem Volumen deine persönliche Note zu verleihen. Viel Spaß!
 
-Hier ist ein Code-Snippet, um dich zu starten:
+Musterlösung:
+
+Na, wie hast du dich geschlagen? Wenn du Schwierigkeiten hattest, keine Sorge! Hier ist eine Musterlösung, um dir zu helfen:
 
 ```python
 import matplotlib.pyplot as plt
@@ -89,30 +91,7 @@ import numpy as np
 
 # Erstelle eine 3D-Figur
 fig = plt.figure()
-ax = fig.gca(projection='3d')
-
-# Dein Volumen hier einfügen
-
-# Erstelle die Voxel-Darstellung
-
-# Zeige das Diagramm an
-plt.show()
-```
-
-### Musterlösung für die leichte Aufgabe
-
-Na, wie hast du dich geschlagen? Wenn du Schwierigkeiten hattest, keine
-
- Sorge! Hier ist eine Musterlösung, um dir zu helfen:
-
-```python
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-import numpy as np
-
-# Erstelle eine 3D-Figur
-fig = plt.figure()
-ax = fig.gca(projection='3d')
+ax = fig.add_subplot(111, projection='3d')
 
 # Definiere das Volumen
 volume = np.array([
@@ -140,26 +119,7 @@ volume = np.random.randint(0, 2, size=(10, 10, 10))
 
 Dieses Mal verwenden wir die `np.random.randint()`-Funktion, um ein zufälliges Volumen mit einer Größe von 10x10x10 zu generieren. Jedes Voxel kann entweder den Wert 0 oder 1 haben. Verwende Matplotlib, um dieses zufällige Volumen zu visualisieren und die einzigartigen Muster zu entdecken!
 
-Hier ist ein Code-Snippet, um dich zu starten:
-
-```python
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-import numpy as np
-
-# Erstelle eine 3D-Figur
-fig = plt.figure()
-ax = fig.gca(projection='3d')
-
-# Dein zufälliges Volumen hier einfügen
-
-# Erstelle die Voxel-Darstellung
-
-# Zeige das Diagramm an
-plt.show()
-```
-
-### Musterlösung für die schwerere Aufgabe
+Musterlösung:
 
 Hast du dich der Herausforderung gestellt? Wenn nicht, hier ist eine Musterlösung, um dir zu helfen:
 
@@ -170,9 +130,9 @@ import numpy as np
 
 # Erstelle eine 3D-Figur
 fig = plt.figure()
-ax = fig.gca(projection='3d')
+ax = fig.add_subplot(111, projection='3d')
 
-# Definiere das zufällige Volumen
+# Erzeuge ein zufälliges Volumen
 volume = np.random.randint(0, 2, size=(10, 10, 10))
 
 # Erstelle die Voxel-Darstellung
