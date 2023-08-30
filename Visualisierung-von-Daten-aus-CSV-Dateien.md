@@ -125,6 +125,19 @@ plt.show()
 ### Aufgabe 2
 Für die schwierigere Aufgabe nehmen wir an, dass wir eine CSV-Datei mit dem Namen "aktien.csv" haben, die die Schlusskurse verschiedener Aktien für jeden Tag enthält. Deine Aufgabe besteht darin, die Schlusskurse von zwei Aktien in einem Streudiagramm mit Matplotlib darzustellen.
 
+```csv
+2023-01-01,100.25,150.50
+2023-01-02,105.50,155.75
+2023-01-03,102.75,153.00
+2023-01-04,110.00,160.25
+2023-01-05,115.75,165.50
+2023-01-06,112.25,162.75
+2023-01-07,120.50,170.00
+2023-01-08,125.00,175.25
+2023-01-09,122.25,172.50
+2023-01-10,130.75,180.75
+```
+
 Musterlösung:
 
 ```python
