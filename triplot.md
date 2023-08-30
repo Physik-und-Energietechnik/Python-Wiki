@@ -53,6 +53,7 @@ plt.show()
 
 Erstelle einen einfachen Dreiecksplot mit den Eckpunkten (0, 0), (1, 0) und (0.5, 0.7).
 
+Musterlösung zu Aufgabe 1:
 ```python
 import matplotlib.pyplot as plt
 
@@ -66,15 +67,13 @@ plt.triplot(x, y)
 # Zeige den Plot an
 plt.show()
 ```
-
-Musterlösung zu Aufgabe 1
-
-Schau dir deine atemberaubende Dreiecksvisualisierung an!
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/triplot/ms_aufgabe1.png)
 
 ### Aufgabe 2
 
 Nun, lass uns wild werden! Erstelle einen Dreiecksplot, bei dem jeder Eckpunkt eine andere Farbe hat.
 
+Musterlösung zu Aufgabe 2:
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -92,10 +91,7 @@ plt.triplot(x, y, color=colors)
 # Zeige den Plot an
 plt.show()
 ```
-
-Musterlösung zu Aufgabe 2
-
-Dein Dreieck ist jetzt so farbenfroh wie ein Regenbogen!
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/triplot/ms_aufgabe2.png)
 
 ## Fazit
 Und das war's! Du hast jetzt einen Einblick in die wunderbare Welt von `triplot` in Matplotlib erhalten. Experimentiere weiter mit Anpassungen und lass deiner Kreativität freien Lauf!
@@ -103,5 +99,5 @@ Und das war's! Du hast jetzt einen Einblick in die wunderbare Welt von `triplot`
 Keep on triangulating!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.triplot.html
