@@ -73,7 +73,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Messaging und Queueing in Python ]] | Nachrichtenübermittlung und Warteschlangenmanagement |
 
 
-## Datenbanken
+## Datenbanken (E. Bocharnikova)
 
 | Seite | Beschreibung |
 | ----------- | ----------- |
