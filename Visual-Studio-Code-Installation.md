@@ -31,8 +31,6 @@ Du hast nun erfolgreich Visual Studio Code installiert, die Python Extension hin
 
 ## Vorteile von VS Code
 
-Natürlich, hier sind fünf Vorteile von Visual Studio Code (VS Code):
-
 1. **Leichtgewichtig und Schnell**: VS Code wurde so entwickelt, dass er leichtgewichtig ist und sich schnell öffnet. Dies macht ihn im Vergleich zu einigen anderen integrierten Entwicklungsumgebungen (IDEs) ressourcenschonend und effizient, was besonders für Entwickler mit begrenzter Rechenleistung von Vorteil ist.
 
 2. **Große Erweiterungsunterstützung**: Dank des Erweiterungssystems von VS Code kann die Funktionalität des Editors durch eine Vielzahl von Erweiterungen erweitert werden. Von Programmiersprachen-Unterstützung bis hin zu Versionierungstools und integriertem Terminal – die Erweiterungsunterstützung macht VS Code äußerst anpassbar und vielseitig.
