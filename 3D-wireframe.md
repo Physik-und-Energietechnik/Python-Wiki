@@ -45,11 +45,11 @@ Als nächstes erstellen wir eine `figure` und eine `axis` mit `projection='3d'`,
 
 Um das Ganze noch ansprechender zu machen, fügen wir Achsenbeschriftungen und einen Titel hinzu. Und voilà! Wir haben unseren eigenen beeindruckenden 3D Wireframe erstellt.
 
-##Praxis
+## Praxis
 
 Nun ist es an der Zeit, euer frisch erlerntes Wissen in die Praxis umzusetzen. Wir werden euch zwei Aufgaben geben, eine leichte und eine etwas herausforderndere. Aber keine Sorge, ihr habt das drauf!
 
-###Aufgabe 1
+### Aufgabe 1
 
 Erstellt einen 3D Wireframe einer Kugel. Verwendet dazu die folgenden Code-Vorlagen:
 
@@ -73,7 +73,7 @@ import numpy as np
 plt.show()
 ```
 
-Musterlösung 1:
+Musterlösung:
 
 ```python
 import matplotlib.pyplot as plt
@@ -103,7 +103,7 @@ ax.set_title('Eine kugelrunde Kugel')
 plt.show()
 ```
 
-###Aufgabe 2
+### Aufgabe 2
 Erstellt einen 3D Wireframe einer schwingenden Funktion, wie beispielsweise einer Sinuswelle oder einer Exponentialfunktion.
 
 Musterlösung:
