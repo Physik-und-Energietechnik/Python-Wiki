@@ -103,4 +103,4 @@ Herzlichen Glückwunsch! Du hast soeben eine Reise in die wunderbare Welt von `t
 
 ## Links / Weiteres Material
 ### Dokumentation
-https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tricontourf.html
