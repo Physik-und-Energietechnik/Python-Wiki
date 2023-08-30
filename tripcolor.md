@@ -64,20 +64,21 @@ plt.show()
 
 
 ### Aufgabe 2
-Erzeuge eine tripcolor-Darstellung von zufällig generierten Dreiecksdaten mit einer Farbskala.
+Erzeuge eine tripcolor-Darstellung von zufällig generierten Dreiecksdaten. Verwende eine Farbskala, die von kühlen Blautönen zu warmen Rottönen übergeht, um die Daten zu visualisieren.
 
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
 
 # Erzeuge zufällige Dreiecksdaten
-num_triangles = 100
+num_triangles = 200
 vertices = np.random.rand(num_triangles, 2)
+triangles = np.random.randint(0, num_triangles, size=(num_triangles, 3))
 colors = np.random.rand(num_triangles)
 
-plt.tripcolor(vertices[:, 0], vertices[:, 1], facecolors=colors, cmap='viridis')
+plt.tripcolor(vertices[:, 0], vertices[:, 1], triangles=triangles, facecolors=colors, cmap='RdYlBu')
 plt.colorbar()
-plt.title('Zufällige bunte Welt der Dreiecke')
+plt.title('Farbenfrohe Dreieckslandschaft')
 plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/tripcolor/ms_aufgabe2.png)
