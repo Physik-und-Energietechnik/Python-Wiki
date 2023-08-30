@@ -118,3 +118,6 @@ Herzlichen Glückwunsch! Du hast nun gelernt, wie du hyperbolische Funktionen in
 Die hyperbolischen Funktionen sind besonders nützlich in Bereichen wie Physik, Ingenieurwesen, Statistik und vielen anderen. Du kannst sie verwenden, um mathematische Modelle zu erstellen, komplexe Probleme zu lösen oder interessante mathematische Phänomene zu untersuchen.
 
 Jetzt bist du bereit, dein Wissen über hyperbolische Funktionen in die Praxis umzusetzen und faszinierende Python-Programme zu schreiben. Viel Spaß beim Programmieren und beim Entdecken der faszinierenden Welt der hyperbolischen Funktionen!
+
+## Links / Weiteres Material
+https://docs.python.org/3/library/math.html#hyperbolic-functions
