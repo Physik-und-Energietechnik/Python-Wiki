@@ -93,3 +93,6 @@ Herzlichen Glückwunsch! Du hast nun das aufregende Abenteuer der Exponential- u
 Mit diesem Wissen bist du nun in der Lage, exponentielle Phänomene zu modellieren, komplexe Gleichungen zu lösen und mathematische Probleme auf eine neue Art und Weise anzugehen. Nutze deine Fähigkeiten in Python, um spannende mathematische Herausforderungen zu meistern und die Welt der Zahlen weiter zu erkunden.
 
 Viel Spaß beim Programmieren und viel Erfolg bei deinen zukünftigen mathematischen Abenteuern!
+
+## Links / Weiteres Material
+https://docs.python.org/3/library/math.html#power-and-logarithmic-functions
