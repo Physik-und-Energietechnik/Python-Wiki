@@ -26,6 +26,4 @@ Eine der Stärken von VS Code für Python-Entwicklung ist die Python Extension. 
 3. Wenn du die Datei öffnest, wirst du aufgefordert, die empfohlene Python-Interpreter-Version auszuwählen, sofern Python auf deinem System installiert ist. Wenn nicht, wirst du aufgefordert, Python herunterzuladen und zu installieren.
 4. Wähle den gewünschten Interpreter aus der Liste und bestätige deine Auswahl.
 
-Herzlichen Glückwunsch! Du hast erfolgreich Visual Studio Code installiert, die Python Extension hinzugefügt und deine Umgebung für die Python-Entwicklung eingerichtet. Du bist nun bereit, mit dem Schreiben und Ausführen von Python-Code zu beginnen.
-
-Viel Spaß beim Programmieren! Bei Fragen stehe ich dir gerne zur Verfügung.
+Du hast nun erfolgreich Visual Studio Code installiert, die Python Extension hinzugefügt und deine Umgebung für die Python-Entwicklung eingerichtet. Du bist nun bereit, mit dem Schreiben und Ausführen von Python-Code zu beginnen.
