@@ -1,6 +1,6 @@
 ## Einführung
 
-Willkommen im wunderbaren Wirrwarr der Welt von Python! Heute nehmen wir uns das Matplotlib-Modul vor und tauchen tief in die Magie von `imshow()` ein. Klingt nach einem Geheimcode aus einem Agentenfilm, oder? Aber mach dir keine Sorgen, wir werden diesen Code knacken und verstehen, wie man damit Daten in anschauliche Bilder verwandelt.
+In diesem Abschnitt tauchen wir tief in die Magie von `imshow()` ein. Klingt nach einem Geheimcode aus einem Agentenfilm, oder? Aber mach dir keine Sorgen, wir werden diesen Code knacken und verstehen, wie man damit Daten in anschauliche Bilder verwandelt.
 
 In diesem Tutorial werden wir lernen, wie man mit `imshow()` umgeht. Das ist wie Photoshop für Zahlen, nur viel cooler. Wir werden Daten in Bildern visualisieren und herausfinden, wie wir das in verschiedenen Situationen anwenden können. Am Ende kannst du deine Freunde mit fantastischen visuellen Darstellungen beeindrucken!
 
@@ -73,7 +73,9 @@ plt.show()
 ```
 ![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Array_Fields/imshow/ms_aufgabe2.png)
 
-Herzlichen Glückwunsch, du hast gerade die Kunst der Datenvisualisierung mit `imshow()` gemeistert! Du bist jetzt offiziell ein Picasso der Programmierung. 🎨🐍
+
+## Fazit
+Herzlichen Glückwunsch, du hast gerade die Kunst der Datenvisualisierung mit `imshow()` gemeistert! Du bist jetzt offiziell ein Picasso der Programmierung.
 
 ## Links / Weiteres Material
 ### Dokumentation
