@@ -4,5 +4,5 @@
 | [[Plotting von großen Datenmengen]] | Beschreibung... |
 | [[Feinabstimmung von Plot-Layouts]] | Größen, Abstände, Positionierung |
 | [[Erstellen von benutzerdefinierten Plot-Typen]] | !!! |
-| [[Visualisierung von Zeitreihen und Trends]] | Beschreibung... |
+| [[Visualisierung von Zeitreihen und Trends]] | Darstellung von Daten im Laufe der Zeit |
 | [[Visualisierung geografischer Daten]] | Beschreibung... |
