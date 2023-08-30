@@ -60,6 +60,9 @@ plt.tripcolor(vertices[:, 0], vertices[:, 1], triangles=[0, 1, 2], facecolors=co
 plt.title('Drei farbige Dreiecke')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/tripcolor/ms_aufgabe1.png)
+
+
 ### Aufgabe 2
 Erzeuge eine tripcolor-Darstellung von zufällig generierten Dreiecksdaten mit einer Farbskala.
 
@@ -77,9 +80,12 @@ plt.colorbar()
 plt.title('Zufällige bunte Welt der Dreiecke')
 plt.show()
 ```
+![](https://github.com/janehlenb/Projektarbeit-ChatGPT-Python/blob/main/Images/Darstellung/Plottypen/Unstrukturierte_Koordinaten/tripcolor/ms_aufgabe2.png)
+
+
 ## Fazit
 Herzlichen Glückwunsch, du hast erfolgreich die Farben der Trips mit Matplotlib's tripcolor entdeckt! Du bist jetzt bereit, die Welt der visuellen Darstellungen zu erobern. Spaß haben und weitermachen!
 
 ## Links / Weiteres Material
-### W3Schools
-### YouTube
+### Dokumentation
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tripcolor.html
