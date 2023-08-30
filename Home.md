@@ -9,6 +9,8 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | Seite | Beschreibung |
 | ----------- | ----------- |
 | [[Installation Python und Pip]] | Installation von Python und Pip auf Windows, Linux & macOS |
+| [[Visual Studio Code Installation]] | Installation  |
+
 
 ## Grundlagen
 | Seite | Beschreibung |
