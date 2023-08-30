@@ -58,7 +58,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Praktische Anwendungen von Plots]] | Trends, wissenschaftliche Diagramme & interaktive Dashboards |
 
 ## Kommunikation
-| Seite | Beschreibung |
+| Seite | Beschreibung | (Arvid, Lars)
 | ----------- | ----------- |
 | [[Einführung in Web APIs]] | Allgemeine Erklärung zur Funktion von Web-APIs |
 | [[Grundlagen der Netzwerkprogrammierung mit Python]] | Verschiedene Netztwerk-Protokolle und Umgang mit Python Sockets |
@@ -70,7 +70,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[API-Dokumentation und Testen]] | Erstellen von API-Dokumentation mit OpenAPI/Swagger sowie das Testen von APIs mit Python-Bibliotheken |
 | [[Deployment und Skalierung von Web-APIs]] | Bereitstellen von APIs, Skalierungstechniken und Fehlerbehebung |
 | [[Kommunikation über serielle Schnittstellen]] | Unterkapitel für serielle Schnittstellen |
-| [[Messaging und Queueing in Python ]] | Beschreibung |
+| [[Messaging und Queueing in Python ]] | Nachrichtenübermittlung und Warteschlangenmanagement |
 
 
 ## Datenbanken
