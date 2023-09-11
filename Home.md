@@ -20,7 +20,7 @@ Wir wünschen allen Lesenden und angehenden Python Programmierenden viel Erfolg 
 | [[Ein und Ausgabe]] | Benutzerinteraktion durch Lesen und Anzeigen von Informationen |
 | [[Funktionen]] | Wiederverwendbare Code-Blöcke für spezifische Aufgaben |
 | [[Lambda]] | Kurze anonyme Funktionen für einfache Aufgaben |
-| [[Listen]] | Ordnete Datensammlungen für flexible Elemente |
+| [[Listen]] | Geordnete Datensammlungen für flexible Elemente |
 | [[Modules]] | Wiederverwendbare Code-Einheiten zur Organisation und Strukturierung |
 | [[Objekte]] | Instanzen von Klassen für Daten und Verhalten |
 | [[Operatoren]] |Ausführen von Aktionen auf Operanden |
